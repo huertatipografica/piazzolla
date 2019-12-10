@@ -1,18 +1,19 @@
 #!/bin/sh
 set -e
+cd "$(dirname "$0")"
 
-files=( Piazzolla PiazzollaItalic )
+files=( PiazzollaItalic )
 
 for f in $files; do
     echo
     echo Setup DesignSpace from Glyphs:
-    glyphs2ufo sources/$f.glyphs -m $f
+    glyphs2ufo sources/$f.glyphs
     echo
     echo Process DesignSpace:
     python processDesignSpace.py $f
-    echo
-    echo Update wghtmin ufos:
-    fontmake -m "sources/$f.Wghtmin.designspace" -o ufo -i
+    # echo
+    # echo Update wghtmin ufos:
+    # fontmake -m "sources/$f.Wghtmin.designspace" -o ufo -i
 done
 
 # echo

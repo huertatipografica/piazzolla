@@ -1,5 +1,6 @@
 # https://github.com/googlefonts/fontmake/blob/master/tests/test_main.py
 import sys
+import re
 
 from fontTools.designspaceLib import DesignSpaceDocument, RuleDescriptor, InstanceDescriptor
 import defcon
@@ -27,18 +28,17 @@ weightCropIndex = 0.5
 
 
 def parseRule(name):
-    array = name.split('.')
+    source = name.split('.rule-')[0]
+    rules = re.search('(?<=.rule-)\w+', name).group(0)
+    rules = rules.split('.')
     conditions = []
 
-    condString = array[1].split('-')
-    del condString[0]
-
-    for condition in condString:
-        condition = condition.split('_')
+    for rule in rules:
+        condition = rule.split('_')
         conditions.append(condition)
 
     return {
-        'source': array[0],
+        'source': source,
         'target': name,
         'conditions': conditions
     }
@@ -47,38 +47,38 @@ file = sys.argv[1]
 path = "sources/%s.designspace" % file
 minpath = "sources/%s.Wghtmin.designspace" % file
 
-print()
-print("Generating Wghtmin ufos")
-doc = DesignSpaceDocument()
-doc.read(path)
+# print()
+# print("Generating Wghtmin ufos")
+# doc = DesignSpaceDocument()
+# doc.read(path)
 
-print()
-print("New instances location for Wghtmin")
-thin = doc.instances[0]
-weight = wght.get('regular') - (wght.get('regular') - wght.get('min')) * weightCropIndex
-thin.styleName = "ThinMin"
-thin.name = "Piazzolla ThinMin"
-thin.filename = "instance_ufos/Piazzolla-ThinMin.ufo"
+# print()
+# print("New instances location for Wghtmin")
+# thin = doc.instances[0]
+# weight = wght.get('regular') - (wght.get('regular') - wght.get('min')) * weightCropIndex
+# thin.styleName = "ThinMin"
+# thin.name = "Piazzolla ThinMin"
+# thin.filename = "instance_ufos/Piazzolla-ThinMin.ufo"
 
-thin.location = {'Weight': weight, 'Optical size': 8.0}
-thin.info = True
+# thin.location = {'Weight': weight, 'Optical size': 8.0}
+# thin.info = True
 
-black = doc.instances[8]
-weight = wght.get('regular') + (wght.get('max') - wght.get('regular')) * weightCropIndex
-black.styleName = "BlackMin"
-black.name = "Piazzolla BlackMin"
-black.filename = "instance_ufos/Piazzolla-ThinMin.ufo"
+# black = doc.instances[8]
+# weight = wght.get('regular') + (wght.get('max') - wght.get('regular')) * weightCropIndex
+# black.styleName = "BlackMin"
+# black.name = "Piazzolla BlackMin"
+# black.filename = "instance_ufos/Piazzolla-ThinMin.ufo"
 
-black.location = {'Weight': weight, 'Optical size': 8.0}
-black.info = True
+# black.location = {'Weight': weight, 'Optical size': 8.0}
+# black.info = True
 
-# resetting instances
-doc.instances = []
-doc.addInstance(thin)
-doc.addInstance(black)
+# # resetting instances
+# doc.instances = []
+# doc.addInstance(thin)
+# doc.addInstance(black)
 
 
-doc.write(minpath)
+# doc.write(minpath)
 
 
 # Space
