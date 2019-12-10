@@ -1,3 +1,4 @@
+# https://github.com/googlefonts/fontmake/blob/master/tests/test_main.py
 import sys
 
 from fontTools.designspaceLib import DesignSpaceDocument, RuleDescriptor, InstanceDescriptor
@@ -97,7 +98,7 @@ for axis in doc.axes:
         axis.maximum = 900
 
 print()
-print("Removing rules")
+print("Resetting and processing rules")
 doc.rules = []
 
 ruleNames = [ r.name for r in doc.rules]
