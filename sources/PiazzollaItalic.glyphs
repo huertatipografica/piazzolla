@@ -1,9 +1,5 @@
 {
 .appVersion = "1283";
-DisplayStrings = (
-"O/Cheabkhasian-cy/Schwa",
-"/Schwa/schwa.sc/schwa  "
-);
 classes = (
 {
 automatic = 1;
@@ -54027,20 +54023,6 @@ RMXScaler = {
 source = z;
 };
 };
-},
-{
-glyphname = "Cheabkhasian-cy";
-layers = (
-{
-layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
-width = 600;
-},
-{
-layerId = "A6FDB8B9-512B-4F31-B986-CD5B604F5662";
-width = 600;
-}
-);
-unicode = 04BC;
 },
 {
 color = 10;
