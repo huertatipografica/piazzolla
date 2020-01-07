@@ -1,5 +1,8 @@
 {
 .appVersion = "1283";
+DisplayStrings = (
+d
+);
 classes = (
 {
 automatic = 1;
@@ -18141,7 +18144,7 @@ unicode = 010B;
 {
 color = 10;
 glyphname = d;
-lastChange = "2019-12-06 20:08:00 +0000";
+lastChange = "2020-01-07 23:59:09 +0000";
 layers = (
 {
 anchors = (
@@ -18226,6 +18229,14 @@ nodes = (
 "417 756 OFFCURVE",
 "332 716 CURVE",
 "400 584 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"511 783 LINE",
+"511 784 LINE",
+"510 784 LINE"
 );
 }
 );
@@ -18314,6 +18325,14 @@ nodes = (
 "411 720 OFFCURVE",
 "361 708 CURVE",
 "456 685 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"471 783 LINE",
+"471 784 LINE",
+"470 784 LINE"
 );
 }
 );
