@@ -1,8 +1,5 @@
 {
 .appVersion = "1283";
-DisplayStrings = (
-d
-);
 classes = (
 {
 automatic = 1;
@@ -56303,6 +56300,33 @@ width = 507;
 leftKerningGroup = o;
 rightKerningGroup = o;
 unicode = 043E;
+},
+{
+glyphname = "pe-cy";
+lastChange = "2020-01-09 12:56:45 +0000";
+layers = (
+{
+components = (
+{
+name = n;
+}
+);
+layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
+width = 523;
+},
+{
+components = (
+{
+name = n;
+}
+);
+layerId = "A6FDB8B9-512B-4F31-B986-CD5B604F5662";
+width = 606;
+}
+);
+leftKerningGroup = "pe-cy";
+rightKerningGroup = "pe-cy";
+unicode = 043F;
 },
 {
 color = 6;
