@@ -1,8 +1,5 @@
 {
 .appVersion = "1284";
-DisplayStrings = (
-"/Zhe-cy/zhe-cy.sc/zhe-cy  /Ka-cy/ka-cy.sc/ka-cy  /Zhedescender-cy/zhedescender-cy.sc/zhedescender-cy  /Kadescender-cy/kadescender-cy.sc/kadescender-cy  /Kaverticalstroke-cy/kaverticalstroke-cy.sc/kaverticalstroke-cy  /Kabashkir-cy/kabashkir-cy.sc/kabashkir-cy  "
-);
 classes = (
 {
 automatic = 1;
