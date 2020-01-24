@@ -10,9 +10,10 @@ for f in $files; do
     echo
     echo Process DesignSpace:
     python processDesignSpace.py $f
-    # echo
-    # echo Update wghtmin ufos:
-    # fontmake -m "temp/building/$f/$f.Wghtmin.designspace" -o ufo -i
+    exit
+    echo
+    echo Update wghtmin ufos:
+    fontmake -m "temp/building/$f/$f.Wghtmin.designspace" -o ufo -i
 done
 
 # echo

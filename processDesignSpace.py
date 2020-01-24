@@ -20,8 +20,8 @@ wght = {
 }
 
 optz = {
-    "min": 30,
-    "max": 214,
+    "min": 8,
+    "max": 36,
 }
 
 weightCropIndex = 0.5
@@ -47,38 +47,40 @@ file = sys.argv[1]
 path = "temp/building/%s/%s.designspace" % (file, file)
 minpath = "temp/building/%s/%s.Wghtmin.designspace" % (file, file)
 
-# print()
-# print("Generating Wghtmin ufos")
-# doc = DesignSpaceDocument()
-# doc.read(path)
 
-# print()
-# print("New instances location for Wghtmin")
-# thin = doc.instances[0]
-# weight = wght.get('regular') - (wght.get('regular') - wght.get('min')) * weightCropIndex
-# thin.styleName = "ThinMin"
-# thin.name = "Piazzolla ThinMin"
-# thin.filename = "instance_ufos/Piazzolla-ThinMin.ufo"
+print()
+print("Generating Wghtmin ufos")
+doc = DesignSpaceDocument()
+doc.read(path)
 
-# thin.location = {'Weight': weight, 'Optical size': 8.0}
-# thin.info = True
+print()
+print("New instances location for Wghtmin")
+thin = doc.instances[0]
+weight = wght.get('regular') - (wght.get('regular') - wght.get('min')) * weightCropIndex
+thin.styleName = "ThinMin"
+thin.name = "Piazzolla ThinMin"
+thin.filename = "instance_ufos/Piazzolla-ThinMin.ufo"
 
-# black = doc.instances[8]
-# weight = wght.get('regular') + (wght.get('max') - wght.get('regular')) * weightCropIndex
-# black.styleName = "BlackMin"
-# black.name = "Piazzolla BlackMin"
-# black.filename = "instance_ufos/Piazzolla-ThinMin.ufo"
+thin.location = {'Weight': weight, 'Optical size': optz['min']}
+thin.info = True
 
-# black.location = {'Weight': weight, 'Optical size': 8.0}
-# black.info = True
+black = doc.instances[8]
+weight = wght.get('regular') + (wght.get('max') - wght.get('regular')) * weightCropIndex
+black.styleName = "BlackMin"
+black.name = "Piazzolla BlackMin"
+black.filename = "instance_ufos/Piazzolla-ThinMin.ufo"
 
-# # resetting instances
-# doc.instances = []
-# doc.addInstance(thin)
-# doc.addInstance(black)
+black.location = {'Weight': weight, 'Optical size': optz['min']}
+black.info = True
+
+# resetting instances
+doc.instances = []
+doc.addInstance(thin)
+doc.addInstance(black)
 
 
-# doc.write(minpath)
+doc.write(minpath)
+
 
 
 # Space
