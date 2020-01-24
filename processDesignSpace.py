@@ -44,8 +44,8 @@ def parseRule(name):
     }
 
 file = sys.argv[1]
-path = "sources/%s.designspace" % file
-minpath = "sources/%s.Wghtmin.designspace" % file
+path = "temp/building/%s/%s.designspace" % (file, file)
+minpath = "temp/building/%s/%s.Wghtmin.designspace" % (file, file)
 
 # print()
 # print("Generating Wghtmin ufos")
@@ -123,3 +123,15 @@ for glyph in font:
         print(" - Adding rule for %s -> %s" % (r['source'], r['target']))
 
 doc.write(path)
+
+
+# for ufo in doc.sources:
+#     font = defcon.Font(ufo)
+#     doc = DesignSpaceDocument()
+#     doc.read(font)
+
+#     for glyph in font:
+#         # Delete ht _areas glyph
+#         if glyph.name is '_areas':
+#             del font["_areas"]
+#     doc.write(path)

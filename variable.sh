@@ -1,13 +1,12 @@
 #!/bin/sh
-set -e
-cd "$(dirname "$0")"
 
 files=( PiazzollaItalic )
 
 for f in $files; do
     echo
     echo Setup DesignSpace from Glyphs:
-    glyphs2ufo sources/$f.glyphs
+    mkdir -p temp/building/$f
+    glyphs2ufo sources/$f.glyphs -m temp/building/$f
     echo
     echo Process DesignSpace:
     python processDesignSpace.py $f
@@ -31,7 +30,7 @@ done
 for f in $files; do
     echo
     echo "Generate variable fonts for $f":
-    fontmake -m sources/$f.designspace -o variable
+    fontmake -m temp/building/$f/$f.designspace -o variable
     # echo
     # echo "Generate static fonts for $f":
     # fontmake -m sources/$f.designspace -i
