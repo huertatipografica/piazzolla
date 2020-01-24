@@ -12,7 +12,7 @@ for f in $files; do
     python processDesignSpace.py $f
     # echo
     # echo Update wghtmin ufos:
-    # fontmake -m "sources/$f.Wghtmin.designspace" -o ufo -i
+    # fontmake -m "temp/building/$f/$f.Wghtmin.designspace" -o ufo -i
 done
 
 # echo
@@ -30,16 +30,15 @@ done
 for f in $files; do
     echo
     echo "Generate variable fonts for $f":
-    fontmake -m temp/building/$f/$f.designspace -o variable
+    fontmake -m temp/building/$f/$f.designspace -o variable --output-dir fonts/variable
     # echo
     # echo "Generate static fonts for $f":
-    # fontmake -m sources/$f.designspace -i
+    # fontmake -m sources/$f.designspace -i --output-dir fonts/static
 done
-
 
 echo
 echo Fix fonts:
-for vf in variable_ttf/*.ttf; do
+for vf in fonts/variable/*.ttf; do
     gftools fix-dsig -f $vf
     gftools fix-nonhinting $vf "$vf.fix"
     mv "$vf.fix" $vf
@@ -51,23 +50,18 @@ for vf in variable_ttf/*.ttf; do
     rm variable_ttf/*.ttx
 done
 
-# for ttf in instance_ttf/*.ttf; do
+# for ttf in fonts/static/*.ttf; do
 #     gftools fix-dsig -f $ttf
 #     gftools fix-nonhinting $ttf "$ttf.fix"
 #     mv "$ttf.fix" $ttf
 # done
 
-# for otf in instance_otf/*.otf; do
+# for otf in fonts/static/*.otf; do
 #     gftools fix-dsig -f $otf
 #     gftools fix-nonhinting $otf "$otf.fix"
 #     mv "$otf.fix" $otf
 # done
-echo
-echo Cleanup:
-# rm -r sources/instance_ufos/
-rm variable_ttf/*backup*.ttf
-rm instance_ttf/*backup*.ttf
-rm instance_otf/*backup*.otf
+
 # echo
 # echo Check sources:
 # mkdir -p tests
@@ -83,9 +77,5 @@ rm instance_otf/*backup*.otf
 # echo Check static otfs:
 # fontbakery check-universal --ghmarkdown otfs-report.md ../instance_otf/*
 echo
-echo Order fonts:
-mkdir -p fonts/static
-mv variable_ttf fonts/variable
-mv instance_ttf fonts/static/ttf
-mv instance_otf fonts/static/otf
+echo Order files:
 cp extra/Thanks.png fonts
