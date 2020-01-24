@@ -1,6 +1,6 @@
 #!/bin/sh
 
-files=( PiazzollaItalic )
+files=( PiazzollaVarTEMP )
 
 for f in $files; do
     echo
@@ -38,16 +38,17 @@ done
 
 echo
 echo Fix fonts:
-for vf in fonts/variable/*.ttf; do
-    gftools fix-dsig -f $vf
-    gftools fix-nonhinting $vf "$vf.fix"
-    mv "$vf.fix" $vf
-    ttx -f -x "MVAR" $vf
-    rtrip=$(basename -s .ttf $vf)
-    new_file=variable_ttf/$rtrip.ttx
-    rm $vf
-    ttx $new_file
-    rm variable_ttf/*.ttx
+for VF in fonts/variable/*.ttf; do
+    gftools fix-dsig -f $VF
+    gftools fix-nonhinting $VF "$VF.fix"
+    mv "$VF.fix" $VF
+    ttx -f -x "MVAR" $VF
+    BASE=$(basename -s .ttf $VF)
+    TTXFILE=fonts/variable/$BASE.ttx
+    rm $VF
+    ttx $TTXFILE
+    rm fonts/variable/$BASE.ttx
+    rm fonts/variable/$BASE-backup-fonttools-prep-gasp.ttf
 done
 
 # for ttf in fonts/static/*.ttf; do
@@ -69,7 +70,7 @@ done
 # fontbakery check-ufo-sources --ghmarkdown ufo-report.md ../sources/*
 # echo
 # echo Check variable fonts:
-# fontbakery check-universal --ghmarkdown variable-report.md ../variable_ttf/*
+# fontbakery check-universal --ghmarkdown variable-report.md ../fonts/variable/*
 # echo
 # echo Check static ttfs:
 # fontbakery check-universal --ghmarkdown ttfs-report.md ../instance_ttf/*
