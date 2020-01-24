@@ -17,8 +17,8 @@ wght = {
     "min": 30,
     "regular": 82,
     "max": 214,
-}
 
+}
 optz = {
     "min": 8,
     "max": 36,
@@ -52,36 +52,32 @@ print()
 print("Generating Wghtmin ufos")
 doc = DesignSpaceDocument()
 doc.read(path)
+mainMasters = set([m.filename for m in doc.sources])
 
-print()
-print("New instances location for Wghtmin")
-thin = doc.instances[0]
-weight = wght.get('regular') - (wght.get('regular') - wght.get('min')) * weightCropIndex
-thin.styleName = "ThinMin"
-thin.name = "Piazzolla ThinMin"
-thin.filename = "instance_ufos/Piazzolla-ThinMin.ufo"
+# Interpolate MIN
+if len(mainMasters) == 4:
+    print()
+    print("Four masters in font")
 
-thin.location = {'Weight': weight, 'Optical size': optz['min']}
-thin.info = True
+    print("New instances location for Wghtmin")
+    thin = doc.instances[0]
+    weight = wght.get('regular') - (wght.get('regular') - wght.get('min')) * weightCropIndex
+    thin.location = {'Weight': weight, 'Optical size': optz['min']}
+    thin.info = True
 
-black = doc.instances[8]
-weight = wght.get('regular') + (wght.get('max') - wght.get('regular')) * weightCropIndex
-black.styleName = "BlackMin"
-black.name = "Piazzolla BlackMin"
-black.filename = "instance_ufos/Piazzolla-ThinMin.ufo"
+    black = doc.instances[8]
+    weight = wght.get('regular') + (wght.get('max') - wght.get('regular')) * weightCropIndex
+    black.styleName = "BlackMin"
+    black.location = {'Weight': weight, 'Optical size': optz['min']}
+    black.info = True
 
-black.location = {'Weight': weight, 'Optical size': optz['min']}
-black.info = True
-
-# resetting instances
-doc.instances = []
-doc.addInstance(thin)
-doc.addInstance(black)
+    # resetting instances
+    doc.instances = []
+    doc.addInstance(thin)
+    doc.addInstance(black)
 
 
-doc.write(minpath)
-
-
+    doc.write(minpath)
 
 # Space
 print()
@@ -125,6 +121,9 @@ for glyph in font:
         print(" - Adding rule for %s -> %s" % (r['source'], r['target']))
 
 doc.write(path)
+
+
+
 
 
 # for ufo in doc.sources:

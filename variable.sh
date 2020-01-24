@@ -1,6 +1,6 @@
 #!/bin/sh
 
-files=( PiazzollaVarTEMP )
+files=( PiazzollaVARsetup )
 
 for f in $files; do
     echo
@@ -10,23 +10,14 @@ for f in $files; do
     echo
     echo Process DesignSpace:
     python processDesignSpace.py $f
-    exit
     echo
     echo Update wghtmin ufos:
     fontmake -m "temp/building/$f/$f.Wghtmin.designspace" -o ufo -i
+    rm -r "temp/building/$f/Piazzolla-BlackMin.ufo"
+    rm -r "temp/building/$f/Piazzolla-ThinMin.ufo"
+    mv "temp/building/$f/instance_ufos/Piazzolla-Thin.ufo" "temp/building/$f/Piazzolla-ThinMin.ufo"
+    mv "temp/building/$f/instance_ufos/Piazzolla-Black.ufo" "temp/building/$f/Piazzolla-BlackMin.ufo"
 done
-
-# echo
-# echo Replace ufos:
-# rm -r sources/Piazzolla-BlackMin.ufo
-# rm -r sources/Piazzolla-ThinMin.ufo
-# mv sources/instance_ufos/Piazzolla-Black.ufo sources/Piazzolla-BlackMin.ufo
-# mv sources/instance_ufos/Piazzolla-Thin.ufo sources/Piazzolla-ThinMin.ufo
-# rm -r sources/Piazzolla-BlackMinItalic.ufo
-# rm -r sources/Piazzolla-ThinMinItalic.ufo
-# mv sources/instance_ufos/Piazzolla-Black.ufo sources/Piazzolla-BlackMinItalic.ufo
-# mv sources/instance_ufos/Piazzolla-Thin.ufo sources/Piazzolla-ThinMinItalic.ufo
-
 
 for f in $files; do
     echo
