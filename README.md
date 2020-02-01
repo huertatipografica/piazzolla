@@ -32,11 +32,3 @@ for UFO sources
 ```
 fontbakery check-ufo-sources --ghmarkdown bakery-report.html sources/*
 ```
-for generated fonts
-```
-fontbakery check-googlefonts --ghmarkdown bakery-report.html variable_ttf/*
-
-fontbakery check-universal --ghmarkdown bakery-report.html variable_ttf/*
-fontbakery check-universal --ghmarkdown bakery-report.html instance_ttf/*
-fontbakery check-universal --ghmarkdown bakery-report.html instance_otf/*
-```
