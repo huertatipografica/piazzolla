@@ -1,7 +1,7 @@
 {
 .appVersion = "1290";
 DisplayStrings = (
-"/ze-cy.loclBGR/en-cy.loclBGR/sha-cy.loclBGR/shcha-cy.loclBGR/softsign-cy.loclBGR/hardsign-cy.loclBGR/ghestroke-cy.loclBSH/yusbig-cy.rule-Weight_121_214/be-cy.sc/ge-cy.sc/gheupturn-cy.sc/zhe-cy.sc/ze-cy.sc/ii-cy.sc/el-cy.sc/pe-cy.sc/u-cy.sc/sha-cy.sc/softsign-cy.sc/hardsign-cy.sc/lje-cy.sc/e-cy.sc/ereversed-cy.sc/zhedescender-cy.sc/kadescender-cy.sc/kaverticalstroke-cy.sc/kastroke-cy.sc/endescender-cy.sc/enghe-cy.sc/haabkhasian-cy.sc/esdescender-cy.sc/hadescender-cy.sc/chedescenderabkhasian-cy.sc/schwa-cy.sc/gedescender-cy.sc/hahook-cy.sc/hastroke-cy.sc/komide-cy.sc/kominje-cy.sc/reversedze-cy.sc/we-cy.sc/de-cy.loclBGR.sc/el-cy.loclBGR.sc/ghestroke-cy.loclBSH.sc/Gamma/Lambda/Xi/Pi/Sigma/Omega/beta/delta/zeta/iota/nu/rho/sigma/upsilon/omega/prosgegrammeni/gamma.sc/lambda.sc/xi.sc/pi.sc/sigma.sc/omega.sc/prosgegrammeni.sc/ypogegrammeni/Gamma.sups/Epsilon.sups/Zeta.sups/Eta.sups/Iota.sups/Kappa.sups/Lambda.sups/Mu.sups/Nu.sups/Xi.sups/Pi.sups/Rho.sups/Sigma.sups/Tau.sups/Chi.sups/Omega.sups/beta.sups/delta.sups/zeta.sups/iota.sups/nu.sups/rho.sups/sigma.sups/upsilon.sups/omega.sups 1234578/one.osf/two.osf/three.osf/four.osf/five.osf/seven.osf/eight.osf/one.tf/two.tf/three.tf/four.tf/five.tf/seven.tf/eight.tf/one.tosf/two.tosf/three.tosf/four.tosf/five.tosf/seven.tosf/eight.tosf/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/seven.dnom/eight.dnom/fraction .:/ellipsis/bullet */exclamdouble #///backslash/twodotenleader ({[-/endash/emdash _/quotedblbase/quotedblleft/quotedblright «»/guilsinglleft \"'/.notdef ¢¤$/euro/franc/lira £¥+/minus ×÷=/notequal <±/approxequal ~¬^/infinity/integral/summation/partialdiff/perthousand/leftRightArrow/upDownArrow/blackDiamond/whiteDiamond/blackSquare/whiteSquare/mediumBlackSquare/upBlackTriangle/rightBlackTriangle/downBlackTriangle/leftBlackTriangle/upWhiteTriangle/rightWhiteTriangle/downWhiteTriangle/leftWhiteTriangle/mediumBlackCircle &§©®/published/trademark °/second |¦/dagger/daggerdbl/blackLargeCircle/blackLargeSquare/ampersand.sc/cent.rule-Weight_121_214/dollar.rule-Weight_121_214/lowernumeral-greek/doubleprimemod/ringhalfleft/ringhalfright/verticallinelowmod/verticallinemod/dieresiscomb/dieresiscomb_gravecomb/dieresiscomb_acutecomb/dieresiscomb_caroncomb/dieresiscomb_macroncomb/dotaccentcomb/gravecomb/acutecomb/hungarumlautcomb/caroncomb/brevecomb/ringcomb/tildecomb/macroncomb/hookabovecomb/dblgravecomb/breveinvertedcomb/horncomb/dotbelowcomb/ogonekcomb/strokeshortcomb/strokelongcomb/slashshortcomb/ypogegrammenicomb/tonos/dieresistonos/psili/dasia/dialytikavaria/dialytikaperispomeni/varia/oxia/brevecomb-cy/spacingGlyph/_areas"
+"/El-cy/Lje-cy"
 );
 classes = (
 {
@@ -73643,7 +73643,7 @@ unicode = 042B;
 {
 color = 8;
 glyphname = "Lje-cy";
-lastChange = "2020-02-01 14:51:17 +0000";
+lastChange = "2020-02-07 14:33:55 +0000";
 layers = (
 {
 background = {
@@ -207313,9 +207313,9 @@ kerning = {
 "@MMK_L_C.sups" = {
 "@MMK_R_H.sups" = -12;
 "@MMK_R_O.sups" = -29;
+"@MMK_R_V.sups" = -12;
 "@MMK_R_X.sups" = -17;
 "@MMK_R_Y.sups" = -6;
-"@MMK_R_V.sups" = -12;
 };
 "@MMK_L_E" = {
 "@MMK_R_O" = -30;
@@ -208142,10 +208142,10 @@ fraction = 30;
 "@MMK_R_J.sups" = 0;
 "@MMK_R_O.sups" = -6;
 "@MMK_R_T.sups" = -30;
+"@MMK_R_U.sups" = -6;
 "@MMK_R_V.sups" = -18;
 "@MMK_R_X.sups" = 6;
 "@MMK_R_Y.sups" = -30;
-"@MMK_R_U.sups" = -6;
 };
 "@MMK_L_B" = {
 "@MMK_R_O" = -10;
@@ -208328,6 +208328,9 @@ guillemetleft = -40;
 "@MMK_R_pi" = -10;
 "@MMK_R_u" = -20;
 "@MMK_R_x" = -10;
+};
+"@MMK_L_U.sups" = {
+"@MMK_R_A.sups" = -6;
 };
 "@MMK_L_V" = {
 "@MMK_R_A" = -30;
@@ -208839,9 +208842,6 @@ fraction = 20;
 };
 two.numr = {
 fraction = 60;
-};
-"@MMK_L_U.sups" = {
-"@MMK_R_A.sups" = -6;
 };
 };
 };
