@@ -1,5 +1,8 @@
 {
 .appVersion = "1295";
+DisplayStrings = (
+"/kastroke-cy/cedi.rule-Weight_121_214"
+);
 classes = (
 {
 automatic = 1;
