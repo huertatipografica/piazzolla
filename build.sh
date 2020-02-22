@@ -5,7 +5,8 @@ files=( PiazzollaVARsetup2 )
 for f in $files; do
     echo
     echo Setup DesignSpace from Glyphs:
-    mkdir -p temp/building/$f
+    rm -rf temp/building/$f
+    mkdir temp/building/$f
     glyphs2ufo sources/$f.glyphs -m temp/building/$f
     echo
     echo Process DesignSpace:

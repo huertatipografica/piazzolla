@@ -3,9 +3,11 @@ import sys
 import re
 import os
 import defcon
+import shutil
 import fontmake
 from fontTools.designspaceLib import DesignSpaceDocument, RuleDescriptor, InstanceDescriptor
-from mutatorMath.ufo.document import DesignSpaceDocumentWriter, DesignSpaceDocumentReader
+from fontParts.world import OpenFont
+
 
 
 if len(sys.argv) != 2:
@@ -44,9 +46,20 @@ def parseRule(name):
         'conditions': conditions
     }
 
+def tweakSpacing(path, offset, percentage = 0):
+    font = OpenFont(path)
+    for character in font:
+        if character.leftMargin:
+            character.leftMargin = character.leftMargin * ( 1 + (percentage / 100) ) + offset
+            character.rightMargin = character.rightMargin * ( 1 + (percentage / 100) ) + offset
+        else:
+            character.width = character.width * ( 1 + (percentage * 2 / 100) ) + offset * 2
+    font.save()
+
+
 file = sys.argv[1]
 path = "temp/building/%s/%s.designspace" % (file, file)
-minpath = "temp/building/%s/%s.Wghtmin.designspace" % (file, file)
+minPath = "temp/building/%s/%s.WghtMin.designspace" % (file, file)
 
 
 print()
@@ -54,41 +67,54 @@ print("Generating Wghtmin ufos")
 doc = DesignSpaceDocument()
 doc.read(path)
 mainMasters = set([m.filename for m in doc.sources])
+if len(mainMasters) != 2:
+    raise RuntimeError("File %s doesn't have 2 masters" % file)
 
+for ufo in set([m.path for m in doc.sources]):
+    newUfo = ufo.replace('.ufo', '.WghtMin.ufo')
+    shutil.copytree(ufo, newUfo)
+    if "Light" in newUfo or "Thin" in newUfo:
+        tweakSpacing(newUfo, 24, 4)
+    else:
+        tweakSpacing(newUfo, 17, 0)
+
+
+print(len(mainMasters))
+for source in doc.sources:
+    print(source.path, source.location)
+exit()
 # Interpolate MIN
-if len(mainMasters) == 4:
-    print()
-    print("Four masters in font")
 
-    print("New instances location for Wghtmin")
-    thin = doc.instances[0]
-    weight = wght.get('regular') - (wght.get('regular') - wght.get('min')) * weightCropIndex
-    thin.location = {'Weight': weight, 'Optical size': optz['min']}
-    thin.info = True
+print()
+print("Duplicate masters")
 
-    black = doc.instances[8]
-    weight = wght.get('regular') + (wght.get('max') - wght.get('regular')) * weightCropIndex
-    black.styleName = "BlackMin"
-    black.location = {'Weight': weight, 'Optical size': optz['min']}
-    black.info = True
+print("New instances location for Wghtmin")
+thin = doc.instances[0]
+weight = wght.get('regular') - (wght.get('regular') - wght.get('min')) * weightCropIndex
+thin.location = {'Weight': weight, 'Optical size': optz['min']}
 
-    # resetting instances
-    doc.instances = []
-    doc.addInstance(thin)
-    doc.addInstance(black)
+black = doc.instances[8]
+weight = wght.get('regular') + (wght.get('max') - wght.get('regular')) * weightCropIndex
+black.styleName = "BlackMin"
+black.location = {'Weight': weight, 'Optical size': optz['min']}
+
+# resetting instances
+doc.instances = []
+doc.addInstance(thin)
+doc.addInstance(black)
 
 
-    doc.write(minpath)
+doc.write(minPath)
 
-    fontmake.__main__.main(
-        [
-            "-m",
-            str(minpath),
-            "-o",
-            "ufo",
-            "-i",
-        ]
-    )
+fontmake.__main__.main(
+    [
+        "-m",
+        str(minPath),
+        "-o",
+        "ufo",
+        "-i",
+    ]
+)
 
 # Space
 print()
