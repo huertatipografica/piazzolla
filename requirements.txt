@@ -6,6 +6,7 @@ fontbakery==0.7.14
 fontmake==2.0.4
 fontMath>=0.5.0
 fonttools[lxml,unicode,ufo]==4.0.2
+fontParts
 git+https://github.com/googlefonts/gftools
 glyphsLib==5.0.1
 MutatorMath==2.1.2

@@ -1,11 +1,12 @@
 # https://github.com/googlefonts/fontmake/blob/master/tests/test_main.py
 import sys
 import re
-
-from fontTools.designspaceLib import DesignSpaceDocument, RuleDescriptor, InstanceDescriptor
-import defcon
-from mutatorMath.ufo.document import DesignSpaceDocumentWriter, DesignSpaceDocumentReader
 import os
+import defcon
+import fontmake
+from fontTools.designspaceLib import DesignSpaceDocument, RuleDescriptor, InstanceDescriptor
+from mutatorMath.ufo.document import DesignSpaceDocumentWriter, DesignSpaceDocumentReader
+
 
 if len(sys.argv) != 2:
     print("Must specify a name:")
@@ -78,6 +79,16 @@ if len(mainMasters) == 4:
 
 
     doc.write(minpath)
+
+    fontmake.__main__.main(
+        [
+            "-m",
+            str(minpath),
+            "-o",
+            "ufo",
+            "-i",
+        ]
+    )
 
 # Space
 print()
