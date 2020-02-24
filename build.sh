@@ -1,31 +1,35 @@
 #!/bin/sh
 
-files=(Piazzolla PiazzollaItalic)
+files=(PiazzollaVARsetup)
+
+echo Setup Folders
+rm -rf fonts temp/building
+mkdir -p fonts/variable
+mkdir -p fonts/static
 
 for f in $files; do
     echo
-    echo Setup DesignSpace from Glyphs:
+    echo Setup DesignSpace from Glyphs
     if [ -f temp/building/$f ]; then rm -rf temp/building/$f; fi
     mkdir -p temp/building/$f
     glyphs2ufo sources/$f.glyphs -m temp/building/$f
     echo
-    echo Process DesignSpace:
+    echo Process DesignSpace
     python processDesignSpace.py $f
 done
 
 for f in $files; do
     echo
-    echo "Generate variable fonts for $f":
+    echo "Generate variable fonts for $f"
     fontmake -m temp/building/$f/$f.designspace -o variable --output-dir fonts/variable --verbose WARNING
     # echo
-    # echo "Generate static fonts for $f":
+    # echo "Generate static fonts for $f"
     # fontmake -m sources/$f.designspace -i --output-dir fonts/static --verbose WARNING
 done
 
 echo
-echo Fix fonts:
+echo Fix fonts
 for VF in fonts/variable/*.ttf; do
-    mkdir -p fonts/variable
     gftools fix-dsig -f $VF
     gftools fix-nonhinting $VF "$VF.fix"
     mv "$VF.fix" $VF
@@ -39,7 +43,6 @@ for VF in fonts/variable/*.ttf; do
 done
 
 # for ttf in fonts/static/*.ttf; do
-#     mkdir -p fonts/static
 #     gftools fix-dsig -f $ttf
 #     gftools fix-nonhinting $ttf "$ttf.fix"
 #     mv "$ttf.fix" $ttf
@@ -52,19 +55,19 @@ done
 # done
 
 # echo
-# echo Check sources:
+# echo Check sources
 # mkdir -p tests
 # cd tests
 # fontbakery check-ufo-sources --ghmarkdown ufo-report.md ../sources/*
 # echo
-# echo Check variable fonts:
+# echo Check variable fonts
 # fontbakery check-universal --ghmarkdown variable-report.md ../fonts/variable/*
 # echo
-# echo Check static ttfs:
+# echo Check static ttfs
 # fontbakery check-universal --ghmarkdown ttfs-report.md ../instance_ttf/*
 # echo
-# echo Check static otfs:
+# echo Check static otfs
 # fontbakery check-universal --ghmarkdown otfs-report.md ../instance_otf/*
 echo
-echo Order files:
+echo Order files
 cp extra/Thanks.png fonts
