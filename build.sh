@@ -1,6 +1,6 @@
 #!/bin/sh
 
-files=( PiazzollaVARsetup )
+files=(Piazzolla PiazzollaItalic)
 
 for f in $files; do
     echo
@@ -16,10 +16,10 @@ done
 for f in $files; do
     echo
     echo "Generate variable fonts for $f":
-    fontmake -m temp/building/$f/$f.designspace -o variable --output-dir fonts/variable
+    fontmake -m temp/building/$f/$f.designspace -o variable --output-dir fonts/variable --verbose WARNING
     # echo
     # echo "Generate static fonts for $f":
-    # fontmake -m sources/$f.designspace -i --output-dir fonts/static
+    # fontmake -m sources/$f.designspace -i --output-dir fonts/static --verbose WARNING
 done
 
 echo

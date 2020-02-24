@@ -1,18 +1,11 @@
-# https://github.com/googlefonts/fontmake/blob/master/tests/test_main.py
 import sys
-import defcon
 import shutil
 import fontmake.__main__
 from fontTools.designspaceLib import DesignSpaceDocument, RuleDescriptor, InstanceDescriptor, SourceDescriptor
-from tools import tweakSpacing, parseRule
+from tools import tweakSpacing, parseRule, removeAreas
 from fontParts.world import OpenFont
 
-
-if len(sys.argv) != 2:
-    print("Must specify a name:")
-    print("python processDesignSpace.py PiazzollaItalic")
-    exit()
-
+# Font info
 familyName = 'Piazzolla'
 wght = {
     "min": 30,
@@ -23,13 +16,30 @@ opsz = {
     "min": 8,
     "max": 30,
 }
-
+# Configuration
 weightCropIndex = 0.5
+spacing = {
+    "min": {
+        "offset": 15,
+        "percentage": 4
+    },
+    "max": {
+        "offset": 8,
+        "percentage": 0
+    },
+}
+
+
+if len(sys.argv) != 2:
+    print("Must specify a name:")
+    print("python processDesignSpace.py PiazzollaItalic")
+    exit()
+
 
 file = sys.argv[1]
 folder = "temp/building/%s/" % (file)
 path = "temp/building/%s/%s.designspace" % (file, file)
-minPath = "temp/building/%s/%s.WghtMin.designspace" % (file, file)
+minPath = "temp/building/%s/%s.OpszMin.designspace" % (file, file)
 
 
 doc = DesignSpaceDocument()
@@ -54,10 +64,10 @@ for axis in doc.axes:
 
 
 print()
-print("Adding Wghtmin ufos")
+print("Adding OpszMin ufos")
 
 for ufo in set([m.path for m in doc.sources]):
-    newUfo = ufo.replace('.ufo', '.WghtMin.ufo')
+    newUfo = ufo.replace('.ufo', '.OpszMin.ufo')
     shutil.copytree(ufo, newUfo)
 
     source = SourceDescriptor()
@@ -66,14 +76,16 @@ for ufo in set([m.path for m in doc.sources]):
 
     if "Light" in newUfo or "Thin" in newUfo:
         font = OpenFont(newUfo)
-        tweakSpacing(font, 18, 4)
+        tweakSpacing(font, spacing['min']['offset'],
+                     spacing['min']['percentage'])
         font.save()
 
         source.location = {'Weight': wght['min'], 'Optical size': opsz['min']}
         source.styleName = "ThinMin"
     else:
         font = OpenFont(newUfo)
-        tweakSpacing(font, 9, 0)
+        tweakSpacing(font, spacing['max']['offset'],
+                     spacing['max']['percentage'])
         font.save()
 
         source.location = {'Weight': wght['max'], 'Optical size': opsz['min']}
@@ -81,6 +93,7 @@ for ufo in set([m.path for m in doc.sources]):
 
     doc.addSource(source)
 
+# removeAreas(font)
 doc.write(path)
 doc.write(minPath)
 
@@ -88,9 +101,9 @@ print()
 print("Resetting and processing rules")
 doc.rules = []
 
-ruleNames = [ r.name for r in doc.rules]
+ruleNames = [r.name for r in doc.rules]
 firstMaster = doc.sources[0]
-font = defcon.Font(firstMaster.path)
+font = OpenFont(firstMaster.path)
 for glyph in font:
     if ".rule" in glyph.name:
         r = parseRule(glyph.name)
@@ -101,7 +114,8 @@ for glyph in font:
 
         # add conditions
         for condition in r['conditions']:
-            rule.conditionSets.append([dict(name=condition[0], minimum=float(condition[1]) , maximum=float(condition[2]))])
+            rule.conditionSets.append([dict(name=condition[0], minimum=float(
+                condition[1]), maximum=float(condition[2]))])
 
         # add replacement
         rule.subs.append((r['source'], r['target']))
@@ -112,10 +126,8 @@ for glyph in font:
 doc.write(path)
 
 
-
-
 # Interpolate MIN
-print("New instances location for Wghtmin")
+print("New instances location for OpszMin")
 doc = DesignSpaceDocument()
 doc.read(minPath)
 
@@ -123,28 +135,30 @@ doc.read(minPath)
 doc.instances = []
 
 # Calculate location
-weightMin = wght.get('regular') - (wght.get('regular') - wght.get('min')) * weightCropIndex
-weightMax = wght.get('regular') + (wght.get('max') - wght.get('regular')) * weightCropIndex
+weightMin = wght.get('regular') - (wght.get('regular') -
+                                   wght.get('min')) * weightCropIndex
+weightMax = wght.get('regular') + (wght.get('max') -
+                                   wght.get('regular')) * weightCropIndex
 
 instance = InstanceDescriptor()
 instance.familyName = familyName
 instance.styleName = "Thin"
-instance.name = "Piazzolla-Thin.WghtMin.ufo"
-instance.path = folder + "Piazzolla-Thin.WghtMin.ufo"
+instance.name = "Piazzolla-Thin.OpszMin.ufo"
+instance.path = folder + "Piazzolla-Thin.OpszMin.ufo"
 instance.location = {'Weight': weightMin, 'Optical size': opsz['min']}
 doc.addInstance(instance)
 
 instance = InstanceDescriptor()
 instance.familyName = familyName
 instance.styleName = "Black"
-instance.name = "Piazzolla-Black.WghtMin.ufo"
-instance.path = folder + "Piazzolla-Black.WghtMin.ufo"
+instance.name = "Piazzolla-Black.OpszMin.ufo"
+instance.path = folder + "Piazzolla-Black.OpszMin.ufo"
 instance.location = {'Weight': weightMax, 'Optical size': opsz['min']}
 doc.addInstance(instance)
-
-
 doc.write(minPath)
 
+
+print("Generate new ufos for OpszMin")
 
 fontmake.__main__.main(
     [
@@ -153,5 +167,7 @@ fontmake.__main__.main(
         "-o",
         "ufo",
         "-i",
+        "--verbose",
+        "WARNING"
     ]
 )

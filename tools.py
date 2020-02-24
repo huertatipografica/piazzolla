@@ -32,3 +32,8 @@ def tweakSpacing(font, offset, percentage = 0):
         else:
             character.width = character.width * ( 1 + (percentage * 2 / 100) ) + offset * 2
 
+def removeAreas(font):
+    # Delete ht _areas glyph
+    for glyph in font:
+        if glyph.name is '_areas':
+            del font["_areas"]
