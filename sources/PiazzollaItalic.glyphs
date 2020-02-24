@@ -2073,7 +2073,7 @@ Location = "30";
 },
 {
 Axis = "Optical size";
-Location = 36;
+Location = 30;
 }
 );
 }
@@ -2095,7 +2095,7 @@ verticalStems = (
 30
 );
 weightValue = 30;
-widthValue = 36;
+widthValue = 30;
 xHeight = 478;
 },
 {
@@ -2185,7 +2185,7 @@ Location = 214;
 },
 {
 Axis = "Optical size";
-Location = 36;
+Location = 30;
 }
 );
 }
@@ -2211,7 +2211,7 @@ verticalStems = (
 217
 );
 weightValue = 214;
-widthValue = 36;
+widthValue = 30;
 xHeight = 516;
 }
 );
@@ -231983,7 +231983,7 @@ nodes = (
 );
 };
 layerId = "88E8B3AB-470F-40DC-87E8-7A864B1B8B43";
-name = "{82,36}";
+name = "{82,30}";
 paths = (
 {
 closed = 1;
@@ -238455,7 +238455,7 @@ value = 1;
 }
 );
 interpolationWeight = 30;
-interpolationWidth = 36;
+interpolationWidth = 30;
 instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 1;
 };
@@ -238476,7 +238476,7 @@ value = 1;
 }
 );
 interpolationWeight = 44;
-interpolationWidth = 36;
+interpolationWidth = 30;
 instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.92391;
 "A6FDB8B9-512B-4F31-B986-CD5B604F5662" = 0.07609;
@@ -238498,7 +238498,7 @@ value = 1;
 }
 );
 interpolationWeight = 63;
-interpolationWidth = 36;
+interpolationWidth = 30;
 instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.82065;
 "A6FDB8B9-512B-4F31-B986-CD5B604F5662" = 0.17935;
@@ -238520,7 +238520,7 @@ value = 1;
 }
 );
 interpolationWeight = 82;
-interpolationWidth = 36;
+interpolationWidth = 30;
 instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.71739;
 "A6FDB8B9-512B-4F31-B986-CD5B604F5662" = 0.28261;
@@ -238540,7 +238540,7 @@ name = "Update Features";
 value = 1;
 }
 );
-interpolationWidth = 36;
+interpolationWidth = 30;
 instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.61957;
 "A6FDB8B9-512B-4F31-B986-CD5B604F5662" = 0.38043;
@@ -238562,7 +238562,7 @@ value = 1;
 }
 );
 interpolationWeight = 123;
-interpolationWidth = 36;
+interpolationWidth = 30;
 instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.49457;
 "A6FDB8B9-512B-4F31-B986-CD5B604F5662" = 0.50543;
@@ -238584,7 +238584,7 @@ value = 1;
 }
 );
 interpolationWeight = 153;
-interpolationWidth = 36;
+interpolationWidth = 30;
 instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.33152;
 "A6FDB8B9-512B-4F31-B986-CD5B604F5662" = 0.66848;
@@ -238607,7 +238607,7 @@ value = 1;
 }
 );
 interpolationWeight = 182;
-interpolationWidth = 36;
+interpolationWidth = 30;
 instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.17391;
 "A6FDB8B9-512B-4F31-B986-CD5B604F5662" = 0.82609;
@@ -238629,7 +238629,7 @@ value = 1;
 }
 );
 interpolationWeight = 214;
-interpolationWidth = 36;
+interpolationWidth = 30;
 instanceInterpolations = {
 "A6FDB8B9-512B-4F31-B986-CD5B604F5662" = 1;
 };
@@ -239072,6 +239072,9 @@ kerning = {
 "@MMK_R_o.sc" = -9;
 "@MMK_R_t.sc" = -9;
 };
+"@MMK_L_b.sups" = {
+"@MMK_R_O.sups" = -7;
+};
 "@MMK_L_beta" = {
 "@MMK_R_V" = -10;
 "@MMK_R_asterisk" = -20;
@@ -239103,12 +239106,12 @@ kerning = {
 "@MMK_R_y.sc" = -9;
 };
 "@MMK_L_c.sups" = {
+"@MMK_R_O.sups" = -13;
 "@MMK_R_o.sups" = -20;
 "@MMK_R_pi.sups" = -7;
 "@MMK_R_v.sups" = -13;
 "@MMK_R_x.sups" = -7;
 "@MMK_R_z.sups" = -13;
-"@MMK_R_O.sups" = -13;
 };
 "@MMK_L_chi" = {
 "@MMK_R_J" = -20;
@@ -239494,13 +239497,13 @@ parenright = 10;
 "@MMK_R_v.sc" = -17;
 };
 "@MMK_L_x.sups" = {
+"@MMK_R_O.sups" = -13;
 "@MMK_R_delta.sups" = -13;
 "@MMK_R_lambda.sups" = -7;
 "@MMK_R_o.sups" = -13;
 "@MMK_R_pi.sups" = -7;
 "@MMK_R_v.sups" = -7;
 "@MMK_R_xi.sups" = -7;
-"@MMK_R_O.sups" = -13;
 };
 "@MMK_L_xi" = {
 "@MMK_R_hyphen" = -20;
@@ -239595,9 +239598,6 @@ fraction = 10;
 };
 two.numr = {
 fraction = 30;
-};
-"@MMK_L_b.sups" = {
-"@MMK_R_O.sups" = -7;
 };
 };
 "A6FDB8B9-512B-4F31-B986-CD5B604F5662" = {
@@ -239931,6 +239931,9 @@ fraction = 30;
 "@MMK_L_b.sc" = {
 "@MMK_R_o.sc" = -8;
 "@MMK_R_v.sc" = -8;
+};
+"@MMK_L_b.sups" = {
+"@MMK_R_O.sups" = -7;
 };
 "@MMK_L_beta" = {
 "@MMK_R_asterisk" = -20;
@@ -240367,9 +240370,6 @@ fraction = 20;
 };
 two.numr = {
 fraction = 60;
-};
-"@MMK_L_b.sups" = {
-"@MMK_R_O.sups" = -7;
 };
 };
 };

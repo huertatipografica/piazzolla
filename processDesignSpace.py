@@ -21,7 +21,7 @@ wght = {
 }
 opsz = {
     "min": 8,
-    "max": 36,
+    "max": 30,
 }
 
 weightCropIndex = 0.5
@@ -66,14 +66,14 @@ for ufo in set([m.path for m in doc.sources]):
 
     if "Light" in newUfo or "Thin" in newUfo:
         font = OpenFont(newUfo)
-        tweakSpacing(font, 24, 4)
+        tweakSpacing(font, 18, 4)
         font.save()
 
         source.location = {'Weight': wght['min'], 'Optical size': opsz['min']}
         source.styleName = "ThinMin"
     else:
         font = OpenFont(newUfo)
-        tweakSpacing(font, 17, 0)
+        tweakSpacing(font, 9, 0)
         font.save()
 
         source.location = {'Weight': wght['max'], 'Optical size': opsz['min']}

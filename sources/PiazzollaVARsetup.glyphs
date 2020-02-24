@@ -1,7 +1,7 @@
 {
-.appVersion = "1285";
+.appVersion = "1296";
 DisplayStrings = (
-" R     \012",
+"/space R/space/space/space/space/space \012",
 "RK\012RK\012"
 );
 copyright = "Copyright (c) 2019 by Juan Pablo del Peral. All rights reserved.";
@@ -181,7 +181,7 @@ Location = "30";
 },
 {
 Axis = "Optical size";
-Location = "36";
+Location = 30;
 }
 );
 }
@@ -210,7 +210,7 @@ verticalStems = (
 30
 );
 weightValue = 30;
-widthValue = 36;
+widthValue = 30;
 xHeight = 478;
 },
 {
@@ -300,7 +300,7 @@ Location = "214";
 },
 {
 Axis = "Optical size";
-Location = 36;
+Location = 30;
 }
 );
 }
@@ -325,7 +325,7 @@ verticalStems = (
 217
 );
 weightValue = 214;
-widthValue = 36;
+widthValue = 30;
 xHeight = 516;
 }
 );
@@ -7730,7 +7730,7 @@ nodes = (
 );
 };
 layerId = "20FEAD84-1589-4ECB-850D-05A4769D2D0D";
-name = "{82,36}";
+name = "{82,30}";
 paths = (
 {
 closed = 1;
@@ -8700,7 +8700,7 @@ nodes = (
 );
 };
 layerId = "45EEB49A-AD05-4DD0-9847-4A289EFFB51D";
-name = "{82,36}";
+name = "{82,30}";
 paths = (
 {
 closed = 1;
@@ -9236,7 +9236,7 @@ nodes = (
 );
 };
 layerId = "EE4832D4-E3A0-4201-817D-F6A1A96F62D8";
-name = "{82,36}";
+name = "{82,30}";
 paths = (
 {
 closed = 1;
@@ -10258,7 +10258,7 @@ nodes = (
 );
 };
 layerId = "F04EF428-2592-49AE-830F-037C1E5262A3";
-name = "{82,36}";
+name = "{82,30}";
 paths = (
 {
 closed = 1;
@@ -10550,7 +10550,7 @@ nodes = (
 );
 };
 layerId = "2BED8150-F54A-4EA5-AF00-83F634873D1A";
-name = "{82,36}";
+name = "{82,30}";
 paths = (
 {
 closed = 1;
@@ -11524,7 +11524,7 @@ nodes = (
 );
 };
 layerId = "E9078C9B-2EE6-4AC1-AEE5-F0B94A0706BA";
-name = "{82,36}";
+name = "{82,30}";
 paths = (
 {
 closed = 1;
@@ -11711,7 +11711,7 @@ nodes = (
 );
 };
 layerId = "C717C838-2063-4A60-A447-BCE51702F65A";
-name = "{82,36}";
+name = "{82,30}";
 paths = (
 {
 closed = 1;
@@ -11987,7 +11987,7 @@ nodes = (
 );
 };
 layerId = "CEE10ED5-272E-4AAE-ADBC-EDFB1F526922";
-name = "{82,36}";
+name = "{82,30}";
 paths = (
 {
 closed = 1;
@@ -12295,7 +12295,7 @@ nodes = (
 );
 };
 layerId = "115379E7-D825-474F-B49F-E9855C8CBD5F";
-name = "{82,36}";
+name = "{82,30}";
 paths = (
 {
 closed = 1;
@@ -13499,7 +13499,7 @@ nodes = (
 );
 };
 layerId = "A6276F4A-E6AF-40C2-B608-6C22A80D5256";
-name = "{82,36}";
+name = "{82,30}";
 paths = (
 {
 closed = 1;
@@ -13767,7 +13767,7 @@ nodes = (
 );
 };
 layerId = "16FCFBB7-3898-48BE-A763-EE506A115AFF";
-name = "{82,36}";
+name = "{82,30}";
 paths = (
 {
 closed = 1;
@@ -14133,7 +14133,7 @@ nodes = (
 );
 };
 layerId = "30C9E967-A076-469D-88AF-843D024E2A92";
-name = "{82,36}";
+name = "{82,30}";
 paths = (
 {
 closed = 1;
@@ -14403,7 +14403,7 @@ nodes = (
 );
 };
 layerId = "E75B7203-6820-4479-A4D9-8E5D055CBC35";
-name = "{82,36}";
+name = "{82,30}";
 paths = (
 {
 closed = 1;
@@ -15046,7 +15046,7 @@ nodes = (
 );
 };
 layerId = "F8B97D2E-194F-4888-A3F2-E868D64F26CC";
-name = "{82,36}";
+name = "{82,30}";
 paths = (
 {
 closed = 1;
@@ -17456,7 +17456,7 @@ nodes = (
 );
 };
 layerId = "F03DB604-C58E-47E5-9FFF-1038F0A9F37D";
-name = "{82,36}";
+name = "{82,30}";
 paths = (
 {
 closed = 1;
@@ -25211,7 +25211,7 @@ value = 1;
 }
 );
 interpolationWeight = 30;
-interpolationWidth = 36;
+interpolationWidth = 30;
 instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 1;
 };
@@ -25226,7 +25226,7 @@ value = 1;
 }
 );
 interpolationWeight = 44;
-interpolationWidth = 36;
+interpolationWidth = 30;
 instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.92391;
 "A6FDB8B9-512B-4F31-B986-CD5B604F5662" = 0.07609;
@@ -25242,7 +25242,7 @@ value = 1;
 }
 );
 interpolationWeight = 63;
-interpolationWidth = 36;
+interpolationWidth = 30;
 instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.82065;
 "A6FDB8B9-512B-4F31-B986-CD5B604F5662" = 0.17935;
@@ -25258,7 +25258,7 @@ value = 1;
 }
 );
 interpolationWeight = 82;
-interpolationWidth = 36;
+interpolationWidth = 30;
 instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.71739;
 "A6FDB8B9-512B-4F31-B986-CD5B604F5662" = 0.28261;
@@ -25272,7 +25272,7 @@ name = "Update Features";
 value = 1;
 }
 );
-interpolationWidth = 36;
+interpolationWidth = 30;
 instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.61957;
 "A6FDB8B9-512B-4F31-B986-CD5B604F5662" = 0.38043;
@@ -25288,7 +25288,7 @@ value = 1;
 }
 );
 interpolationWeight = 123;
-interpolationWidth = 36;
+interpolationWidth = 30;
 instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.49457;
 "A6FDB8B9-512B-4F31-B986-CD5B604F5662" = 0.50543;
@@ -25304,7 +25304,7 @@ value = 1;
 }
 );
 interpolationWeight = 153;
-interpolationWidth = 36;
+interpolationWidth = 30;
 instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.33152;
 "A6FDB8B9-512B-4F31-B986-CD5B604F5662" = 0.66848;
@@ -25322,7 +25322,7 @@ value = 1;
 }
 );
 interpolationWeight = 182;
-interpolationWidth = 36;
+interpolationWidth = 30;
 instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.17391;
 "A6FDB8B9-512B-4F31-B986-CD5B604F5662" = 0.82609;
@@ -25338,7 +25338,7 @@ value = 1;
 }
 );
 interpolationWeight = 214;
-interpolationWidth = 36;
+interpolationWidth = 30;
 instanceInterpolations = {
 "A6FDB8B9-512B-4F31-B986-CD5B604F5662" = 1;
 };

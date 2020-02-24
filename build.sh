@@ -37,17 +37,17 @@ for VF in fonts/variable/*.ttf; do
     rm fonts/variable/$BASE-backup-fonttools-prep-gasp.ttf
 done
 
-for ttf in fonts/static/*.ttf; do
-    gftools fix-dsig -f $ttf
-    gftools fix-nonhinting $ttf "$ttf.fix"
-    mv "$ttf.fix" $ttf
-done
+# for ttf in fonts/static/*.ttf; do
+#     gftools fix-dsig -f $ttf
+#     gftools fix-nonhinting $ttf "$ttf.fix"
+#     mv "$ttf.fix" $ttf
+# done
 
-for otf in fonts/static/*.otf; do
-    gftools fix-dsig -f $otf
-    gftools fix-nonhinting $otf "$otf.fix"
-    mv "$otf.fix" $otf
-done
+# for otf in fonts/static/*.otf; do
+#     gftools fix-dsig -f $otf
+#     gftools fix-nonhinting $otf "$otf.fix"
+#     mv "$otf.fix" $otf
+# done
 
 # echo
 # echo Check sources:
