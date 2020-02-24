@@ -1,6 +1,6 @@
 #!/bin/sh
 
-files=( PiazzollaVARsetup2 )
+files=( PiazzollaVARsetup )
 
 for f in $files; do
     echo
@@ -11,50 +11,43 @@ for f in $files; do
     echo
     echo Process DesignSpace:
     python processDesignSpace.py $f
-    # echo
-    # echo Update wghtmin ufos:
-    # fontmake -m "temp/building/$f/$f.Wghtmin.designspace" -o ufo -i
-    # rm -r "temp/building/$f/Piazzolla-BlackMin.ufo"
-    # rm -r "temp/building/$f/Piazzolla-ThinMin.ufo"
-    # mv "temp/building/$f/instance_ufos/Piazzolla-Thin.ufo" "temp/building/$f/Piazzolla-ThinMin.ufo"
-    # mv "temp/building/$f/instance_ufos/Piazzolla-Black.ufo" "temp/building/$f/Piazzolla-BlackMin.ufo"
 done
 
-# for f in $files; do
-#     echo
-#     echo "Generate variable fonts for $f":
-#     fontmake -m temp/building/$f/$f.designspace -o variable --output-dir fonts/variable
-#     # echo
-#     # echo "Generate static fonts for $f":
-#     # fontmake -m sources/$f.designspace -i --output-dir fonts/static
-# done
+for f in $files; do
+    echo
+    echo "Generate variable fonts for $f":
+    fontmake -m temp/building/$f/$f.designspace -o variable --output-dir fonts/variable
+    # echo
+    # echo "Generate static fonts for $f":
+    # fontmake -m sources/$f.designspace -i --output-dir fonts/static
+done
 
-# echo
-# echo Fix fonts:
-# for VF in fonts/variable/*.ttf; do
-#     gftools fix-dsig -f $VF
-#     gftools fix-nonhinting $VF "$VF.fix"
-#     mv "$VF.fix" $VF
-#     ttx -f -x "MVAR" $VF
-#     BASE=$(basename -s .ttf $VF)
-#     TTXFILE=fonts/variable/$BASE.ttx
-#     rm $VF
-#     ttx $TTXFILE
-#     rm fonts/variable/$BASE.ttx
-#     rm fonts/variable/$BASE-backup-fonttools-prep-gasp.ttf
-# done
+echo
+echo Fix fonts:
+for VF in fonts/variable/*.ttf; do
+    gftools fix-dsig -f $VF
+    gftools fix-nonhinting $VF "$VF.fix"
+    mv "$VF.fix" $VF
+    ttx -f -x "MVAR" $VF
+    BASE=$(basename -s .ttf $VF)
+    TTXFILE=fonts/variable/$BASE.ttx
+    rm $VF
+    ttx $TTXFILE
+    rm fonts/variable/$BASE.ttx
+    rm fonts/variable/$BASE-backup-fonttools-prep-gasp.ttf
+done
 
-# for ttf in fonts/static/*.ttf; do
-#     gftools fix-dsig -f $ttf
-#     gftools fix-nonhinting $ttf "$ttf.fix"
-#     mv "$ttf.fix" $ttf
-# done
+for ttf in fonts/static/*.ttf; do
+    gftools fix-dsig -f $ttf
+    gftools fix-nonhinting $ttf "$ttf.fix"
+    mv "$ttf.fix" $ttf
+done
 
-# for otf in fonts/static/*.otf; do
-#     gftools fix-dsig -f $otf
-#     gftools fix-nonhinting $otf "$otf.fix"
-#     mv "$otf.fix" $otf
-# done
+for otf in fonts/static/*.otf; do
+    gftools fix-dsig -f $otf
+    gftools fix-nonhinting $otf "$otf.fix"
+    mv "$otf.fix" $otf
+done
 
 # echo
 # echo Check sources:
