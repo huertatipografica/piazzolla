@@ -29,7 +29,7 @@ spacing = {
     },
 }
 
-
+# Running script
 if len(sys.argv) != 2:
     print("Must specify a name:")
     print("python processDesignSpace.py PiazzollaItalic")
@@ -124,7 +124,6 @@ for glyph in font:
         print(" - Adding rule for %s -> %s" % (r['source'], r['target']))
 
 doc.write(path)
-
 
 # Interpolate MIN
 print("New instances location for OpszMin")
