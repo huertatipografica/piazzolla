@@ -5,18 +5,12 @@ files=( PiazzollaVARsetup )
 for f in $files; do
     echo
     echo Setup DesignSpace from Glyphs:
-    mkdir -p temp/building/$f
+    rm -rf temp/building/$f
+    mkdir temp/building/$f
     glyphs2ufo sources/$f.glyphs -m temp/building/$f
     echo
     echo Process DesignSpace:
     python processDesignSpace.py $f
-    echo
-    echo Update wghtmin ufos:
-    fontmake -m "temp/building/$f/$f.Wghtmin.designspace" -o ufo -i
-    rm -r "temp/building/$f/Piazzolla-BlackMin.ufo"
-    rm -r "temp/building/$f/Piazzolla-ThinMin.ufo"
-    mv "temp/building/$f/instance_ufos/Piazzolla-Thin.ufo" "temp/building/$f/Piazzolla-ThinMin.ufo"
-    mv "temp/building/$f/instance_ufos/Piazzolla-Black.ufo" "temp/building/$f/Piazzolla-BlackMin.ufo"
 done
 
 for f in $files; do
@@ -43,17 +37,17 @@ for VF in fonts/variable/*.ttf; do
     rm fonts/variable/$BASE-backup-fonttools-prep-gasp.ttf
 done
 
-# for ttf in fonts/static/*.ttf; do
-#     gftools fix-dsig -f $ttf
-#     gftools fix-nonhinting $ttf "$ttf.fix"
-#     mv "$ttf.fix" $ttf
-# done
+for ttf in fonts/static/*.ttf; do
+    gftools fix-dsig -f $ttf
+    gftools fix-nonhinting $ttf "$ttf.fix"
+    mv "$ttf.fix" $ttf
+done
 
-# for otf in fonts/static/*.otf; do
-#     gftools fix-dsig -f $otf
-#     gftools fix-nonhinting $otf "$otf.fix"
-#     mv "$otf.fix" $otf
-# done
+for otf in fonts/static/*.otf; do
+    gftools fix-dsig -f $otf
+    gftools fix-nonhinting $otf "$otf.fix"
+    mv "$otf.fix" $otf
+done
 
 # echo
 # echo Check sources:

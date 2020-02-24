@@ -1,89 +1,43 @@
 # https://github.com/googlefonts/fontmake/blob/master/tests/test_main.py
 import sys
-import re
-
-from fontTools.designspaceLib import DesignSpaceDocument, RuleDescriptor, InstanceDescriptor
 import defcon
-from mutatorMath.ufo.document import DesignSpaceDocumentWriter, DesignSpaceDocumentReader
-import os
+import shutil
+import fontmake.__main__
+from fontTools.designspaceLib import DesignSpaceDocument, RuleDescriptor, InstanceDescriptor, SourceDescriptor
+from tools import tweakSpacing, parseRule
+from fontParts.world import OpenFont
+
 
 if len(sys.argv) != 2:
     print("Must specify a name:")
     print("python processDesignSpace.py PiazzollaItalic")
     exit()
 
-
+familyName = 'Piazzolla'
 wght = {
     "min": 30,
     "regular": 82,
     "max": 214,
-
 }
-optz = {
+opsz = {
     "min": 8,
     "max": 36,
 }
 
 weightCropIndex = 0.5
 
-
-def parseRule(name):
-    source = name.split('.rule-')[0]
-    rules = re.search('(?<=.rule-)\w+', name).group(0)
-    rules = rules.split('.')
-    conditions = []
-
-    for rule in rules:
-        condition = rule.split('_')
-        conditions.append(condition)
-
-    return {
-        'source': source,
-        'target': name,
-        'conditions': conditions
-    }
-
 file = sys.argv[1]
+folder = "temp/building/%s/" % (file)
 path = "temp/building/%s/%s.designspace" % (file, file)
-minpath = "temp/building/%s/%s.Wghtmin.designspace" % (file, file)
+minPath = "temp/building/%s/%s.WghtMin.designspace" % (file, file)
 
 
-print()
-print("Generating Wghtmin ufos")
 doc = DesignSpaceDocument()
 doc.read(path)
 mainMasters = set([m.filename for m in doc.sources])
+if len(mainMasters) != 2:
+    raise RuntimeError("File %s doesn't have 2 masters" % file)
 
-# Interpolate MIN
-if len(mainMasters) == 4:
-    print()
-    print("Four masters in font")
-
-    print("New instances location for Wghtmin")
-    thin = doc.instances[0]
-    weight = wght.get('regular') - (wght.get('regular') - wght.get('min')) * weightCropIndex
-    thin.location = {'Weight': weight, 'Optical size': optz['min']}
-    thin.info = True
-
-    black = doc.instances[8]
-    weight = wght.get('regular') + (wght.get('max') - wght.get('regular')) * weightCropIndex
-    black.styleName = "BlackMin"
-    black.location = {'Weight': weight, 'Optical size': optz['min']}
-    black.info = True
-
-    # resetting instances
-    doc.instances = []
-    doc.addInstance(thin)
-    doc.addInstance(black)
-
-
-    doc.write(minpath)
-
-# Space
-print()
-print("Processing %s:" % (path))
-doc = DesignSpaceDocument()
-doc.read(path)
 
 print()
 print("Mapping weight axis")
@@ -94,6 +48,41 @@ for axis in doc.axes:
         axis.default = 100
         axis.minimum = 100
         axis.maximum = 900
+
+    if axis.tag == 'opsz':
+        axis.minimum = opsz['min']
+
+
+print()
+print("Adding Wghtmin ufos")
+
+for ufo in set([m.path for m in doc.sources]):
+    newUfo = ufo.replace('.ufo', '.WghtMin.ufo')
+    shutil.copytree(ufo, newUfo)
+
+    source = SourceDescriptor()
+    source.path = newUfo
+    source.familyName = familyName
+
+    if "Light" in newUfo or "Thin" in newUfo:
+        font = OpenFont(newUfo)
+        tweakSpacing(font, 24, 4)
+        font.save()
+
+        source.location = {'Weight': wght['min'], 'Optical size': opsz['min']}
+        source.styleName = "ThinMin"
+    else:
+        font = OpenFont(newUfo)
+        tweakSpacing(font, 17, 0)
+        font.save()
+
+        source.location = {'Weight': wght['max'], 'Optical size': opsz['min']}
+        source.styleName = "BlackMin"
+
+    doc.addSource(source)
+
+doc.write(path)
+doc.write(minPath)
 
 print()
 print("Resetting and processing rules")
@@ -125,14 +114,44 @@ doc.write(path)
 
 
 
+# Interpolate MIN
+print("New instances location for Wghtmin")
+doc = DesignSpaceDocument()
+doc.read(minPath)
 
-# for ufo in doc.sources:
-#     font = defcon.Font(ufo)
-#     doc = DesignSpaceDocument()
-#     doc.read(font)
+# resetting instances
+doc.instances = []
 
-#     for glyph in font:
-#         # Delete ht _areas glyph
-#         if glyph.name is '_areas':
-#             del font["_areas"]
-#     doc.write(path)
+# Calculate location
+weightMin = wght.get('regular') - (wght.get('regular') - wght.get('min')) * weightCropIndex
+weightMax = wght.get('regular') + (wght.get('max') - wght.get('regular')) * weightCropIndex
+
+instance = InstanceDescriptor()
+instance.familyName = familyName
+instance.styleName = "Thin"
+instance.name = "Piazzolla-Thin.WghtMin.ufo"
+instance.path = folder + "Piazzolla-Thin.WghtMin.ufo"
+instance.location = {'Weight': weightMin, 'Optical size': opsz['min']}
+doc.addInstance(instance)
+
+instance = InstanceDescriptor()
+instance.familyName = familyName
+instance.styleName = "Black"
+instance.name = "Piazzolla-Black.WghtMin.ufo"
+instance.path = folder + "Piazzolla-Black.WghtMin.ufo"
+instance.location = {'Weight': weightMax, 'Optical size': opsz['min']}
+doc.addInstance(instance)
+
+
+doc.write(minPath)
+
+
+fontmake.__main__.main(
+    [
+        "-m",
+        str(minPath),
+        "-o",
+        "ufo",
+        "-i",
+    ]
+)
