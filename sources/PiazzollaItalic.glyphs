@@ -1,9 +1,5 @@
 {
 .appVersion = "1296";
-DisplayStrings = (
-"",
-""
-);
 classes = (
 {
 automatic = 1;
@@ -238201,10 +238197,6 @@ kerning = {
 "@MMK_L_H.sups" = {
 "@MMK_R_O.sups" = -6;
 };
-"@MMK_L_J.sups" = {
-"@MMK_R_A.sups" = -23;
-"@MMK_R_J.sups" = -12;
-};
 "@MMK_L_L" = {
 "@MMK_R_A" = -40;
 "@MMK_R_O" = -50;
@@ -238500,9 +238492,6 @@ kerning = {
 "@MMK_L_b.sc" = {
 "@MMK_R_o.sc" = -9;
 "@MMK_R_t.sc" = -9;
-};
-"@MMK_L_b.sups" = {
-"@MMK_R_O.sups" = -7;
 };
 "@MMK_L_beta" = {
 "@MMK_R_V" = -10;
@@ -239131,9 +239120,6 @@ fraction = 30;
 "@MMK_L_H.sups" = {
 "@MMK_R_O.sups" = -6;
 };
-"@MMK_L_J.sups" = {
-"@MMK_R_J.sups" = -12;
-};
 "@MMK_L_L" = {
 "@MMK_R_A" = 10;
 "@MMK_R_J" = 20;
@@ -239360,9 +239346,6 @@ fraction = 30;
 "@MMK_L_b.sc" = {
 "@MMK_R_o.sc" = -8;
 "@MMK_R_v.sc" = -8;
-};
-"@MMK_L_b.sups" = {
-"@MMK_R_O.sups" = -7;
 };
 "@MMK_L_beta" = {
 "@MMK_R_asterisk" = -20;
