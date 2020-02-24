@@ -1,6 +1,6 @@
 #!/bin/sh
 
-files=(PiazzollaVARsetup)
+files=(PiazzollaItalic)
 
 echo Setup Folders
 rm -rf fonts temp/building
