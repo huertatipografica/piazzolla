@@ -39,7 +39,7 @@ if len(sys.argv) != 2:
 file = sys.argv[1]
 folder = "temp/building/%s/" % (file)
 path = "temp/building/%s/%s.designspace" % (file, file)
-minPath = "temp/building/%s/%s.OpszMin.designspace" % (file, file)
+minPath = "temp/building/%s/%s-OpszMin.designspace" % (file, file)
 
 
 doc = DesignSpaceDocument()
@@ -67,7 +67,7 @@ print()
 print("Adding OpszMin ufos")
 
 for ufo in set([m.path for m in doc.sources]):
-    newUfo = ufo.replace('.ufo', '.OpszMin.ufo')
+    newUfo = ufo.replace('.ufo', '-OpszMin.ufo')
     shutil.copytree(ufo, newUfo)
 
     source = SourceDescriptor()
@@ -75,6 +75,7 @@ for ufo in set([m.path for m in doc.sources]):
     source.familyName = familyName
 
     if "Light" in newUfo or "Thin" in newUfo:
+        lightUfo = newUfo
         font = OpenFont(newUfo)
         tweakSpacing(font, spacing['min']['offset'],
                      spacing['min']['percentage'])
@@ -83,6 +84,7 @@ for ufo in set([m.path for m in doc.sources]):
         source.location = {'Weight': wght['min'], 'Optical size': opsz['min']}
         source.styleName = "ThinMin"
     else:
+        blackUfo = newUfo
         font = OpenFont(newUfo)
         tweakSpacing(font, spacing['max']['offset'],
                      spacing['max']['percentage'])
@@ -125,6 +127,7 @@ for glyph in font:
 
 doc.write(path)
 
+
 # Interpolate MIN
 print("New instances location for OpszMin")
 doc = DesignSpaceDocument()
@@ -142,16 +145,17 @@ weightMax = wght.get('regular') + (wght.get('max') -
 instance = InstanceDescriptor()
 instance.familyName = familyName
 instance.styleName = "Thin"
-instance.name = "Piazzolla-Thin.OpszMin.ufo"
-instance.path = folder + "Piazzolla-Thin.OpszMin.ufo"
+instance.name = "Piazzolla-Thin-OpszMin.ufo"
+instance.path = lightUfo
+newUfo = ufo.replace('.ufo', '-OpszMin.ufo')
 instance.location = {'Weight': weightMin, 'Optical size': opsz['min']}
 doc.addInstance(instance)
 
 instance = InstanceDescriptor()
 instance.familyName = familyName
 instance.styleName = "Black"
-instance.name = "Piazzolla-Black.OpszMin.ufo"
-instance.path = folder + "Piazzolla-Black.OpszMin.ufo"
+instance.name = "Piazzolla-Black-OpszMin.ufo"
+instance.path = blackUfo
 instance.location = {'Weight': weightMax, 'Optical size': opsz['min']}
 doc.addInstance(instance)
 doc.write(minPath)
