@@ -5,8 +5,8 @@ files=(Piazzolla PiazzollaItalic)
 for f in $files; do
     echo
     echo Setup DesignSpace from Glyphs:
-    rm -rf temp/building/$f
-    mkdir temp/building/$f
+    if [ -f temp/building/$f ]; then rm -rf temp/building/$f; fi
+    mkdir -p temp/building/$f
     glyphs2ufo sources/$f.glyphs -m temp/building/$f
     echo
     echo Process DesignSpace:
@@ -25,6 +25,7 @@ done
 echo
 echo Fix fonts:
 for VF in fonts/variable/*.ttf; do
+    mkdir -p fonts/variable
     gftools fix-dsig -f $VF
     gftools fix-nonhinting $VF "$VF.fix"
     mv "$VF.fix" $VF
@@ -38,6 +39,7 @@ for VF in fonts/variable/*.ttf; do
 done
 
 # for ttf in fonts/static/*.ttf; do
+#     mkdir -p fonts/static
 #     gftools fix-dsig -f $ttf
 #     gftools fix-nonhinting $ttf "$ttf.fix"
 #     mv "$ttf.fix" $ttf
