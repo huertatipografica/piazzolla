@@ -99,35 +99,6 @@ for ufo in set([m.path for m in doc.sources]):
 doc.write(path)
 doc.write(minPath)
 
-print()
-print("Resetting and processing rules")
-doc.rules = []
-
-ruleNames = [r.name for r in doc.rules]
-firstMaster = doc.sources[0]
-font = OpenFont(firstMaster.path)
-for glyph in font:
-    if ".rule" in glyph.name:
-        r = parseRule(glyph.name)
-
-        # create rule
-        rule = RuleDescriptor()
-        rule.name = r['target']
-
-        # add conditions
-        for condition in r['conditions']:
-            rule.conditionSets.append([dict(name=condition[0], minimum=float(
-                condition[1]), maximum=float(condition[2]))])
-
-        # add replacement
-        rule.subs.append((r['source'], r['target']))
-
-        doc.addRule(rule)
-        print(" - Adding rule for %s -> %s" % (r['source'], r['target']))
-
-doc.write(path)
-
-
 # Interpolate MIN
 print("New instances location for OpszMin")
 doc = DesignSpaceDocument()
@@ -174,3 +145,32 @@ fontmake.__main__.main(
         "WARNING"
     ]
 )
+
+
+print()
+print("Resetting and processing rules")
+doc.rules = []
+
+ruleNames = [r.name for r in doc.rules]
+firstMaster = doc.sources[0]
+font = OpenFont(firstMaster.path)
+for glyph in font:
+    if ".rule" in glyph.name:
+        r = parseRule(glyph.name)
+
+        # create rule
+        rule = RuleDescriptor()
+        rule.name = r['target']
+
+        # add conditions
+        for condition in r['conditions']:
+            rule.conditionSets.append([dict(name=condition[0], minimum=float(
+                condition[1]), maximum=float(condition[2]))])
+
+        # add replacement
+        rule.subs.append((r['source'], r['target']))
+
+        doc.addRule(rule)
+        print(" - Adding rule for %s -> %s" % (r['source'], r['target']))
+
+doc.write(path)
