@@ -12,15 +12,15 @@ Piazzolla has a distinctive voice that conveys a personal style, especially in d
 
 ## Contributing
 
-### Requirements
+#### Requirements
 
 - Python 3 (for building fonts)
 - Glyphs (for editing sources)
 
 
-### Setup
+#### Setup
 
-To run any of the commands, you need to generate the virtual environment (venv) and install dependencies. It will generate the /venv folder
+To run any of the commands, you need to generate the virtual environment (venv) and install dependencies. It will generate a `venv` folder
 
 ```bash
 python3 -m venv venv
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ```
 
 
-### Build ufos and generate fonts
+#### Build ufos and generate fonts
 
 To build the fonts there are several steps and all the process is being handled by a script. All the magic happens by running in terminal:
 
@@ -38,7 +38,7 @@ sh build.sh
 ```
 
 
-### Running tests
+#### Running tests
 
 for Variable Fonts
 ```bash
@@ -50,7 +50,7 @@ for Static Fonts
 fontbakery check-googlefonts fonts/static/*
 ```
 
-for UFO sources (replace `UFO_PATH` for the path you are testing)
+for UFO sources (replace `UFO_PATH` for the ufo you want to check)
 ```bash
 fontbakery check-ufo-sources UFO_PATH
 ```
