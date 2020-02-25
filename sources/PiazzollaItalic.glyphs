@@ -57,8 +57,8 @@ name = "Use Line Breaks";
 value = 1;
 },
 {
-name = "EditView Line Height";
-value = 1000;
+name = "Variable Font Origin";
+value = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
 },
 {
 name = "Enforce Compatibility Check";
