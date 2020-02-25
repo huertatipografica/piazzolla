@@ -7,11 +7,10 @@ Piazzolla has a distinctive voice that conveys a personal style, especially in d
 
 ## Download
 
-- All the fonts can be downloaded from [the releases section](/releases)
+- All the fonts can be downloaded from [the releases section](https://github.com/juandelperal/piazzolla/releases)
 
 
-## Contribute
-
+## Contributing
 
 ### Requirements
 
@@ -23,31 +22,35 @@ Piazzolla has a distinctive voice that conveys a personal style, especially in d
 
 To run any of the commands, you need to generate the virtual environment (venv) and install dependencies. It will generate the /venv folder
 
-`python3 -m venv venv`
-`. venv/bin/activate`
-`pip install -r requirements.txt`
+```bash
+python3 -m venv venv
+. venv/bin/activate
+pip install -r requirements.txt
+```
 
 
 ### Build ufos and generate fonts
 
-The sources are in glyph format. To build the fonts there are several steps and all the process is being automated by running in terminal:
+To build the fonts there are several steps and all the process is being handled by a script. All the magic happens by running in terminal:
 
-`sh build.sh`
+```bash
+sh build.sh
+```
 
 
 ### Running tests
 
-for UFO sources
-```
-fontbakery check-ufo-sources --ghmarkdown bakery-report.html temp/building/*
-```
-
 for Variable Fonts
-```
+```bash
 fontbakery check-googlefonts fonts/variable/*
 ```
 
 for Static Fonts
-```
+```bash
 fontbakery check-googlefonts fonts/static/*
+```
+
+for UFO sources (replace `UFO_PATH` for the path you are testing)
+```bash
+fontbakery check-ufo-sources UFO_PATH
 ```
