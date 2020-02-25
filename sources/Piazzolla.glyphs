@@ -1843,7 +1843,7 @@ notes = "# Numbers\012sub zero.osf by zero;\012sub one.osf by one;\012sub two.os
 },
 {
 code = "lookupflag IgnoreMarks;
-
+sub lambda lambda by lambda_lambda.liga;
 sub f i by fi;
 sub f l by fl;
 

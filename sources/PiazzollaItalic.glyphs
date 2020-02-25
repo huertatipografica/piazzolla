@@ -1756,7 +1756,9 @@ sub iitail-cy by iitail-cy.sc;
 name = smcp;
 },
 {
-code = "sub f i by fi;
+code = "lookupflag IgnoreMarks;
+sub lambda lambda by lambda_lambda.liga;
+sub f i by fi;
 sub f l by fl;
 
 # f and t contextual ligatures
@@ -1799,7 +1801,7 @@ sub [tilde tildecomb asciitilde] u.sc by utilde.sc;
 sub [tilde tildecomb asciitilde] y.sc by ytilde.sc;
 sub acute y.sc by yacute.sc;";
 name = liga;
-notes = "sub f i by fi;\012sub f l by fl;\012\012# f and t contextual ligatures\012sub f' @.f.t by f.f;\012sub t' @.f.t by t.t;\012\012# Spacing between caps\012sub @Uppercase space' @Uppercase by space.case;\012\012# longs\012sub longs i' by idotless;\012sub longs j' by jdotless;\012\012# Guaraní\012sub [tilde tildecomb asciitilde] e by etilde;\012sub [tilde tildecomb asciitilde] g by gtilde;\012sub dieresis i by idieresis;\012sub [tilde tildecomb asciitilde] i by itilde;\012sub dieresis o by odieresis;\012sub [tilde tildecomb asciitilde] u by utilde;\012sub [tilde tildecomb asciitilde] y by ytilde;\012sub acute y by yacute;\012\012sub [tilde tildecomb asciitilde] E by Etilde;\012sub [tilde tildecomb asciitilde] G by Gtilde;\012sub dieresis I by Idieresis;\012sub [tilde tildecomb asciitilde] I by Itilde;\012sub dieresis O by Odieresis;\012sub [tilde tildecomb asciitilde] U by Utilde;\012sub [tilde tildecomb asciitilde] Y by Ytilde;\012sub acute Y by Yacute;\012\012sub [tilde tildecomb asciitilde] e.sc by etilde.sc;\012sub [tilde tildecomb asciitilde] g.sc by gtilde.sc;\012sub dieresis i.sc by idieresis.sc;\012sub [tilde tildecomb asciitilde] i.sc by itilde.sc;\012sub dieresis o.sc by odieresis.sc;\012sub [tilde tildecomb asciitilde] u.sc by utilde.sc;\012sub [tilde tildecomb asciitilde] y.sc by ytilde.sc;\012sub acute y.sc by yacute.sc;";
+notes = "lookupflag IgnoreMarks;\012sub lambda lambda by lambda_lambda.liga;\012sub f i by fi;\012sub f l by fl;\012\012# f and t contextual ligatures\012sub f' @.f.t by f.f;\012sub t' @.f.t by t.t;\012sub t.rule-Weight_90_214' @.f.t by t.t.rule-Weight_90_214;\012\012# Spacing between caps\012sub @Uppercase space' @Uppercase by space.case;\012\012# longs\012sub longs i' by idotless;\012sub longs j' by jdotless;\012\012# Guaraní\012sub [tilde tildecomb asciitilde] e by etilde;\012sub [tilde tildecomb asciitilde] g by gtilde;\012sub dieresis i by idieresis;\012sub [tilde tildecomb asciitilde] i by itilde;\012sub dieresis o by odieresis;\012sub [tilde tildecomb asciitilde] u by utilde;\012sub [tilde tildecomb asciitilde] y by ytilde;\012sub acute y by yacute;\012\012sub [tilde tildecomb asciitilde] E by Etilde;\012sub [tilde tildecomb asciitilde] G by Gtilde;\012sub dieresis I by Idieresis;\012sub [tilde tildecomb asciitilde] I by Itilde;\012sub dieresis O by Odieresis;\012sub [tilde tildecomb asciitilde] U by Utilde;\012sub [tilde tildecomb asciitilde] Y by Ytilde;\012sub acute Y by Yacute;\012\012sub [tilde tildecomb asciitilde] e.sc by etilde.sc;\012sub [tilde tildecomb asciitilde] g.sc by gtilde.sc;\012sub dieresis i.sc by idieresis.sc;\012sub [tilde tildecomb asciitilde] i.sc by itilde.sc;\012sub dieresis o.sc by odieresis.sc;\012sub [tilde tildecomb asciitilde] u.sc by utilde.sc;\012sub [tilde tildecomb asciitilde] y.sc by ytilde.sc;\012sub acute y.sc by yacute.sc;";
 },
 {
 automatic = 1;
