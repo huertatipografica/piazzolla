@@ -1,5 +1,5 @@
 #!/bin/sh
-files=(PiazzollaVARsetup PiazzollaVARsetupItalic)
+files=(Piazzolla PiazzollaItalic)
 # files=(Piazzolla PiazzollaItalic)
 
 for f in "${files[@]}"; do
