@@ -1,6 +1,7 @@
 #!/bin/sh
+
+# files=(PiazzollaVARsetup PiazzollaVARsetupItalic)
 files=(Piazzolla PiazzollaItalic)
-# files=(Piazzolla PiazzollaItalic)
 
 for f in "${files[@]}"; do
     echo Setup DesignSpace from Glyphs
@@ -11,13 +12,15 @@ for f in "${files[@]}"; do
     python processDesignSpace.py $f
 done
 
+echo Generating fonts
 for f in "${files[@]}"; do
     echo "Generate variable fonts for $f"
     fontmake -m temp/building/$f/$f.designspace -o variable --output-dir fonts/variable --verbose WARNING
-        # echo "Generate static fonts for $f"
-    # fontmake -m sources/$f.designspace -i --output-dir fonts/static --verbose WARNING
+    echo "Generate static fonts for $f"
+    fontmake -m temp/building/$f/$f.designspace -i --output-dir fonts/static --verbose WARNING
 done
-echo Fix fonts
+
+echo Fixing fonts
 for VF in fonts/variable/*.ttf; do
     gftools fix-dsig -f $VF
     gftools fix-nonhinting $VF "$VF.fix"
@@ -31,17 +34,31 @@ for VF in fonts/variable/*.ttf; do
     rm fonts/variable/$BASE-backup-fonttools-prep-gasp.ttf
 done
 
-# for ttf in fonts/static/*.ttf; do
-#     gftools fix-dsig -f $ttf
-#     gftools fix-nonhinting $ttf "$ttf.fix"
-#     mv "$ttf.fix" $ttf
-# done
+for ttf in fonts/static/*.ttf; do
+    gftools fix-dsig -f $ttf
+    gftools fix-nonhinting $ttf "$ttf.fix"
+    mv "$ttf.fix" $ttf
+    ttx -f -x "MVAR" $ttf
+    BASE=$(basename -s .ttf $ttf)
+    TTXFILE=fonts/static/$BASE.ttx
+    rm $ttf
+    ttx $TTXFILE
+    rm fonts/static/$BASE.ttx
+    rm fonts/static/$BASE-backup-fonttools-prep-gasp.ttf
+done
 
-# for otf in fonts/static/*.otf; do
-#     gftools fix-dsig -f $otf
-#     gftools fix-nonhinting $otf "$otf.fix"
-#     mv "$otf.fix" $otf
-# done
+for otf in fonts/static/*.otf; do
+    gftools fix-dsig -f $otf
+    gftools fix-nonhinting $otf "$otf.fix"
+    mv "$otf.fix" $otf
+    ttx -f -x "MVAR" $otf
+    BASE=$(basename -s .otf $otf)
+    TTXFILE=fonts/static/$BASE.ttx
+    rm $otf
+    ttx $TTXFILE
+    rm fonts/static/$BASE.ttx
+    rm fonts/static/$BASE-backup-fonttools-prep-gasp.otf
+done
 
 # echo Check sources
 # mkdir -p tests
@@ -53,4 +70,12 @@ done
 # fontbakery check-universal --ghmarkdown ttfs-report.md ../instance_ttf/*
 # echo Check static otfs
 # fontbakery check-universal --ghmarkdown otfs-report.md ../instance_otf/*echo Order files
+
+echo Files order
+mkdir -p fonts/static/ttf
+mkdir -p fonts/static/otf
+mv fonts/static/*.otf fonts/static/otf
+mv fonts/static/*.ttf fonts/static/ttf
 cp extra/Thanks.png fonts
+
+

@@ -233788,6 +233788,10 @@ value = AddExtremes;
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = weightClass;
+value = 250;
 }
 );
 interpolationWeight = 30;
@@ -233809,6 +233813,10 @@ value = AddExtremes;
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = weightClass;
+value = 275;
 }
 );
 interpolationWeight = 44;
@@ -233862,6 +233870,7 @@ instanceInterpolations = {
 "A6FDB8B9-512B-4F31-B986-CD5B604F5662" = 0.28261;
 };
 isItalic = 1;
+linkStyle = Regular;
 name = Italic;
 },
 {
@@ -233926,6 +233935,7 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
+linkStyle = Regular;
 name = "Bold Italic";
 weightClass = Bold;
 },

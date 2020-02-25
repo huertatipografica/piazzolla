@@ -64,7 +64,7 @@ for axis in doc.axes:
 
 
 print()
-print("Adding OpszMin ufos")
+print("Processing OpszMin")
 
 for ufo in set([m.path for m in doc.sources]):
     newUfo = ufo.replace('.ufo', '-OpszMin.ufo')
@@ -99,13 +99,11 @@ for ufo in set([m.path for m in doc.sources]):
 doc.write(path)
 doc.write(minPath)
 
-# Interpolate MIN
-print("New instances location for OpszMin")
-doc = DesignSpaceDocument()
-doc.read(minPath)
+minDoc = DesignSpaceDocument()
+minDoc.read(minPath)
 
 # resetting instances
-doc.instances = []
+minDoc.instances = []
 
 # Calculate location
 weightMin = wght.get('regular') - (wght.get('regular') -
@@ -120,7 +118,7 @@ instance.name = "Piazzolla-Thin-OpszMin.ufo"
 instance.path = lightUfo
 newUfo = ufo.replace('.ufo', '-OpszMin.ufo')
 instance.location = {'Weight': weightMin, 'Optical size': opsz['min']}
-doc.addInstance(instance)
+minDoc.addInstance(instance)
 
 instance = InstanceDescriptor()
 instance.familyName = familyName
@@ -128,8 +126,8 @@ instance.styleName = "Black"
 instance.name = "Piazzolla-Black-OpszMin.ufo"
 instance.path = blackUfo
 instance.location = {'Weight': weightMax, 'Optical size': opsz['min']}
-doc.addInstance(instance)
-doc.write(minPath)
+minDoc.addInstance(instance)
+minDoc.write(minPath)
 
 
 print("Generate new ufos for OpszMin")
@@ -150,8 +148,6 @@ fontmake.__main__.main(
 print()
 print("Resetting and processing rules")
 doc.rules = []
-
-ruleNames = [r.name for r in doc.rules]
 firstMaster = doc.sources[0]
 font = OpenFont(firstMaster.path)
 for glyph in font:

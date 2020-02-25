@@ -47,7 +47,8 @@ fontbakery check-googlefonts fonts/variable/*
 
 for Static Fonts
 ```bash
-fontbakery check-googlefonts fonts/static/*
+fontbakery check-googlefonts fonts/static/ttf/*
+fontbakery check-googlefonts fonts/static/otf/*
 ```
 
 for UFO sources (replace `UFO_PATH` for the ufo you want to check)

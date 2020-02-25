@@ -228584,6 +228584,10 @@ value = AddExtremes;
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = weightClass;
+value = 250;
 }
 );
 interpolationWeight = 30;
@@ -228603,6 +228607,10 @@ value = AddExtremes;
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = weightClass;
+value = 275;
 }
 );
 interpolationWeight = 44;
