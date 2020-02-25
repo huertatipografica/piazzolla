@@ -14,8 +14,8 @@ Piazzolla has a distinctive voice that conveys a personal style, especially in d
 
 #### Requirements
 
-- Python 3 (for building fonts)
 - Glyphs (for editing sources)
+- Python 3 (for building fonts)
 
 
 #### Setup
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 #### Build ufos and generate fonts
 
-To build the fonts there are several steps and all the process is being handled by a script. All the magic happens by running in terminal:
+To build the fonts there are several steps and all the process is being handled by a custom script. All the magic happens by running in terminal:
 
 ```bash
 sh build.sh
