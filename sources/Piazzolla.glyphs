@@ -211943,7 +211943,7 @@ nodes = (
 );
 }
 );
-width = 626;
+width = 625;
 },
 {
 layerId = "A6FDB8B9-512B-4F31-B986-CD5B604F5662";
@@ -211967,12 +211967,11 @@ nodes = (
 );
 }
 );
-width = 626;
+width = 625;
 }
 );
 leftMetricsKey = "=blackDiamond";
-widthMetricsKey = "=625";
-rightMetricsKey = "=blackDiamond";
+widthMetricsKey = "=blackDiamond";
 unicode = 25C7;
 },
 {
@@ -212337,7 +212336,7 @@ nodes = (
 );
 }
 );
-width = 626;
+width = 625;
 },
 {
 layerId = "A6FDB8B9-512B-4F31-B986-CD5B604F5662";
@@ -212363,8 +212362,7 @@ width = 625;
 }
 );
 leftMetricsKey = "=upBlackTriangle";
-widthMetricsKey = "=625";
-rightMetricsKey = "=upBlackTriangle";
+widthMetricsKey = "=upBlackTriangle";
 unicode = 25B3;
 },
 {

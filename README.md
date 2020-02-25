@@ -3,38 +3,51 @@
 
 Type system intended for optimizing the available space in press media and other publications. It has a compact appearance which allows for small font sizes and tight leading while achieving solid lines and robust paragraphs.
 
-Piazzolla has a distinctive voice that conveys a personal style, especially in display sizes. It has great performance and readability in small point sizes and long texts, both for screen and printing
+Piazzolla has a distinctive voice that conveys a personal style, especially in display sizes. It has great performance and readability in small point sizes and long texts, both for screen and printing.
 
-## Generate virtual environment
-To run any of the commands, you need to generate the virtual environment (venv). It will generate the /venv folder
+## Download
 
-`source venv.sh`
-
-## How to build fonts and sources
-
-## Generate fonts
-1. make sure you have the ufo files up to date
-2. run in terminal `sh build.sh`
+- All the fonts can be downloaded from [the releases section](/releases)
 
 
-## Running FontBakery reports
+## Contribute
+
+
+### Requirements
+
+- Python 3 (for building fonts)
+- Glyphs (for editing sources)
+
+
+### Setup
+
+To run any of the commands, you need to generate the virtual environment (venv) and install dependencies. It will generate the /venv folder
+
+`python3 -m venv venv`
+`. venv/bin/activate`
+`pip install -r requirements.txt`
+
+
+### Build ufos and generate fonts
+
+The sources are in glyph format. To build the fonts there are several steps and all the process is being automated by running in terminal:
+
+`sh build.sh`
+
+
+### Running tests
+
 for UFO sources
 ```
-fontbakery check-ufo-sources --ghmarkdown bakery-report.html sources/*
+fontbakery check-ufo-sources --ghmarkdown bakery-report.html temp/building/*
 ```
 
-## Convert sources
-
-### UFO to glyphs
-To generate your .glyph file based on .ufo sources
+for Variable Fonts
 ```
-ufo2glyphs sources/Piazzolla.designspace
-ufo2glyphs sources/PiazzollaItalic.designspace
+fontbakery check-googlefonts fonts/variable/*
 ```
 
-### Glyphs to UFOs
-To update .ufo sources from your .glyph file
+for Static Fonts
 ```
-glyphs2ufo sources/Piazzolla.glyphs
-glyphs2ufo sources/PiazzollaItalic.glyphs
+fontbakery check-googlefonts fonts/static/*
 ```
