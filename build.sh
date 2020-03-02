@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# files=(PiazzollaVARsetup PiazzollaVARsetupItalic)
-files=(Piazzolla PiazzollaItalic)
+files=(PiazzollaVARsetup PiazzollaVARsetupItalic)
+# files=(Piazzolla PiazzollaItalic)
 
 for f in "${files[@]}"; do
     echo Setup DesignSpace from Glyphs
@@ -9,7 +9,7 @@ for f in "${files[@]}"; do
     mkdir -p temp/building/$f
     glyphs2ufo sources/$f.glyphs -m temp/building/$f
     echo Process DesignSpace
-    python processDesignSpace.py $f
+    python tools/processDesignSpace.py $f
 done
 
 echo Generating fonts

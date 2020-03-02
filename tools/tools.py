@@ -1,4 +1,5 @@
 import re
+from fontParts.world import OpenFont
 
 def parseRule(name):
     source = name.split('.rule-')[0]
@@ -37,3 +38,34 @@ def removeAreas(font):
     for glyph in font:
         if glyph.name is '_areas':
             del font["_areas"]
+
+def scale(source, destination, factor):
+
+    font = OpenFont(source)
+    factor = float(factor)
+
+    font.info.descender = font.info.descender * factor
+    font.info.xHeight = font.info.xHeight * factor
+    font.info.capHeight = font.info.capHeight * factor
+    font.info.ascender = font.info.ascender * factor
+    font.info.postscriptUnderlineThickness = font.info.postscriptUnderlineThickness * factor
+    font.info.postscriptUnderlinePosition = font.info.postscriptUnderlinePosition * factor
+
+    # new PS values
+    newPsValues = []
+    for psValue in font.info.postscriptBlueValues:
+        newPsValues.append(psValue * factor)
+
+    font.info.postscriptBlueValues = newPsValues
+
+    # Round everything
+    font.info.round()
+    # exit()
+
+    for glyph in font:
+        glyph.scaleBy(factor, None, True, True)
+        for component in glyph.components:
+            component.scaleBy(1/factor)
+
+    font.save(destination)
+
