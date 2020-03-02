@@ -18,14 +18,16 @@ opsz = {
 }
 # Configuration
 weightCropIndex = 0.5
-spacing = {
+adjustments = {
     "min": {
         "offset": 15,
-        "percentage": 4
+        "percentage": 4,
+        "scaleFactor": 1
     },
     "max": {
         "offset": 8,
-        "percentage": 0
+        "percentage": 0,
+        "scaleFactor": 1
     },
 }
 
@@ -77,8 +79,8 @@ for ufo in set([m.path for m in doc.sources]):
     if "Light" in newUfo or "Thin" in newUfo:
         lightUfo = newUfo
         font = OpenFont(newUfo)
-        tweakSpacing(font, spacing['min']['offset'],
-                     spacing['min']['percentage'])
+        tweakSpacing(font, adjustments['min']['offset'],
+                     adjustments['min']['percentage'])
         font.save()
 
         source.location = {'Weight': wght['min'], 'Optical size': opsz['min']}
@@ -86,8 +88,8 @@ for ufo in set([m.path for m in doc.sources]):
     else:
         blackUfo = newUfo
         font = OpenFont(newUfo)
-        tweakSpacing(font, spacing['max']['offset'],
-                     spacing['max']['percentage'])
+        tweakSpacing(font, adjustments['max']['offset'],
+                     adjustments['max']['percentage'])
         font.save()
 
         source.location = {'Weight': wght['max'], 'Optical size': opsz['min']}
