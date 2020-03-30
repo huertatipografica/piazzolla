@@ -1,8 +1,5 @@
 {
 .appVersion = "1308";
-DisplayStrings = (
-Pistola
-);
 copyright = "Copyright (c) 2019 by Juan Pablo del Peral. All rights reserved.";
 customParameters = (
 {
