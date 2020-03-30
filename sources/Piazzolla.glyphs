@@ -1,8 +1,5 @@
 {
 .appVersion = "1308";
-DisplayStrings = (
-"nentherlands!"
-);
 classes = (
 {
 automatic = 1;
