@@ -10,7 +10,7 @@ familyName = 'Piazzolla'
 wght = {
     "min": 30,
     "regular": 80,
-    "max": 214,
+    "max": 208,
 }
 opsz = {
     "min": 8,

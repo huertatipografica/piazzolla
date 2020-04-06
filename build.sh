@@ -1,7 +1,7 @@
 #!/bin/sh
 
-files=(PiazzollaVARsetup)
-# files=(Piazzolla PiazzollaItalic)
+# files=(PiazzollaVARsetup)
+files=(Piazzolla PiazzollaItalic)
 
 for f in "${files[@]}"; do
     echo Setup DesignSpace from Glyphs
