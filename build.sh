@@ -1,7 +1,10 @@
 #!/bin/sh
 
-# files=(PiazzollaVARsetup)
-files=(Piazzolla PiazzollaItalic)
+if [ $1 == 'test' ]; then
+    files=(PiazzollaVARsetup PiazzollaVARsetupItalic)
+else
+    files=(Piazzolla PiazzollaItalic)
+fi
 
 for f in "${files[@]}"; do
     echo "Setup DesignSpace from Glyphs for $f"
@@ -77,5 +80,3 @@ mkdir -p fonts/static/otf
 mv fonts/static/*.otf fonts/static/otf
 mv fonts/static/*.ttf fonts/static/ttf
 cp extra/Thanks.png fonts
-
-
