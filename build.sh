@@ -4,11 +4,11 @@
 files=(Piazzolla PiazzollaItalic)
 
 for f in "${files[@]}"; do
-    echo Setup DesignSpace from Glyphs
+    echo "Setup DesignSpace from Glyphs for $f"
     if [ -e temp/building/$f ]; then rm -rf temp/building/$f; fi
     mkdir -p temp/building/$f
     glyphs2ufo sources/$f.glyphs -m temp/building/$f
-    echo Process DesignSpace
+    echo "Process DesignSpace for $f"
     python tools/processDesignSpace.py $f
 done
 

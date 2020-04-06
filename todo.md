@@ -1,15 +1,3 @@
-attrs==19.1.0
-booleanOperations==0.8.2
-cu2qu==1.6.6
-defcon[lxml]==0.6.0
-fontbakery==0.7.14
-fontmake==2.0.4
-fontMath>=0.5.0
-fonttools[lxml,unicode,ufo]==4.0.2
-git+https://github.com/googlefonts/gftools
-glyphsLib==5.0.1
-MutatorMath==2.1.2
-psautohint
-skia-pathops==0.2.0.post2
-ufo2ft[pathops]==2.9.1
-ufoLib2==0.4.1
+public.kern1.J.sups
+SCs
+Variables text?
