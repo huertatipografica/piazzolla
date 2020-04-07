@@ -18,9 +18,9 @@ else
 fi
 
 if inArray "--no-static" $@; then
-    static=0
+    static=false
 else
-    static=1
+    static=true
 fi
 
 for f in "${files[@]}"; do
@@ -36,7 +36,7 @@ echo Generating fonts
 for f in "${files[@]}"; do
     echo "Generate variable fonts for $f"
     fontmake -m temp/building/$f/$f.designspace -o variable --output-dir fonts/variable --verbose WARNING
-    if [ static = "1" ]; then
+    if $static; then
         echo "Generate static fonts for $f"
         fontmake -m temp/building/$f/$f.designspace -i --output-dir fonts/static --verbose WARNING
     fi
@@ -56,7 +56,7 @@ for VF in fonts/variable/*.ttf; do
     rm fonts/variable/$BASE-backup-fonttools-prep-gasp.ttf
 done
 
-if [ static = "1" ]; then
+if $static; then
     for ttf in fonts/static/*.ttf; do
         gftools fix-dsig -f $ttf
         gftools fix-nonhinting $ttf "$ttf.fix"
@@ -85,7 +85,7 @@ if [ static = "1" ]; then
 fi
 
 echo Files order
-if [ static = "1" ]; then
+if $static; then
     mkdir -p fonts/static/ttf
     mkdir -p fonts/static/otf
     mv fonts/static/*.otf fonts/static/otf
