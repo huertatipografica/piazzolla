@@ -1,9 +1,26 @@
 #!/bin/sh
+echo
+echo Usage:
+echo build.sh [--test] [--no-static]
+echo
 
-if [ $1 == 'test' ]; then
+inArray() {
+    local e match="$1"
+    shift
+    for e; do [[ "$e" == "$match" ]] && return 0; done
+    return 1
+}
+
+if inArray "--test" $@; then
     files=(PiazzollaVARsetup PiazzollaVARsetupItalic)
 else
     files=(Piazzolla PiazzollaItalic)
+fi
+
+if inArray "--no-static" $@; then
+    static=0
+else
+    static=1
 fi
 
 for f in "${files[@]}"; do
@@ -19,8 +36,10 @@ echo Generating fonts
 for f in "${files[@]}"; do
     echo "Generate variable fonts for $f"
     fontmake -m temp/building/$f/$f.designspace -o variable --output-dir fonts/variable --verbose WARNING
-    echo "Generate static fonts for $f"
-    fontmake -m temp/building/$f/$f.designspace -i --output-dir fonts/static --verbose WARNING
+    if [ static = "1" ]; then
+        echo "Generate static fonts for $f"
+        fontmake -m temp/building/$f/$f.designspace -i --output-dir fonts/static --verbose WARNING
+    fi
 done
 
 echo Fixing fonts
@@ -37,46 +56,40 @@ for VF in fonts/variable/*.ttf; do
     rm fonts/variable/$BASE-backup-fonttools-prep-gasp.ttf
 done
 
-for ttf in fonts/static/*.ttf; do
-    gftools fix-dsig -f $ttf
-    gftools fix-nonhinting $ttf "$ttf.fix"
-    mv "$ttf.fix" $ttf
-    ttx -f -x "MVAR" $ttf
-    BASE=$(basename -s .ttf $ttf)
-    TTXFILE=fonts/static/$BASE.ttx
-    rm $ttf
-    ttx $TTXFILE
-    rm fonts/static/$BASE.ttx
-    rm fonts/static/$BASE-backup-fonttools-prep-gasp.ttf
-done
+if [ static = "1" ]; then
+    for ttf in fonts/static/*.ttf; do
+        gftools fix-dsig -f $ttf
+        gftools fix-nonhinting $ttf "$ttf.fix"
+        mv "$ttf.fix" $ttf
+        ttx -f -x "MVAR" $ttf
+        BASE=$(basename -s .ttf $ttf)
+        TTXFILE=fonts/static/$BASE.ttx
+        rm $ttf
+        ttx $TTXFILE
+        rm fonts/static/$BASE.ttx
+        rm fonts/static/$BASE-backup-fonttools-prep-gasp.ttf
+    done
 
-for otf in fonts/static/*.otf; do
-    gftools fix-dsig -f $otf
-    gftools fix-nonhinting $otf "$otf.fix"
-    mv "$otf.fix" $otf
-    ttx -f -x "MVAR" $otf
-    BASE=$(basename -s .otf $otf)
-    TTXFILE=fonts/static/$BASE.ttx
-    rm $otf
-    ttx $TTXFILE
-    rm fonts/static/$BASE.ttx
-    rm fonts/static/$BASE-backup-fonttools-prep-gasp.otf
-done
-
-# echo Check sources
-# mkdir -p tests
-# cd tests
-# fontbakery check-ufo-sources --ghmarkdown ufo-report.md ../sources/*
-# echo Check variable fonts
-# fontbakery check-universal --ghmarkdown variable-report.md ../fonts/variable/*
-# echo Check static ttfs
-# fontbakery check-universal --ghmarkdown ttfs-report.md ../instance_ttf/*
-# echo Check static otfs
-# fontbakery check-universal --ghmarkdown otfs-report.md ../instance_otf/*echo Order files
+    for otf in fonts/static/*.otf; do
+        gftools fix-dsig -f $otf
+        gftools fix-nonhinting $otf "$otf.fix"
+        mv "$otf.fix" $otf
+        ttx -f -x "MVAR" $otf
+        BASE=$(basename -s .otf $otf)
+        TTXFILE=fonts/static/$BASE.ttx
+        rm $otf
+        ttx $TTXFILE
+        rm fonts/static/$BASE.ttx
+        rm fonts/static/$BASE-backup-fonttools-prep-gasp.otf
+    done
+fi
 
 echo Files order
-mkdir -p fonts/static/ttf
-mkdir -p fonts/static/otf
-mv fonts/static/*.otf fonts/static/otf
-mv fonts/static/*.ttf fonts/static/ttf
+if [ static = "1" ]; then
+    mkdir -p fonts/static/ttf
+    mkdir -p fonts/static/otf
+    mv fonts/static/*.otf fonts/static/otf
+    mv fonts/static/*.ttf fonts/static/ttf
+fi
+for f in fonts/variable/*-VF*; do mv "$f" "${f//-VF/[wght,opsz]}"; done
 cp extra/Thanks.png fonts

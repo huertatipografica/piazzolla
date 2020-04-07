@@ -62,7 +62,7 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 name = fsType;
@@ -29486,6 +29486,2763 @@ instanceInterpolations = {
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 1;
 };
 name = Black;
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = weightClass;
+value = 250;
+}
+);
+interpolationWeight = 30;
+interpolationWidth = 16;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 1;
+};
+name = "Thin Text";
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = weightClass;
+value = 275;
+}
+);
+interpolationWeight = 45;
+interpolationWidth = 16;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.91573;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.08427;
+};
+name = "ExtraLight Text";
+weightClass = UltraLight;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+}
+);
+interpolationWeight = 62;
+interpolationWidth = 16;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.82022;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.17978;
+};
+name = "Light Text";
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+}
+);
+interpolationWeight = 80;
+interpolationWidth = 16;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.7191;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.2809;
+};
+name = "Regular Text";
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+}
+);
+interpolationWeight = 99;
+interpolationWidth = 16;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.61236;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.38764;
+};
+name = "Medium Text";
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+}
+);
+interpolationWeight = 120;
+interpolationWidth = 16;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.49438;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.50562;
+};
+name = "SemiBold Text";
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+}
+);
+interpolationWeight = 149;
+interpolationWidth = 16;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.33146;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.66854;
+};
+isBold = 1;
+linkStyle = "Regular Text";
+name = "Bold Text";
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+}
+);
+interpolationWeight = 177;
+interpolationWidth = 16;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.17416;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.82584;
+};
+name = "ExtraBold Text";
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+}
+);
+interpolationWeight = 208;
+interpolationWidth = 16;
+instanceInterpolations = {
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 1;
+};
+name = "Black Text";
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = weightClass;
+value = 250;
+},
+{
+name = "Rename Glyphs";
+value = (
+"zcaron.sc=zcaron",
+"z.sc=z",
+"ydieresis.sc=ydieresis",
+"yacute.sc=yacute",
+"y.sc=y",
+"x.sc=x",
+"w.sc=w",
+"v.sc=v",
+"ugrave.sc=ugrave",
+"udieresis.sc=udieresis",
+"uacute.sc=uacute",
+"u.sc=u",
+"t.sc=t",
+"germandbls.sc=germandbls",
+"scaron.sc=scaron",
+"s.sc=s",
+"r.sc=r",
+"q.sc=q",
+"thorn.sc=thorn",
+"p.sc=p",
+"oe.sc=oe",
+"otilde.sc=otilde",
+"oslash.sc=oslash",
+"ograve.sc=ograve",
+"odieresis.sc=odieresis",
+"oacute.sc=oacute",
+"o.sc=o",
+"ntilde.sc=ntilde",
+"n.sc=n",
+"m.sc=m",
+"l.sc=l",
+"k.sc=k",
+"j.sc=j",
+"igrave.sc=igrave",
+"idieresis.sc=idieresis",
+"iacute.sc=iacute",
+"i.sc=i",
+"h.sc=h",
+"g.sc=g",
+"f.sc=f",
+"egrave.sc=egrave",
+"edieresis.sc=edieresis",
+"eacute.sc=eacute",
+"e.sc=e",
+"eth.sc=eth",
+"d.sc=d",
+"ccedilla.sc=ccedilla",
+"c.sc=c",
+"b.sc=b",
+"ae.sc=ae",
+"atilde.sc=atilde",
+"aring.sc=aring",
+"agrave.sc=agrave",
+"adieresis.sc=adieresis",
+"aacute.sc=aacute",
+"a.sc=a",
+"oslash.sc.rule-Weight_118_208=oslash.rule-Weight_118_208"
+);
+},
+{
+name = "Remove Glyphs";
+value = (
+zcaron.sc,
+z.sc,
+ydieresis.sc,
+yacute.sc,
+y.sc,
+x.sc,
+w.sc,
+v.sc,
+ugrave.sc,
+udieresis.sc,
+uacute.sc,
+u.sc,
+t.sc,
+germandbls.sc,
+scaron.sc,
+s.sc,
+r.sc,
+q.sc,
+thorn.sc,
+p.sc,
+oe.sc,
+otilde.sc,
+oslash.sc,
+ograve.sc,
+odieresis.sc,
+oacute.sc,
+o.sc,
+ntilde.sc,
+n.sc,
+m.sc,
+l.sc,
+k.sc,
+j.sc,
+igrave.sc,
+idieresis.sc,
+iacute.sc,
+i.sc,
+h.sc,
+g.sc,
+f.sc,
+egrave.sc,
+edieresis.sc,
+eacute.sc,
+e.sc,
+eth.sc,
+d.sc,
+ccedilla.sc,
+c.sc,
+b.sc,
+ae.sc,
+atilde.sc,
+aring.sc,
+agrave.sc,
+adieresis.sc,
+aacute.sc,
+a.sc,
+"oslash.sc.rule-Weight_118_208"
+);
+},
+{
+name = familyName;
+value = "Piazzolla SC";
+}
+);
+interpolationWeight = 30;
+interpolationWidth = 30;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = weightClass;
+value = 275;
+},
+{
+name = "Rename Glyphs";
+value = (
+"zcaron.sc=zcaron",
+"z.sc=z",
+"ydieresis.sc=ydieresis",
+"yacute.sc=yacute",
+"y.sc=y",
+"x.sc=x",
+"w.sc=w",
+"v.sc=v",
+"ugrave.sc=ugrave",
+"udieresis.sc=udieresis",
+"uacute.sc=uacute",
+"u.sc=u",
+"t.sc=t",
+"germandbls.sc=germandbls",
+"scaron.sc=scaron",
+"s.sc=s",
+"r.sc=r",
+"q.sc=q",
+"thorn.sc=thorn",
+"p.sc=p",
+"oe.sc=oe",
+"otilde.sc=otilde",
+"oslash.sc=oslash",
+"ograve.sc=ograve",
+"odieresis.sc=odieresis",
+"oacute.sc=oacute",
+"o.sc=o",
+"ntilde.sc=ntilde",
+"n.sc=n",
+"m.sc=m",
+"l.sc=l",
+"k.sc=k",
+"j.sc=j",
+"igrave.sc=igrave",
+"idieresis.sc=idieresis",
+"iacute.sc=iacute",
+"i.sc=i",
+"h.sc=h",
+"g.sc=g",
+"f.sc=f",
+"egrave.sc=egrave",
+"edieresis.sc=edieresis",
+"eacute.sc=eacute",
+"e.sc=e",
+"eth.sc=eth",
+"d.sc=d",
+"ccedilla.sc=ccedilla",
+"c.sc=c",
+"b.sc=b",
+"ae.sc=ae",
+"atilde.sc=atilde",
+"aring.sc=aring",
+"agrave.sc=agrave",
+"adieresis.sc=adieresis",
+"aacute.sc=aacute",
+"a.sc=a",
+"oslash.sc.rule-Weight_118_208=oslash.rule-Weight_118_208"
+);
+},
+{
+name = "Remove Glyphs";
+value = (
+zcaron.sc,
+z.sc,
+ydieresis.sc,
+yacute.sc,
+y.sc,
+x.sc,
+w.sc,
+v.sc,
+ugrave.sc,
+udieresis.sc,
+uacute.sc,
+u.sc,
+t.sc,
+germandbls.sc,
+scaron.sc,
+s.sc,
+r.sc,
+q.sc,
+thorn.sc,
+p.sc,
+oe.sc,
+otilde.sc,
+oslash.sc,
+ograve.sc,
+odieresis.sc,
+oacute.sc,
+o.sc,
+ntilde.sc,
+n.sc,
+m.sc,
+l.sc,
+k.sc,
+j.sc,
+igrave.sc,
+idieresis.sc,
+iacute.sc,
+i.sc,
+h.sc,
+g.sc,
+f.sc,
+egrave.sc,
+edieresis.sc,
+eacute.sc,
+e.sc,
+eth.sc,
+d.sc,
+ccedilla.sc,
+c.sc,
+b.sc,
+ae.sc,
+atilde.sc,
+aring.sc,
+agrave.sc,
+adieresis.sc,
+aacute.sc,
+a.sc,
+"oslash.sc.rule-Weight_118_208"
+);
+},
+{
+name = familyName;
+value = "Piazzolla SC";
+}
+);
+interpolationWeight = 45;
+interpolationWidth = 30;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.91573;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.08427;
+};
+name = ExtraLight;
+weightClass = UltraLight;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"zcaron.sc=zcaron",
+"z.sc=z",
+"ydieresis.sc=ydieresis",
+"yacute.sc=yacute",
+"y.sc=y",
+"x.sc=x",
+"w.sc=w",
+"v.sc=v",
+"ugrave.sc=ugrave",
+"udieresis.sc=udieresis",
+"uacute.sc=uacute",
+"u.sc=u",
+"t.sc=t",
+"germandbls.sc=germandbls",
+"scaron.sc=scaron",
+"s.sc=s",
+"r.sc=r",
+"q.sc=q",
+"thorn.sc=thorn",
+"p.sc=p",
+"oe.sc=oe",
+"otilde.sc=otilde",
+"oslash.sc=oslash",
+"ograve.sc=ograve",
+"odieresis.sc=odieresis",
+"oacute.sc=oacute",
+"o.sc=o",
+"ntilde.sc=ntilde",
+"n.sc=n",
+"m.sc=m",
+"l.sc=l",
+"k.sc=k",
+"j.sc=j",
+"igrave.sc=igrave",
+"idieresis.sc=idieresis",
+"iacute.sc=iacute",
+"i.sc=i",
+"h.sc=h",
+"g.sc=g",
+"f.sc=f",
+"egrave.sc=egrave",
+"edieresis.sc=edieresis",
+"eacute.sc=eacute",
+"e.sc=e",
+"eth.sc=eth",
+"d.sc=d",
+"ccedilla.sc=ccedilla",
+"c.sc=c",
+"b.sc=b",
+"ae.sc=ae",
+"atilde.sc=atilde",
+"aring.sc=aring",
+"agrave.sc=agrave",
+"adieresis.sc=adieresis",
+"aacute.sc=aacute",
+"a.sc=a",
+"oslash.sc.rule-Weight_118_208=oslash.rule-Weight_118_208"
+);
+},
+{
+name = "Remove Glyphs";
+value = (
+zcaron.sc,
+z.sc,
+ydieresis.sc,
+yacute.sc,
+y.sc,
+x.sc,
+w.sc,
+v.sc,
+ugrave.sc,
+udieresis.sc,
+uacute.sc,
+u.sc,
+t.sc,
+germandbls.sc,
+scaron.sc,
+s.sc,
+r.sc,
+q.sc,
+thorn.sc,
+p.sc,
+oe.sc,
+otilde.sc,
+oslash.sc,
+ograve.sc,
+odieresis.sc,
+oacute.sc,
+o.sc,
+ntilde.sc,
+n.sc,
+m.sc,
+l.sc,
+k.sc,
+j.sc,
+igrave.sc,
+idieresis.sc,
+iacute.sc,
+i.sc,
+h.sc,
+g.sc,
+f.sc,
+egrave.sc,
+edieresis.sc,
+eacute.sc,
+e.sc,
+eth.sc,
+d.sc,
+ccedilla.sc,
+c.sc,
+b.sc,
+ae.sc,
+atilde.sc,
+aring.sc,
+agrave.sc,
+adieresis.sc,
+aacute.sc,
+a.sc,
+"oslash.sc.rule-Weight_118_208"
+);
+},
+{
+name = familyName;
+value = "Piazzolla SC";
+}
+);
+interpolationWeight = 62;
+interpolationWidth = 30;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.82022;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.17978;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"zcaron.sc=zcaron",
+"z.sc=z",
+"ydieresis.sc=ydieresis",
+"yacute.sc=yacute",
+"y.sc=y",
+"x.sc=x",
+"w.sc=w",
+"v.sc=v",
+"ugrave.sc=ugrave",
+"udieresis.sc=udieresis",
+"uacute.sc=uacute",
+"u.sc=u",
+"t.sc=t",
+"germandbls.sc=germandbls",
+"scaron.sc=scaron",
+"s.sc=s",
+"r.sc=r",
+"q.sc=q",
+"thorn.sc=thorn",
+"p.sc=p",
+"oe.sc=oe",
+"otilde.sc=otilde",
+"oslash.sc=oslash",
+"ograve.sc=ograve",
+"odieresis.sc=odieresis",
+"oacute.sc=oacute",
+"o.sc=o",
+"ntilde.sc=ntilde",
+"n.sc=n",
+"m.sc=m",
+"l.sc=l",
+"k.sc=k",
+"j.sc=j",
+"igrave.sc=igrave",
+"idieresis.sc=idieresis",
+"iacute.sc=iacute",
+"i.sc=i",
+"h.sc=h",
+"g.sc=g",
+"f.sc=f",
+"egrave.sc=egrave",
+"edieresis.sc=edieresis",
+"eacute.sc=eacute",
+"e.sc=e",
+"eth.sc=eth",
+"d.sc=d",
+"ccedilla.sc=ccedilla",
+"c.sc=c",
+"b.sc=b",
+"ae.sc=ae",
+"atilde.sc=atilde",
+"aring.sc=aring",
+"agrave.sc=agrave",
+"adieresis.sc=adieresis",
+"aacute.sc=aacute",
+"a.sc=a",
+"oslash.sc.rule-Weight_118_208=oslash.rule-Weight_118_208"
+);
+},
+{
+name = "Remove Glyphs";
+value = (
+zcaron.sc,
+z.sc,
+ydieresis.sc,
+yacute.sc,
+y.sc,
+x.sc,
+w.sc,
+v.sc,
+ugrave.sc,
+udieresis.sc,
+uacute.sc,
+u.sc,
+t.sc,
+germandbls.sc,
+scaron.sc,
+s.sc,
+r.sc,
+q.sc,
+thorn.sc,
+p.sc,
+oe.sc,
+otilde.sc,
+oslash.sc,
+ograve.sc,
+odieresis.sc,
+oacute.sc,
+o.sc,
+ntilde.sc,
+n.sc,
+m.sc,
+l.sc,
+k.sc,
+j.sc,
+igrave.sc,
+idieresis.sc,
+iacute.sc,
+i.sc,
+h.sc,
+g.sc,
+f.sc,
+egrave.sc,
+edieresis.sc,
+eacute.sc,
+e.sc,
+eth.sc,
+d.sc,
+ccedilla.sc,
+c.sc,
+b.sc,
+ae.sc,
+atilde.sc,
+aring.sc,
+agrave.sc,
+adieresis.sc,
+aacute.sc,
+a.sc,
+"oslash.sc.rule-Weight_118_208"
+);
+},
+{
+name = familyName;
+value = "Piazzolla SC";
+}
+);
+interpolationWeight = 80;
+interpolationWidth = 30;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.7191;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.2809;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"zcaron.sc=zcaron",
+"z.sc=z",
+"ydieresis.sc=ydieresis",
+"yacute.sc=yacute",
+"y.sc=y",
+"x.sc=x",
+"w.sc=w",
+"v.sc=v",
+"ugrave.sc=ugrave",
+"udieresis.sc=udieresis",
+"uacute.sc=uacute",
+"u.sc=u",
+"t.sc=t",
+"germandbls.sc=germandbls",
+"scaron.sc=scaron",
+"s.sc=s",
+"r.sc=r",
+"q.sc=q",
+"thorn.sc=thorn",
+"p.sc=p",
+"oe.sc=oe",
+"otilde.sc=otilde",
+"oslash.sc=oslash",
+"ograve.sc=ograve",
+"odieresis.sc=odieresis",
+"oacute.sc=oacute",
+"o.sc=o",
+"ntilde.sc=ntilde",
+"n.sc=n",
+"m.sc=m",
+"l.sc=l",
+"k.sc=k",
+"j.sc=j",
+"igrave.sc=igrave",
+"idieresis.sc=idieresis",
+"iacute.sc=iacute",
+"i.sc=i",
+"h.sc=h",
+"g.sc=g",
+"f.sc=f",
+"egrave.sc=egrave",
+"edieresis.sc=edieresis",
+"eacute.sc=eacute",
+"e.sc=e",
+"eth.sc=eth",
+"d.sc=d",
+"ccedilla.sc=ccedilla",
+"c.sc=c",
+"b.sc=b",
+"ae.sc=ae",
+"atilde.sc=atilde",
+"aring.sc=aring",
+"agrave.sc=agrave",
+"adieresis.sc=adieresis",
+"aacute.sc=aacute",
+"a.sc=a",
+"oslash.sc.rule-Weight_118_208=oslash.rule-Weight_118_208"
+);
+},
+{
+name = "Remove Glyphs";
+value = (
+zcaron.sc,
+z.sc,
+ydieresis.sc,
+yacute.sc,
+y.sc,
+x.sc,
+w.sc,
+v.sc,
+ugrave.sc,
+udieresis.sc,
+uacute.sc,
+u.sc,
+t.sc,
+germandbls.sc,
+scaron.sc,
+s.sc,
+r.sc,
+q.sc,
+thorn.sc,
+p.sc,
+oe.sc,
+otilde.sc,
+oslash.sc,
+ograve.sc,
+odieresis.sc,
+oacute.sc,
+o.sc,
+ntilde.sc,
+n.sc,
+m.sc,
+l.sc,
+k.sc,
+j.sc,
+igrave.sc,
+idieresis.sc,
+iacute.sc,
+i.sc,
+h.sc,
+g.sc,
+f.sc,
+egrave.sc,
+edieresis.sc,
+eacute.sc,
+e.sc,
+eth.sc,
+d.sc,
+ccedilla.sc,
+c.sc,
+b.sc,
+ae.sc,
+atilde.sc,
+aring.sc,
+agrave.sc,
+adieresis.sc,
+aacute.sc,
+a.sc,
+"oslash.sc.rule-Weight_118_208"
+);
+},
+{
+name = familyName;
+value = "Piazzolla SC";
+}
+);
+interpolationWeight = 99;
+interpolationWidth = 30;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.61236;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.38764;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"zcaron.sc=zcaron",
+"z.sc=z",
+"ydieresis.sc=ydieresis",
+"yacute.sc=yacute",
+"y.sc=y",
+"x.sc=x",
+"w.sc=w",
+"v.sc=v",
+"ugrave.sc=ugrave",
+"udieresis.sc=udieresis",
+"uacute.sc=uacute",
+"u.sc=u",
+"t.sc=t",
+"germandbls.sc=germandbls",
+"scaron.sc=scaron",
+"s.sc=s",
+"r.sc=r",
+"q.sc=q",
+"thorn.sc=thorn",
+"p.sc=p",
+"oe.sc=oe",
+"otilde.sc=otilde",
+"oslash.sc=oslash",
+"ograve.sc=ograve",
+"odieresis.sc=odieresis",
+"oacute.sc=oacute",
+"o.sc=o",
+"ntilde.sc=ntilde",
+"n.sc=n",
+"m.sc=m",
+"l.sc=l",
+"k.sc=k",
+"j.sc=j",
+"igrave.sc=igrave",
+"idieresis.sc=idieresis",
+"iacute.sc=iacute",
+"i.sc=i",
+"h.sc=h",
+"g.sc=g",
+"f.sc=f",
+"egrave.sc=egrave",
+"edieresis.sc=edieresis",
+"eacute.sc=eacute",
+"e.sc=e",
+"eth.sc=eth",
+"d.sc=d",
+"ccedilla.sc=ccedilla",
+"c.sc=c",
+"b.sc=b",
+"ae.sc=ae",
+"atilde.sc=atilde",
+"aring.sc=aring",
+"agrave.sc=agrave",
+"adieresis.sc=adieresis",
+"aacute.sc=aacute",
+"a.sc=a",
+"oslash.sc.rule-Weight_118_208=oslash.rule-Weight_118_208"
+);
+},
+{
+name = "Remove Glyphs";
+value = (
+zcaron.sc,
+z.sc,
+ydieresis.sc,
+yacute.sc,
+y.sc,
+x.sc,
+w.sc,
+v.sc,
+ugrave.sc,
+udieresis.sc,
+uacute.sc,
+u.sc,
+t.sc,
+germandbls.sc,
+scaron.sc,
+s.sc,
+r.sc,
+q.sc,
+thorn.sc,
+p.sc,
+oe.sc,
+otilde.sc,
+oslash.sc,
+ograve.sc,
+odieresis.sc,
+oacute.sc,
+o.sc,
+ntilde.sc,
+n.sc,
+m.sc,
+l.sc,
+k.sc,
+j.sc,
+igrave.sc,
+idieresis.sc,
+iacute.sc,
+i.sc,
+h.sc,
+g.sc,
+f.sc,
+egrave.sc,
+edieresis.sc,
+eacute.sc,
+e.sc,
+eth.sc,
+d.sc,
+ccedilla.sc,
+c.sc,
+b.sc,
+ae.sc,
+atilde.sc,
+aring.sc,
+agrave.sc,
+adieresis.sc,
+aacute.sc,
+a.sc,
+"oslash.sc.rule-Weight_118_208"
+);
+},
+{
+name = familyName;
+value = "Piazzolla SC";
+}
+);
+interpolationWeight = 120;
+interpolationWidth = 30;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.49438;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.50562;
+};
+name = SemiBold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"zcaron.sc=zcaron",
+"z.sc=z",
+"ydieresis.sc=ydieresis",
+"yacute.sc=yacute",
+"y.sc=y",
+"x.sc=x",
+"w.sc=w",
+"v.sc=v",
+"ugrave.sc=ugrave",
+"udieresis.sc=udieresis",
+"uacute.sc=uacute",
+"u.sc=u",
+"t.sc=t",
+"germandbls.sc=germandbls",
+"scaron.sc=scaron",
+"s.sc=s",
+"r.sc=r",
+"q.sc=q",
+"thorn.sc=thorn",
+"p.sc=p",
+"oe.sc=oe",
+"otilde.sc=otilde",
+"oslash.sc=oslash",
+"ograve.sc=ograve",
+"odieresis.sc=odieresis",
+"oacute.sc=oacute",
+"o.sc=o",
+"ntilde.sc=ntilde",
+"n.sc=n",
+"m.sc=m",
+"l.sc=l",
+"k.sc=k",
+"j.sc=j",
+"igrave.sc=igrave",
+"idieresis.sc=idieresis",
+"iacute.sc=iacute",
+"i.sc=i",
+"h.sc=h",
+"g.sc=g",
+"f.sc=f",
+"egrave.sc=egrave",
+"edieresis.sc=edieresis",
+"eacute.sc=eacute",
+"e.sc=e",
+"eth.sc=eth",
+"d.sc=d",
+"ccedilla.sc=ccedilla",
+"c.sc=c",
+"b.sc=b",
+"ae.sc=ae",
+"atilde.sc=atilde",
+"aring.sc=aring",
+"agrave.sc=agrave",
+"adieresis.sc=adieresis",
+"aacute.sc=aacute",
+"a.sc=a",
+"oslash.sc.rule-Weight_118_208=oslash.rule-Weight_118_208"
+);
+},
+{
+name = "Remove Glyphs";
+value = (
+zcaron.sc,
+z.sc,
+ydieresis.sc,
+yacute.sc,
+y.sc,
+x.sc,
+w.sc,
+v.sc,
+ugrave.sc,
+udieresis.sc,
+uacute.sc,
+u.sc,
+t.sc,
+germandbls.sc,
+scaron.sc,
+s.sc,
+r.sc,
+q.sc,
+thorn.sc,
+p.sc,
+oe.sc,
+otilde.sc,
+oslash.sc,
+ograve.sc,
+odieresis.sc,
+oacute.sc,
+o.sc,
+ntilde.sc,
+n.sc,
+m.sc,
+l.sc,
+k.sc,
+j.sc,
+igrave.sc,
+idieresis.sc,
+iacute.sc,
+i.sc,
+h.sc,
+g.sc,
+f.sc,
+egrave.sc,
+edieresis.sc,
+eacute.sc,
+e.sc,
+eth.sc,
+d.sc,
+ccedilla.sc,
+c.sc,
+b.sc,
+ae.sc,
+atilde.sc,
+aring.sc,
+agrave.sc,
+adieresis.sc,
+aacute.sc,
+a.sc,
+"oslash.sc.rule-Weight_118_208"
+);
+},
+{
+name = familyName;
+value = "Piazzolla SC";
+}
+);
+interpolationWeight = 149;
+interpolationWidth = 30;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.33146;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.66854;
+};
+isBold = 1;
+linkStyle = Regular;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"zcaron.sc=zcaron",
+"z.sc=z",
+"ydieresis.sc=ydieresis",
+"yacute.sc=yacute",
+"y.sc=y",
+"x.sc=x",
+"w.sc=w",
+"v.sc=v",
+"ugrave.sc=ugrave",
+"udieresis.sc=udieresis",
+"uacute.sc=uacute",
+"u.sc=u",
+"t.sc=t",
+"germandbls.sc=germandbls",
+"scaron.sc=scaron",
+"s.sc=s",
+"r.sc=r",
+"q.sc=q",
+"thorn.sc=thorn",
+"p.sc=p",
+"oe.sc=oe",
+"otilde.sc=otilde",
+"oslash.sc=oslash",
+"ograve.sc=ograve",
+"odieresis.sc=odieresis",
+"oacute.sc=oacute",
+"o.sc=o",
+"ntilde.sc=ntilde",
+"n.sc=n",
+"m.sc=m",
+"l.sc=l",
+"k.sc=k",
+"j.sc=j",
+"igrave.sc=igrave",
+"idieresis.sc=idieresis",
+"iacute.sc=iacute",
+"i.sc=i",
+"h.sc=h",
+"g.sc=g",
+"f.sc=f",
+"egrave.sc=egrave",
+"edieresis.sc=edieresis",
+"eacute.sc=eacute",
+"e.sc=e",
+"eth.sc=eth",
+"d.sc=d",
+"ccedilla.sc=ccedilla",
+"c.sc=c",
+"b.sc=b",
+"ae.sc=ae",
+"atilde.sc=atilde",
+"aring.sc=aring",
+"agrave.sc=agrave",
+"adieresis.sc=adieresis",
+"aacute.sc=aacute",
+"a.sc=a",
+"oslash.sc.rule-Weight_118_208=oslash.rule-Weight_118_208"
+);
+},
+{
+name = "Remove Glyphs";
+value = (
+zcaron.sc,
+z.sc,
+ydieresis.sc,
+yacute.sc,
+y.sc,
+x.sc,
+w.sc,
+v.sc,
+ugrave.sc,
+udieresis.sc,
+uacute.sc,
+u.sc,
+t.sc,
+germandbls.sc,
+scaron.sc,
+s.sc,
+r.sc,
+q.sc,
+thorn.sc,
+p.sc,
+oe.sc,
+otilde.sc,
+oslash.sc,
+ograve.sc,
+odieresis.sc,
+oacute.sc,
+o.sc,
+ntilde.sc,
+n.sc,
+m.sc,
+l.sc,
+k.sc,
+j.sc,
+igrave.sc,
+idieresis.sc,
+iacute.sc,
+i.sc,
+h.sc,
+g.sc,
+f.sc,
+egrave.sc,
+edieresis.sc,
+eacute.sc,
+e.sc,
+eth.sc,
+d.sc,
+ccedilla.sc,
+c.sc,
+b.sc,
+ae.sc,
+atilde.sc,
+aring.sc,
+agrave.sc,
+adieresis.sc,
+aacute.sc,
+a.sc,
+"oslash.sc.rule-Weight_118_208"
+);
+},
+{
+name = familyName;
+value = "Piazzolla SC";
+}
+);
+interpolationWeight = 177;
+interpolationWidth = 30;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.17416;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.82584;
+};
+name = ExtraBold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"zcaron.sc=zcaron",
+"z.sc=z",
+"ydieresis.sc=ydieresis",
+"yacute.sc=yacute",
+"y.sc=y",
+"x.sc=x",
+"w.sc=w",
+"v.sc=v",
+"ugrave.sc=ugrave",
+"udieresis.sc=udieresis",
+"uacute.sc=uacute",
+"u.sc=u",
+"t.sc=t",
+"germandbls.sc=germandbls",
+"scaron.sc=scaron",
+"s.sc=s",
+"r.sc=r",
+"q.sc=q",
+"thorn.sc=thorn",
+"p.sc=p",
+"oe.sc=oe",
+"otilde.sc=otilde",
+"oslash.sc=oslash",
+"ograve.sc=ograve",
+"odieresis.sc=odieresis",
+"oacute.sc=oacute",
+"o.sc=o",
+"ntilde.sc=ntilde",
+"n.sc=n",
+"m.sc=m",
+"l.sc=l",
+"k.sc=k",
+"j.sc=j",
+"igrave.sc=igrave",
+"idieresis.sc=idieresis",
+"iacute.sc=iacute",
+"i.sc=i",
+"h.sc=h",
+"g.sc=g",
+"f.sc=f",
+"egrave.sc=egrave",
+"edieresis.sc=edieresis",
+"eacute.sc=eacute",
+"e.sc=e",
+"eth.sc=eth",
+"d.sc=d",
+"ccedilla.sc=ccedilla",
+"c.sc=c",
+"b.sc=b",
+"ae.sc=ae",
+"atilde.sc=atilde",
+"aring.sc=aring",
+"agrave.sc=agrave",
+"adieresis.sc=adieresis",
+"aacute.sc=aacute",
+"a.sc=a",
+"oslash.sc.rule-Weight_118_208=oslash.rule-Weight_118_208"
+);
+},
+{
+name = "Remove Glyphs";
+value = (
+zcaron.sc,
+z.sc,
+ydieresis.sc,
+yacute.sc,
+y.sc,
+x.sc,
+w.sc,
+v.sc,
+ugrave.sc,
+udieresis.sc,
+uacute.sc,
+u.sc,
+t.sc,
+germandbls.sc,
+scaron.sc,
+s.sc,
+r.sc,
+q.sc,
+thorn.sc,
+p.sc,
+oe.sc,
+otilde.sc,
+oslash.sc,
+ograve.sc,
+odieresis.sc,
+oacute.sc,
+o.sc,
+ntilde.sc,
+n.sc,
+m.sc,
+l.sc,
+k.sc,
+j.sc,
+igrave.sc,
+idieresis.sc,
+iacute.sc,
+i.sc,
+h.sc,
+g.sc,
+f.sc,
+egrave.sc,
+edieresis.sc,
+eacute.sc,
+e.sc,
+eth.sc,
+d.sc,
+ccedilla.sc,
+c.sc,
+b.sc,
+ae.sc,
+atilde.sc,
+aring.sc,
+agrave.sc,
+adieresis.sc,
+aacute.sc,
+a.sc,
+"oslash.sc.rule-Weight_118_208"
+);
+},
+{
+name = familyName;
+value = "Piazzolla SC";
+}
+);
+interpolationWeight = 208;
+interpolationWidth = 30;
+instanceInterpolations = {
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = weightClass;
+value = 250;
+},
+{
+name = "Rename Glyphs";
+value = (
+"zcaron.sc=zcaron",
+"z.sc=z",
+"ydieresis.sc=ydieresis",
+"yacute.sc=yacute",
+"y.sc=y",
+"x.sc=x",
+"w.sc=w",
+"v.sc=v",
+"ugrave.sc=ugrave",
+"udieresis.sc=udieresis",
+"uacute.sc=uacute",
+"u.sc=u",
+"t.sc=t",
+"germandbls.sc=germandbls",
+"scaron.sc=scaron",
+"s.sc=s",
+"r.sc=r",
+"q.sc=q",
+"thorn.sc=thorn",
+"p.sc=p",
+"oe.sc=oe",
+"otilde.sc=otilde",
+"oslash.sc=oslash",
+"ograve.sc=ograve",
+"odieresis.sc=odieresis",
+"oacute.sc=oacute",
+"o.sc=o",
+"ntilde.sc=ntilde",
+"n.sc=n",
+"m.sc=m",
+"l.sc=l",
+"k.sc=k",
+"j.sc=j",
+"igrave.sc=igrave",
+"idieresis.sc=idieresis",
+"iacute.sc=iacute",
+"i.sc=i",
+"h.sc=h",
+"g.sc=g",
+"f.sc=f",
+"egrave.sc=egrave",
+"edieresis.sc=edieresis",
+"eacute.sc=eacute",
+"e.sc=e",
+"eth.sc=eth",
+"d.sc=d",
+"ccedilla.sc=ccedilla",
+"c.sc=c",
+"b.sc=b",
+"ae.sc=ae",
+"atilde.sc=atilde",
+"aring.sc=aring",
+"agrave.sc=agrave",
+"adieresis.sc=adieresis",
+"aacute.sc=aacute",
+"a.sc=a",
+"oslash.sc.rule-Weight_118_208=oslash.rule-Weight_118_208"
+);
+},
+{
+name = "Remove Glyphs";
+value = (
+zcaron.sc,
+z.sc,
+ydieresis.sc,
+yacute.sc,
+y.sc,
+x.sc,
+w.sc,
+v.sc,
+ugrave.sc,
+udieresis.sc,
+uacute.sc,
+u.sc,
+t.sc,
+germandbls.sc,
+scaron.sc,
+s.sc,
+r.sc,
+q.sc,
+thorn.sc,
+p.sc,
+oe.sc,
+otilde.sc,
+oslash.sc,
+ograve.sc,
+odieresis.sc,
+oacute.sc,
+o.sc,
+ntilde.sc,
+n.sc,
+m.sc,
+l.sc,
+k.sc,
+j.sc,
+igrave.sc,
+idieresis.sc,
+iacute.sc,
+i.sc,
+h.sc,
+g.sc,
+f.sc,
+egrave.sc,
+edieresis.sc,
+eacute.sc,
+e.sc,
+eth.sc,
+d.sc,
+ccedilla.sc,
+c.sc,
+b.sc,
+ae.sc,
+atilde.sc,
+aring.sc,
+agrave.sc,
+adieresis.sc,
+aacute.sc,
+a.sc,
+"oslash.sc.rule-Weight_118_208"
+);
+},
+{
+name = familyName;
+value = "Piazzolla SC";
+}
+);
+interpolationWeight = 30;
+interpolationWidth = 16;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 1;
+};
+name = "Thin Text";
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = weightClass;
+value = 275;
+},
+{
+name = "Rename Glyphs";
+value = (
+"zcaron.sc=zcaron",
+"z.sc=z",
+"ydieresis.sc=ydieresis",
+"yacute.sc=yacute",
+"y.sc=y",
+"x.sc=x",
+"w.sc=w",
+"v.sc=v",
+"ugrave.sc=ugrave",
+"udieresis.sc=udieresis",
+"uacute.sc=uacute",
+"u.sc=u",
+"t.sc=t",
+"germandbls.sc=germandbls",
+"scaron.sc=scaron",
+"s.sc=s",
+"r.sc=r",
+"q.sc=q",
+"thorn.sc=thorn",
+"p.sc=p",
+"oe.sc=oe",
+"otilde.sc=otilde",
+"oslash.sc=oslash",
+"ograve.sc=ograve",
+"odieresis.sc=odieresis",
+"oacute.sc=oacute",
+"o.sc=o",
+"ntilde.sc=ntilde",
+"n.sc=n",
+"m.sc=m",
+"l.sc=l",
+"k.sc=k",
+"j.sc=j",
+"igrave.sc=igrave",
+"idieresis.sc=idieresis",
+"iacute.sc=iacute",
+"i.sc=i",
+"h.sc=h",
+"g.sc=g",
+"f.sc=f",
+"egrave.sc=egrave",
+"edieresis.sc=edieresis",
+"eacute.sc=eacute",
+"e.sc=e",
+"eth.sc=eth",
+"d.sc=d",
+"ccedilla.sc=ccedilla",
+"c.sc=c",
+"b.sc=b",
+"ae.sc=ae",
+"atilde.sc=atilde",
+"aring.sc=aring",
+"agrave.sc=agrave",
+"adieresis.sc=adieresis",
+"aacute.sc=aacute",
+"a.sc=a",
+"oslash.sc.rule-Weight_118_208=oslash.rule-Weight_118_208"
+);
+},
+{
+name = "Remove Glyphs";
+value = (
+zcaron.sc,
+z.sc,
+ydieresis.sc,
+yacute.sc,
+y.sc,
+x.sc,
+w.sc,
+v.sc,
+ugrave.sc,
+udieresis.sc,
+uacute.sc,
+u.sc,
+t.sc,
+germandbls.sc,
+scaron.sc,
+s.sc,
+r.sc,
+q.sc,
+thorn.sc,
+p.sc,
+oe.sc,
+otilde.sc,
+oslash.sc,
+ograve.sc,
+odieresis.sc,
+oacute.sc,
+o.sc,
+ntilde.sc,
+n.sc,
+m.sc,
+l.sc,
+k.sc,
+j.sc,
+igrave.sc,
+idieresis.sc,
+iacute.sc,
+i.sc,
+h.sc,
+g.sc,
+f.sc,
+egrave.sc,
+edieresis.sc,
+eacute.sc,
+e.sc,
+eth.sc,
+d.sc,
+ccedilla.sc,
+c.sc,
+b.sc,
+ae.sc,
+atilde.sc,
+aring.sc,
+agrave.sc,
+adieresis.sc,
+aacute.sc,
+a.sc,
+"oslash.sc.rule-Weight_118_208"
+);
+},
+{
+name = familyName;
+value = "Piazzolla SC";
+}
+);
+interpolationWeight = 45;
+interpolationWidth = 16;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.91573;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.08427;
+};
+name = "ExtraLight Text";
+weightClass = UltraLight;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"zcaron.sc=zcaron",
+"z.sc=z",
+"ydieresis.sc=ydieresis",
+"yacute.sc=yacute",
+"y.sc=y",
+"x.sc=x",
+"w.sc=w",
+"v.sc=v",
+"ugrave.sc=ugrave",
+"udieresis.sc=udieresis",
+"uacute.sc=uacute",
+"u.sc=u",
+"t.sc=t",
+"germandbls.sc=germandbls",
+"scaron.sc=scaron",
+"s.sc=s",
+"r.sc=r",
+"q.sc=q",
+"thorn.sc=thorn",
+"p.sc=p",
+"oe.sc=oe",
+"otilde.sc=otilde",
+"oslash.sc=oslash",
+"ograve.sc=ograve",
+"odieresis.sc=odieresis",
+"oacute.sc=oacute",
+"o.sc=o",
+"ntilde.sc=ntilde",
+"n.sc=n",
+"m.sc=m",
+"l.sc=l",
+"k.sc=k",
+"j.sc=j",
+"igrave.sc=igrave",
+"idieresis.sc=idieresis",
+"iacute.sc=iacute",
+"i.sc=i",
+"h.sc=h",
+"g.sc=g",
+"f.sc=f",
+"egrave.sc=egrave",
+"edieresis.sc=edieresis",
+"eacute.sc=eacute",
+"e.sc=e",
+"eth.sc=eth",
+"d.sc=d",
+"ccedilla.sc=ccedilla",
+"c.sc=c",
+"b.sc=b",
+"ae.sc=ae",
+"atilde.sc=atilde",
+"aring.sc=aring",
+"agrave.sc=agrave",
+"adieresis.sc=adieresis",
+"aacute.sc=aacute",
+"a.sc=a",
+"oslash.sc.rule-Weight_118_208=oslash.rule-Weight_118_208"
+);
+},
+{
+name = "Remove Glyphs";
+value = (
+zcaron.sc,
+z.sc,
+ydieresis.sc,
+yacute.sc,
+y.sc,
+x.sc,
+w.sc,
+v.sc,
+ugrave.sc,
+udieresis.sc,
+uacute.sc,
+u.sc,
+t.sc,
+germandbls.sc,
+scaron.sc,
+s.sc,
+r.sc,
+q.sc,
+thorn.sc,
+p.sc,
+oe.sc,
+otilde.sc,
+oslash.sc,
+ograve.sc,
+odieresis.sc,
+oacute.sc,
+o.sc,
+ntilde.sc,
+n.sc,
+m.sc,
+l.sc,
+k.sc,
+j.sc,
+igrave.sc,
+idieresis.sc,
+iacute.sc,
+i.sc,
+h.sc,
+g.sc,
+f.sc,
+egrave.sc,
+edieresis.sc,
+eacute.sc,
+e.sc,
+eth.sc,
+d.sc,
+ccedilla.sc,
+c.sc,
+b.sc,
+ae.sc,
+atilde.sc,
+aring.sc,
+agrave.sc,
+adieresis.sc,
+aacute.sc,
+a.sc,
+"oslash.sc.rule-Weight_118_208"
+);
+},
+{
+name = familyName;
+value = "Piazzolla SC";
+}
+);
+interpolationWeight = 62;
+interpolationWidth = 16;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.82022;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.17978;
+};
+name = "Light Text";
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"zcaron.sc=zcaron",
+"z.sc=z",
+"ydieresis.sc=ydieresis",
+"yacute.sc=yacute",
+"y.sc=y",
+"x.sc=x",
+"w.sc=w",
+"v.sc=v",
+"ugrave.sc=ugrave",
+"udieresis.sc=udieresis",
+"uacute.sc=uacute",
+"u.sc=u",
+"t.sc=t",
+"germandbls.sc=germandbls",
+"scaron.sc=scaron",
+"s.sc=s",
+"r.sc=r",
+"q.sc=q",
+"thorn.sc=thorn",
+"p.sc=p",
+"oe.sc=oe",
+"otilde.sc=otilde",
+"oslash.sc=oslash",
+"ograve.sc=ograve",
+"odieresis.sc=odieresis",
+"oacute.sc=oacute",
+"o.sc=o",
+"ntilde.sc=ntilde",
+"n.sc=n",
+"m.sc=m",
+"l.sc=l",
+"k.sc=k",
+"j.sc=j",
+"igrave.sc=igrave",
+"idieresis.sc=idieresis",
+"iacute.sc=iacute",
+"i.sc=i",
+"h.sc=h",
+"g.sc=g",
+"f.sc=f",
+"egrave.sc=egrave",
+"edieresis.sc=edieresis",
+"eacute.sc=eacute",
+"e.sc=e",
+"eth.sc=eth",
+"d.sc=d",
+"ccedilla.sc=ccedilla",
+"c.sc=c",
+"b.sc=b",
+"ae.sc=ae",
+"atilde.sc=atilde",
+"aring.sc=aring",
+"agrave.sc=agrave",
+"adieresis.sc=adieresis",
+"aacute.sc=aacute",
+"a.sc=a",
+"oslash.sc.rule-Weight_118_208=oslash.rule-Weight_118_208"
+);
+},
+{
+name = "Remove Glyphs";
+value = (
+zcaron.sc,
+z.sc,
+ydieresis.sc,
+yacute.sc,
+y.sc,
+x.sc,
+w.sc,
+v.sc,
+ugrave.sc,
+udieresis.sc,
+uacute.sc,
+u.sc,
+t.sc,
+germandbls.sc,
+scaron.sc,
+s.sc,
+r.sc,
+q.sc,
+thorn.sc,
+p.sc,
+oe.sc,
+otilde.sc,
+oslash.sc,
+ograve.sc,
+odieresis.sc,
+oacute.sc,
+o.sc,
+ntilde.sc,
+n.sc,
+m.sc,
+l.sc,
+k.sc,
+j.sc,
+igrave.sc,
+idieresis.sc,
+iacute.sc,
+i.sc,
+h.sc,
+g.sc,
+f.sc,
+egrave.sc,
+edieresis.sc,
+eacute.sc,
+e.sc,
+eth.sc,
+d.sc,
+ccedilla.sc,
+c.sc,
+b.sc,
+ae.sc,
+atilde.sc,
+aring.sc,
+agrave.sc,
+adieresis.sc,
+aacute.sc,
+a.sc,
+"oslash.sc.rule-Weight_118_208"
+);
+},
+{
+name = familyName;
+value = "Piazzolla SC";
+}
+);
+interpolationWeight = 80;
+interpolationWidth = 16;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.7191;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.2809;
+};
+name = "Regular Text";
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"zcaron.sc=zcaron",
+"z.sc=z",
+"ydieresis.sc=ydieresis",
+"yacute.sc=yacute",
+"y.sc=y",
+"x.sc=x",
+"w.sc=w",
+"v.sc=v",
+"ugrave.sc=ugrave",
+"udieresis.sc=udieresis",
+"uacute.sc=uacute",
+"u.sc=u",
+"t.sc=t",
+"germandbls.sc=germandbls",
+"scaron.sc=scaron",
+"s.sc=s",
+"r.sc=r",
+"q.sc=q",
+"thorn.sc=thorn",
+"p.sc=p",
+"oe.sc=oe",
+"otilde.sc=otilde",
+"oslash.sc=oslash",
+"ograve.sc=ograve",
+"odieresis.sc=odieresis",
+"oacute.sc=oacute",
+"o.sc=o",
+"ntilde.sc=ntilde",
+"n.sc=n",
+"m.sc=m",
+"l.sc=l",
+"k.sc=k",
+"j.sc=j",
+"igrave.sc=igrave",
+"idieresis.sc=idieresis",
+"iacute.sc=iacute",
+"i.sc=i",
+"h.sc=h",
+"g.sc=g",
+"f.sc=f",
+"egrave.sc=egrave",
+"edieresis.sc=edieresis",
+"eacute.sc=eacute",
+"e.sc=e",
+"eth.sc=eth",
+"d.sc=d",
+"ccedilla.sc=ccedilla",
+"c.sc=c",
+"b.sc=b",
+"ae.sc=ae",
+"atilde.sc=atilde",
+"aring.sc=aring",
+"agrave.sc=agrave",
+"adieresis.sc=adieresis",
+"aacute.sc=aacute",
+"a.sc=a",
+"oslash.sc.rule-Weight_118_208=oslash.rule-Weight_118_208"
+);
+},
+{
+name = "Remove Glyphs";
+value = (
+zcaron.sc,
+z.sc,
+ydieresis.sc,
+yacute.sc,
+y.sc,
+x.sc,
+w.sc,
+v.sc,
+ugrave.sc,
+udieresis.sc,
+uacute.sc,
+u.sc,
+t.sc,
+germandbls.sc,
+scaron.sc,
+s.sc,
+r.sc,
+q.sc,
+thorn.sc,
+p.sc,
+oe.sc,
+otilde.sc,
+oslash.sc,
+ograve.sc,
+odieresis.sc,
+oacute.sc,
+o.sc,
+ntilde.sc,
+n.sc,
+m.sc,
+l.sc,
+k.sc,
+j.sc,
+igrave.sc,
+idieresis.sc,
+iacute.sc,
+i.sc,
+h.sc,
+g.sc,
+f.sc,
+egrave.sc,
+edieresis.sc,
+eacute.sc,
+e.sc,
+eth.sc,
+d.sc,
+ccedilla.sc,
+c.sc,
+b.sc,
+ae.sc,
+atilde.sc,
+aring.sc,
+agrave.sc,
+adieresis.sc,
+aacute.sc,
+a.sc,
+"oslash.sc.rule-Weight_118_208"
+);
+},
+{
+name = familyName;
+value = "Piazzolla SC";
+}
+);
+interpolationWeight = 99;
+interpolationWidth = 16;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.61236;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.38764;
+};
+name = "Medium Text";
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"zcaron.sc=zcaron",
+"z.sc=z",
+"ydieresis.sc=ydieresis",
+"yacute.sc=yacute",
+"y.sc=y",
+"x.sc=x",
+"w.sc=w",
+"v.sc=v",
+"ugrave.sc=ugrave",
+"udieresis.sc=udieresis",
+"uacute.sc=uacute",
+"u.sc=u",
+"t.sc=t",
+"germandbls.sc=germandbls",
+"scaron.sc=scaron",
+"s.sc=s",
+"r.sc=r",
+"q.sc=q",
+"thorn.sc=thorn",
+"p.sc=p",
+"oe.sc=oe",
+"otilde.sc=otilde",
+"oslash.sc=oslash",
+"ograve.sc=ograve",
+"odieresis.sc=odieresis",
+"oacute.sc=oacute",
+"o.sc=o",
+"ntilde.sc=ntilde",
+"n.sc=n",
+"m.sc=m",
+"l.sc=l",
+"k.sc=k",
+"j.sc=j",
+"igrave.sc=igrave",
+"idieresis.sc=idieresis",
+"iacute.sc=iacute",
+"i.sc=i",
+"h.sc=h",
+"g.sc=g",
+"f.sc=f",
+"egrave.sc=egrave",
+"edieresis.sc=edieresis",
+"eacute.sc=eacute",
+"e.sc=e",
+"eth.sc=eth",
+"d.sc=d",
+"ccedilla.sc=ccedilla",
+"c.sc=c",
+"b.sc=b",
+"ae.sc=ae",
+"atilde.sc=atilde",
+"aring.sc=aring",
+"agrave.sc=agrave",
+"adieresis.sc=adieresis",
+"aacute.sc=aacute",
+"a.sc=a",
+"oslash.sc.rule-Weight_118_208=oslash.rule-Weight_118_208"
+);
+},
+{
+name = "Remove Glyphs";
+value = (
+zcaron.sc,
+z.sc,
+ydieresis.sc,
+yacute.sc,
+y.sc,
+x.sc,
+w.sc,
+v.sc,
+ugrave.sc,
+udieresis.sc,
+uacute.sc,
+u.sc,
+t.sc,
+germandbls.sc,
+scaron.sc,
+s.sc,
+r.sc,
+q.sc,
+thorn.sc,
+p.sc,
+oe.sc,
+otilde.sc,
+oslash.sc,
+ograve.sc,
+odieresis.sc,
+oacute.sc,
+o.sc,
+ntilde.sc,
+n.sc,
+m.sc,
+l.sc,
+k.sc,
+j.sc,
+igrave.sc,
+idieresis.sc,
+iacute.sc,
+i.sc,
+h.sc,
+g.sc,
+f.sc,
+egrave.sc,
+edieresis.sc,
+eacute.sc,
+e.sc,
+eth.sc,
+d.sc,
+ccedilla.sc,
+c.sc,
+b.sc,
+ae.sc,
+atilde.sc,
+aring.sc,
+agrave.sc,
+adieresis.sc,
+aacute.sc,
+a.sc,
+"oslash.sc.rule-Weight_118_208"
+);
+},
+{
+name = familyName;
+value = "Piazzolla SC";
+}
+);
+interpolationWeight = 120;
+interpolationWidth = 16;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.49438;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.50562;
+};
+name = "SemiBold Text";
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"zcaron.sc=zcaron",
+"z.sc=z",
+"ydieresis.sc=ydieresis",
+"yacute.sc=yacute",
+"y.sc=y",
+"x.sc=x",
+"w.sc=w",
+"v.sc=v",
+"ugrave.sc=ugrave",
+"udieresis.sc=udieresis",
+"uacute.sc=uacute",
+"u.sc=u",
+"t.sc=t",
+"germandbls.sc=germandbls",
+"scaron.sc=scaron",
+"s.sc=s",
+"r.sc=r",
+"q.sc=q",
+"thorn.sc=thorn",
+"p.sc=p",
+"oe.sc=oe",
+"otilde.sc=otilde",
+"oslash.sc=oslash",
+"ograve.sc=ograve",
+"odieresis.sc=odieresis",
+"oacute.sc=oacute",
+"o.sc=o",
+"ntilde.sc=ntilde",
+"n.sc=n",
+"m.sc=m",
+"l.sc=l",
+"k.sc=k",
+"j.sc=j",
+"igrave.sc=igrave",
+"idieresis.sc=idieresis",
+"iacute.sc=iacute",
+"i.sc=i",
+"h.sc=h",
+"g.sc=g",
+"f.sc=f",
+"egrave.sc=egrave",
+"edieresis.sc=edieresis",
+"eacute.sc=eacute",
+"e.sc=e",
+"eth.sc=eth",
+"d.sc=d",
+"ccedilla.sc=ccedilla",
+"c.sc=c",
+"b.sc=b",
+"ae.sc=ae",
+"atilde.sc=atilde",
+"aring.sc=aring",
+"agrave.sc=agrave",
+"adieresis.sc=adieresis",
+"aacute.sc=aacute",
+"a.sc=a",
+"oslash.sc.rule-Weight_118_208=oslash.rule-Weight_118_208"
+);
+},
+{
+name = "Remove Glyphs";
+value = (
+zcaron.sc,
+z.sc,
+ydieresis.sc,
+yacute.sc,
+y.sc,
+x.sc,
+w.sc,
+v.sc,
+ugrave.sc,
+udieresis.sc,
+uacute.sc,
+u.sc,
+t.sc,
+germandbls.sc,
+scaron.sc,
+s.sc,
+r.sc,
+q.sc,
+thorn.sc,
+p.sc,
+oe.sc,
+otilde.sc,
+oslash.sc,
+ograve.sc,
+odieresis.sc,
+oacute.sc,
+o.sc,
+ntilde.sc,
+n.sc,
+m.sc,
+l.sc,
+k.sc,
+j.sc,
+igrave.sc,
+idieresis.sc,
+iacute.sc,
+i.sc,
+h.sc,
+g.sc,
+f.sc,
+egrave.sc,
+edieresis.sc,
+eacute.sc,
+e.sc,
+eth.sc,
+d.sc,
+ccedilla.sc,
+c.sc,
+b.sc,
+ae.sc,
+atilde.sc,
+aring.sc,
+agrave.sc,
+adieresis.sc,
+aacute.sc,
+a.sc,
+"oslash.sc.rule-Weight_118_208"
+);
+},
+{
+name = familyName;
+value = "Piazzolla SC";
+}
+);
+interpolationWeight = 149;
+interpolationWidth = 16;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.33146;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.66854;
+};
+isBold = 1;
+linkStyle = "Regular Text";
+name = "Bold Text";
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"zcaron.sc=zcaron",
+"z.sc=z",
+"ydieresis.sc=ydieresis",
+"yacute.sc=yacute",
+"y.sc=y",
+"x.sc=x",
+"w.sc=w",
+"v.sc=v",
+"ugrave.sc=ugrave",
+"udieresis.sc=udieresis",
+"uacute.sc=uacute",
+"u.sc=u",
+"t.sc=t",
+"germandbls.sc=germandbls",
+"scaron.sc=scaron",
+"s.sc=s",
+"r.sc=r",
+"q.sc=q",
+"thorn.sc=thorn",
+"p.sc=p",
+"oe.sc=oe",
+"otilde.sc=otilde",
+"oslash.sc=oslash",
+"ograve.sc=ograve",
+"odieresis.sc=odieresis",
+"oacute.sc=oacute",
+"o.sc=o",
+"ntilde.sc=ntilde",
+"n.sc=n",
+"m.sc=m",
+"l.sc=l",
+"k.sc=k",
+"j.sc=j",
+"igrave.sc=igrave",
+"idieresis.sc=idieresis",
+"iacute.sc=iacute",
+"i.sc=i",
+"h.sc=h",
+"g.sc=g",
+"f.sc=f",
+"egrave.sc=egrave",
+"edieresis.sc=edieresis",
+"eacute.sc=eacute",
+"e.sc=e",
+"eth.sc=eth",
+"d.sc=d",
+"ccedilla.sc=ccedilla",
+"c.sc=c",
+"b.sc=b",
+"ae.sc=ae",
+"atilde.sc=atilde",
+"aring.sc=aring",
+"agrave.sc=agrave",
+"adieresis.sc=adieresis",
+"aacute.sc=aacute",
+"a.sc=a",
+"oslash.sc.rule-Weight_118_208=oslash.rule-Weight_118_208"
+);
+},
+{
+name = "Remove Glyphs";
+value = (
+zcaron.sc,
+z.sc,
+ydieresis.sc,
+yacute.sc,
+y.sc,
+x.sc,
+w.sc,
+v.sc,
+ugrave.sc,
+udieresis.sc,
+uacute.sc,
+u.sc,
+t.sc,
+germandbls.sc,
+scaron.sc,
+s.sc,
+r.sc,
+q.sc,
+thorn.sc,
+p.sc,
+oe.sc,
+otilde.sc,
+oslash.sc,
+ograve.sc,
+odieresis.sc,
+oacute.sc,
+o.sc,
+ntilde.sc,
+n.sc,
+m.sc,
+l.sc,
+k.sc,
+j.sc,
+igrave.sc,
+idieresis.sc,
+iacute.sc,
+i.sc,
+h.sc,
+g.sc,
+f.sc,
+egrave.sc,
+edieresis.sc,
+eacute.sc,
+e.sc,
+eth.sc,
+d.sc,
+ccedilla.sc,
+c.sc,
+b.sc,
+ae.sc,
+atilde.sc,
+aring.sc,
+agrave.sc,
+adieresis.sc,
+aacute.sc,
+a.sc,
+"oslash.sc.rule-Weight_118_208"
+);
+},
+{
+name = familyName;
+value = "Piazzolla SC";
+}
+);
+interpolationWeight = 177;
+interpolationWidth = 16;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.17416;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.82584;
+};
+name = "ExtraBold Text";
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"zcaron.sc=zcaron",
+"z.sc=z",
+"ydieresis.sc=ydieresis",
+"yacute.sc=yacute",
+"y.sc=y",
+"x.sc=x",
+"w.sc=w",
+"v.sc=v",
+"ugrave.sc=ugrave",
+"udieresis.sc=udieresis",
+"uacute.sc=uacute",
+"u.sc=u",
+"t.sc=t",
+"germandbls.sc=germandbls",
+"scaron.sc=scaron",
+"s.sc=s",
+"r.sc=r",
+"q.sc=q",
+"thorn.sc=thorn",
+"p.sc=p",
+"oe.sc=oe",
+"otilde.sc=otilde",
+"oslash.sc=oslash",
+"ograve.sc=ograve",
+"odieresis.sc=odieresis",
+"oacute.sc=oacute",
+"o.sc=o",
+"ntilde.sc=ntilde",
+"n.sc=n",
+"m.sc=m",
+"l.sc=l",
+"k.sc=k",
+"j.sc=j",
+"igrave.sc=igrave",
+"idieresis.sc=idieresis",
+"iacute.sc=iacute",
+"i.sc=i",
+"h.sc=h",
+"g.sc=g",
+"f.sc=f",
+"egrave.sc=egrave",
+"edieresis.sc=edieresis",
+"eacute.sc=eacute",
+"e.sc=e",
+"eth.sc=eth",
+"d.sc=d",
+"ccedilla.sc=ccedilla",
+"c.sc=c",
+"b.sc=b",
+"ae.sc=ae",
+"atilde.sc=atilde",
+"aring.sc=aring",
+"agrave.sc=agrave",
+"adieresis.sc=adieresis",
+"aacute.sc=aacute",
+"a.sc=a",
+"oslash.sc.rule-Weight_118_208=oslash.rule-Weight_118_208"
+);
+},
+{
+name = "Remove Glyphs";
+value = (
+zcaron.sc,
+z.sc,
+ydieresis.sc,
+yacute.sc,
+y.sc,
+x.sc,
+w.sc,
+v.sc,
+ugrave.sc,
+udieresis.sc,
+uacute.sc,
+u.sc,
+t.sc,
+germandbls.sc,
+scaron.sc,
+s.sc,
+r.sc,
+q.sc,
+thorn.sc,
+p.sc,
+oe.sc,
+otilde.sc,
+oslash.sc,
+ograve.sc,
+odieresis.sc,
+oacute.sc,
+o.sc,
+ntilde.sc,
+n.sc,
+m.sc,
+l.sc,
+k.sc,
+j.sc,
+igrave.sc,
+idieresis.sc,
+iacute.sc,
+i.sc,
+h.sc,
+g.sc,
+f.sc,
+egrave.sc,
+edieresis.sc,
+eacute.sc,
+e.sc,
+eth.sc,
+d.sc,
+ccedilla.sc,
+c.sc,
+b.sc,
+ae.sc,
+atilde.sc,
+aring.sc,
+agrave.sc,
+adieresis.sc,
+aacute.sc,
+a.sc,
+"oslash.sc.rule-Weight_118_208"
+);
+},
+{
+name = familyName;
+value = "Piazzolla SC";
+}
+);
+interpolationWeight = 208;
+interpolationWidth = 16;
+instanceInterpolations = {
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 1;
+};
+name = "Black Text";
 weightClass = Black;
 }
 );
