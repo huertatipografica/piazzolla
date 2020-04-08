@@ -102,6 +102,10 @@ code = "languagesystem DFLT dflt;
 
 
 
+
+
+
+
 languagesystem latn dflt;
 languagesystem latn AZE;
 languagesystem latn CRT;
@@ -112,6 +116,10 @@ languagesystem latn ROM;
 languagesystem latn MOL;
 languagesystem latn NLD;
 languagesystem latn CAT;
+
+
+
+
 
 
 
@@ -167,10 +175,18 @@ code = "lookup ccmp_Other_1 {
 
 
 
+
+
+
+
 lookup ccmp_Other_2 {
 	sub @Markscomb' @MarkscombCase by @MarkscombCase;
 	sub @MarkscombCase @Markscomb' by @MarkscombCase;
 } ccmp_Other_2;
+
+
+
+
 
 
 
@@ -196,6 +212,10 @@ lookup ccmp_Other_3 {
 
 
 
+
+
+
+
 lookup ccmp_latn_1 {
 	lookupflag 0;
 	sub brevecomb acutecomb by brevecomb_acutecomb;
@@ -207,6 +227,10 @@ lookup ccmp_latn_1 {
 	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
 	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
 } ccmp_latn_1;
+
+
+
+
 
 
 
@@ -231,6 +255,10 @@ code = "lookup locl_latn_0 {
 
 
 
+
+
+
+
 lookup locl_latn_1 {
 	script latn;
 	language ROM;
@@ -240,6 +268,10 @@ lookup locl_latn_1 {
 	sub Tcedilla by Tcommaaccent;
 	sub tcedilla by tcommaaccent;
 } locl_latn_1;
+
+
+
+
 
 
 
@@ -254,12 +286,20 @@ lookup locl_latn_2 {
 
 
 
+
+
+
+
 lookup locl_latn_3 {
 	script latn;
 	language CAT;
 	sub  l' periodcentered' l by ldot;
 	sub  L' periodcentered' L by Ldot;
 } locl_latn_3;
+
+
+
+
 
 
 
@@ -284,6 +324,10 @@ lookup locl_cyrl_0 {
 
 
 
+
+
+
+
 lookup locl_cyrl_1 {
 	script cyrl;
 	language BSH;
@@ -298,12 +342,20 @@ lookup locl_cyrl_1 {
 
 
 
+
+
+
+
 lookup locl_cyrl_2 {
 	script cyrl;
 	language CHU;
 	sub Esdescender-cy by Esdescender-cy.loclCHU;
 	sub esdescender-cy by esdescender-cy.loclCHU;
 } locl_cyrl_2;
+
+
+
+
 
 
 
@@ -581,6 +633,70 @@ name = frac;
 {
 code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
 sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1930,10 +2046,138 @@ sub f l by fl;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # f and t contextual ligatures
 sub f' @.f.t by f.f;
 sub t' @.f.t by t.t;
 sub t.rule-Weight_90_214' @.f.t by t.t.rule-Weight_90_214;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2064,9 +2308,137 @@ sub @Uppercase space' @Uppercase by space.case;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # longs
 sub longs i' by idotless;
 sub longs j' by jdotless;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2204,6 +2576,70 @@ sub acute y by yacute;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 sub [tilde tildecomb asciitilde] E by Etilde;
 sub [tilde tildecomb asciitilde] G by Gtilde;
 sub dieresis I by Idieresis;
@@ -2212,6 +2648,70 @@ sub dieresis O by Odieresis;
 sub [tilde tildecomb asciitilde] U by Utilde;
 sub [tilde tildecomb asciitilde] Y by Ytilde;
 sub acute Y by Yacute;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2399,6 +2899,70 @@ sub hyphen asciicircum less by northWestArrow;
 sub hyphen asciicircum greater by northEastArrow;
 sub greater asciicircum hyphen by southEastArrow;
 sub less asciicircum hyphen by southWestArrow;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -240520,7 +241084,7 @@ instanceInterpolations = {
 "FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.08427;
 };
 isItalic = 1;
-linkStyle = UltraLight;
+linkStyle = ExtraLight;
 name = "ExtraLight Italic";
 weightClass = UltraLight;
 },
@@ -241089,8 +241653,8 @@ kerning = {
 "@MMK_L_b.sc" = {
 "@MMK_R_O" = -9;
 "@MMK_R_o.sc" = -9;
-"@MMK_R_t.sc" = -9;
 "@MMK_R_o.sc.rule-Weight_118_208" = -9;
+"@MMK_R_t.sc" = -9;
 };
 "@MMK_L_beta" = {
 "@MMK_R_V" = -10;
@@ -241119,10 +241683,10 @@ kerning = {
 "@MMK_R_O" = -51;
 "@MMK_R_h.sc" = -17;
 "@MMK_R_o.sc" = -51;
+"@MMK_R_o.sc.rule-Weight_118_208" = -51;
 "@MMK_R_v.sc" = -17;
 "@MMK_R_x.sc" = -26;
 "@MMK_R_y.sc" = -9;
-"@MMK_R_o.sc.rule-Weight_118_208" = -51;
 };
 "@MMK_L_c.sups" = {
 "@MMK_R_O.sups" = -13;
@@ -241220,10 +241784,10 @@ parenright = 60;
 "@MMK_R_a.sc" = -43;
 "@MMK_R_j.sc" = -43;
 "@MMK_R_o.sc" = -34;
+"@MMK_R_o.sc.rule-Weight_118_208" = -34;
 "@MMK_R_v.sc" = -17;
 "@MMK_R_x.sc" = -9;
 "@MMK_R_y.sc" = -17;
-"@MMK_R_o.sc.rule-Weight_118_208" = -34;
 };
 "@MMK_L_f.sups" = {
 "@MMK_R_epsilon.sups" = -7;
@@ -241239,9 +241803,9 @@ parenright = 60;
 "@MMK_L_germandbls.sc" = {
 "@MMK_R_O" = -34;
 "@MMK_R_o.sc" = -34;
+"@MMK_R_o.sc.rule-Weight_118_208" = -34;
 "@MMK_R_t.sc" = -17;
 "@MMK_R_v.sc" = -17;
-"@MMK_R_o.sc.rule-Weight_118_208" = -34;
 };
 "@MMK_L_h.sc" = {
 "@MMK_R_O" = -3;
@@ -241283,10 +241847,10 @@ parenright = 10;
 "@MMK_R_O" = -43;
 "@MMK_R_a.sc" = -34;
 "@MMK_R_o.sc" = -43;
+"@MMK_R_o.sc.rule-Weight_118_208" = -43;
 "@MMK_R_t.sc" = -68;
 "@MMK_R_v.sc" = -85;
 "@MMK_R_y.sc" = -85;
-"@MMK_R_o.sc.rule-Weight_118_208" = -43;
 };
 "@MMK_L_lambda" = {
 "@MMK_R_T" = -40;
@@ -241361,8 +241925,8 @@ parenright = 10;
 "@MMK_R_H" = -3;
 "@MMK_R_a.sc" = -18;
 "@MMK_R_h.sc" = -3;
-"@MMK_R_prosgegrammeni.sc" = -3;
 "@MMK_R_j.sc" = -26;
+"@MMK_R_prosgegrammeni.sc" = -3;
 "@MMK_R_t.sc" = -43;
 "@MMK_R_v.sc" = -43;
 };
@@ -241450,9 +242014,9 @@ parenright = 10;
 "@MMK_R_a.sc" = -17;
 "@MMK_R_j.sc" = -17;
 "@MMK_R_o.sc" = -34;
+"@MMK_R_o.sc.rule-Weight_118_208" = -34;
 "@MMK_R_v.sc" = -43;
 "@MMK_R_y.sc" = -43;
-"@MMK_R_o.sc.rule-Weight_118_208" = -34;
 };
 "@MMK_L_r.sups" = {
 "@MMK_R_epsilon.sups" = -13;
@@ -241529,9 +242093,9 @@ parenright = 10;
 "@MMK_R_a.sc" = -77;
 "@MMK_R_j.sc" = -34;
 "@MMK_R_o.sc" = -43;
+"@MMK_R_o.sc.rule-Weight_118_208" = -43;
 "@MMK_R_x.sc" = -17;
 "@MMK_R_y.sc" = -17;
-"@MMK_R_o.sc.rule-Weight_118_208" = -43;
 };
 "@MMK_L_v.sups" = {
 "@MMK_R_chi.sups" = -7;
@@ -242011,8 +242575,8 @@ fraction = 30;
 "@MMK_L_b.sc" = {
 "@MMK_R_O" = -8;
 "@MMK_R_o.sc" = -8;
-"@MMK_R_v.sc" = -8;
 "@MMK_R_o.sc.rule-Weight_118_208" = -8;
+"@MMK_R_v.sc" = -8;
 };
 "@MMK_L_beta" = {
 "@MMK_R_asterisk" = -19.18;
@@ -242108,8 +242672,8 @@ question = 38.36;
 "@MMK_R_a.sc" = -48;
 "@MMK_R_j.sc" = -32;
 "@MMK_R_o.sc" = -8;
-"@MMK_R_t.sc" = 16;
 "@MMK_R_o.sc.rule-Weight_118_208" = -8;
+"@MMK_R_t.sc" = 16;
 };
 "@MMK_L_f.sups" = {
 "@MMK_R_lambda.sups" = 19;
@@ -242163,10 +242727,10 @@ parenright = 28.77;
 "@MMK_R_a.sc" = 8;
 "@MMK_R_j.sc" = 16;
 "@MMK_R_o.sc" = -8;
+"@MMK_R_o.sc.rule-Weight_118_208" = -8;
 "@MMK_R_t.sc" = -40;
 "@MMK_R_v.sc" = -48;
 "@MMK_R_y.sc" = -56.581;
-"@MMK_R_o.sc.rule-Weight_118_208" = -8;
 };
 "@MMK_L_lambda" = {
 "@MMK_R_S" = -9.59;
@@ -242252,8 +242816,8 @@ parenright = 28.77;
 "@MMK_R_H" = -3;
 "@MMK_R_a.sc" = -3;
 "@MMK_R_h.sc" = -3;
-"@MMK_R_prosgegrammeni.sc" = -3;
 "@MMK_R_j.sc" = -8;
+"@MMK_R_prosgegrammeni.sc" = -3;
 "@MMK_R_t.sc" = -8;
 "@MMK_R_v.sc" = -16;
 };
@@ -242313,9 +242877,9 @@ parenright = 28.77;
 "@MMK_L_r.sc" = {
 "@MMK_R_O" = -8;
 "@MMK_R_o.sc" = -8;
+"@MMK_R_o.sc.rule-Weight_118_208" = -8;
 "@MMK_R_t.sc" = -8;
 "@MMK_R_v.sc" = -16;
-"@MMK_R_o.sc.rule-Weight_118_208" = -8;
 };
 "@MMK_L_r.sups" = {
 "@MMK_R_lambda.sups" = -19;
@@ -242349,8 +242913,8 @@ parenright = 28.77;
 "@MMK_R_a.sc" = -40;
 "@MMK_R_j.sc" = -16;
 "@MMK_R_o.sc" = -8;
-"@MMK_R_t.sc" = 8;
 "@MMK_R_o.sc.rule-Weight_118_208" = -8;
+"@MMK_R_t.sc" = 8;
 };
 "@MMK_L_theta" = {
 "@MMK_R_period" = -38.36;

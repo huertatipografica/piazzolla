@@ -91,5 +91,5 @@ if $static; then
     mv fonts/static/*.otf fonts/static/otf
     mv fonts/static/*.ttf fonts/static/ttf
 fi
-for f in fonts/variable/*-VF*; do mv "$f" "${f//-VF/[wght,opsz]}"; done
+for f in fonts/variable/*-VF*; do mv "$f" "${f//-VF/[opsz,wght]}"; done
 cp extra/Thanks.png fonts
