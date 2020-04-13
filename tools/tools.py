@@ -3,8 +3,8 @@ from fontParts.world import OpenFont
 
 
 def parseRule(name):
-    source = name.split('.rule-')[0]
-    rules = re.search('(?<=.rule-)\w+', name).group(0)
+    source = name.split('.rl-')[0]
+    rules = re.search('(?<=.rl-)\w+', name).group(0)
     rules = rules.split('.')
     conditions = []
 

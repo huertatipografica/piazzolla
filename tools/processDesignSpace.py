@@ -153,7 +153,7 @@ doc.rules = []
 firstMaster = doc.sources[0]
 font = OpenFont(firstMaster.path)
 for glyph in font:
-    if ".rule" in glyph.name:
+    if ".rl" in glyph.name:
         r = parseRule(glyph.name)
 
         # create rule

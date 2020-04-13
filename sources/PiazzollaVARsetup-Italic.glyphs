@@ -3,17 +3,17 @@
 classes = (
 {
 automatic = 1;
-code = "A Aacute Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth E Eacute Edieresis Egrave F G H I Iacute Idieresis Igrave J K L M N Ntilde O Oacute Odieresis Ograve Oslash Otilde OE P Thorn Q R S Scaron T U Uacute Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron Oslash.rule-Weight_118_208";
+code = "A Aacute Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth E Eacute Edieresis Egrave F G H I Iacute Idieresis Igrave J K L M N Ntilde O Oacute Odieresis Ograve Oslash Otilde OE P Thorn Q R S Scaron T U Uacute Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron Oslash.rl-Weight_118_208";
 name = Uppercase;
 },
 {
 automatic = 1;
-code = "A Aacute Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth E Eacute Edieresis Egrave F G H I Iacute Idieresis Igrave J K L M N Ntilde O Oacute Odieresis Ograve Oslash Otilde OE P Thorn Q R S Scaron T U Uacute Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron Oslash.rule-Weight_118_208 a aacute adieresis agrave aring atilde ae b c ccedilla d eth e eacute edieresis egrave f g h i iacute idieresis igrave j k l m n ntilde o oacute odieresis ograve oslash otilde oe p thorn q r s scaron germandbls t u uacute udieresis ugrave v w x y yacute ydieresis z zcaron oslash.rule-Weight_118_208 oslash.sc.rule-Weight_118_208 a.sc aacute.sc adieresis.sc agrave.sc aring.sc atilde.sc ae.sc b.sc c.sc ccedilla.sc d.sc eth.sc e.sc eacute.sc edieresis.sc egrave.sc f.sc g.sc h.sc i.sc iacute.sc idieresis.sc igrave.sc j.sc k.sc l.sc m.sc n.sc ntilde.sc o.sc oacute.sc odieresis.sc ograve.sc oslash.sc otilde.sc oe.sc p.sc thorn.sc q.sc r.sc s.sc scaron.sc germandbls.sc t.sc u.sc uacute.sc udieresis.sc ugrave.sc v.sc w.sc x.sc y.sc yacute.sc ydieresis.sc z.sc zcaron.sc ordfeminine ordmasculine mu zero one two three four five six seven eight nine onesuperior twosuperior threesuperior period comma colon semicolon ellipsis exclam exclamdown question questiondown periodcentered bullet asterisk numbersign slash backslash parenleft parenright braceleft braceright bracketleft bracketright hyphen endash emdash underscore quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright guillemetleft guillemetright guilsinglleft guilsinglright quotedbl quotesingle space cent dollar florin sterling yen plus multiply divide equal greater less plusminus asciitilde logicalnot asciicircum at ampersand paragraph section copyright registered trademark degree bar brokenbar dagger daggerdbl cent.rule-Weight_118_208 dollar.rule-Weight_118_208 dieresiscomb gravecomb acutecomb circumflexcomb tildecomb macroncomb cedillacomb dieresis grave acute circumflex tilde macron cedilla";
+code = "A Aacute Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth E Eacute Edieresis Egrave F G H I Iacute Idieresis Igrave J K L M N Ntilde O Oacute Odieresis Ograve Oslash Otilde OE P Thorn Q R S Scaron T U Uacute Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron Oslash.rl-Weight_118_208 a aacute adieresis agrave aring atilde ae b c ccedilla d eth e eacute edieresis egrave f g h i iacute idieresis igrave j k l m n ntilde o oacute odieresis ograve oslash otilde oe p thorn q r s scaron germandbls t u uacute udieresis ugrave v w x y yacute ydieresis z zcaron oslash.rl-Weight_118_208 oslash.sc.rl-Weight_118_208 a.sc aacute.sc adieresis.sc agrave.sc aring.sc atilde.sc ae.sc b.sc c.sc ccedilla.sc d.sc eth.sc e.sc eacute.sc edieresis.sc egrave.sc f.sc g.sc h.sc i.sc iacute.sc idieresis.sc igrave.sc j.sc k.sc l.sc m.sc n.sc ntilde.sc o.sc oacute.sc odieresis.sc ograve.sc oslash.sc otilde.sc oe.sc p.sc thorn.sc q.sc r.sc s.sc scaron.sc germandbls.sc t.sc u.sc uacute.sc udieresis.sc ugrave.sc v.sc w.sc x.sc y.sc yacute.sc ydieresis.sc z.sc zcaron.sc ordfeminine ordmasculine mu zero one two three four five six seven eight nine onesuperior twosuperior threesuperior period comma colon semicolon ellipsis exclam exclamdown question questiondown periodcentered bullet asterisk numbersign slash backslash parenleft parenright braceleft braceright bracketleft bracketright hyphen endash emdash underscore quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright guillemetleft guillemetright guilsinglleft guilsinglright quotedbl quotesingle space cent dollar florin sterling yen plus multiply divide equal greater less plusminus asciitilde logicalnot asciicircum at ampersand paragraph section copyright registered trademark degree bar brokenbar dagger daggerdbl cent.rl-Weight_118_208 dollar.rl-Weight_118_208 dieresiscomb gravecomb acutecomb circumflexcomb tildecomb macroncomb cedillacomb dieresis grave acute circumflex tilde macron cedilla";
 name = All;
 },
 {
 automatic = 1;
-code = "A Aacute Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth E Eacute Edieresis Egrave F G H I Iacute Idieresis Igrave J K L M N Ntilde O Oacute Odieresis Ograve Oslash Otilde OE P Thorn Q R S Scaron T U Uacute Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron Oslash.rule-Weight_118_208 a aacute adieresis agrave aring atilde ae b c ccedilla d eth e eacute edieresis egrave f g h i iacute idieresis igrave j k l m n ntilde o oacute odieresis ograve oslash otilde oe p thorn q r s scaron germandbls t u uacute udieresis ugrave v w x y yacute ydieresis z zcaron oslash.rule-Weight_118_208 oslash.sc.rule-Weight_118_208 a.sc aacute.sc adieresis.sc agrave.sc aring.sc atilde.sc ae.sc b.sc c.sc ccedilla.sc d.sc eth.sc e.sc eacute.sc edieresis.sc egrave.sc f.sc g.sc h.sc i.sc iacute.sc idieresis.sc igrave.sc j.sc k.sc l.sc m.sc n.sc ntilde.sc o.sc oacute.sc odieresis.sc ograve.sc oslash.sc otilde.sc oe.sc p.sc thorn.sc q.sc r.sc s.sc scaron.sc germandbls.sc t.sc u.sc uacute.sc udieresis.sc ugrave.sc v.sc w.sc x.sc y.sc yacute.sc ydieresis.sc z.sc zcaron.sc ordfeminine ordmasculine mu";
+code = "A Aacute Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth E Eacute Edieresis Egrave F G H I Iacute Idieresis Igrave J K L M N Ntilde O Oacute Odieresis Ograve Oslash Otilde OE P Thorn Q R S Scaron T U Uacute Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron Oslash.rl-Weight_118_208 a aacute adieresis agrave aring atilde ae b c ccedilla d eth e eacute edieresis egrave f g h i iacute idieresis igrave j k l m n ntilde o oacute odieresis ograve oslash otilde oe p thorn q r s scaron germandbls t u uacute udieresis ugrave v w x y yacute ydieresis z zcaron oslash.rl-Weight_118_208 oslash.sc.rl-Weight_118_208 a.sc aacute.sc adieresis.sc agrave.sc aring.sc atilde.sc ae.sc b.sc c.sc ccedilla.sc d.sc eth.sc e.sc eacute.sc edieresis.sc egrave.sc f.sc g.sc h.sc i.sc iacute.sc idieresis.sc igrave.sc j.sc k.sc l.sc m.sc n.sc ntilde.sc o.sc oacute.sc odieresis.sc ograve.sc oslash.sc otilde.sc oe.sc p.sc thorn.sc q.sc r.sc s.sc scaron.sc germandbls.sc t.sc u.sc uacute.sc udieresis.sc ugrave.sc v.sc w.sc x.sc y.sc yacute.sc ydieresis.sc z.sc zcaron.sc ordfeminine ordmasculine mu";
 name = AllLetters;
 }
 );
@@ -7043,7 +7043,7 @@ unicode = 017D;
 },
 {
 color = 4;
-glyphname = "Oslash.rule-Weight_118_208";
+glyphname = "Oslash.rl-Weight_118_208";
 layers = (
 {
 anchors = (
@@ -13831,7 +13831,7 @@ unicode = 017E;
 },
 {
 color = 4;
-glyphname = "oslash.rule-Weight_118_208";
+glyphname = "oslash.rl-Weight_118_208";
 layers = (
 {
 anchors = (
@@ -13999,7 +13999,7 @@ rightKerningGroup = o;
 },
 {
 color = 4;
-glyphname = "oslash.sc.rule-Weight_118_208";
+glyphname = "oslash.sc.rl-Weight_118_208";
 layers = (
 {
 anchors = (
@@ -27122,7 +27122,7 @@ unicode = 2021;
 },
 {
 color = 4;
-glyphname = "cent.rule-Weight_118_208";
+glyphname = "cent.rl-Weight_118_208";
 layers = (
 {
 anchors = (
@@ -27270,7 +27270,7 @@ width = 424;
 },
 {
 color = 4;
-glyphname = "dollar.rule-Weight_118_208";
+glyphname = "dollar.rl-Weight_118_208";
 layers = (
 {
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
