@@ -29652,7 +29652,7 @@ interpolationWidth = 14;
 instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 1;
 };
-name = "Thin Text";
+name = "Text Thin";
 weightClass = Thin;
 },
 {
@@ -29672,7 +29672,7 @@ instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.91573;
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.08427;
 };
-name = "ExtraLight Text";
+name = "Text ExtraLight";
 weightClass = UltraLight;
 },
 {
@@ -29688,7 +29688,7 @@ instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.82022;
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.17978;
 };
-name = "Light Text";
+name = "Text Light";
 weightClass = Light;
 },
 {
@@ -29704,7 +29704,7 @@ instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.7191;
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.2809;
 };
-name = "Regular Text";
+name = "Text Regular";
 },
 {
 customParameters = (
@@ -29719,7 +29719,7 @@ instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.61236;
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.38764;
 };
-name = "Medium Text";
+name = "Text Medium";
 weightClass = Medium;
 },
 {
@@ -29735,7 +29735,7 @@ instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.49438;
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.50562;
 };
-name = "SemiBold Text";
+name = "Text SemiBold";
 weightClass = SemiBold;
 },
 {
@@ -29752,8 +29752,8 @@ instanceInterpolations = {
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.66854;
 };
 isBold = 1;
-linkStyle = "Regular Text";
-name = "Bold Text";
+linkStyle = "Text Regular";
+name = "Text Bold";
 weightClass = Bold;
 },
 {
@@ -29769,7 +29769,7 @@ instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.17416;
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.82584;
 };
-name = "ExtraBold Text";
+name = "Text ExtraBold";
 weightClass = ExtraBold;
 },
 {
@@ -29784,7 +29784,7 @@ interpolationWidth = 14;
 instanceInterpolations = {
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 1;
 };
-name = "Black Text";
+name = "Text Black";
 weightClass = Black;
 }
 );

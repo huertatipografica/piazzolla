@@ -10729,41 +10729,6 @@ unicode = 1EB6;
 },
 {
 color = 10;
-glyphname = Abrevegrave;
-layers = (
-{
-components = (
-{
-name = A;
-},
-{
-name = brevecomb_gravecomb;
-transform = "{1, 0, 0, 1, 187, 166}";
-}
-);
-layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
-width = 706;
-},
-{
-components = (
-{
-name = A;
-},
-{
-name = brevecomb_gravecomb;
-transform = "{1, 0, 0, 1, 162, 165}";
-}
-);
-layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
-width = 683;
-}
-);
-leftKerningGroup = A;
-rightKerningGroup = A;
-unicode = 1EB0;
-},
-{
-color = 10;
 glyphname = Abrevehookabove;
 layers = (
 {
@@ -26310,6 +26275,42 @@ leftKerningGroup = i.ss01;
 leftMetricsKey = "=-25";
 rightKerningGroup = i.ss01;
 rightMetricsKey = "=-25";
+},
+{
+color = 10;
+export = 0;
+glyphname = Abrevegrave;
+layers = (
+{
+components = (
+{
+name = A;
+},
+{
+name = brevecomb_gravecomb;
+transform = "{1, 0, 0, 1, 187, 166}";
+}
+);
+layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
+width = 706;
+},
+{
+components = (
+{
+name = A;
+},
+{
+name = brevecomb_gravecomb;
+transform = "{1, 0, 0, 1, 162, 165}";
+}
+);
+layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
+width = 683;
+}
+);
+leftKerningGroup = A;
+rightKerningGroup = A;
+unicode = 1EB0;
 },
 {
 color = 10;
