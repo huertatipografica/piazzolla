@@ -28275,7 +28275,7 @@ instanceInterpolations = {
 "FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.08427;
 };
 isItalic = 1;
-linkStyle = UltraLight;
+linkStyle = ExtraLight;
 name = "ExtraLight Italic";
 weightClass = UltraLight;
 },
@@ -28421,8 +28421,8 @@ instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 1;
 };
 isItalic = 1;
-linkStyle = "Thin Text";
-name = "Thin Text Italic";
+linkStyle = "Text Thin";
+name = "Text Thin Italic";
 weightClass = Thin;
 },
 {
@@ -28443,8 +28443,8 @@ instanceInterpolations = {
 "FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.08427;
 };
 isItalic = 1;
-linkStyle = "ExtraLight Text";
-name = "ExtraLight Text Italic";
+linkStyle = "Text ExtraLight";
+name = "Text ExtraLight Italic";
 weightClass = UltraLight;
 },
 {
@@ -28461,8 +28461,8 @@ instanceInterpolations = {
 "FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.17978;
 };
 isItalic = 1;
-linkStyle = "Light Text";
-name = "Light Text Italic";
+linkStyle = "Text Light";
+name = "Text Light Italic";
 weightClass = Light;
 },
 {
@@ -28479,8 +28479,8 @@ instanceInterpolations = {
 "FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.2809;
 };
 isItalic = 1;
-linkStyle = "Regular Text";
-name = "Italic Text";
+linkStyle = "Text Regular";
+name = "Text Italic";
 },
 {
 customParameters = (
@@ -28496,8 +28496,8 @@ instanceInterpolations = {
 "FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.38764;
 };
 isItalic = 1;
-linkStyle = "Medium Text";
-name = "Medium Text Italic";
+linkStyle = "Text Medium";
+name = "Text Medium Italic";
 weightClass = Medium;
 },
 {
@@ -28514,8 +28514,8 @@ instanceInterpolations = {
 "FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.50562;
 };
 isItalic = 1;
-linkStyle = "SemiBold Text";
-name = "SemiBold Text Italic";
+linkStyle = "Text SemiBold";
+name = "Text SemiBold Italic";
 weightClass = SemiBold;
 },
 {
@@ -28533,8 +28533,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Regular Text";
-name = "Bold Text Italic";
+linkStyle = "Text Regular";
+name = "Text Bold Italic";
 weightClass = Bold;
 },
 {
@@ -28551,8 +28551,8 @@ instanceInterpolations = {
 "FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.82584;
 };
 isItalic = 1;
-linkStyle = "ExtraBold Text";
-name = "ExtraBold Text Italic";
+linkStyle = "Text ExtraBold";
+name = "Text ExtraBold Italic";
 weightClass = ExtraBold;
 },
 {
@@ -28568,8 +28568,8 @@ instanceInterpolations = {
 "FCE02CC8-2979-430D-9DE0-31930C0E296D" = 1;
 };
 isItalic = 1;
-linkStyle = "Black Text";
-name = "Black Text Italic";
+linkStyle = "Text Black";
+name = "Text Black Italic";
 weightClass = Black;
 }
 );
