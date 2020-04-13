@@ -4,3 +4,4 @@ fonttools[lxml,unicode,ufo]==4.6.0
 fontParts==0.9.2
 glyphsLib==5.1.9
 git+https://github.com/googlefonts/gftools
+git+https://github.com/twardoch/fonttools-opentype-feature-freezer

@@ -12,9 +12,9 @@ inArray() {
 }
 
 if inArray "--test" $@; then
-    files=(PiazzollaVARsetup PiazzollaVARsetupItalic)
+    files=(PiazzollaVARsetup PiazzollaVARsetup-Italic)
 else
-    files=(Piazzolla PiazzollaItalic)
+    files=(Piazzolla Piazzolla-Italic)
 fi
 
 if inArray "--no-static" $@; then
