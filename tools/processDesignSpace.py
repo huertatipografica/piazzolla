@@ -25,7 +25,7 @@ adjustments = {
         "scaleFactor": 1
     },
     "max": {
-        "offset": 7,
+        "offset": 6,
         "percentage": 0,
         "scaleFactor": 1
     },
