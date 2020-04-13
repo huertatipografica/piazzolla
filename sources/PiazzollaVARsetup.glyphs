@@ -275,22 +275,6 @@ name = smallCapHeight;
 value = 517;
 },
 {
-name = underlineThickness;
-value = 24;
-},
-{
-name = underlinePosition;
-value = -195;
-},
-{
-name = strikeoutSize;
-value = 24;
-},
-{
-name = strikeoutPosition;
-value = 239;
-},
-{
 name = typoAscender;
 value = 760;
 },
@@ -331,9 +315,25 @@ Location = "30";
 },
 {
 Axis = "Optical size";
-Location = 30;
+Location = "30";
 }
 );
+},
+{
+name = underlineThickness;
+value = 26;
+},
+{
+name = underlinePosition;
+value = -193;
+},
+{
+name = strikeoutSize;
+value = 26;
+},
+{
+name = strikeoutPosition;
+value = 239;
 }
 );
 descender = -195;
@@ -394,22 +394,6 @@ name = smallCapHeight;
 value = 548;
 },
 {
-name = underlineThickness;
-value = 70;
-},
-{
-name = underlinePosition;
-value = -176;
-},
-{
-name = strikeoutSize;
-value = 70;
-},
-{
-name = strikeoutPosition;
-value = 258;
-},
-{
 name = typoAscender;
 value = 760;
 },
@@ -446,13 +430,29 @@ name = "Axis Location";
 value = (
 {
 Axis = Weight;
-Location = 208;
+Location = "208";
 },
 {
 Axis = "Optical size";
 Location = "30";
 }
 );
+},
+{
+name = underlineThickness;
+value = 26;
+},
+{
+name = underlinePosition;
+value = -193;
+},
+{
+name = strikeoutSize;
+value = 26;
+},
+{
+name = strikeoutPosition;
+value = 258;
 }
 );
 descender = -188;
