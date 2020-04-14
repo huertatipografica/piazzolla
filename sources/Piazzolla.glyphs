@@ -1,7 +1,7 @@
 {
 .appVersion = "1313";
 DisplayStrings = (
-ctpatg
+"/Be-cy/Che-cy/Cheabkhasian-cy/De-cy/Dje-cy/El-cy/Ereversed-cy/Ghemiddlehook-cy/Ghestroke-cy/Ia-cy/Komide-cy/Komidzje-cy/Kominje-cy/Komizje-cy/Reversedze-cy/Shha-cy/Softsign-cy/Tshe-cy/U-cy/Yat-cy ABCEFGHJMOPSTUVXY*./cheabkhasian-cy/de-cy/el-cy/elhook-cy/ereversed-cy/ge-cy/ge-cy.loclBGR/ge-cy.loclBGR.curr/ghemiddlehook-cy/ghestroke-cy/ghestroke-cy.loclBSH/kahook-cy/komidzje-cy/kominje-cy/komisje-cy/komitje-cy/komizje-cy/reversedze-cy/semisoftsign-cy/softsign-cy/te-cy/ve-cy/yat-cy/ze-cy acdehjlnopqrsuvx"
 );
 classes = (
 {
@@ -41854,6 +41854,8 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 536;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = o;
 },
 {
 color = 10;
@@ -111664,7 +111666,7 @@ width = 602;
 }
 );
 leftKerningGroup = n;
-rightKerningGroup = "tse-cy";
+rightKerningGroup = u;
 unicode = 048B;
 },
 {
@@ -118458,7 +118460,7 @@ nodes = (
 width = 596;
 }
 );
-leftKerningGroup = hbar;
+leftKerningGroup = h;
 rightKerningGroup = j;
 unicode = 0452;
 },
@@ -121324,7 +121326,7 @@ width = 610;
 }
 );
 leftKerningGroup = h;
-rightKerningGroup = k;
+rightKerningGroup = x;
 unicode = 049F;
 },
 {
@@ -124084,7 +124086,7 @@ width = 775;
 }
 );
 leftKerningGroup = "te-cy";
-rightKerningGroup = "tse-cy";
+rightKerningGroup = u;
 unicode = 04B5;
 userData = {
 RMXScaler = {
@@ -124622,7 +124624,7 @@ width = 608;
 }
 );
 leftKerningGroup = h;
-rightKerningGroup = h;
+rightKerningGroup = n;
 unicode = 0527;
 },
 {
@@ -125083,7 +125085,7 @@ nodes = (
 width = 306;
 }
 );
-leftKerningGroup = l;
+leftKerningGroup = h;
 rightKerningGroup = l;
 unicode = 04CF;
 },
@@ -126671,7 +126673,7 @@ width = 768;
 }
 );
 leftKerningGroup = n;
-rightKerningGroup = "tse-cy";
+rightKerningGroup = u;
 unicode = 04CE;
 userData = {
 RMXScaler = {
@@ -128787,6 +128789,8 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 581;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = d;
 unicode = 0501;
 },
 {
@@ -129136,6 +129140,8 @@ width = 73;
 width = 793;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = "kominje-cy";
 unicode = 0503;
 userData = {
 RMXScaler = {
@@ -129323,6 +129329,8 @@ width = 73;
 width = 636;
 }
 );
+leftKerningGroup = "komizje-cy";
+rightKerningGroup = "kominje-cy";
 unicode = 0505;
 userData = {
 RMXScaler = {
@@ -129484,6 +129492,8 @@ width = 73;
 width = 435;
 }
 );
+leftKerningGroup = "komizje-cy";
+rightKerningGroup = "komidzje-cy";
 unicode = 0507;
 userData = {
 RMXScaler = {
@@ -129782,6 +129792,8 @@ width = 73;
 width = 754;
 }
 );
+leftKerningGroup = "el-cy";
+rightKerningGroup = "kominje-cy";
 unicode = 0509;
 userData = {
 RMXScaler = {
@@ -130146,6 +130158,8 @@ width = 73;
 width = 808;
 }
 );
+leftKerningGroup = n;
+rightKerningGroup = "kominje-cy";
 unicode = 050B;
 userData = {
 RMXScaler = {
@@ -130305,6 +130319,8 @@ width = 73;
 width = 529;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = "komisje-cy";
 unicode = 050D;
 userData = {
 RMXScaler = {
@@ -130444,6 +130460,8 @@ width = 73;
 width = 622;
 }
 );
+leftKerningGroup = "komitje-cy";
+rightKerningGroup = "komisje-cy";
 unicode = 050F;
 userData = {
 RMXScaler = {
@@ -131592,6 +131610,8 @@ width = 126;
 width = 613;
 }
 );
+leftKerningGroup = "ge-cy.loclBGR.curr";
+rightKerningGroup = "ge-cy.loclBGR.curr";
 userData = {
 RMXScaler = {
 source = "ge-cy.loclBGR";
@@ -132061,7 +132081,7 @@ width = 562;
 }
 );
 leftKerningGroup = "el-cy";
-rightKerningGroup = "tse-cy";
+rightKerningGroup = u;
 unicode = 052F;
 userData = {
 RMXScaler = {
@@ -132973,8 +132993,8 @@ nodes = (
 width = 502;
 }
 );
-leftKerningGroup = s;
-rightKerningGroup = s;
+leftKerningGroup = "ge-cy.loclBGR";
+rightKerningGroup = "ge-cy.loclBGR";
 },
 {
 color = 8;
@@ -134091,8 +134111,8 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 595;
 }
 );
-leftKerningGroup = k;
-rightKerningGroup = k;
+leftKerningGroup = h;
+rightKerningGroup = x;
 },
 {
 glyphname = "el-cy.loclBGR";
@@ -134389,7 +134409,7 @@ nodes = (
 width = 614;
 }
 );
-leftKerningGroup = i;
+leftKerningGroup = n;
 rightKerningGroup = n;
 },
 {
@@ -134606,7 +134626,7 @@ nodes = (
 width = 555;
 }
 );
-leftKerningGroup = "che-cy";
+leftKerningGroup = u;
 rightKerningGroup = u;
 },
 {
@@ -134844,7 +134864,7 @@ width = 616;
 }
 );
 leftKerningGroup = u;
-rightKerningGroup = "tse-cy";
+rightKerningGroup = u;
 },
 {
 glyphname = "sha-cy.loclBGR";
@@ -135389,7 +135409,7 @@ width = 908;
 }
 );
 leftKerningGroup = u;
-rightKerningGroup = "tse-cy";
+rightKerningGroup = u;
 },
 {
 color = 8;
@@ -138451,7 +138471,7 @@ width = 529;
 }
 );
 leftKerningGroup = H;
-rightKerningGroup = Gamma;
+rightKerningGroup = T;
 userData = {
 RMXScaler = {
 source = "Ge-cy";
@@ -138596,7 +138616,7 @@ width = 529;
 }
 );
 leftKerningGroup = H;
-rightKerningGroup = Gamma;
+rightKerningGroup = T;
 userData = {
 RMXScaler = {
 source = "Gje-cy";
@@ -138677,7 +138697,7 @@ width = 480;
 }
 );
 leftKerningGroup = H;
-rightKerningGroup = "Ge-cy";
+rightKerningGroup = T;
 userData = {
 RMXScaler = {
 source = "Gheupturn-cy";
@@ -140535,7 +140555,7 @@ width = 714;
 }
 );
 leftKerningGroup = H;
-rightKerningGroup = "Tse-cy";
+rightKerningGroup = "De-cy";
 userData = {
 RMXScaler = {
 source = "Iishorttail-cy";
@@ -142547,8 +142567,8 @@ width = 84;
 width = 692;
 }
 );
-leftKerningGroup = Phi;
-rightKerningGroup = Phi;
+leftKerningGroup = O;
+rightKerningGroup = O;
 userData = {
 RMXScaler = {
 source = "Ef-cy";
@@ -145051,7 +145071,7 @@ width = 474;
 }
 );
 leftKerningGroup = J;
-rightKerningGroup = J;
+rightKerningGroup = U;
 userData = {
 RMXScaler = {
 source = "Je-cy";
@@ -147574,7 +147594,7 @@ width = 726;
 }
 );
 leftKerningGroup = H;
-rightKerningGroup = K;
+rightKerningGroup = X;
 userData = {
 RMXScaler = {
 source = "Kastroke-cy";
@@ -149301,7 +149321,7 @@ width = 909;
 }
 );
 leftKerningGroup = T;
-rightKerningGroup = "Tse-cy";
+rightKerningGroup = "De-cy";
 userData = {
 RMXScaler = {
 source = "Tetse-cy";
@@ -150039,6 +150059,8 @@ width = 84;
 width = 691;
 }
 );
+leftKerningGroup = H;
+rightKerningGroup = H;
 userData = {
 RMXScaler = {
 source = "EnLeftHook-cy";
@@ -150145,7 +150167,7 @@ width = 648;
 }
 );
 leftKerningGroup = "El-cy";
-rightKerningGroup = "Tse-cy";
+rightKerningGroup = "De-cy";
 userData = {
 RMXScaler = {
 source = "Eldescender-cy";
@@ -150565,7 +150587,7 @@ width = 744;
 }
 );
 leftKerningGroup = "Cheabkhasian-cy";
-rightKerningGroup = "Cheabkhasian-cy";
+rightKerningGroup = C;
 userData = {
 RMXScaler = {
 source = "Chedescenderabkhasian-cy";
@@ -151190,7 +151212,7 @@ width = 689;
 }
 );
 leftKerningGroup = H;
-rightKerningGroup = K;
+rightKerningGroup = X;
 userData = {
 RMXScaler = {
 source = "Kahook-cy";
@@ -151299,7 +151321,7 @@ width = 652;
 }
 );
 leftKerningGroup = "El-cy";
-rightKerningGroup = "Tse-cy";
+rightKerningGroup = "De-cy";
 userData = {
 RMXScaler = {
 source = "Eltail-cy";
@@ -151865,7 +151887,7 @@ width = 871;
 }
 );
 leftKerningGroup = M;
-rightKerningGroup = "Tse-cy";
+rightKerningGroup = "De-cy";
 userData = {
 RMXScaler = {
 source = "Emtail-cy";
@@ -153683,7 +153705,7 @@ width = 84;
 width = 537;
 }
 );
-leftKerningGroup = "Ze-cy";
+leftKerningGroup = "Ereversed-cy";
 rightKerningGroup = B;
 userData = {
 RMXScaler = {
@@ -156228,6 +156250,7 @@ width = 84;
 width = 529;
 }
 );
+leftKerningGroup = H;
 rightKerningGroup = F;
 userData = {
 RMXScaler = {
@@ -156800,6 +156823,8 @@ width = 84;
 width = 594;
 }
 );
+leftKerningGroup = "Komide-cy";
+rightKerningGroup = H;
 userData = {
 RMXScaler = {
 source = "Komide-cy";
@@ -156977,6 +157002,8 @@ width = 84;
 width = 796;
 }
 );
+leftKerningGroup = "Komide-cy";
+rightKerningGroup = "Kominje-cy";
 userData = {
 RMXScaler = {
 source = "Komidje-cy";
@@ -157164,6 +157191,8 @@ width = 84;
 width = 733;
 }
 );
+leftKerningGroup = "Komizje-cy";
+rightKerningGroup = "Kominje-cy";
 userData = {
 RMXScaler = {
 source = "Komizje-cy";
@@ -157323,6 +157352,8 @@ width = 84;
 width = 506;
 }
 );
+leftKerningGroup = "Komidzje-cy";
+rightKerningGroup = "Komidzje-cy";
 userData = {
 RMXScaler = {
 source = "Komidzje-cy";
@@ -157482,6 +157513,8 @@ width = 84;
 width = 846;
 }
 );
+leftKerningGroup = "El-cy";
+rightKerningGroup = "Kominje-cy";
 userData = {
 RMXScaler = {
 source = "Komilje-cy";
@@ -157679,6 +157712,8 @@ width = 84;
 width = 908;
 }
 );
+leftKerningGroup = H;
+rightKerningGroup = "Kominje-cy";
 userData = {
 RMXScaler = {
 source = "Kominje-cy";
@@ -157836,6 +157871,8 @@ width = 84;
 width = 608;
 }
 );
+leftKerningGroup = O;
+rightKerningGroup = G;
 userData = {
 RMXScaler = {
 source = "Komisje-cy";
@@ -157973,6 +158010,8 @@ width = 84;
 width = 711;
 }
 );
+leftKerningGroup = T;
+rightKerningGroup = G;
 userData = {
 RMXScaler = {
 source = "Komitje-cy";
@@ -159260,8 +159299,8 @@ width = 84;
 width = 692;
 }
 );
-leftKerningGroup = Phi;
-rightKerningGroup = Phi;
+leftKerningGroup = O;
+rightKerningGroup = O;
 userData = {
 RMXScaler = {
 source = "Ef-cy.loclBGR";
@@ -160629,7 +160668,7 @@ width = 369;
 }
 );
 leftKerningGroup = H.sups;
-rightKerningGroup = Gamma.sups;
+rightKerningGroup = T.sups;
 userData = {
 RMXScaler = {
 source = "Ge-cy";
@@ -163568,8 +163607,8 @@ width = 59;
 width = 490;
 }
 );
-leftKerningGroup = Phi.sups;
-rightKerningGroup = Phi.sups;
+leftKerningGroup = O.sups;
+rightKerningGroup = O.sups;
 userData = {
 RMXScaler = {
 source = "Ef-cy";
@@ -235500,6 +235539,8 @@ nodes = (
 width = 411;
 }
 );
+leftKerningGroup = asterisk;
+rightKerningGroup = asterisk;
 },
 {
 glyphname = "descender-cy.alt";
@@ -235547,6 +235588,8 @@ nodes = (
 width = 229;
 }
 );
+leftKerningGroup = period;
+rightKerningGroup = period;
 },
 {
 glyphname = "descender-cy.alt.case";
@@ -235594,6 +235637,8 @@ nodes = (
 width = 229;
 }
 );
+leftKerningGroup = period;
+rightKerningGroup = period;
 },
 {
 color = 10;
@@ -239219,6 +239264,7 @@ width = 699;
 }
 );
 leftKerningGroup = O;
+rightKerningGroup = G;
 },
 {
 color = 10;
@@ -239252,6 +239298,7 @@ width = 699;
 }
 );
 leftKerningGroup = O;
+rightKerningGroup = G;
 },
 {
 color = 10;
@@ -239285,6 +239332,7 @@ width = 592;
 }
 );
 leftKerningGroup = O;
+rightKerningGroup = G;
 },
 {
 color = 10;
@@ -239318,6 +239366,7 @@ width = 592;
 }
 );
 leftKerningGroup = O;
+rightKerningGroup = G;
 },
 {
 glyphname = "ustraitstroke-cy.sc";
@@ -239542,6 +239591,8 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 562;
 }
 );
+leftKerningGroup = Y;
+rightKerningGroup = Y;
 },
 {
 glyphname = "iitail-cy.sc";
