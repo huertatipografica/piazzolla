@@ -1,12 +1,14 @@
 {
 .appVersion = "1313";
 DisplayStrings = (
-"\012\012u/Be-cy u/Che-cy u/Cheabkhasian-cy u/De-cy u/Dje-cy u/El-cy u/Ereversed-cy u/Ghemiddlehook-cy u/Ghestroke-cy u/Ia-cy u/Komide-cy u/Komidzje-cy u/Kominje-cy u/Komizje-cy u/Reversedze-cy u/Shha-cy u/Softsign-cy u/Tshe-cy u/U-cy u/Yat-cy uAuBuCuEuFuGuHuJuMuOuPuSuTuUuVuXuYu*u.u/cheabkhasian-cy u/de-cy u/el-cy u/elhook-cy u/ereversed-cy u/ge-cy u/ge-cy.loclBGR u/ge-cy.loclBGR.curr u/ghemiddlehook-cy u/ghestroke-cy u/ghestroke-cy.loclBSH u/kahook-cy u/komidzje-cy u/kominje-cy u/komisje-cy u/komitje-cy u/komizje-cy u/reversedze-cy u/semisoftsign-cy u/softsign-cy u/te-cy u/ve-cy u/yat-cy u/ze-cy uaucudueuhujulunuoupuqurusuuuvuxu\012\012v/Be-cy v/Che-cy v/Cheabkhasian-cy v/De-cy v/Dje-cy v/El-cy v/Ereversed-cy v/Ghemiddlehook-cy v/Ghestroke-cy v/Ia-cy v/Komide-cy v/Komidzje-cy v/Kominje-cy v/Komizje-cy v/Reversedze-cy v/Shha-cy v/Softsign-cy v/Tshe-cy v/U-cy v/Yat-cy vAvBvCvEvFvGvHvJvMvOvPvSvTvUvVvXvYv*v.v/cheabkhasian-cy v/de-cy v/el-cy v/elhook-cy v/ereversed-cy v/ge-cy v/ge-cy.loclBGR v/ge-cy.loclBGR.curr v/ghemiddlehook-cy v/ghestroke-cy v/ghestroke-cy.loclBSH v/kahook-cy v/komidzje-cy v/kominje-cy v/komisje-cy v/komitje-cy v/komizje-cy v/reversedze-cy v/semisoftsign-cy v/softsign-cy v/te-cy v/ve-cy v/yat-cy v/ze-cy vavcvdvevhvjvlvnvovpvqvrvsvuvvvxv\012\012x/Be-cy x/Che-cy x/Cheabkhasian-cy x/De-cy x/Dje-cy x/El-cy x/Ereversed-cy x/Ghemiddlehook-cy x/Ghestroke-cy x/Ia-cy x/Komide-cy x/Komidzje-cy x/Kominje-cy x/Komizje-cy x/Reversedze-cy x/Shha-cy x/Softsign-cy x/Tshe-cy x/U-cy x/Yat-cy xAxBxCxExFxGxHxJxMxOxPxSxTxUxVxXxYx*x.x/cheabkhasian-cy x/de-cy x/el-cy x/elhook-cy x/ereversed-cy x/ge-cy x/ge-cy.loclBGR x/ge-cy.loclBGR.curr x/ghemiddlehook-cy x/ghestroke-cy x/ghestroke-cy.loclBSH x/kahook-cy x/komidzje-cy x/kominje-cy x/komisje-cy x/komitje-cy x/komizje-cy x/reversedze-cy x/semisoftsign-cy x/softsign-cy x/te-cy x/ve-cy x/yat-cy x/ze-cy xaxcxdxexhxjxlxnxoxpxqxrxsxuxvxxx\012\012\012\012\012\012\012\012\012\012"
+"/jacute.sc",
+"J/Jacute/jacute.sc/jacute/space",
+"/dzeabkhasian-cy/florin/dje-cy/ogonekcomb/eogonek.sc/estimated"
 );
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adotbelow Agrave Ahookabove Ainvertedbreve Amacron Aogonek Aring Aringacute Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent D DZcaron Eth Dcaron Dcroat Ddotbelow Dlinebelow Dzcaron E Eacute Ebreve Ecaron Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Emacronacute Emacrongrave Eogonek Etilde F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hbrevebelow Hcircumflex Hdotbelow I IJ Iacute Ibreve Icaron Icircumflex Idblgrave Idieresis Idieresisacute Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Itilde J Jcircumflex K Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Ldotbelow Lj Llinebelow Lslash M Mdotbelow N NJ Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Eng Nj Nlinebelow Ntilde O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Omacronacute Omacrongrave Oogonek Oslash Oslashacute Otilde Otildeacute Otildedieresis Otildemacron OE P Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rdotbelow Rinvertedbreve Rlinebelow S Sacute Sacutedotaccent Saltillo Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls Schwa T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tlinebelow U Uacute Ubreve Ucaron Ucircumflex Udblgrave Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Umacrondieresis Uogonek Uring Utilde Utildeacute V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow Iacute_J.loclNLD B.curr C.curr G.curr K.curr N.curr P.curr R.curr S.curr T.curr W.curr Oslash.rl-Weight_118_208 Oslashacute.rl-Weight_118_208 C.ss01 D.ss01 I.ss01 L.ss01 M.ss01 V.ss01 X.ss01 A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Iishorttail-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Ghestroke-cy Ghemiddlehook-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kastroke-cy Kabashkir-cy Endescender-cy Enghe-cy Pemiddlehook-cy Pedescender-cy Haabkhasian-cy Esdescender-cy Tedescender-cy Ustrait-cy Ustraitstroke-cy Hadescender-cy Tetse-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Shhadescender-cy Cheabkhasian-cy Chedescenderabkhasian-cy Palochka-cy Zhebreve-cy Kahook-cy Eltail-cy Enhook-cy Entail-cy Chekhakassian-cy Emtail-cy Abreve-cy Adieresis-cy Aie-cy Iebreve-cy Schwa-cy Schwadieresis-cy Zhedieresis-cy Zedieresis-cy Dzeabkhasian-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Edieresis-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Gedescender-cy Yerudieresis-cy Gestrokehook-cy Hahook-cy Hastroke-cy Komide-cy Komidje-cy Komizje-cy Komidzje-cy Komilje-cy Kominje-cy Komisje-cy Komitje-cy Reversedze-cy Elhook-cy Qa-cy We-cy Semisoftsign-cy Ertick-cy EnLeftHook-cy Eldescender-cy De-cy.loclBGR El-cy.loclBGR Ef-cy.loclBGR Ghestroke-cy.loclBSH Zedescender-cy.loclBSH Esdescender-cy.loclBSH Esdescender-cy.loclCHU Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Iotadieresis Upsilondieresis KaiSymbol Alphapsili Alphadasia Alphapsilivaria Alphadasiavaria Alphapsilioxia Alphadasiaoxia Alphapsiliperispomeni Alphadasiaperispomeni Alphavaria Alphaoxia Alphavrachy Alphamacron Alphaprosgegrammeni Alphapsiliprosgegrammeni Alphadasiaprosgegrammeni Alphapsilivariaprosgegrammeni Alphadasiavariaprosgegrammeni Alphapsilioxiaprosgegrammeni Alphadasiaoxiaprosgegrammeni Alphapsiliperispomeniprosgegrammeni Alphadasiaperispomeniprosgegrammeni Epsilonpsili Epsilondasia Epsilonpsilivaria Epsilondasiavaria Epsilonpsilioxia Epsilondasiaoxia Epsilonvaria Epsilonoxia Etapsili Etadasia Etapsilivaria Etadasiavaria Etapsilioxia Etadasiaoxia Etapsiliperispomeni Etadasiaperispomeni Etavaria Etaoxia Etaprosgegrammeni Etapsiliprosgegrammeni Etadasiaprosgegrammeni Etapsilivariaprosgegrammeni Etadasiavariaprosgegrammeni Etapsilioxiaprosgegrammeni Etadasiaoxiaprosgegrammeni Etapsiliperispomeniprosgegrammeni Etadasiaperispomeniprosgegrammeni Iotapsili Iotadasia Iotapsilivaria Iotadasiavaria Iotapsilioxia Iotadasiaoxia Iotapsiliperispomeni Iotadasiaperispomeni Iotavaria Iotaoxia Iotavrachy Iotamacron Omicronpsili Omicrondasia Omicronpsilivaria Omicrondasiavaria Omicronpsilioxia Omicrondasiaoxia Omicronvaria Omicronoxia Rhodasia Upsilondasia Upsilondasiavaria Upsilondasiaoxia Upsilondasiaperispomeni Upsilonvaria Upsilonoxia Upsilonvrachy Upsilonmacron Omegapsili Omegadasia Omegapsilivaria Omegadasiavaria Omegapsilioxia Omegadasiaoxia Omegapsiliperispomeni Omegadasiaperispomeni Omegavaria Omegaoxia Omegaprosgegrammeni Omegapsiliprosgegrammeni Omegadasiaprosgegrammeni Omegapsilivariaprosgegrammeni Omegadasiavariaprosgegrammeni Omegapsilioxiaprosgegrammeni Omegadasiaoxiaprosgegrammeni Omegapsiliperispomeniprosgegrammeni Omegadasiaperispomeniprosgegrammeni Alphaprosgegrammeni.ss03 Alphapsiliprosgegrammeni.ss03 Alphadasiaprosgegrammeni.ss03 Alphapsilivariaprosgegrammeni.ss03 Alphadasiavariaprosgegrammeni.ss03 Alphapsilioxiaprosgegrammeni.ss03 Alphadasiaoxiaprosgegrammeni.ss03 Alphapsiliperispomeniprosgegrammeni.ss03 Alphadasiaperispomeniprosgegrammeni.ss03 Etaprosgegrammeni.ss03 Etapsiliprosgegrammeni.ss03 Etadasiaprosgegrammeni.ss03 Etapsilivariaprosgegrammeni.ss03 Etadasiavariaprosgegrammeni.ss03 Etapsilioxiaprosgegrammeni.ss03 Etadasiaoxiaprosgegrammeni.ss03 Etapsiliperispomeniprosgegrammeni.ss03 Etadasiaperispomeniprosgegrammeni.ss03 Omegaprosgegrammeni.ss03 Omegapsiliprosgegrammeni.ss03 Omegadasiaprosgegrammeni.ss03 Omegapsilivariaprosgegrammeni.ss03 Omegadasiavariaprosgegrammeni.ss03 Omegapsilioxiaprosgegrammeni.ss03 Omegadasiaoxiaprosgegrammeni.ss03 Omegapsiliperispomeniprosgegrammeni.ss03 Omegadasiaperispomeniprosgegrammeni.ss03";
+code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adotbelow Agrave Ahookabove Ainvertedbreve Amacron Aogonek Aring Aringacute Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent D DZcaron Eth Dcaron Dcroat Ddotbelow Dlinebelow Dzcaron E Eacute Ebreve Ecaron Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Emacronacute Emacrongrave Eogonek Etilde F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hbrevebelow Hcircumflex Hdotbelow I IJ Iacute Ibreve Icaron Icircumflex Idblgrave Idieresis Idieresisacute Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Ldotbelow Lj Llinebelow Lslash M Mdotbelow N NJ Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Eng Nj Nlinebelow Ntilde O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Omacronacute Omacrongrave Oogonek Oslash Oslashacute Otilde Otildeacute Otildedieresis Otildemacron OE P Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rdotbelow Rinvertedbreve Rlinebelow S Sacute Sacutedotaccent Saltillo Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls Schwa T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tlinebelow U Uacute Ubreve Ucaron Ucircumflex Udblgrave Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Umacrondieresis Uogonek Uring Utilde Utildeacute V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow Iacute_J.loclNLD B.curr C.curr G.curr K.curr N.curr P.curr R.curr S.curr T.curr W.curr Oslash.rl-Weight_118_208 Oslashacute.rl-Weight_118_208 C.ss01 D.ss01 I.ss01 L.ss01 M.ss01 V.ss01 X.ss01 A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Iishorttail-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Ghestroke-cy Ghemiddlehook-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kastroke-cy Kabashkir-cy Endescender-cy Enghe-cy Pemiddlehook-cy Pedescender-cy Haabkhasian-cy Esdescender-cy Tedescender-cy Ustrait-cy Ustraitstroke-cy Hadescender-cy Tetse-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Shhadescender-cy Cheabkhasian-cy Chedescenderabkhasian-cy Palochka-cy Zhebreve-cy Kahook-cy Eltail-cy Enhook-cy Entail-cy Chekhakassian-cy Emtail-cy Abreve-cy Adieresis-cy Aie-cy Iebreve-cy Schwa-cy Schwadieresis-cy Zhedieresis-cy Zedieresis-cy Dzeabkhasian-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Edieresis-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Gedescender-cy Yerudieresis-cy Gestrokehook-cy Hahook-cy Hastroke-cy Komide-cy Komidje-cy Komizje-cy Komidzje-cy Komilje-cy Kominje-cy Komisje-cy Komitje-cy Reversedze-cy Elhook-cy Qa-cy We-cy Semisoftsign-cy Ertick-cy EnLeftHook-cy Eldescender-cy De-cy.loclBGR El-cy.loclBGR Ef-cy.loclBGR Ghestroke-cy.loclBSH Zedescender-cy.loclBSH Esdescender-cy.loclBSH Esdescender-cy.loclCHU Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Iotadieresis Upsilondieresis KaiSymbol Alphapsili Alphadasia Alphapsilivaria Alphadasiavaria Alphapsilioxia Alphadasiaoxia Alphapsiliperispomeni Alphadasiaperispomeni Alphavaria Alphaoxia Alphavrachy Alphamacron Alphaprosgegrammeni Alphapsiliprosgegrammeni Alphadasiaprosgegrammeni Alphapsilivariaprosgegrammeni Alphadasiavariaprosgegrammeni Alphapsilioxiaprosgegrammeni Alphadasiaoxiaprosgegrammeni Alphapsiliperispomeniprosgegrammeni Alphadasiaperispomeniprosgegrammeni Epsilonpsili Epsilondasia Epsilonpsilivaria Epsilondasiavaria Epsilonpsilioxia Epsilondasiaoxia Epsilonvaria Epsilonoxia Etapsili Etadasia Etapsilivaria Etadasiavaria Etapsilioxia Etadasiaoxia Etapsiliperispomeni Etadasiaperispomeni Etavaria Etaoxia Etaprosgegrammeni Etapsiliprosgegrammeni Etadasiaprosgegrammeni Etapsilivariaprosgegrammeni Etadasiavariaprosgegrammeni Etapsilioxiaprosgegrammeni Etadasiaoxiaprosgegrammeni Etapsiliperispomeniprosgegrammeni Etadasiaperispomeniprosgegrammeni Iotapsili Iotadasia Iotapsilivaria Iotadasiavaria Iotapsilioxia Iotadasiaoxia Iotapsiliperispomeni Iotadasiaperispomeni Iotavaria Iotaoxia Iotavrachy Iotamacron Omicronpsili Omicrondasia Omicronpsilivaria Omicrondasiavaria Omicronpsilioxia Omicrondasiaoxia Omicronvaria Omicronoxia Rhodasia Upsilondasia Upsilondasiavaria Upsilondasiaoxia Upsilondasiaperispomeni Upsilonvaria Upsilonoxia Upsilonvrachy Upsilonmacron Omegapsili Omegadasia Omegapsilivaria Omegadasiavaria Omegapsilioxia Omegadasiaoxia Omegapsiliperispomeni Omegadasiaperispomeni Omegavaria Omegaoxia Omegaprosgegrammeni Omegapsiliprosgegrammeni Omegadasiaprosgegrammeni Omegapsilivariaprosgegrammeni Omegadasiavariaprosgegrammeni Omegapsilioxiaprosgegrammeni Omegadasiaoxiaprosgegrammeni Omegapsiliperispomeniprosgegrammeni Omegadasiaperispomeniprosgegrammeni Alphaprosgegrammeni.ss03 Alphapsiliprosgegrammeni.ss03 Alphadasiaprosgegrammeni.ss03 Alphapsilivariaprosgegrammeni.ss03 Alphadasiavariaprosgegrammeni.ss03 Alphapsilioxiaprosgegrammeni.ss03 Alphadasiaoxiaprosgegrammeni.ss03 Alphapsiliperispomeniprosgegrammeni.ss03 Alphadasiaperispomeniprosgegrammeni.ss03 Etaprosgegrammeni.ss03 Etapsiliprosgegrammeni.ss03 Etadasiaprosgegrammeni.ss03 Etapsilivariaprosgegrammeni.ss03 Etadasiavariaprosgegrammeni.ss03 Etapsilioxiaprosgegrammeni.ss03 Etadasiaoxiaprosgegrammeni.ss03 Etapsiliperispomeniprosgegrammeni.ss03 Etadasiaperispomeniprosgegrammeni.ss03 Omegaprosgegrammeni.ss03 Omegapsiliprosgegrammeni.ss03 Omegadasiaprosgegrammeni.ss03 Omegapsilivariaprosgegrammeni.ss03 Omegadasiavariaprosgegrammeni.ss03 Omegapsilioxiaprosgegrammeni.ss03 Omegadasiaoxiaprosgegrammeni.ss03 Omegapsiliperispomeniprosgegrammeni.ss03 Omegadasiaperispomeniprosgegrammeni.ss03";
 name = Uppercase;
 },
 {
@@ -118,6 +120,8 @@ languagesystem cyrl BGR;
 languagesystem cyrl BSH;
 languagesystem cyrl CHU;
 languagesystem cyrl SRB;
+languagesystem cyrl DEU;
+languagesystem cyrl NLD;
 ";
 name = Languagesystems;
 }
@@ -149,8 +153,16 @@ feature ss04;
 name = aalt;
 },
 {
-automatic = 1;
-code = "lookup ccmp_Other_1 {
+code = "# BEGIN Decompose presentation forms
+lookup latinPresentationForms {
+	sub fi by f i;
+	sub fl by f l;
+	sub ij by i j;
+	sub IJ by I J;
+} latinPresentationForms;
+# END Decompose presentation forms
+
+lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
 	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb ypogegrammenicomb horncomb slashlongcomb slashshortcomb strokelongcomb strokeshortcomb];
 	sub [i j]' @CombiningTopAccents by [idotless jdotless];
@@ -200,9 +212,9 @@ script latn;
 lookup ccmp_latn_1;
 ";
 name = ccmp;
+notes = "# Add at beginning:\012lookup latinPresentationForms {\012	sub fi by f i;\012	sub fl by f l;\012	sub ij by i j;\012	sub IJ by I J;\012} latinPresentationForms;\012\012";
 },
 {
-automatic = 1;
 code = "lookup locl_latn_0 {
 	script latn;
 	language AZE;
@@ -288,9 +300,26 @@ lookup locl_cyrl_3 {
 	language SRB;
 	sub be-cy by be-cy.loclSRB;
 } locl_cyrl_3;
+
+# BEGIN German cap sharp s
+language DEU;
+lookup uppercaseSharpS {
+	sub @Uppercase @Uppercase germandbls' by Germandbls;
+	sub germandbls' @Uppercase by Germandbls;
+} uppercaseSharpS;
+# END German cap sharp s
+
+# BEGIN Dutch accented IJ/ij
+lookup NLD {
+	language NLD;
+	sub iacute j' by jacute;
+	ignore sub J' @CombiningTopAccents;
+	sub Iacute J' by Jacute;
+} NLD;
+# END Dutch accented IJ/ij
 ";
 name = locl;
-notes = "\012script latn;\012language ESP;\012sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @puntuacion by @siglo2;\012sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @puntuacion by @siglo2;\012sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub @siglo2 @siglo1' by @siglo2;\012\012";
+notes = "# Add at end:\012lookup NLD {\012	language NLD;\012	sub iacute j' by jacute;\012	ignore sub J' @CombiningTopAccents;\012	sub Iacute J' by Jacute;\012} NLD;\012\012# Add at end:\012language DEU;\012lookup uppercaseSharpS {\012	sub @Uppercase @Uppercase germandbls' by Germandbls;\012	sub germandbls' @Uppercase by Germandbls;\012} uppercaseSharpS;\012\012\012script latn;\012language ESP;\012sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @puntuacion by @siglo2;\012sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @puntuacion by @siglo2;\012sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub @siglo2 @siglo1' by @siglo2;\012\012";
 },
 {
 automatic = 1;
@@ -4795,8 +4824,13 @@ sub nine by nine.osf;
 name = onum;
 },
 {
-automatic = 1;
-code = "sub A by a.sc;
+code = "# BEGIN Prepare cap marks for smallcaps
+lookup capMarksToSC {
+	sub @MarkscombCase by @Markscomb;
+} capMarksToSC;
+# END Prepare cap marks for smallcaps
+
+sub A by a.sc;
 sub Aacute by aacute.sc;
 sub Abreve by abreve.sc;
 sub Abreveacute by abreveacute.sc;
@@ -5307,9 +5341,9 @@ sub ustrait-cy by ustrait-cy.sc;
 sub iitail-cy by iitail-cy.sc;
 ";
 name = c2sc;
+notes = "# Add at beginning:\012lookup capMarksToSC {\012	sub @MarkscombCase by @Markscomb;\012} capMarksToSC;\012\012";
 },
 {
-automatic = 1;
 code = "sub a by a.sc;
 sub aacute by aacute.sc;
 sub abreve by abreve.sc;
@@ -5867,8 +5901,14 @@ sub ampersand by ampersand.sc;
 sub gdieresis by gdieresis.sc;
 sub gtilde by gtilde.sc;
 sub iitail-cy by iitail-cy.sc;
+
+# BEGIN Alternate small-cap mappings
+sub jdotless by j.sc;
+sub longs by s.sc;
+# END Alternate small-cap mappings
 ";
 name = smcp;
+notes = "# Add at end:\012sub jdotless by j.sc;\012sub longs by s.sc;\012\012";
 },
 {
 automatic = 1;
@@ -10212,6 +10252,14 @@ sub omegaperispomeniypogegrammeni.sc by omegaperispomeniypogegrammeni.sc.ss04;
 ";
 name = ss04;
 notes = "Name: Greek adscript iota";
+},
+{
+code = "# BEGIN German cap sharp s
+lookup uppercaseSharpS;
+# END German cap sharp s
+";
+name = calt;
+notes = "# Add at end:\012lookup uppercaseSharpS;\012\012";
 }
 );
 fontMaster = (
@@ -10247,35 +10295,35 @@ value = 517;
 },
 {
 name = typoAscender;
-value = 760;
+value = 1110;
 },
 {
 name = hheaAscender;
-value = 760;
+value = 1110;
 },
 {
 name = winAscent;
-value = 1160;
+value = 1110;
 },
 {
 name = hheaDescender;
-value = -240;
+value = -310;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
 },
 {
 name = typoDescender;
-value = -240;
+value = -310;
 },
 {
 name = winDescent;
-value = 320;
+value = 310;
 },
 {
 name = hheaLineGap;
-value = 200;
+value = 0;
 },
 {
 name = "Axis Location";
@@ -10366,35 +10414,35 @@ value = 548;
 },
 {
 name = typoAscender;
-value = 760;
+value = 1110;
 },
 {
 name = hheaAscender;
-value = 760;
+value = 1110;
 },
 {
 name = winAscent;
-value = 1160;
+value = 1110;
 },
 {
 name = hheaDescender;
-value = -240;
+value = -310;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
 },
 {
 name = typoDescender;
-value = -240;
+value = -310;
 },
 {
 name = winDescent;
-value = 320;
+value = 310;
 },
 {
 name = hheaLineGap;
-value = 200;
+value = 0;
 },
 {
 name = "Axis Location";
@@ -15306,6 +15354,39 @@ width = 526;
 leftKerningGroup = J;
 rightKerningGroup = U;
 unicode = 004A;
+},
+{
+glyphname = Jacute;
+layers = (
+{
+components = (
+{
+name = J;
+},
+{
+name = acutecomb;
+transform = "{1, 0, 0, 1, 225, 166}";
+}
+);
+layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
+width = 487;
+},
+{
+components = (
+{
+name = J;
+},
+{
+name = acutecomb;
+transform = "{1, 0, 0, 1, 224, 165}";
+}
+);
+layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
+width = 526;
+}
+);
+leftKerningGroup = J;
+rightKerningGroup = U;
 },
 {
 color = 10;
@@ -32051,6 +32132,39 @@ rightKerningGroup = j;
 unicode = 0237;
 },
 {
+glyphname = jacute;
+layers = (
+{
+components = (
+{
+name = jdotless;
+},
+{
+name = acutecomb;
+transform = "{1, 0, 0, 1, 6, 0}";
+}
+);
+layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
+width = 226;
+},
+{
+components = (
+{
+name = jdotless;
+},
+{
+name = acutecomb;
+transform = "{1, 0, 0, 1, 21, 0}";
+}
+);
+layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
+width = 301;
+}
+);
+leftKerningGroup = j;
+rightKerningGroup = j;
+},
+{
 color = 10;
 glyphname = jcircumflex;
 layers = (
@@ -48027,6 +48141,39 @@ RMXScaler = {
 source = J;
 };
 };
+},
+{
+glyphname = jacute.sc;
+layers = (
+{
+components = (
+{
+name = j.sc;
+},
+{
+name = acutecomb;
+transform = "{1, 0, 0, 1, 187, 38}";
+}
+);
+layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
+width = 440;
+},
+{
+components = (
+{
+name = j.sc;
+},
+{
+name = acutecomb;
+transform = "{1, 0, 0, 1, 183, 49}";
+}
+);
+layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
+width = 474;
+}
+);
+leftKerningGroup = J;
+rightKerningGroup = U;
 },
 {
 color = 10;
@@ -172513,7 +172660,7 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 585;
 }
 );
-leftKerningGroup = Etatonos;
+leftKerningGroup = H;
 leftMetricsKey = "=Etatonos";
 rightKerningGroup = H;
 unicode = 038A;
@@ -172596,7 +172743,7 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 859;
 }
 );
-leftKerningGroup = Upsilontonos;
+leftKerningGroup = Y;
 rightKerningGroup = Y;
 unicode = 038E;
 },
@@ -188958,7 +189105,7 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 372;
 }
 );
-leftKerningGroup = Etatonos;
+leftKerningGroup = H;
 rightKerningGroup = H;
 },
 {
@@ -189060,7 +189207,7 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 542;
 }
 );
-leftKerningGroup = Upsilontonos;
+leftKerningGroup = Y;
 rightKerningGroup = Y;
 },
 {
@@ -189232,7 +189379,7 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 581;
 }
 );
-leftKerningGroup = Alphatonos;
+leftKerningGroup = A;
 rightKerningGroup = A;
 },
 {
@@ -189609,7 +189756,7 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 581;
 }
 );
-leftKerningGroup = Alphatonos;
+leftKerningGroup = A;
 rightKerningGroup = A;
 },
 {
@@ -189643,7 +189790,7 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 581;
 }
 );
-leftKerningGroup = Alphatonos;
+leftKerningGroup = A;
 rightKerningGroup = A;
 },
 {
@@ -192370,7 +192517,7 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 592;
 }
 );
-leftKerningGroup = Etatonos;
+leftKerningGroup = P;
 rightKerningGroup = P;
 },
 {
@@ -240313,6 +240460,7 @@ kerning = {
 "@MMK_R_Komidzje-cy" = -30;
 "@MMK_R_O" = -10;
 "@MMK_R_T" = -20;
+"@MMK_R_V" = -10;
 "@MMK_R_cheabkhasian-cy" = -40;
 "@MMK_R_hyphen" = -20;
 "@MMK_R_komizje-cy" = -60;
@@ -240392,6 +240540,7 @@ kerning = {
 "@MMK_L_M" = {
 "@MMK_R_Cheabkhasian-cy" = -20;
 "@MMK_R_Komidzje-cy" = -40;
+"@MMK_R_O" = -10;
 "@MMK_R_a" = -20;
 "@MMK_R_asterisk" = -20;
 "@MMK_R_cheabkhasian-cy" = -50;
@@ -240557,11 +240706,13 @@ kerning = {
 "@MMK_R_A" = -110;
 "@MMK_R_Cheabkhasian-cy" = -40;
 "@MMK_R_El-cy" = -20;
+"@MMK_R_H" = -20;
 "@MMK_R_J" = -30;
 "@MMK_R_Komide-cy" = -90;
 "@MMK_R_O" = -50;
+"@MMK_R_V" = -50;
 "@MMK_R_X" = -40;
-"@MMK_R_Y" = -30;
+"@MMK_R_Y" = -40;
 "@MMK_R_a" = -30;
 "@MMK_R_cheabkhasian-cy" = -130;
 "@MMK_R_colon" = -60;
@@ -240628,7 +240779,7 @@ kerning = {
 "@MMK_R_ze-cy" = -20;
 };
 "@MMK_L_V" = {
-"@MMK_R_A" = -80;
+"@MMK_R_A" = -90;
 "@MMK_R_Che-cy" = -20;
 "@MMK_R_Cheabkhasian-cy" = -70;
 "@MMK_R_El-cy" = -50;
@@ -240819,6 +240970,8 @@ kerning = {
 "@MMK_R_Komide-cy" = -90;
 "@MMK_R_M" = -20;
 "@MMK_R_O" = -60;
+"@MMK_R_U" = -20;
+"@MMK_R_V" = -20;
 "@MMK_R_X" = -50;
 "@MMK_R_Y" = -30;
 "@MMK_R_cheabkhasian-cy" = -90;
@@ -240826,7 +240979,7 @@ kerning = {
 "@MMK_R_el-cy" = -70;
 "@MMK_R_hyphen" = -60;
 "@MMK_R_komizje-cy" = -20;
-"@MMK_R_n" = -40;
+"@MMK_R_n" = -30;
 "@MMK_R_o" = -60;
 "@MMK_R_period" = -90;
 "@MMK_R_pi" = -40;
@@ -241064,6 +241217,10 @@ parenright = 40;
 "@MMK_R_v" = -20;
 "@MMK_R_x" = -40;
 };
+"@MMK_L_i" = {
+"@MMK_R_asterisk" = -30;
+"@MMK_R_hyphen" = -20;
+};
 "@MMK_L_i.ss01" = {
 "@MMK_R_i.ss01" = -250;
 };
@@ -241172,6 +241329,7 @@ parenright = 40;
 "@MMK_R_Y" = -80;
 "@MMK_R_asterisk" = -60;
 "@MMK_R_cheabkhasian-cy" = -10;
+"@MMK_R_hyphen" = -20;
 "@MMK_R_v" = -20;
 };
 "@MMK_L_n.sups" = {
@@ -241195,7 +241353,6 @@ parenright = 40;
 "@MMK_R_de-cy" = -10;
 "@MMK_R_el-cy" = -10;
 "@MMK_R_lambda" = -20;
-"@MMK_R_n" = -7;
 "@MMK_R_period" = -60;
 "@MMK_R_pi" = -20;
 "@MMK_R_te-cy" = -27;
@@ -241595,10 +241752,9 @@ fraction = 30;
 "@MMK_R_Komidzje-cy" = -70;
 "@MMK_R_O" = -9.59;
 "@MMK_R_T" = -38;
-"@MMK_R_U" = -9.59;
+"@MMK_R_U" = -10;
 "@MMK_R_V" = -28.77;
-"@MMK_R_X" = 9.59;
-"@MMK_R_Y" = -47.95;
+"@MMK_R_Y" = -48;
 "@MMK_R_asterisk" = -76.72;
 "@MMK_R_cheabkhasian-cy" = -30;
 "@MMK_R_chi" = -9.59;
@@ -241958,7 +242114,7 @@ fraction = 30;
 "@MMK_R_T.sups" = -28;
 };
 "@MMK_L_T" = {
-"@MMK_R_A" = -47.95;
+"@MMK_R_A" = -38;
 "@MMK_R_El-cy" = -10;
 "@MMK_R_Ia-cy" = -20;
 "@MMK_R_J" = -19.18;
@@ -242001,7 +242157,7 @@ guillemetleft = -38.36;
 "@MMK_R_el-cy" = 10;
 };
 "@MMK_L_U" = {
-"@MMK_R_A" = -20;
+"@MMK_R_A" = -10;
 "@MMK_R_Cheabkhasian-cy" = -20;
 "@MMK_R_El-cy" = -20;
 "@MMK_R_J" = -20;
@@ -242012,6 +242168,7 @@ guillemetleft = -38.36;
 "@MMK_R_de-cy" = -20;
 "@MMK_R_el-cy" = -20;
 "@MMK_R_ereversed-cy" = -10;
+"@MMK_R_hyphen" = -10;
 "@MMK_R_komizje-cy" = -10;
 "@MMK_R_n" = -29;
 "@MMK_R_o" = -30;
@@ -242033,7 +242190,7 @@ guillemetleft = -38.36;
 "@MMK_R_J" = -28.77;
 "@MMK_R_Komide-cy" = -90;
 "@MMK_R_Komidzje-cy" = 10;
-"@MMK_R_O" = -19.18;
+"@MMK_R_O" = -29;
 "@MMK_R_a" = -38;
 "@MMK_R_asterisk" = 19.18;
 "@MMK_R_cheabkhasian-cy" = -50;
@@ -242091,7 +242248,7 @@ guillemetleft = -38.36;
 "@MMK_R_O.sups" = -11.508;
 };
 "@MMK_L_Y" = {
-"@MMK_R_A" = -38.36;
+"@MMK_R_A" = -38;
 "@MMK_R_Cheabkhasian-cy" = -40;
 "@MMK_R_J" = -28.77;
 "@MMK_R_Komide-cy" = -60;
@@ -242155,6 +242312,7 @@ guillemetleft = -38.36;
 "@MMK_R_Cheabkhasian-cy" = -10;
 "@MMK_R_El-cy" = -50;
 "@MMK_R_Ghestroke-cy" = -10;
+"@MMK_R_H" = -10;
 "@MMK_R_Ia-cy" = -30;
 "@MMK_R_J" = -95.9;
 "@MMK_R_Komide-cy" = -90;
@@ -242320,7 +242478,7 @@ question = 9.59;
 "@MMK_R_A" = -19.18;
 "@MMK_R_H" = -19.18;
 "@MMK_R_T" = -57.54;
-"@MMK_R_U" = 0;
+"@MMK_R_U" = -10;
 "@MMK_R_V" = -67.13;
 "@MMK_R_X" = -28.77;
 "@MMK_R_Y" = -67.13;
@@ -242419,10 +242577,10 @@ question = 9.59;
 "@MMK_R_f" = 47.95;
 "@MMK_R_h" = 124.67;
 "@MMK_R_j" = 95.9;
+"@MMK_R_n" = 95.9;
 "@MMK_R_saltillo" = 95.9;
 "@MMK_R_xi" = 115.08;
 "@MMK_R_zeta" = 134.25999;
-"@MMK_R_n" = 95.9;
 };
 "@MMK_L_n" = {
 "@MMK_R_Che-cy" = -20;
