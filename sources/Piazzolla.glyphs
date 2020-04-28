@@ -1,9 +1,5 @@
 {
-.appVersion = "1313";
-DisplayStrings = (
-"/gamma n/nu nynvn/ustrait-cy nwn/lambda n/izhitsa-cy n/dje-cy n/jdotless n/tau n/che-cy.loclBGR n/chi n/zhe-cy.loclBGR n/yusbig-cy.rl-Weight_118_208 n/cheabkhasian-cy n/enlefthook-cy n/c.ss01 n/d.ss01 n/i.ss01 n/l.ss01 n/m.ss01 n/v.ss01 n/x.ss01 n/pi n/yusbig-cy n/ia-cy n/komizje-cy n/komidzje-cy n/je-cy n/hahook-cy n/de-cy n/el-cy.loclBGR nxn/psi n/hadescender-cy nþn/komitje-cy n/chedescender-cy nbn/upsilon n/che-cy n/chekhakassian-cy n/t.t ngn/lje-cy n/softsign-cy.loclBGR ntn/uhorn n/sha-cy.loclBGR nun/tse-cy.loclBGR n/shcha-cy.loclBGR n/cheverticalstroke-cy n/semisoftsign-cy nhnln/zeta nkn/hardsign-cy.loclBGR n/yat-cy n/te-cy n/tedescender-cy n/shhadescender-cy n/iu-cy.loclBGR n/el-cy n/eltail-cy n/eldescender-cy n/ertick-cy n/komilje-cy n/ef-cy n/delta npn/elhook-cy n/mu n/f.f n/longs nfn/kappa n/phi n/kastroke-cy n/eta nßn/kgreenlandic n/xi n/kaiSymbol n/komisje-cy nrnnnmn/idotless n/en-cy.loclBGR n/eng n/kabashkir-cy n/hardsign-cy n/sigma n/tetse-cy n/e-cy n/ze-cy.loclBGR nenðn/emtail-cy nøn/obarred-cy ncn/em-cy n/sigmafinal n/ohorn nqndn/komidje-cy n/schwa non/oslash.rl-Weight_118_208 n/oe n/de-cy.loclBGR n/ghestroke-cy.loclBSH nan/dzeabkhasian-cy n/alpha næn/palochka-cy n/haabkhasian-cy n/zhe-cy n/zhedescender-cy n/ge-cy.loclBGR n/be-cy.loclSRB n/epsilon n/omega n/reversedze-cy n/theta n/ge-cy n/enghe-cy n/kominje-cy n/entail-cy n/ve-cy n/iu-cy n/ii-cy n/dzhe-cy n/en-cy n/rho n/pemiddlehook-cy n/ghemiddlehook-cy n/shcha-cy n/tse-cy n/endescender-cy n/pedescender-cy n/kadescender-cy n/enhook-cy n/softsign-cy n/ka-cy n/kaverticalstroke-cy n/kahook-cy n/pe-cy n/sha-cy n/yeru-cy n/gestrokehook-cy nzn/be-cy n/gedescender-cy nsn/gheupturn-cy n/ge-cy.loclBGR.curr n/ghestroke-cy n/ve-cy.loclBGR n/beta n/ze-cy n/ereversed-cy n/iota n/prosgegrammeni n/saltillo n/nje-cy n",
-fl
-);
+.appVersion = "1322";
 classes = (
 {
 automatic = 1;
@@ -114238,7 +114234,7 @@ width = 73;
 width = 526;
 }
 );
-leftKerningGroup = u;
+leftKerningGroup = "che-cy";
 rightKerningGroup = u;
 unicode = 0447;
 userData = {
@@ -122835,7 +122831,7 @@ width = 802;
 }
 );
 leftKerningGroup = n;
-rightKerningGroup = j;
+rightKerningGroup = "pemiddlehook-cy";
 unicode = 04A7;
 userData = {
 RMXScaler = {
@@ -124342,7 +124338,7 @@ width = 73;
 width = 536;
 }
 );
-leftKerningGroup = u;
+leftKerningGroup = "che-cy";
 rightKerningGroup = u;
 unicode = 04B7;
 userData = {
@@ -124553,7 +124549,7 @@ width = 76;
 width = 558;
 }
 );
-leftKerningGroup = u;
+leftKerningGroup = "che-cy";
 rightKerningGroup = u;
 unicode = 04B9;
 userData = {
@@ -126646,7 +126642,7 @@ width = 73;
 width = 526;
 }
 );
-leftKerningGroup = u;
+leftKerningGroup = "che-cy";
 rightKerningGroup = u;
 unicode = 04CC;
 userData = {
@@ -127357,8 +127353,8 @@ width = 86;
 width = 436;
 }
 );
-leftKerningGroup = "ze-cy";
-rightKerningGroup = "ve-cy";
+leftKerningGroup = z;
+rightKerningGroup = "dzeabkhasian-cy";
 unicode = 04E1;
 userData = {
 RMXScaler = {
@@ -127918,7 +127914,7 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 526;
 }
 );
-leftKerningGroup = u;
+leftKerningGroup = "che-cy";
 rightKerningGroup = u;
 unicode = 04F5;
 },
@@ -131087,7 +131083,7 @@ width = 543;
 }
 );
 leftKerningGroup = "el-cy";
-rightKerningGroup = "elhook-cy";
+rightKerningGroup = j;
 unicode = 0513;
 userData = {
 RMXScaler = {
@@ -131340,7 +131336,7 @@ width = 507;
 }
 );
 leftKerningGroup = "semisoftsign-cy";
-rightKerningGroup = "semisoftsign-cy";
+rightKerningGroup = "softsign-cy";
 unicode = 048D;
 },
 {
@@ -134190,8 +134186,8 @@ nodes = (
 width = 444;
 }
 );
-leftKerningGroup = "ze-cy";
-rightKerningGroup = "ve-cy";
+leftKerningGroup = z;
+rightKerningGroup = "ze-cy.loclBGR";
 },
 {
 glyphname = "ii-cy.loclBGR";
@@ -134821,7 +134817,7 @@ nodes = (
 width = 555;
 }
 );
-leftKerningGroup = u;
+leftKerningGroup = "che-cy";
 rightKerningGroup = u;
 },
 {
@@ -150529,7 +150525,7 @@ width = 705;
 }
 );
 leftKerningGroup = "cheabkhasian-cy.sc";
-rightKerningGroup = o.sc;
+rightKerningGroup = O;
 userData = {
 RMXScaler = {
 source = "Cheabkhasian-cy";
@@ -157386,7 +157382,7 @@ width = 84;
 width = 733;
 }
 );
-leftKerningGroup = "Komizje-cy";
+leftKerningGroup = "Komidzje-cy";
 rightKerningGroup = "Kominje-cy";
 userData = {
 RMXScaler = {
@@ -240307,16 +240303,16 @@ kerning = {
 "@MMK_R_v" = -50;
 };
 "@MMK_L_A.sups" = {
+"@MMK_R_Che-cy.sups" = -46;
+"@MMK_R_Ia-cy.sups" = -6;
 "@MMK_R_J.sups" = -23;
 "@MMK_R_O.sups" = -29;
 "@MMK_R_T.sups" = -64;
+"@MMK_R_U-cy.sups" = -41;
+"@MMK_R_U.sups" = -12;
 "@MMK_R_V.sups" = -52;
 "@MMK_R_X.sups" = -6;
 "@MMK_R_Y.sups" = -52;
-"@MMK_R_Che-cy.sups" = -46;
-"@MMK_R_Ia-cy.sups" = -6;
-"@MMK_R_U.sups" = -12;
-"@MMK_R_U-cy.sups" = -41;
 };
 "@MMK_L_B" = {
 "@MMK_R_Che-cy" = -10;
@@ -240363,6 +240359,14 @@ kerning = {
 "@MMK_R_x" = -30;
 "@MMK_R_ze-cy" = -10;
 };
+"@MMK_L_Be-cy.sups" = {
+"@MMK_R_A.sups" = -23;
+"@MMK_R_El-cy.sups" = -12;
+"@MMK_R_Ia-cy.sups" = -12;
+"@MMK_R_T.sups" = -12;
+"@MMK_R_V.sups" = -23;
+"@MMK_R_X.sups" = -6;
+};
 "@MMK_L_C" = {
 "@MMK_R_A" = -30;
 "@MMK_R_Cheabkhasian-cy" = -60;
@@ -240398,16 +240402,16 @@ kerning = {
 "@MMK_R_V.curr" = -19;
 };
 "@MMK_L_C.sups" = {
+"@MMK_R_A.sups" = -17;
+"@MMK_R_El-cy.sups" = 0;
 "@MMK_R_H.sups" = -6;
+"@MMK_R_Ia-cy.sups" = -23;
 "@MMK_R_O.sups" = -29;
+"@MMK_R_T.sups" = -23;
+"@MMK_R_U-cy.sups" = -12;
 "@MMK_R_V.sups" = -12;
 "@MMK_R_X.sups" = -17;
 "@MMK_R_Y.sups" = -6;
-"@MMK_R_A.sups" = -17;
-"@MMK_R_El-cy.sups" = 0;
-"@MMK_R_Ia-cy.sups" = -23;
-"@MMK_R_T.sups" = -23;
-"@MMK_R_U-cy.sups" = -12;
 };
 "@MMK_L_De-cy" = {
 "@MMK_R_Che-cy" = -10;
@@ -240423,6 +240427,11 @@ kerning = {
 "@MMK_R_te-cy" = -40;
 "@MMK_R_v" = -30;
 "@MMK_R_ze-cy" = -10;
+};
+"@MMK_L_De-cy.sups" = {
+"@MMK_R_Che-cy.sups" = -6;
+"@MMK_R_T.sups" = -12;
+"@MMK_R_V.sups" = -6;
 };
 "@MMK_L_Dje-cy" = {
 "@MMK_R_A" = -10;
@@ -240499,19 +240508,19 @@ kerning = {
 };
 "@MMK_L_F.sups" = {
 "@MMK_R_A.sups" = -41;
-"@MMK_R_J.sups" = -29;
-"@MMK_R_O.sups" = -23;
-"@MMK_R_S.sups" = -6;
-"@MMK_R_V.sups" = -12;
-"@MMK_R_X.sups" = -12;
-"@MMK_R_Y.sups" = -12;
-"@MMK_R_Z.sups" = -6;
 "@MMK_R_El-cy.sups" = -29;
 "@MMK_R_Ereversed-cy.sups" = -12;
 "@MMK_R_H.sups" = -6;
 "@MMK_R_Ia-cy.sups" = -29;
+"@MMK_R_J.sups" = -29;
+"@MMK_R_O.sups" = -23;
+"@MMK_R_S.sups" = -6;
 "@MMK_R_T.sups" = -17;
 "@MMK_R_U-cy.sups" = -17;
+"@MMK_R_V.sups" = -12;
+"@MMK_R_X.sups" = -12;
+"@MMK_R_Y.sups" = -12;
+"@MMK_R_Z.sups" = -6;
 };
 "@MMK_L_G" = {
 "@MMK_R_Cheabkhasian-cy" = -10;
@@ -240523,6 +240532,9 @@ kerning = {
 "@MMK_R_pi" = -10;
 "@MMK_R_te-cy" = -20;
 "@MMK_R_v" = -10;
+};
+"@MMK_L_G.sups" = {
+"@MMK_R_El-cy.sups" = -6;
 };
 "@MMK_L_Germandbls" = {
 "@MMK_R_O" = -40;
@@ -240569,8 +240581,8 @@ kerning = {
 "@MMK_R_O.curr" = -10;
 };
 "@MMK_L_H.sups" = {
-"@MMK_R_O.sups" = -6;
 "@MMK_R_Che-cy.sups" = -12;
+"@MMK_R_O.sups" = -6;
 "@MMK_R_T.sups" = -12;
 "@MMK_R_V.sups" = -12;
 };
@@ -240650,6 +240662,9 @@ kerning = {
 "@MMK_R_cheabkhasian-cy" = -50;
 "@MMK_R_te-cy" = -20;
 };
+"@MMK_L_M.sups" = {
+"@MMK_R_V.sups" = -12;
+};
 "@MMK_L_O" = {
 "@MMK_R_A" = -50;
 "@MMK_R_Che-cy" = -20;
@@ -240719,14 +240734,14 @@ kerning = {
 };
 "@MMK_L_P.sups" = {
 "@MMK_R_A.sups" = -35;
+"@MMK_R_El-cy.sups" = -17;
+"@MMK_R_Ia-cy.sups" = -17;
 "@MMK_R_J.sups" = -35;
 "@MMK_R_T.sups" = -12;
+"@MMK_R_U-cy.sups" = -12;
 "@MMK_R_V.sups" = -23;
 "@MMK_R_X.sups" = -23;
 "@MMK_R_Y.sups" = -12;
-"@MMK_R_El-cy.sups" = -17;
-"@MMK_R_Ia-cy.sups" = -17;
-"@MMK_R_U-cy.sups" = -12;
 };
 "@MMK_L_R" = {
 "@MMK_R_A" = -20;
@@ -240809,11 +240824,11 @@ kerning = {
 "@MMK_R_v" = -30;
 };
 "@MMK_L_Softsign-cy.sups" = {
-"@MMK_R_T.sups" = -58;
 "@MMK_R_Che-cy.sups" = -35;
 "@MMK_R_El-cy.sups" = -6;
 "@MMK_R_H.sups" = -12;
 "@MMK_R_Ia-cy.sups" = -6;
+"@MMK_R_T.sups" = -58;
 "@MMK_R_U-cy.sups" = -41;
 "@MMK_R_V.sups" = -41;
 "@MMK_R_X.sups" = -23;
@@ -240853,10 +240868,10 @@ kerning = {
 };
 "@MMK_L_T.sups" = {
 "@MMK_R_A.sups" = -64;
-"@MMK_R_J.sups" = -23;
-"@MMK_R_O.sups" = -29;
 "@MMK_R_El-cy.sups" = -12;
 "@MMK_R_H.sups" = -12;
+"@MMK_R_J.sups" = -23;
+"@MMK_R_O.sups" = -29;
 "@MMK_R_V.sups" = -29;
 "@MMK_R_X.sups" = -23;
 };
@@ -240898,6 +240913,11 @@ kerning = {
 "@MMK_R_x" = -30;
 "@MMK_R_z" = -20;
 "@MMK_R_ze-cy" = -20;
+};
+"@MMK_L_U.sups" = {
+"@MMK_R_A.sups" = -12;
+"@MMK_R_El-cy.sups" = -17;
+"@MMK_R_J.sups" = -12;
 };
 "@MMK_L_V" = {
 "@MMK_R_A" = -90;
@@ -240953,18 +240973,18 @@ kerning = {
 };
 "@MMK_L_V.sups" = {
 "@MMK_R_A.sups" = -52;
-"@MMK_R_J.sups" = -23;
-"@MMK_R_O.sups" = -29;
-"@MMK_R_S.sups" = -12;
-"@MMK_R_X.sups" = -12;
-"@MMK_R_Y.sups" = -12;
 "@MMK_R_Che-cy.sups" = -12;
 "@MMK_R_El-cy.sups" = -29;
 "@MMK_R_Ereversed-cy.sups" = -6;
 "@MMK_R_H.sups" = -12;
 "@MMK_R_Ia-cy.sups" = -35;
+"@MMK_R_J.sups" = -23;
 "@MMK_R_M.sups" = -12;
+"@MMK_R_O.sups" = -29;
+"@MMK_R_S.sups" = -12;
 "@MMK_R_T.sups" = -29;
+"@MMK_R_X.sups" = -12;
+"@MMK_R_Y.sups" = -12;
 };
 "@MMK_L_X" = {
 "@MMK_R_A" = -10;
@@ -241006,12 +241026,12 @@ kerning = {
 };
 "@MMK_L_X.sups" = {
 "@MMK_R_A.sups" = -6;
+"@MMK_R_Che-cy.sups" = -12;
 "@MMK_R_J.sups" = -17;
 "@MMK_R_O.sups" = -23;
 "@MMK_R_S.sups" = -6;
-"@MMK_R_V.sups" = -12;
-"@MMK_R_Che-cy.sups" = -12;
 "@MMK_R_T.sups" = -23;
+"@MMK_R_V.sups" = -12;
 };
 "@MMK_L_Y" = {
 "@MMK_R_A" = -90;
@@ -241153,10 +241173,10 @@ kerning = {
 "@MMK_R_delta.sups" = -20;
 "@MMK_R_n.sups" = -10;
 "@MMK_R_o.sups" = -18;
+"@MMK_R_te-cy.sups" = -7;
 "@MMK_R_v.sups" = -10;
 "@MMK_R_x.sups" = -14;
 "@MMK_R_z.sups" = -7;
-"@MMK_R_te-cy.sups" = -7;
 "@MMK_R_ze-cy.sups" = -7;
 };
 "@MMK_L_chi" = {
@@ -241223,8 +241243,8 @@ kerning = {
 };
 "@MMK_L_e.sups" = {
 "@MMK_R_chi.sups" = -13;
-"@MMK_R_o.sups" = -13;
 "@MMK_R_de-cy.sups" = -7;
+"@MMK_R_o.sups" = -13;
 "@MMK_R_v.sups" = -24;
 "@MMK_R_x.sups" = -20;
 "@MMK_R_ze-cy.sups" = -13;
@@ -241311,14 +241331,14 @@ parenright = 40;
 "@MMK_R_x" = -7;
 };
 "@MMK_L_ge-cy.sups" = {
-"@MMK_R_o.sups" = -18;
-"@MMK_R_v.sups" = -10;
-"@MMK_R_x.sups" = -5;
 "@MMK_R_a.sups" = -7;
 "@MMK_R_de-cy.sups" = -33;
 "@MMK_R_el-cy.sups" = -26;
 "@MMK_R_ereversed-cy.sups" = -7;
 "@MMK_R_n.sups" = -7;
+"@MMK_R_o.sups" = -18;
+"@MMK_R_v.sups" = -10;
+"@MMK_R_x.sups" = -5;
 };
 "@MMK_L_ghemiddlehook-cy" = {
 "@MMK_R_Che-cy" = -70;
@@ -241509,6 +241529,8 @@ parenright = 40;
 };
 "@MMK_L_o.sups" = {
 "@MMK_R_chi.sups" = -13;
+"@MMK_R_de-cy.sups" = -7;
+"@MMK_R_el-cy.sups" = -7;
 "@MMK_R_lambda.sups" = -13;
 "@MMK_R_n.sups" = -5;
 "@MMK_R_pi.sups" = -13;
@@ -241516,8 +241538,6 @@ parenright = 40;
 "@MMK_R_v.sups" = -24;
 "@MMK_R_x.sups" = -20;
 "@MMK_R_z.sups" = -7;
-"@MMK_R_de-cy.sups" = -7;
-"@MMK_R_el-cy.sups" = -7;
 };
 "@MMK_L_period" = {
 "@MMK_R_Che-cy" = -130;
@@ -241569,6 +241589,9 @@ parenright = 40;
 "@MMK_R_el-cy" = -10;
 "@MMK_R_period" = -10;
 };
+"@MMK_L_q.sups" = {
+"@MMK_R_el-cy.sups" = -7;
+};
 "@MMK_L_r" = {
 "@MMK_R_A" = -50;
 "@MMK_R_El-cy" = -30;
@@ -241597,13 +241620,13 @@ parenright = 40;
 "@MMK_R_zeta" = -20;
 };
 "@MMK_L_r.sups" = {
+"@MMK_R_de-cy.sups" = -20;
 "@MMK_R_delta.sups" = -20;
 "@MMK_R_lambda.sups" = -13;
 "@MMK_R_o.sups" = -20;
 "@MMK_R_pi.sups" = -7;
 "@MMK_R_rho.sups" = -20;
 "@MMK_R_zeta.sups" = -13;
-"@MMK_R_de-cy.sups" = -20;
 };
 "@MMK_L_s" = {
 "@MMK_R_A" = -20;
@@ -241655,8 +241678,8 @@ parenright = 40;
 "@MMK_R_v" = -20;
 };
 "@MMK_L_softsign-cy.sups" = {
-"@MMK_R_te-cy.sups" = -26;
 "@MMK_R_de-cy.sups" = -7;
+"@MMK_R_te-cy.sups" = -26;
 "@MMK_R_v.sups" = -13;
 };
 "@MMK_L_space" = {
@@ -241693,8 +241716,8 @@ parenright = 40;
 "@MMK_R_period" = -50;
 };
 "@MMK_L_te-cy.sups" = {
-"@MMK_R_o.sups" = -18;
 "@MMK_R_de-cy.sups" = -20;
+"@MMK_R_o.sups" = -18;
 };
 "@MMK_L_theta" = {
 "@MMK_R_period" = -60;
@@ -241720,8 +241743,8 @@ parenright = -20;
 };
 "@MMK_L_u.sups" = {
 "@MMK_R_chi.sups" = -7;
-"@MMK_R_o.sups" = -5;
 "@MMK_R_de-cy.sups" = 20;
+"@MMK_R_o.sups" = -5;
 };
 "@MMK_L_upsilon" = {
 "@MMK_R_lambda" = -10;
@@ -241754,11 +241777,11 @@ parenright = -20;
 "@MMK_R_x" = -15;
 };
 "@MMK_L_v.sups" = {
+"@MMK_R_de-cy.sups" = -7;
 "@MMK_R_lambda.sups" = -20;
 "@MMK_R_o.sups" = -24;
 "@MMK_R_rho.sups" = -13;
 "@MMK_R_x.sups" = -10;
-"@MMK_R_de-cy.sups" = -7;
 };
 "@MMK_L_ve-cy" = {
 "@MMK_R_Che-cy" = -60;
@@ -241898,33 +241921,6 @@ fraction = 10;
 two.numr = {
 fraction = 30;
 };
-"@MMK_L_Be-cy.sups" = {
-"@MMK_R_A.sups" = -23;
-"@MMK_R_El-cy.sups" = -12;
-"@MMK_R_Ia-cy.sups" = -12;
-"@MMK_R_T.sups" = -12;
-"@MMK_R_V.sups" = -23;
-"@MMK_R_X.sups" = -6;
-};
-"@MMK_L_De-cy.sups" = {
-"@MMK_R_Che-cy.sups" = -6;
-"@MMK_R_T.sups" = -12;
-"@MMK_R_V.sups" = -6;
-};
-"@MMK_L_G.sups" = {
-"@MMK_R_El-cy.sups" = -6;
-};
-"@MMK_L_M.sups" = {
-"@MMK_R_V.sups" = -12;
-};
-"@MMK_L_U.sups" = {
-"@MMK_R_A.sups" = -12;
-"@MMK_R_El-cy.sups" = -17;
-"@MMK_R_J.sups" = -12;
-};
-"@MMK_L_q.sups" = {
-"@MMK_R_el-cy.sups" = -7;
-};
 };
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = {
 "@MMK_L_A" = {
@@ -241954,6 +241950,8 @@ fraction = 30;
 "@MMK_R_v" = -19;
 };
 "@MMK_L_A.sups" = {
+"@MMK_R_Che-cy.sups" = -24;
+"@MMK_R_El-cy.sups" = 6;
 "@MMK_R_J.sups" = 0;
 "@MMK_R_O.sups" = -6;
 "@MMK_R_T.sups" = -22;
@@ -241961,8 +241959,6 @@ fraction = 30;
 "@MMK_R_V.sups" = -17;
 "@MMK_R_X.sups" = 6;
 "@MMK_R_Y.sups" = -29;
-"@MMK_R_Che-cy.sups" = -24;
-"@MMK_R_El-cy.sups" = 6;
 };
 "@MMK_L_B" = {
 "@MMK_R_Komide-cy" = 10;
@@ -241998,6 +241994,13 @@ fraction = 30;
 "@MMK_R_te-cy" = -10;
 "@MMK_R_ze-cy" = -20;
 };
+"@MMK_L_Be-cy.sups" = {
+"@MMK_R_A.sups" = -6;
+"@MMK_R_H.sups" = -6;
+"@MMK_R_Ia-cy.sups" = -12;
+"@MMK_R_T.sups" = -18;
+"@MMK_R_U-cy.sups" = -18;
+};
 "@MMK_L_C" = {
 "@MMK_R_Cheabkhasian-cy" = -40;
 "@MMK_R_Komidzje-cy" = -10;
@@ -242029,6 +242032,10 @@ fraction = 30;
 "@MMK_R_el-cy" = 10;
 "@MMK_R_komizje-cy" = -30;
 "@MMK_R_te-cy" = -20;
+};
+"@MMK_L_De-cy.sups" = {
+"@MMK_R_A.sups" = 6;
+"@MMK_R_El-cy.sups" = 12;
 };
 "@MMK_L_Dje-cy" = {
 "@MMK_R_Che-cy" = -20;
@@ -242096,10 +242103,10 @@ fraction = 30;
 };
 "@MMK_L_F.sups" = {
 "@MMK_R_A.sups" = -34;
+"@MMK_R_El-cy.sups" = -12;
 "@MMK_R_J.sups" = -22;
 "@MMK_R_O.sups" = -6;
 "@MMK_R_T.sups" = 11;
-"@MMK_R_El-cy.sups" = -12;
 };
 "@MMK_L_G" = {
 "@MMK_R_Che-cy" = 0;
@@ -242110,6 +242117,11 @@ fraction = 30;
 "@MMK_R_komizje-cy" = 10;
 "@MMK_R_period" = -19;
 "@MMK_R_v" = -10;
+};
+"@MMK_L_G.sups" = {
+"@MMK_R_Che-cy.sups" = 0;
+"@MMK_R_El-cy.sups" = -6;
+"@MMK_R_T.sups" = -6;
 };
 "@MMK_L_Ghemiddlehook-cy" = {
 "@MMK_R_Cheabkhasian-cy" = -50;
@@ -242253,8 +242265,8 @@ fraction = 30;
 };
 "@MMK_L_P.sups" = {
 "@MMK_R_A.sups" = -28;
-"@MMK_R_J.sups" = -34;
 "@MMK_R_El-cy.sups" = -30;
+"@MMK_R_J.sups" = -34;
 "@MMK_R_T.sups" = 12;
 "@MMK_R_X.sups" = -12;
 };
@@ -242304,10 +242316,10 @@ fraction = 30;
 "@MMK_R_Y" = -60;
 };
 "@MMK_L_Softsign-cy.sups" = {
-"@MMK_R_T.sups" = -34;
 "@MMK_R_Che-cy.sups" = -18;
 "@MMK_R_El-cy.sups" = 6;
 "@MMK_R_J.sups" = 6;
+"@MMK_R_T.sups" = -34;
 "@MMK_R_U.sups" = -12;
 "@MMK_R_V.sups" = -41;
 };
@@ -242340,11 +242352,11 @@ guillemetleft = -38;
 };
 "@MMK_L_T.sups" = {
 "@MMK_R_A.sups" = -22;
+"@MMK_R_El-cy.sups" = -6;
+"@MMK_R_Ia-cy.sups" = -12;
 "@MMK_R_J.sups" = -11;
 "@MMK_R_O.sups" = -6;
 "@MMK_R_T.sups" = 6;
-"@MMK_R_El-cy.sups" = -6;
-"@MMK_R_Ia-cy.sups" = -12;
 };
 "@MMK_L_Tshe-cy" = {
 "@MMK_R_Che-cy" = -60;
@@ -242557,9 +242569,9 @@ guillemetleft = -38;
 "@MMK_L_c.sups" = {
 "@MMK_R_delta.sups" = -13;
 "@MMK_R_f.sups" = -7;
+"@MMK_R_h.sups" = -7;
 "@MMK_R_o.sups" = -19;
 "@MMK_R_x.sups" = -4;
-"@MMK_R_h.sups" = -7;
 };
 "@MMK_L_chi" = {
 "@MMK_R_A" = -10;
@@ -242654,9 +242666,9 @@ question = 10;
 "@MMK_R_te-cy" = 14;
 };
 "@MMK_L_ge-cy.sups" = {
+"@MMK_R_n.sups" = 0;
 "@MMK_R_o.sups" = 0;
 "@MMK_R_te-cy.sups" = 25;
-"@MMK_R_n.sups" = 0;
 };
 "@MMK_L_ghemiddlehook-cy" = {
 "@MMK_R_Cheabkhasian-cy" = -10;
@@ -242873,10 +242885,10 @@ question = 10;
 "@MMK_R_te-cy" = 20;
 };
 "@MMK_L_r.sups" = {
+"@MMK_R_de-cy.sups" = -7;
 "@MMK_R_h.sups" = -13;
 "@MMK_R_lambda.sups" = -7;
 "@MMK_R_o.sups" = -7;
-"@MMK_R_de-cy.sups" = -7;
 "@MMK_R_te-cy.sups" = 13;
 };
 "@MMK_L_s" = {
@@ -242941,9 +242953,9 @@ question = 10;
 "@MMK_R_te-cy" = 7;
 };
 "@MMK_L_te-cy.sups" = {
+"@MMK_R_de-cy.sups" = 0;
 "@MMK_R_o.sups" = -5;
 "@MMK_R_te-cy.sups" = 5;
-"@MMK_R_de-cy.sups" = 0;
 };
 "@MMK_L_theta" = {
 "@MMK_R_period" = -29;
@@ -242966,10 +242978,10 @@ parenright = -19;
 };
 "@MMK_L_u.sups" = {
 "@MMK_R_chi.sups" = -7;
+"@MMK_R_de-cy.sups" = 20;
 "@MMK_R_lambda.sups" = 52;
 "@MMK_R_o.sups" = -5;
 "@MMK_R_v.sups" = -4;
-"@MMK_R_de-cy.sups" = 20;
 };
 "@MMK_L_upsilon" = {
 "@MMK_R_period" = -29;
@@ -243109,22 +243121,6 @@ fraction = 19;
 };
 two.numr = {
 fraction = 58;
-};
-"@MMK_L_Be-cy.sups" = {
-"@MMK_R_A.sups" = -6;
-"@MMK_R_H.sups" = -6;
-"@MMK_R_Ia-cy.sups" = -12;
-"@MMK_R_T.sups" = -18;
-"@MMK_R_U-cy.sups" = -18;
-};
-"@MMK_L_De-cy.sups" = {
-"@MMK_R_A.sups" = 6;
-"@MMK_R_El-cy.sups" = 12;
-};
-"@MMK_L_G.sups" = {
-"@MMK_R_Che-cy.sups" = 0;
-"@MMK_R_El-cy.sups" = -6;
-"@MMK_R_T.sups" = -6;
 };
 };
 };
