@@ -1,5 +1,8 @@
 {
 .appVersion = "1322";
+DisplayStrings = (
+"nnn\012/che-cy/che-cy/be-cy/che-cy/che-cy/che-cy/cheabkhasian-cy/che-cy/de-cy/che-cy/dzeabkhasian-cy/che-cy/el-cy/che-cy/el-cy.loclBGR/che-cy/ereversed-cy/che-cy/ge-cy/che-cy/ghemiddlehook-cy/che-cy/ghestroke-cy/che-cy/ia-cy/che-cy/kahook-cy/che-cy/komidzje-cy/che-cy/kominje-cy/che-cy/komisje-cy/che-cy/komizje-cy/che-cy/pemiddlehook-cy/che-cy/reversedze-cy/che-cy/softsign-cy/che-cy/ve-cy/che-cy/ve-cy.loclBGR/che-cy/ze-cy/che-cy/ze-cy.loclBGR/che-cy c/che-cy d/che-cy e/che-cy g/che-cy h/che-cy i/che-cy j/che-cy l/che-cy n/che-cy o/che-cy p/che-cy q/che-cy r/che-cy s/che-cy u/che-cy v/che-cy x/che-cy z/che-cy \012/Be-cy/che-cy/Che-cy/che-cy/Cheabkhasian-cy/che-cy/De-cy/che-cy/Dje-cy/che-cy/El-cy H/che-cy/Ereversed-cy/che-cy/Ghemiddlehook-cy/che-cy/Ghestroke-cy/che-cy/Ia-cy/che-cy/Komide-cy/che-cy/Komidzje-cy/che-cy/Kominje-cy/che-cy/Reversedze-cy/che-cy/Shha-cy/che-cy/Softsign-cy/che-cy/Tshe-cy/che-cy/U-cy/che-cy \012/Yat-cy/che-cy A/che-cy B/che-cy C/che-cy E/che-cy F/che-cy G/che-cy \012H/che-cy J/che-cy M/che-cy O/che-cy P/che-cy S/che-cy T/che-cy U/che-cy V/che-cy \012X/che-cy Y/che-cy */che-cy u./che-cy/che-cy/che-cy"
+);
 classes = (
 {
 automatic = 1;
@@ -240301,6 +240304,7 @@ kerning = {
 "@MMK_R_te-cy" = -40;
 "@MMK_R_u" = -20;
 "@MMK_R_v" = -50;
+"@MMK_R_che-cy" = -70;
 };
 "@MMK_L_A.sups" = {
 "@MMK_R_Che-cy.sups" = -46;
@@ -240358,6 +240362,7 @@ kerning = {
 "@MMK_R_v" = -30;
 "@MMK_R_x" = -30;
 "@MMK_R_ze-cy" = -10;
+"@MMK_R_che-cy" = -20;
 };
 "@MMK_L_Be-cy.sups" = {
 "@MMK_R_A.sups" = -23;
@@ -240427,6 +240432,7 @@ kerning = {
 "@MMK_R_te-cy" = -40;
 "@MMK_R_v" = -30;
 "@MMK_R_ze-cy" = -10;
+"@MMK_R_che-cy" = -20;
 };
 "@MMK_L_De-cy.sups" = {
 "@MMK_R_Che-cy.sups" = -6;
@@ -240448,6 +240454,7 @@ kerning = {
 "@MMK_R_n" = -10;
 "@MMK_R_period" = -20;
 "@MMK_R_te-cy" = -10;
+"@MMK_R_che-cy" = -30;
 };
 "@MMK_L_E" = {
 "@MMK_R_Cheabkhasian-cy" = -20;
@@ -240460,6 +240467,7 @@ kerning = {
 "@MMK_R_hyphen" = -20;
 "@MMK_R_komizje-cy" = -50;
 "@MMK_R_te-cy" = -20;
+"@MMK_R_che-cy" = -20;
 };
 "@MMK_L_E.sups" = {
 "@MMK_R_O.sups" = -17;
@@ -240505,6 +240513,7 @@ kerning = {
 "@MMK_R_v" = -50;
 "@MMK_R_x" = -10;
 "@MMK_R_ze-cy" = -30;
+"@MMK_R_che-cy" = -10;
 };
 "@MMK_L_F.sups" = {
 "@MMK_R_A.sups" = -41;
@@ -240532,6 +240541,7 @@ kerning = {
 "@MMK_R_pi" = -10;
 "@MMK_R_te-cy" = -20;
 "@MMK_R_v" = -10;
+"@MMK_R_che-cy" = -20;
 };
 "@MMK_L_G.sups" = {
 "@MMK_R_El-cy.sups" = -6;
@@ -240576,6 +240586,7 @@ kerning = {
 "@MMK_R_o" = -30;
 "@MMK_R_te-cy" = -30;
 "@MMK_R_v" = -30;
+"@MMK_R_che-cy" = -30;
 };
 "@MMK_L_H.curr" = {
 "@MMK_R_O.curr" = -10;
@@ -240600,6 +240611,7 @@ kerning = {
 "@MMK_R_de-cy" = 20;
 "@MMK_R_el-cy" = 10;
 "@MMK_R_j" = 20;
+"@MMK_R_che-cy" = -10;
 };
 "@MMK_L_Kominje-cy" = {
 "@MMK_R_A" = -70;
@@ -240625,6 +240637,7 @@ kerning = {
 "@MMK_R_semisoftsign-cy" = -40;
 "@MMK_R_te-cy" = -10;
 "@MMK_R_v" = -30;
+"@MMK_R_che-cy" = -10;
 };
 "@MMK_L_L" = {
 "@MMK_R_A" = -40;
@@ -240661,6 +240674,7 @@ kerning = {
 "@MMK_R_asterisk" = -20;
 "@MMK_R_cheabkhasian-cy" = -50;
 "@MMK_R_te-cy" = -20;
+"@MMK_R_che-cy" = -30;
 };
 "@MMK_L_M.sups" = {
 "@MMK_R_V.sups" = -12;
@@ -240769,6 +240783,7 @@ kerning = {
 "@MMK_R_cheabkhasian-cy" = -40;
 "@MMK_R_komizje-cy" = -30;
 "@MMK_R_te-cy" = -10;
+"@MMK_R_che-cy" = -10;
 };
 "@MMK_L_S" = {
 "@MMK_R_Che-cy" = -10;
@@ -240782,6 +240797,7 @@ kerning = {
 "@MMK_R_komizje-cy" = -40;
 "@MMK_R_period" = -70;
 "@MMK_R_te-cy" = -20;
+"@MMK_R_che-cy" = -20;
 };
 "@MMK_L_S.curr" = {
 "@MMK_R_H.curr" = -10;
@@ -240804,6 +240820,7 @@ kerning = {
 "@MMK_R_asterisk" = -90;
 "@MMK_R_cheabkhasian-cy" = -20;
 "@MMK_R_te-cy" = -30;
+"@MMK_R_che-cy" = -40;
 };
 "@MMK_L_Softsign-cy" = {
 "@MMK_R_Che-cy" = -60;
@@ -240822,6 +240839,7 @@ kerning = {
 "@MMK_R_period" = -30;
 "@MMK_R_te-cy" = -10;
 "@MMK_R_v" = -30;
+"@MMK_R_che-cy" = -30;
 };
 "@MMK_L_Softsign-cy.sups" = {
 "@MMK_R_Che-cy.sups" = -35;
@@ -240886,6 +240904,7 @@ kerning = {
 "@MMK_R_asterisk" = -70;
 "@MMK_R_cheabkhasian-cy" = -10;
 "@MMK_R_period" = -10;
+"@MMK_R_che-cy" = -30;
 };
 "@MMK_L_U" = {
 "@MMK_R_A" = -20;
@@ -240913,6 +240932,7 @@ kerning = {
 "@MMK_R_x" = -30;
 "@MMK_R_z" = -20;
 "@MMK_R_ze-cy" = -20;
+"@MMK_R_che-cy" = -20;
 };
 "@MMK_L_U.sups" = {
 "@MMK_R_A.sups" = -12;
@@ -240966,6 +240986,7 @@ kerning = {
 "@MMK_R_x" = -50;
 "@MMK_R_z" = -50;
 "@MMK_R_ze-cy" = -70;
+"@MMK_R_che-cy" = -30;
 };
 "@MMK_L_V.curr" = {
 "@MMK_R_O.curr" = -49;
@@ -241018,6 +241039,7 @@ kerning = {
 "@MMK_R_u" = -40;
 "@MMK_R_v" = -70;
 "@MMK_R_ze-cy" = -30;
+"@MMK_R_che-cy" = -60;
 };
 "@MMK_L_X.curr" = {
 "@MMK_R_O.curr" = -39;
@@ -241078,6 +241100,7 @@ kerning = {
 "@MMK_R_x" = -40;
 "@MMK_R_z" = -40;
 "@MMK_R_ze-cy" = -60;
+"@MMK_R_che-cy" = -60;
 };
 "@MMK_L_Y.sups" = {
 "@MMK_R_A.sups" = -52;
@@ -241098,6 +241121,7 @@ kerning = {
 "@MMK_R_asterisk" = -20;
 "@MMK_R_komizje-cy" = -10;
 "@MMK_R_period" = -20;
+"@MMK_R_che-cy" = -30;
 };
 "@MMK_L_Z" = {
 "@MMK_R_O" = -30;
@@ -241355,6 +241379,7 @@ parenright = 40;
 "@MMK_R_asterisk" = -50;
 "@MMK_R_cheabkhasian-cy" = -10;
 "@MMK_R_komizje-cy" = -20;
+"@MMK_R_che-cy" = -30;
 };
 "@MMK_L_guilsinglleft" = {
 "@MMK_R_T" = -50;
@@ -241438,6 +241463,7 @@ parenright = 40;
 "@MMK_R_v" = -40;
 "@MMK_R_x" = -40;
 "@MMK_R_ze-cy" = -40;
+"@MMK_R_che-cy" = -30;
 };
 "@MMK_L_komisje-cy" = {
 "@MMK_R_A" = -20;
@@ -241566,6 +241592,7 @@ parenright = 40;
 "@MMK_R_u" = -40;
 "@MMK_R_v" = -80;
 "@MMK_R_x" = -20;
+"@MMK_R_che-cy" = -130;
 };
 "@MMK_L_pi" = {
 "@MMK_R_H" = 0;
@@ -241676,6 +241703,7 @@ parenright = 40;
 "@MMK_R_period" = -20;
 "@MMK_R_te-cy" = -40;
 "@MMK_R_v" = -20;
+"@MMK_R_che-cy" = -20;
 };
 "@MMK_L_softsign-cy.sups" = {
 "@MMK_R_de-cy.sups" = -7;
@@ -241740,6 +241768,7 @@ parenright = 40;
 "@MMK_R_period" = -60;
 "@MMK_R_saltillo" = -10;
 parenright = -20;
+"@MMK_R_che-cy" = 0;
 };
 "@MMK_L_u.sups" = {
 "@MMK_R_chi.sups" = -7;
@@ -241921,6 +241950,15 @@ fraction = 10;
 two.numr = {
 fraction = 30;
 };
+"@MMK_L_dzeabkhasian-cy" = {
+"@MMK_R_che-cy" = -20;
+};
+"@MMK_L_el-cy.loclBGR" = {
+"@MMK_R_che-cy" = -40;
+};
+"@MMK_L_pemiddlehook-cy" = {
+"@MMK_R_che-cy" = -80;
+};
 };
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = {
 "@MMK_L_A" = {
@@ -241948,6 +241986,7 @@ fraction = 30;
 "@MMK_R_te-cy" = -20;
 "@MMK_R_u" = -10;
 "@MMK_R_v" = -19;
+"@MMK_R_che-cy" = -30;
 };
 "@MMK_L_A.sups" = {
 "@MMK_R_Che-cy.sups" = -24;
@@ -242074,6 +242113,7 @@ fraction = 30;
 "@MMK_R_u" = -10;
 "@MMK_R_v" = -10;
 "@MMK_R_ze-cy" = -10;
+"@MMK_R_che-cy" = -10;
 };
 "@MMK_L_E.sups" = {
 "@MMK_R_O.sups" = -12;
@@ -242147,6 +242187,7 @@ fraction = 30;
 "@MMK_R_p" = -10;
 "@MMK_R_te-cy" = -20;
 "@MMK_R_v" = -10;
+"@MMK_R_che-cy" = -10;
 };
 "@MMK_L_H.curr" = {
 "@MMK_R_O.curr" = -10;
@@ -242302,6 +242343,7 @@ fraction = 30;
 "@MMK_R_V" = -90;
 "@MMK_R_asterisk" = -50;
 "@MMK_R_cheabkhasian-cy" = -10;
+"@MMK_R_che-cy" = -10;
 };
 "@MMK_L_Softsign-cy" = {
 "@MMK_R_Che-cy" = -30;
@@ -242367,6 +242409,7 @@ guillemetleft = -38;
 "@MMK_R_V" = -20;
 "@MMK_R_Y" = -20;
 "@MMK_R_el-cy" = 10;
+"@MMK_R_che-cy" = -10;
 };
 "@MMK_L_U" = {
 "@MMK_R_A" = -10;
@@ -242435,6 +242478,7 @@ guillemetleft = -38;
 "@MMK_R_u" = -38;
 "@MMK_R_z" = -29;
 "@MMK_R_ze-cy" = -30;
+"@MMK_R_che-cy" = -20;
 };
 "@MMK_L_V.curr" = {
 "@MMK_R_O.curr" = -18;
@@ -242454,6 +242498,7 @@ guillemetleft = -38;
 "@MMK_R_saltillo" = -10;
 "@MMK_R_te-cy" = -20;
 "@MMK_R_v" = -19;
+"@MMK_R_che-cy" = -10;
 };
 "@MMK_L_X.curr" = {
 "@MMK_R_O.curr" = -18;
@@ -242493,6 +242538,7 @@ guillemetleft = -38;
 "@MMK_R_v" = -10;
 "@MMK_R_z" = -19;
 "@MMK_R_ze-cy" = -30;
+"@MMK_R_che-cy" = -20;
 };
 "@MMK_L_Y.sups" = {
 "@MMK_R_A.sups" = -23;
@@ -242649,6 +242695,7 @@ question = 10;
 "@MMK_R_o" = 0;
 "@MMK_R_period" = -50;
 "@MMK_R_te-cy" = 37;
+"@MMK_R_che-cy" = -10;
 };
 "@MMK_L_ge-cy.loclBGR" = {
 "@MMK_R_V" = -40;
@@ -242746,6 +242793,7 @@ question = 10;
 "@MMK_R_de-cy" = -10;
 "@MMK_R_n" = -20;
 "@MMK_R_v" = -20;
+"@MMK_R_che-cy" = -10;
 };
 "@MMK_L_komisje-cy" = {
 "@MMK_R_El-cy" = 10;
@@ -242857,6 +242905,7 @@ question = 10;
 "@MMK_R_u" = -29;
 "@MMK_R_v" = -48;
 "@MMK_R_x" = -10;
+"@MMK_R_che-cy" = -50;
 };
 "@MMK_L_pi" = {
 "@MMK_R_V" = -29;
@@ -242975,6 +243024,7 @@ question = 10;
 "@MMK_R_saltillo" = 29;
 "@MMK_R_v" = -6;
 parenright = -19;
+"@MMK_R_che-cy" = 0;
 };
 "@MMK_L_u.sups" = {
 "@MMK_R_chi.sups" = -7;
@@ -243121,6 +243171,9 @@ fraction = 19;
 };
 two.numr = {
 fraction = 58;
+};
+"@MMK_L_el-cy.loclBGR" = {
+"@MMK_R_che-cy" = -20;
 };
 };
 };
