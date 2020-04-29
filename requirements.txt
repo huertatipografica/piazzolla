@@ -1,6 +1,6 @@
-fontbakery==0.7.22
+fontbakery==0.7.24
 fontmake==2.1.0
-fonttools[lxml,unicode,ufo]==4.6.0
+fonttools[lxml,unicode,ufo]==4.9.0
 fontParts==0.9.2
 glyphsLib==5.1.9
 git+https://github.com/googlefonts/gftools

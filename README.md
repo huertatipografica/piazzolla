@@ -34,7 +34,7 @@ pip install -r requirements.txt
 To build the fonts there are several steps and all the process is being handled by a custom script. All the magic happens by running in terminal:
 
 ```bash
-sh build.sh
+./build.sh
 ```
 
 
