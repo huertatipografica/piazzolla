@@ -87,6 +87,7 @@ fi
 echo
 echo Freezing Small Caps and files order
 if $static; then
+    rm fonts/static/PiazzollaSC*
     for f in fonts/static/Piazzolla*; do pyftfeatfreeze -f 'smcp' -S -U SC "$f" "${f//Piazzolla/PiazzollaSC}"; done
     mkdir -p fonts/static/ttf
     mkdir -p fonts/static/otf
@@ -94,5 +95,6 @@ if $static; then
     mv fonts/static/*.ttf fonts/static/ttf
 fi
 for f in fonts/variable/*-VF*; do mv "$f" "${f//-VF/[opsz,wght]}"; done
+rm fonts/variable/PiazzollaSC*
 for f in fonts/variable/Piazzolla*; do pyftfeatfreeze -f 'smcp' -S -U SC "$f" "${f//Piazzolla/PiazzollaSC}"; done
 cp extra/Thanks.png fonts
