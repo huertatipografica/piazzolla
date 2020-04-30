@@ -8,3 +8,5 @@ Spacing and metrics work
         Rebuild .sups
 
     Clean and compress kerning
+
+Setup files

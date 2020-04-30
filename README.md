@@ -42,13 +42,13 @@ To build the fonts there are several steps and all the process is being handled 
 
 for Variable Fonts
 ```bash
-fontbakery check-googlefonts fonts/variable/*
+fontbakery check-universal fonts/variable/*
 ```
 
 for Static Fonts
 ```bash
-fontbakery check-googlefonts fonts/static/ttf/*
-fontbakery check-googlefonts fonts/static/otf/*
+fontbakery check-universal fonts/static/ttf/*
+fontbakery check-universal fonts/static/otf/*
 ```
 
 for UFO sources (replace `UFO_PATH` for the ufo you want to check)
