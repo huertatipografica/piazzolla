@@ -2,7 +2,7 @@ import sys
 import shutil
 import fontmake.__main__
 from fontTools.designspaceLib import DesignSpaceDocument, RuleDescriptor, InstanceDescriptor, SourceDescriptor
-from tools import tweakSpacing, parseRule, removeAreas
+from tools import tweakSpacing, parseRule, removeAreas, scaleFont
 from fontParts.world import OpenFont
 
 # Font info
@@ -20,14 +20,14 @@ opsz = {
 weightCropIndex = 0.5
 adjustments = {
     "min": {
-        "offset": 15,
+        "offset": 12,
         "percentage": 4,
         "scaleFactor": 1
     },
     "max": {
         "offset": 6,
         "percentage": 0,
-        "scaleFactor": 1
+        "scaleFactor": 1.05
     },
 }
 
@@ -83,6 +83,11 @@ for ufo in set([m.path for m in doc.sources]):
                      adjustments['min']['percentage'])
         font.save()
 
+        if adjustments['min']['scaleFactor'] is not 1:
+            factor = adjustments['min']['scaleFactor']
+            print('Scaling %s by %s' % (font.path, factor))
+            scaleFont(font.path, font.path, factor)
+
         source.location = {'Weight': wght['min'], 'Optical size': opsz['min']}
         source.styleName = "ThinMin"
     else:
@@ -91,6 +96,11 @@ for ufo in set([m.path for m in doc.sources]):
         tweakSpacing(font, adjustments['max']['offset'],
                      adjustments['max']['percentage'])
         font.save()
+
+        if adjustments['max']['scaleFactor'] is not 1:
+            factor = adjustments['max']['scaleFactor']
+            print('Scaling %s by %s' % (font.path, factor))
+            scaleFont(font.path, font.path, factor)
 
         source.location = {'Weight': wght['max'], 'Optical size': opsz['min']}
         source.styleName = "BlackMin"
