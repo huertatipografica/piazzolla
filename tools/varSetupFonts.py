@@ -1,4 +1,5 @@
-charset = """A
+font = Glyphs.font
+list = """A
 Aacute
 Adieresis
 Agrave
@@ -168,8 +169,6 @@ yacute.sc
 ydieresis.sc
 z.sc
 zcaron.sc
-ordfeminine
-ordmasculine
 mu
 zero
 one
@@ -181,9 +180,6 @@ six
 seven
 eight
 nine
-onesuperior
-twosuperior
-threesuperior
 period
 comma
 colon
@@ -265,30 +261,65 @@ circumflex
 tilde
 macron
 cedilla
+idotless
+jdotless
+dieresiscomb
+dotaccentcomb
+gravecomb
+acutecomb
+hungarumlautcomb
+caroncomb.alt
+circumflexcomb
+caroncomb
+brevecomb
+ringcomb
+tildecomb
+macroncomb
+hookabovecomb
+dblgravecomb
+breveinvertedcomb
+commaturnedabovecomb
+horncomb
+dotbelowcomb
+dieresisbelowcomb
+commaaccentcomb
+cedillacomb
+ogonekcomb
+brevebelowcomb
+macronbelowcomb
+strokeshortcomb
+strokelongcomb
+slashshortcomb
+slashlongcomb
+macroncomb.long
+ypogegrammenicomb
+ypogegrammenicomb.long
+brevecomb-cy
 """
+charset = list.splitlines()
+deletableGlyphs = [g.name for g in font.glyphs if g.name not in charset]
 
-font = Glyphs.font
-charset = charset.splitlines()
+font.disableUpdateInterface()
 
 # remove
-for glyph in font.glyphs:
-    if glyph and glyph.name not in charset:
-    	print glyph.name
-        del(font.glyphs[glyph.name])
+for glyph in deletableGlyphs:
+    del(font.glyphs[glyph])
 
 #reset features
-for f in font.features:
-	if(f and f.name):
-		del(Glyphs.font.features[f.name])
+features = [t.name for t in font.features]
+for f in features:
+    del(font.features[f])
 
-for f in font.featurePrefixes:
-	if(f and f.name):
-		del(Glyphs.font.featurePrefixes[f.name])
+featurePrefixes = [t.name for t in font.featurePrefixes]
+for f in featurePrefixes:
+    del(font.featurePrefixes[f])
 
-for f in font.classes:
-	if(f and f.name):
-		del(Glyphs.font.classes[f.name])
+classes = [t.name for t in font.classes]
+for f in classes:
+    del(font.classes[f])
 
 font.updateFeatures()
 
+font.enableUpdateInterface()
 
+Glyphs.showNotification('Setup fonts', 'The setup fonts have been done')
