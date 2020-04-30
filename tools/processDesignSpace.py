@@ -20,14 +20,14 @@ opsz = {
 weightCropIndex = 0.5
 adjustments = {
     "min": {
-        "offset": 12,
+        "offset": 14,
         "percentage": 4,
         "scaleFactor": 1
     },
     "max": {
         "offset": 6,
         "percentage": 0,
-        "scaleFactor": 1.05
+        "scaleFactor": 1.06
     },
 }
 

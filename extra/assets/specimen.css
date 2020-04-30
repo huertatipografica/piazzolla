@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Piazzolla";
+    src: url("Piazzolla[opsz,wght].ttf");
+}
+
+@font-face {
+    font-family: "Piazzolla";
+    font-style: italic;
+    src: url("Piazzolla-Italic[opsz,wght].ttf");
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Piazzolla";
+    line-height: 1.4;
+}
+
+#app {
+    margin-left: 80px;
+}
+.title {
+    background: #000;
+    color: #fff;
+    padding: 1em;
+}
+.container {
+    border-top: solid 2px #a1faa9;
+}
+
+.block {
+    max-width: 60ch;
+    margin: 1.5em 0 4em;
+}
+
+h1,
+h2,
+h3,
+strong,
+b {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+h3 {
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+.control {
+    float: left;
+    margin-left: -70px;
+    width: 55px;
+    line-height: 1.2rem;
+}
+.control input,
+.control button {
+    display: block;
+    width: 100%;
+}
+
+label {
+    font-family: monospace;
+    color: #777;
+    font-size: 0.8rem;
+}
+
+
+a {
+    color: #a1faa9;
+    text-decoration: none;
+}
