@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piazzolla Test</title>
+    <title>Piazzolla axes playground</title>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <link rel="stylesheet" href="assets/specimen.css">
 </head>
@@ -12,7 +12,7 @@
 <body>
     <div id="app">
         <div class="title">
-            <h2>Piazzolla axes testing specimen</h2>
+            <h2 class="sc">Piazzolla axes playground</h2>
             <p><a href="https://huertatipografica.com/">Huerta Tipográfica</a></p>
         </div>
         <div v-for="s in settings" class="container">
@@ -35,21 +35,24 @@
                 <h1 :style="'font-variation-settings: \'opsz\' ' + s.opsz + ', \'wght\' 900'">
                     <span
                         :style="'font-variation-settings: \'opsz\' ' + s.opsz + ', \'wght\' 100'">Super</span>contrasted
+                    <span :style="'font-variation-settings: \'opsz\' ' + s.opsz + ', \'wght\' 100'">HM</span>XT
                 </h1>
                 <p>El cadáver de Wamba, fue exhumado y trasladado en una caja de zinc que pesó un
                     kilo.
                     El pingüino Wenceslao hizo
-                    kilómetros bajo exhaustiva lluvia y frío, <em>añoraba a su querido cachorro.</em> El veloz
-                    murciélago
+                    kilómetros bajo exhaustiva lluvia y frío, <em>añoraba a su querido cachorro.</em> <span
+                        class="sc">El veloz
+                        murciélago</span>
                     hindú comía
                     feliz cardillo y kiwi.</p>
-                <h3 :style="'font-variation-settings: \'opsz\' ' + s.opsz + ', \'wght\' ' + (s.wght + 300)">Necesitamos unha
-                    tipografía chuliña de cor kiwi</h3>
-                <p>Whisky bueno: ¡excitad mi frágil pequeña vejez! <em>Quiere la boca exhausta vid, kiwi, piña y fugaz
+                <h3 :style="'font-variation-settings: \'opsz\' ' + s.opsz + ', \'wght\' ' + (s.wght + 300)">Whisky
+                    bueno: ¡excitad mi frágil pequeña vejez!</h3>
+                <p><em>Quiere la boca exhausta vid, kiwi, piña y fugaz
                         jamón.</em> Jovencillo emponzoñado de whisky: ¡qué figurota exhibe! El viejo Señor Gómez pedía
                     queso, kiwi y habas, pero le ha tocado un saxofón. Mi hijo degustó en el festival de bayas una
                     extraña
-                    pizza de kiwi con queso. José compró una vieja zampoña en Perú. Excusándose, Sofía tiró su whisky al
+                    <span class="sc">pizza de kiwi con queso</span>. José compró una vieja zampoña en Perú. Excusándose,
+                    Sofía tiró su whisky al
                     desagüe de la banqueta. </p>
             </div>
         </div>

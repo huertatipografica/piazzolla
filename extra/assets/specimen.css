@@ -1,12 +1,19 @@
 @font-face {
     font-family: "Piazzolla";
-    src: url("Piazzolla[opsz,wght].ttf");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url("../../fonts/variable/Piazzolla[opsz,wght].ttf") ,
+        url("../../fonts/variable/PiazzollaVARsetup[opsz,wght].ttf") ;
 }
 
 @font-face {
     font-family: "Piazzolla";
     font-style: italic;
-    src: url("Piazzolla-Italic[opsz,wght].ttf");
+    font-weight: 100 900;
+    font-display: swap;
+    src: url("../../fonts/variable/Piazzolla-Italic[opsz,wght].ttf") ,
+        url("../../fonts/variable/PiazzollaVARsetup-Italic[opsz,wght].ttf") ;
 }
 
 * {
@@ -22,9 +29,9 @@ body {
     margin-left: 80px;
 }
 .title {
-    background: #000;
+    background: #222;
     color: #fff;
-    padding: 1em;
+    padding: 1em 1em 1.5em 1.5em;
 }
 .container {
     border-top: solid 2px #a1faa9;
@@ -33,14 +40,6 @@ body {
 .block {
     max-width: 60ch;
     margin: 1.5em 0 4em;
-}
-
-h1,
-h2,
-h3,
-strong,
-b {
-    font-weight: normal;
 }
 
 h1 {
@@ -55,7 +54,7 @@ h3 {
 .control {
     float: left;
     margin-left: -70px;
-    width: 55px;
+    width: 50px;
     line-height: 1.2rem;
 }
 .control input,
@@ -70,7 +69,7 @@ label {
     font-size: 0.8rem;
 }
 
-h2 {
+.sc {
     font-feature-settings: "smcp" on;
 }
 
