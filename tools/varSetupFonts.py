@@ -295,11 +295,20 @@ macroncomb.long
 ypogegrammenicomb
 ypogegrammenicomb.long
 brevecomb-cy
+fi
+fl
 """
 charset = list.splitlines()
 deletableGlyphs = [g.name for g in font.glyphs if g.name not in charset]
 
 font.disableUpdateInterface()
+
+#decompose ligatures
+for layer in font.glyphs['fi'].layers:
+    layer.decomposeComponents()
+
+for layer in font.glyphs['fl'].layers:
+    layer.decomposeComponents()
 
 # remove
 for glyph in deletableGlyphs:

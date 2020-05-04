@@ -1,5 +1,5 @@
 {
-.appVersion = "1322";
+.appVersion = "1328";
 copyright = "Copyright 2018 The Piazzolla Project Authors (https://github.com/huertatipografica/piazzolla)";
 customParameters = (
 {
@@ -212,6 +212,14 @@ sub z by z.sc;
 sub zcaron by zcaron.sc;
 ";
 name = smcp;
+},
+{
+automatic = 1;
+code = "lookupflag IgnoreMarks;
+sub f i by fi;
+sub f l by fl;
+";
+name = liga;
 }
 );
 fontMaster = (
@@ -14708,6 +14716,410 @@ width = 536;
 );
 leftKerningGroup = o;
 rightKerningGroup = o;
+},
+{
+color = 10;
+glyphname = fi;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{431, 0}";
+},
+{
+name = caret_1;
+position = "{278.5, 0}";
+},
+{
+name = ogonek;
+position = "{516, 5}";
+},
+{
+name = top;
+position = "{428, 611}";
+}
+);
+layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
+paths = (
+{
+closed = 1;
+nodes = (
+"298 452 LINE",
+"301 478 LINE",
+"152 478 LINE",
+"152 584 OFFCURVE",
+"164 664 OFFCURVE",
+"185 692 CURVE",
+"212 697 OFFCURVE",
+"239 699 OFFCURVE",
+"266 699 CURVE SMOOTH",
+"283 699 OFFCURVE",
+"301 698 OFFCURVE",
+"319 696 CURVE",
+"319 732 LINE",
+"305 734 OFFCURVE",
+"291 735 OFFCURVE",
+"279 735 CURVE SMOOTH",
+"166 735 OFFCURVE",
+"122 661 OFFCURVE",
+"122 478 CURVE",
+"89 477 OFFCURVE",
+"63 471 OFFCURVE",
+"36 460 CURVE",
+"36 452 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"123 463 LINE",
+"116 27 LINE",
+"84 23 OFFCURVE",
+"62 16 OFFCURVE",
+"44 8 CURVE",
+"44 0 LINE",
+"251 0 LINE",
+"251 7 LINE",
+"151 26 LINE",
+"151 463 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"537 0 LINE",
+"537 7 LINE",
+"448 26 LINE",
+"448 487 LINE",
+"421 481 OFFCURVE",
+"397 471 OFFCURVE",
+"374 457 CURVE",
+"422 406 LINE",
+"413 27 LINE",
+"382 24 OFFCURVE",
+"355 17 OFFCURVE",
+"331 8 CURVE",
+"331 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"422 668 OFFCURVE",
+"406 659 OFFCURVE",
+"395 646 CURVE",
+"399 631 OFFCURVE",
+"408 616 OFFCURVE",
+"420 605 CURVE",
+"435 607 OFFCURVE",
+"451 616 OFFCURVE",
+"461 628 CURVE",
+"459 643 OFFCURVE",
+"450 660 OFFCURVE",
+"438 671 CURVE"
+);
+}
+);
+width = 557;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{531, 0}";
+},
+{
+name = caret_1;
+position = "{343, 0}";
+},
+{
+name = ogonek;
+position = "{652, 12}";
+},
+{
+name = top;
+position = "{531, 727}";
+}
+);
+layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
+paths = (
+{
+closed = 1;
+nodes = (
+"384 384 LINE",
+"393 490 LINE",
+"271 490 LINE",
+"264 519 OFFCURVE",
+"258 550 OFFCURVE",
+"254 580 CURVE",
+"266 580 OFFCURVE",
+"278 581 OFFCURVE",
+"290 581 CURVE SMOOTH",
+"327 581 OFFCURVE",
+"363 578 OFFCURVE",
+"400 573 CURVE",
+"400 748 LINE",
+"395 748 OFFCURVE",
+"390 748 OFFCURVE",
+"386 748 CURVE SMOOTH",
+"247 748 OFFCURVE",
+"100 626 OFFCURVE",
+"78 490 CURVE",
+"50 476 OFFCURVE",
+"22 452 OFFCURVE",
+"1 420 CURVE",
+"1 384 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"76 444 LINE",
+"67 100 LINE",
+"46 89 OFFCURVE",
+"28 78 OFFCURVE",
+"13 66 CURVE",
+"13 0 LINE",
+"359 0 LINE",
+"359 73 LINE",
+"279 95 LINE",
+"279 444 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"668 0 LINE",
+"668 73 LINE",
+"637 95 LINE",
+"637 509 LINE",
+"539 506 OFFCURVE",
+"452 479 OFFCURVE",
+"374 434 CURVE",
+"436 330 LINE",
+"425 100 LINE",
+"412 89 OFFCURVE",
+"402 78 OFFCURVE",
+"393 66 CURVE",
+"393 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"504 784 OFFCURVE",
+"446 748 OFFCURVE",
+"405 705 CURVE",
+"415 642 OFFCURVE",
+"452 580 OFFCURVE",
+"497 544 CURVE",
+"557 551 OFFCURVE",
+"619 589 OFFCURVE",
+"657 635 CURVE",
+"647 695 OFFCURVE",
+"612 753 OFFCURVE",
+"566 794 CURVE"
+);
+}
+);
+width = 686;
+}
+);
+leftKerningGroup = f;
+leftMetricsKey = f;
+rightKerningGroup = i;
+rightMetricsKey = i;
+unicode = FB01;
+},
+{
+color = 10;
+glyphname = fl;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{431, 0}";
+},
+{
+name = caret_1;
+position = "{278, 0}";
+},
+{
+name = center;
+position = "{434, 366}";
+},
+{
+name = top;
+position = "{422, 680}";
+},
+{
+name = topright;
+position = "{552, 725}";
+}
+);
+layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
+paths = (
+{
+closed = 1;
+nodes = (
+"298 452 LINE",
+"301 478 LINE",
+"152 478 LINE",
+"152 584 OFFCURVE",
+"164 664 OFFCURVE",
+"185 692 CURVE",
+"212 697 OFFCURVE",
+"239 699 OFFCURVE",
+"266 699 CURVE SMOOTH",
+"283 699 OFFCURVE",
+"301 698 OFFCURVE",
+"319 696 CURVE",
+"319 732 LINE",
+"305 734 OFFCURVE",
+"291 735 OFFCURVE",
+"279 735 CURVE SMOOTH",
+"166 735 OFFCURVE",
+"122 661 OFFCURVE",
+"122 478 CURVE",
+"89 477 OFFCURVE",
+"63 471 OFFCURVE",
+"36 460 CURVE",
+"36 452 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"123 463 LINE",
+"116 27 LINE",
+"84 23 OFFCURVE",
+"62 16 OFFCURVE",
+"44 8 CURVE",
+"44 0 LINE",
+"251 0 LINE",
+"251 7 LINE",
+"151 26 LINE",
+"151 463 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"535 0 LINE",
+"535 7 LINE",
+"446 26 LINE",
+"446 734 LINE",
+"419 728 OFFCURVE",
+"395 718 OFFCURVE",
+"372 704 CURVE",
+"421 653 LINE",
+"411 27 LINE",
+"374 23 OFFCURVE",
+"350 16 OFFCURVE",
+"329 8 CURVE",
+"329 0 LINE"
+);
+}
+);
+width = 556;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{522, 0}";
+},
+{
+name = caret_1;
+position = "{338.5, 0}";
+},
+{
+name = center;
+position = "{523, 346}";
+},
+{
+name = top;
+position = "{522, 710}";
+},
+{
+name = topright;
+position = "{750, 737}";
+}
+);
+layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
+paths = (
+{
+closed = 1;
+nodes = (
+"384 384 LINE",
+"393 490 LINE",
+"271 490 LINE",
+"264 519 OFFCURVE",
+"258 550 OFFCURVE",
+"254 580 CURVE",
+"266 580 OFFCURVE",
+"278 581 OFFCURVE",
+"290 581 CURVE SMOOTH",
+"327 581 OFFCURVE",
+"363 578 OFFCURVE",
+"400 573 CURVE",
+"400 748 LINE",
+"395 748 OFFCURVE",
+"390 748 OFFCURVE",
+"386 748 CURVE SMOOTH",
+"247 748 OFFCURVE",
+"100 626 OFFCURVE",
+"78 490 CURVE",
+"50 476 OFFCURVE",
+"22 452 OFFCURVE",
+"1 420 CURVE",
+"1 384 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"76 444 LINE",
+"67 100 LINE",
+"46 89 OFFCURVE",
+"28 78 OFFCURVE",
+"13 66 CURVE",
+"13 0 LINE",
+"359 0 LINE",
+"359 73 LINE",
+"279 95 LINE",
+"279 444 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"659 0 LINE",
+"659 73 LINE",
+"627 95 LINE",
+"627 752 LINE",
+"529 749 OFFCURVE",
+"442 721 OFFCURVE",
+"364 677 CURVE",
+"429 560 LINE",
+"415 100 LINE",
+"403 89 OFFCURVE",
+"392 78 OFFCURVE",
+"383 66 CURVE",
+"383 0 LINE"
+);
+}
+);
+width = 677;
+}
+);
+leftKerningGroup = f;
+leftMetricsKey = f;
+rightKerningGroup = l;
+rightMetricsKey = l;
+unicode = FB02;
 },
 {
 glyphname = "oslash.sc.rl-Weight_118_208";

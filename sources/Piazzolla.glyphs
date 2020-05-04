@@ -1,9 +1,5 @@
 {
-.appVersion = "1322";
-DisplayStrings = (
-"siglo/space xxi.",
-"Alfonso/space/One-roman/Five-roman ,/space rey/space de/space españa"
-);
+.appVersion = "1328";
 classes = (
 {
 automatic = 1;
@@ -41579,6 +41575,12 @@ color = 10;
 glyphname = fi;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{278.5, 0}";
+}
+);
 components = (
 {
 name = f;
@@ -41592,6 +41594,12 @@ layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
 width = 557;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{343, 0}";
+}
+);
 components = (
 {
 name = f;
@@ -41616,6 +41624,12 @@ color = 10;
 glyphname = fl;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{278, 0}";
+}
+);
 components = (
 {
 name = f;
@@ -41629,6 +41643,12 @@ layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
 width = 556;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{338.5, 0}";
+}
+);
 components = (
 {
 name = f;
@@ -185931,6 +185951,12 @@ unicode = 1FBE;
 glyphname = lambda_lambda.liga;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{383.5, 0}";
+}
+);
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
 paths = (
 {
@@ -186001,6 +186027,12 @@ nodes = (
 width = 767;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{443, 0}";
+}
+);
 layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 paths = (
 {
@@ -241427,9 +241459,6 @@ parenright = 40;
 "@MMK_R_asterisk" = -30;
 "@MMK_R_hyphen" = -20;
 };
-"@MMK_L_one-roman" = {
-"@MMK_R_one-roman" = -250;
-};
 "@MMK_L_j" = {
 "@MMK_R_cheabkhasian-cy" = -20;
 "@MMK_R_period" = -50;
@@ -241580,6 +241609,9 @@ parenright = 40;
 "@MMK_R_v.sups" = -24;
 "@MMK_R_x.sups" = -20;
 "@MMK_R_z.sups" = -7;
+};
+"@MMK_L_one-roman" = {
+"@MMK_R_one-roman" = -250;
 };
 "@MMK_L_pemiddlehook-cy" = {
 "@MMK_R_che-cy" = -80;
