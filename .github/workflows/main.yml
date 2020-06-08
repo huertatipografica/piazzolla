@@ -13,16 +13,20 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Set up Python ${{ matrix.python-version }}
+      if: startsWith(github.ref, 'refs/tags/')
       uses: actions/setup-python@v1
       with:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
+      if: startsWith(github.ref, 'refs/tags/')
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Generate fonts
+      if: startsWith(github.ref, 'refs/tags/')
       run: ./build.sh
     - name: Release
+      if: startsWith(github.ref, 'refs/tags/')
       uses: fnkr/github-action-ghr@v1
       env:
         GHR_COMPRESS: zip
