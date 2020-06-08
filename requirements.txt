@@ -1,7 +1,8 @@
-fontbakery==0.7.24
-fontmake==2.1.0
-fonttools[lxml,unicode,ufo]==4.9.0
-fontParts==0.9.2
-glyphsLib==5.1.9
+fontbakery
+fontmake
+fonttools[lxml,unicode,ufo]
+fontParts
+glyphsLib
+statmake
 git+https://github.com/googlefonts/gftools
 git+https://github.com/twardoch/fonttools-opentype-feature-freezer
