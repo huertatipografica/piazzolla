@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 echo
 echo Usage:
 echo build.sh [--test] [--no-static]
