@@ -30359,25 +30359,6 @@ value = 1;
 },
 {
 name = weightClass;
-value = 250;
-}
-);
-interpolationWeight = 30;
-interpolationWidth = 14;
-instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 1;
-};
-name = "Text Thin";
-weightClass = Thin;
-},
-{
-customParameters = (
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = weightClass;
 value = 275;
 }
 );
@@ -30486,21 +30467,6 @@ instanceInterpolations = {
 };
 name = "Text ExtraBold";
 weightClass = ExtraBold;
-},
-{
-customParameters = (
-{
-name = "Update Features";
-value = 1;
-}
-);
-interpolationWeight = 208;
-interpolationWidth = 14;
-instanceInterpolations = {
-"BFC82823-8905-47CE-90FC-B44BF62F9018" = 1;
-};
-name = "Text Black";
-weightClass = Black;
 }
 );
 kerning = {
