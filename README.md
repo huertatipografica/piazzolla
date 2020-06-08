@@ -42,13 +42,13 @@ To build the fonts there are several steps and all the process is being handled 
 
 for Variable Fonts
 ```bash
-fontbakery check-universal fonts/variable/*
+fontbakery check-universal fonts/Piazzolla/variable/*
 ```
 
 for Static Fonts
 ```bash
-fontbakery check-universal fonts/static/ttf/*
-fontbakery check-universal fonts/static/otf/*
+fontbakery check-universal fonts/Piazzolla/static/ttf/*
+fontbakery check-universal fonts/Piazzolla/static/otf/*
 ```
 
 for UFO sources (replace `UFO_PATH` for the ufo you want to check)
