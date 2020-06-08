@@ -1,5 +1,5 @@
 {
-.appVersion = "1328";
+.appVersion = "1339";
 copyright = "Copyright 2018 The Piazzolla Project Authors (https://github.com/huertatipografica/piazzolla)";
 customParameters = (
 {
@@ -6578,6 +6578,10 @@ name = bottom;
 position = "{321, 0}";
 },
 {
+name = center;
+position = "{322, 322}";
+},
+{
 name = top;
 position = "{321, 644}";
 }
@@ -6611,6 +6615,10 @@ anchors = (
 {
 name = bottom;
 position = "{335, 0}";
+},
+{
+name = center;
+position = "{334, 330}";
 },
 {
 name = top;
@@ -9558,6 +9566,12 @@ color = 10;
 glyphname = i;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{126, 0}";
+}
+);
 components = (
 {
 name = idotless;
@@ -9571,6 +9585,12 @@ layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
 width = 251;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{158, 0}";
+}
+);
 components = (
 {
 name = idotless;
@@ -14440,6 +14460,10 @@ name = bottom;
 position = "{236, 0}";
 },
 {
+name = center;
+position = "{237, 239}";
+},
+{
 name = top;
 position = "{236, 478}";
 }
@@ -14473,6 +14497,10 @@ anchors = (
 {
 name = bottom;
 position = "{261, 0}";
+},
+{
+name = center;
+position = "{256, 248}";
 },
 {
 name = top;
@@ -14725,7 +14753,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{431, 0}";
+position = "{432, 0}";
 },
 {
 name = caret_1;
@@ -14827,7 +14855,7 @@ width = 557;
 anchors = (
 {
 name = bottom;
-position = "{531, 0}";
+position = "{528, 0}";
 },
 {
 name = caret_1;
@@ -20944,6 +20972,10 @@ name = bottom;
 position = "{288, 0}";
 },
 {
+name = center;
+position = "{290, 259}";
+},
+{
 name = top;
 position = "{288, 516}";
 }
@@ -20984,6 +21016,10 @@ anchors = (
 {
 name = bottom;
 position = "{297, 0}";
+},
+{
+name = center;
+position = "{297, 274}";
 },
 {
 name = top;
@@ -29790,6 +29826,12 @@ unicode = 0337;
 glyphname = slashlongcomb;
 layers = (
 {
+anchors = (
+{
+name = _center;
+position = "{170, 265}";
+}
+);
 components = (
 {
 alignment = 1;
@@ -29800,6 +29842,12 @@ layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
 width = 340;
 },
 {
+anchors = (
+{
+name = _center;
+position = "{136, 278}";
+}
+);
 components = (
 {
 alignment = 1;

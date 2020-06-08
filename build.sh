@@ -35,8 +35,10 @@ done
 
 echo Generating fonts
 for f in "${files[@]}"; do
-    echo "Generate variable fonts for $f"
+    echo "Generate variable font for $f"
     fontmake -m temp/building/$f/$f.designspace -o variable --output-dir fonts/variable --verbose WARNING
+    echo "Building STAT table for $f"
+    statmake --designspace temp/building/$f/$f.designspace fonts/variable/"$f"-VF.ttf
     if $static; then
         echo "Generate static fonts for $f"
         fontmake -m temp/building/$f/$f.designspace -i --output-dir fonts/static --verbose WARNING
@@ -98,6 +100,5 @@ if $static; then
 fi
 for f in fonts/variable/*-VF*; do mv "$f" "${f//-VF/[opsz,wght]}"; done
 find fonts/variable/ -name "PiazzollaSC*" -delete
-for f in fonts/variable/Piazzolla*; do statmake --designspace temp/building/$f/$f.designspace "$f"; done
 for f in fonts/variable/Piazzolla*; do pyftfeatfreeze -f 'smcp' -S -U SC "$f" "${f//Piazzolla/PiazzollaSC}"; done
 cp extra/Thanks.png fonts

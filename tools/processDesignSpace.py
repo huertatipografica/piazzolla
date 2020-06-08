@@ -108,6 +108,10 @@ for ufo in set([m.path for m in doc.sources]):
     doc.addSource(source)
 
 # removeAreas(font)
+doc.lib['org.statmake.stylespacePath'] = '../../../sources/Piazzolla.stylespace'
+doc.lib['org.statmake.additionalLocations'] = {
+    "Italic": 1 if 'Italic' in file else 0
+}
 doc.write(path)
 doc.write(minPath)
 
