@@ -331,4 +331,6 @@ font.updateFeatures()
 
 font.enableUpdateInterface()
 
-Glyphs.showNotification('Setup fonts', 'The setup fonts have been done')
+Glyphs.showNotification('Setup fonts', 'The setup fonts have been done, saved and closed')
+font.save(font.filepath.replace('.glyphs', '-VARsetup.glyphs'))
+font.close()

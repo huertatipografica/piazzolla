@@ -12,7 +12,7 @@ inArray() {
 }
 
 if inArray "--test" $@; then
-    files=(PiazzollaVARsetup PiazzollaVARsetup-Italic)
+    files=(Piazzolla-VARsetup Piazzolla-Italic-VARsetup)
 else
     files=(Piazzolla Piazzolla-Italic)
 fi

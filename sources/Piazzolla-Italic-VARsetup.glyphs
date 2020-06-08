@@ -29355,27 +29355,6 @@ value = 1;
 },
 {
 name = weightClass;
-value = 250;
-}
-);
-interpolationWeight = 30;
-interpolationWidth = 14;
-instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 1;
-};
-isItalic = 1;
-linkStyle = "Text Thin";
-name = "Text Thin Italic";
-weightClass = Thin;
-},
-{
-customParameters = (
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = weightClass;
 value = 275;
 }
 );
@@ -29497,23 +29476,6 @@ isItalic = 1;
 linkStyle = "Text ExtraBold";
 name = "Text ExtraBold Italic";
 weightClass = ExtraBold;
-},
-{
-customParameters = (
-{
-name = "Update Features";
-value = 1;
-}
-);
-interpolationWeight = 208;
-interpolationWidth = 14;
-instanceInterpolations = {
-"FCE02CC8-2979-430D-9DE0-31930C0E296D" = 1;
-};
-isItalic = 1;
-linkStyle = "Text Black";
-name = "Text Black Italic";
-weightClass = Black;
 }
 );
 kerning = {
