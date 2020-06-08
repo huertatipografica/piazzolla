@@ -1,5 +1,5 @@
 {
-.appVersion = "1328";
+.appVersion = "1339";
 DisplayStrings = (
 "/Acircumflexdotbelow asdA/saltillo",
 TaVaV,
@@ -114,6 +114,14 @@ value = 1;
 {
 name = "Use Extension Kerning";
 value = 1;
+},
+{
+name = org.statmake.stylespacePath;
+value = Piazzolla.stylespace;
+},
+{
+name = org.statmake.additionalLocations;
+value = "{\"Italic\":1}";
 }
 );
 date = "2018-06-26 18:10:32 +0000";

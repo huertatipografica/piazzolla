@@ -1,5 +1,5 @@
 {
-.appVersion = "1328";
+.appVersion = "1339";
 classes = (
 {
 automatic = 1;
@@ -92,6 +92,14 @@ value = 1;
 {
 name = "Use Extension Kerning";
 value = 1;
+},
+{
+name = org.statmake.stylespacePath;
+value = Piazzolla.stylespace;
+},
+{
+name = org.statmake.additionalLocations;
+value = "{\"Italic\":0}";
 }
 );
 date = "2018-06-26 18:08:42 +0000";

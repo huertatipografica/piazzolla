@@ -28,6 +28,7 @@ for f in "${files[@]}"; do
     if [ -e temp/building/$f ]; then rm -rf temp/building/$f; fi
     mkdir -p temp/building/$f
     glyphs2ufo sources/$f.glyphs -m temp/building/$f
+    cp sources/Piazzolla.stylespace temp/building/$f/
     echo "Process DesignSpace for $f"
     python tools/processDesignSpace.py $f
 done
@@ -97,5 +98,6 @@ if $static; then
 fi
 for f in fonts/variable/*-VF*; do mv "$f" "${f//-VF/[opsz,wght]}"; done
 find fonts/variable/ -name "PiazzollaSC*" -delete
+for f in fonts/variable/Piazzolla*; do statmake --designspace temp/building/$f/$f.designspace "$f"; done
 for f in fonts/variable/Piazzolla*; do pyftfeatfreeze -f 'smcp' -S -U SC "$f" "${f//Piazzolla/PiazzollaSC}"; done
 cp extra/Thanks.png fonts
