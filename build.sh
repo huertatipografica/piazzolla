@@ -35,7 +35,7 @@ done
 echo Generating fonts
 rm -rf fonts
 for f in "${files[@]}"; do
-    echo ""
+    echo
     echo "Generate variable font for $f"
     fontmake -m temp/building/$f/$f.designspace -o variable --output-dir fonts/Piazzolla/variable --verbose WARNING
     echo "Building STAT table for $f"
@@ -46,7 +46,7 @@ for f in "${files[@]}"; do
     fi
 done
 
-echo ""
+echo
 echo Fixing fonts
 for VF in fonts/Piazzolla/variable/*.ttf; do
     gftools fix-dsig -f $VF
@@ -103,11 +103,12 @@ cp LICENSE.txt fonts/Piazzolla
 
 echo
 echo Freezing Small Caps
+rm -rf fonts/PiazzollaSC
 cp -r fonts/Piazzolla fonts/PiazzollaSC
 cd fonts/PiazzollaSC
-for f in variable/*; do pyftfeatfreeze -f 'smcp' -S -U SC "$f" "${f//Piazzolla/PiazzollaSC}" && rm "$f"; done
+for f in variable/*; do echo && echo Freezing SC version for "$f" && pyftfeatfreeze -f 'smcp' -S -U SC "$f" "${f//Piazzolla/PiazzollaSC}" && rm "$f"; done
 if $static; then
-    for f in static/otf/*; do pyftfeatfreeze -f 'smcp' -S -U SC "$f" "${f//Piazzolla/PiazzollaSC}" && rm "$f"; done
-    for f in static/ttf/*; do pyftfeatfreeze -f 'smcp' -S -U SC "$f" "${f//Piazzolla/PiazzollaSC}" && rm "$f"; done
+    for f in static/otf/*; do echo && echo Freezing SC version for "$f" && pyftfeatfreeze -f 'smcp' -S -U SC "$f" "${f//Piazzolla/PiazzollaSC}" && rm "$f"; done
+    for f in static/ttf/*; do echo && echo Freezing SC version for "$f" && pyftfeatfreeze -f 'smcp' -S -U SC "$f" "${f//Piazzolla/PiazzollaSC}" && rm "$f"; done
 fi
 cd ../..

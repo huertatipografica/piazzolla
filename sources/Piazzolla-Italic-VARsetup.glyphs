@@ -16,7 +16,7 @@ TaVaV,
 "nnn\012cdeghijlnopqrsuvxz\012H\012ABCEFG\012HJMOPSTUV\012XY*u.",
 "Alfonso/space ,/space rey/space de/space españa",
 i,
-finfll
+"/fi finfll"
 );
 copyright = "Copyright 2018 The Piazzolla Project Authors (https://github.com/huertatipografica/piazzolla)";
 customParameters = (
@@ -77,6 +77,14 @@ value = 1;
 {
 name = "Use Extension Kerning";
 value = 1;
+},
+{
+name = org.statmake.stylespacePath;
+value = Piazzolla.stylespace;
+},
+{
+name = org.statmake.additionalLocations;
+value = "{\"Italic\":1}";
 }
 );
 date = "2018-06-26 18:10:32 +0000";
@@ -167,6 +175,7 @@ sub f by f.sc;
 sub g by g.sc;
 sub h by h.sc;
 sub i by i.sc;
+sub idotless by idotless.sc;
 sub iacute by iacute.sc;
 sub j by j.sc;
 sub k by k.sc;
@@ -13053,6 +13062,67 @@ RMXScaler = {
 source = I;
 };
 };
+},
+{
+glyphname = idotless.sc;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{130, 0}";
+},
+{
+name = ogonek;
+position = "{274, 10}";
+},
+{
+name = top;
+position = "{234, 517}";
+},
+{
+name = topleft;
+position = "{76, 517}";
+}
+);
+components = (
+{
+name = i.sc;
+}
+);
+layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
+width = 355;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{138, 0}";
+},
+{
+name = ogonek;
+position = "{289, 10}";
+},
+{
+name = top;
+position = "{247, 548}";
+},
+{
+name = topleft;
+position = "{80, 548}";
+}
+);
+components = (
+{
+name = i.sc;
+}
+);
+layerId = "FCE02CC8-2979-430D-9DE0-31930C0E296D";
+width = 373;
+}
+);
+leftKerningGroup = H;
+rightKerningGroup = H;
 },
 {
 color = 10;
