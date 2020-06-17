@@ -1,5 +1,8 @@
 {
-.appVersion = "1339";
+.appVersion = "1340";
+DisplayStrings = (
+"0126879354\012\012\012\012\012Rebuild/space and/space autospace:\012\012\012sync/space space:\012"
+);
 copyright = "Copyright 2018 The Piazzolla Project Authors (https://github.com/huertatipografica/piazzolla)";
 customParameters = (
 {
@@ -195,6 +198,7 @@ alignmentZones = (
 "{517, 15}",
 "{478, 15}",
 "{0, -15}",
+"{-75, -15}",
 "{-195, -15}"
 );
 ascender = 725;
@@ -314,6 +318,7 @@ alignmentZones = (
 "{548, 14}",
 "{495, 14}",
 "{0, -14}",
+"{-61, -14}",
 "{-188, -14}"
 );
 ascender = 737;
@@ -17107,8 +17112,8 @@ paths = (
 {
 closed = 1;
 nodes = (
-"356 0 LINE",
-"356 13 LINE",
+"350 0 LINE",
+"350 13 LINE",
 "215 31 LINE",
 "215 604 LINE",
 "191 604 LINE",
@@ -17123,7 +17128,7 @@ nodes = (
 );
 }
 );
-width = 373;
+width = 367;
 },
 {
 layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
@@ -17131,23 +17136,23 @@ paths = (
 {
 closed = 1;
 nodes = (
-"449 0 LINE",
-"449 79 LINE",
-"334 101 LINE",
-"334 611 LINE",
-"213 611 LINE",
-"-2 523 LINE",
-"-2 453 LINE",
-"127 453 LINE",
-"115 105 LINE",
-"73 96 OFFCURVE",
-"35 84 OFFCURVE",
-"-1 72 CURVE",
-"-1 0 LINE"
+"444 0 LINE",
+"444 79 LINE",
+"333 101 LINE",
+"333 611 LINE",
+"212 611 LINE",
+"-3 523 LINE",
+"-3 453 LINE",
+"126 453 LINE",
+"114 105 LINE",
+"72 96 OFFCURVE",
+"34 84 OFFCURVE",
+"-2 72 CURVE",
+"-2 0 LINE"
 );
 }
 );
-width = 416;
+width = 414;
 }
 );
 unicode = 0031;
@@ -17510,7 +17515,7 @@ color = 10;
 glyphname = five;
 layers = (
 {
-layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
+background = {
 paths = (
 {
 closed = 1;
@@ -17579,10 +17584,80 @@ nodes = (
 );
 }
 );
+};
+layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
+paths = (
+{
+closed = 1;
+nodes = (
+"403 -7 OFFCURVE",
+"486 58 OFFCURVE",
+"486 167 CURVE SMOOTH",
+"486 267 OFFCURVE",
+"416 329 OFFCURVE",
+"305 329 CURVE SMOOTH",
+"137 329 LINE",
+"121 299 LINE",
+"305 299 LINE SMOOTH",
+"397 299 OFFCURVE",
+"452 240 OFFCURVE",
+"452 164 CURVE SMOOTH",
+"452 127 OFFCURVE",
+"440 87 OFFCURVE",
+"413 48 CURVE",
+"365 31 OFFCURVE",
+"317 23 OFFCURVE",
+"266 23 CURVE SMOOTH",
+"219 23 OFFCURVE",
+"169 30 OFFCURVE",
+"112 43 CURVE",
+"106 17 LINE",
+"161 1 OFFCURVE",
+"214 -7 OFFCURVE",
+"263 -7 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"120 186 LINE",
+"111 186 LINE",
+"106 17 LINE",
+"153 18 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"151 317 LINE",
+"151 592 LINE",
+"121 592 LINE",
+"121 299 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"447 592 LINE",
+"121 592 LINE",
+"137 563 LINE",
+"447 562 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"458 417 LINE",
+"462 592 LINE",
+"421 592 LINE",
+"450 417 LINE"
+);
+}
+);
 width = 571;
 },
 {
-layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
+background = {
 paths = (
 {
 closed = 1;
@@ -17651,7 +17726,77 @@ nodes = (
 );
 }
 );
-width = 573;
+};
+layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
+paths = (
+{
+closed = 1;
+nodes = (
+"442 -13 OFFCURVE",
+"550 70 OFFCURVE",
+"550 206 CURVE SMOOTH",
+"550 326 OFFCURVE",
+"464 386 OFFCURVE",
+"292 386 CURVE SMOOTH",
+"132 386 LINE",
+"62 246 LINE",
+"265 246 LINE SMOOTH",
+"324 246 OFFCURVE",
+"353 220 OFFCURVE",
+"353 169 CURVE SMOOTH",
+"353 160 OFFCURVE",
+"352 149 OFFCURVE",
+"350 138 CURVE",
+"327 132 OFFCURVE",
+"302 129 OFFCURVE",
+"273 129 CURVE SMOOTH",
+"219 129 OFFCURVE",
+"154 140 OFFCURVE",
+"75 162 CURVE",
+"43 21 LINE",
+"122 -2 OFFCURVE",
+"199 -13 OFFCURVE",
+"264 -13 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"135 208 LINE",
+"48 208 LINE",
+"43 21 LINE",
+"226 17 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"201 306 LINE",
+"210 609 LINE",
+"62 609 LINE",
+"62 246 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"481 609 LINE",
+"62 609 LINE",
+"132 474 LINE",
+"481 463 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"516 404 LINE",
+"518 609 LINE",
+"328 609 LINE",
+"428 404 LINE"
+);
+}
+);
+width = 572;
 }
 );
 unicode = 0035;
