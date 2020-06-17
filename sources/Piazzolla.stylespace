@@ -16,18 +16,33 @@
                         <string>Micro</string>
                         <key>value</key>
                         <integer>8</integer>
+                        <key>range</key>
+                        <array>
+                            <integer>8</integer>
+                            <integer>10</integer>
+                        </array>
                     </dict>
                     <dict>
                         <key>name</key>
                         <string>Text</string>
                         <key>value</key>
                         <integer>14</integer>
+                        <key>range</key>
+                        <array>
+                            <integer>11</integer>
+                            <integer>17</integer>
+                        </array>
                     </dict>
                     <dict>
                         <key>name</key>
                         <string>Big</string>
                         <key>value</key>
                         <integer>30</integer>
+                        <key>range</key>
+                        <array>
+                            <integer>18</integer>
+                            <integer>30</integer>
+                        </array>
                         <key>flags</key>
                         <array>
                             <string>ElidableAxisValueName</string>
