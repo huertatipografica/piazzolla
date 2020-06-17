@@ -3,8 +3,8 @@
     font-style: normal;
     font-weight: 100 900;
     font-display: swap;
-    src: url("../../fonts/variable/Piazzolla[opsz,wght].ttf") ,
-        url("../../fonts/variable/PiazzollaVARsetup[opsz,wght].ttf") ;
+    src: url("../../fonts/Piazzolla/variable/Piazzolla[opsz,wght].ttf"), url("Piazzolla[opsz,wght].ttf"),
+        url("../../fonts/Piazzolla/variable/PiazzollaVARsetup[opsz,wght].ttf");
 }
 
 @font-face {
@@ -12,8 +12,8 @@
     font-style: italic;
     font-weight: 100 900;
     font-display: swap;
-    src: url("../../fonts/variable/Piazzolla-Italic[opsz,wght].ttf") ,
-        url("../../fonts/variable/PiazzollaVARsetup-Italic[opsz,wght].ttf") ;
+    src: url("../../fonts/Piazzolla/variable/Piazzolla-Italic[opsz,wght].ttf"), url("Piazzolla-Italic[opsz,wght].ttf"),
+        url("../../fonts/Piazzolla/variable/PiazzollaVARsetup-Italic[opsz,wght].ttf");
 }
 
 * {
