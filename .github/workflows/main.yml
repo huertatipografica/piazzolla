@@ -31,4 +31,5 @@ jobs:
       env:
         GHR_COMPRESS: zip
         GHR_PATH: fonts/
+        GHR_DRAFT: yes
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
