@@ -21,14 +21,16 @@
                     size
                     <input type="number" v-model.number="s.size" @change="s.opsz = s.size" step="0.1">
                 </label>
-                <label>
-                    opsz
-                    <input type="number" v-model.number="s.opsz" min="8" max="30">
-                </label>
+
                 <label>
                     wght
                     <input type="number" v-model.number="s.wght" step="100" min="100" max="900">
                 </label>
+                <label>
+                    opsz
+                    <input type="number" v-model.number="s.opsz" min="8" max="30">
+                </label>
+                <input type="range" v-model.number="s.opsz" min="8" max="30">
             </div>
             <div class="block" contenteditable="true" spellcheck="false"
                 :style="'font-size: ' + s.size + 'px; font-variation-settings: \'opsz\' ' + s.opsz + ', \'wght\'' + s.wght">

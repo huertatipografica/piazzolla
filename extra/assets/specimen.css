@@ -22,7 +22,9 @@
 
 body {
     font-family: "Piazzolla";
-    line-height: 1.4;
+    line-height: 1.5;
+    color: #363641;
+    background: #FAFAFA;
 }
 
 #app {
@@ -38,17 +40,19 @@ body {
 }
 
 .block {
-    max-width: 60ch;
+    max-width: 70ch;
     margin: 1.5em 0 4em;
 }
 
 h1 {
     font-size: 2em;
     margin-bottom: 0.5em;
+    color: #151522;
 }
 h3 {
     margin-top: 1em;
     font-size: 1em;
+    color: #151522;
 }
 
 .control {
