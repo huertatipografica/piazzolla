@@ -22,6 +22,10 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+        git clone --recursive https://github.com/google/woff2.git
+        cd woff2
+        make clean all
+        mv woff2_* /usr/bin/
     - name: Generate fonts
       if: startsWith(github.ref, 'refs/tags/')
       run: ./build.sh

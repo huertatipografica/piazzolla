@@ -16,6 +16,7 @@ Piazzolla has a distinctive voice that conveys a personal style, especially in d
 
 - Glyphs (for editing sources)
 - Python 3 (for building fonts)
+- [google/woff2] (https://github.com/google/woff2) (for generating webfonts)
 
 
 #### Setup
@@ -42,13 +43,12 @@ To build the fonts there are several steps and all the process is being handled 
 
 for Variable Fonts
 ```bash
-fontbakery check-universal fonts/Piazzolla/variable/*
+fontbakery check-universal fonts/Piazzolla/variable/ttf/*
 ```
 
 for Static Fonts
 ```bash
 fontbakery check-universal fonts/Piazzolla/static/ttf/*
-fontbakery check-universal fonts/Piazzolla/static/otf/*
 ```
 
 for UFO sources (replace `UFO_PATH` for the ufo you want to check)

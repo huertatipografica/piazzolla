@@ -21979,7 +21979,7 @@ instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.7191;
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.2809;
 };
-name = "Text Regular";
+name = Text;
 },
 {
 customParameters = (
@@ -22027,7 +22027,7 @@ instanceInterpolations = {
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.66854;
 };
 isBold = 1;
-linkStyle = "Text Regular";
+linkStyle = Text;
 name = "Text Bold";
 weightClass = Bold;
 },
@@ -24856,5 +24856,5 @@ HV = 105;
 };
 };
 versionMajor = 1;
-versionMinor = 100;
+versionMinor = 200;
 }

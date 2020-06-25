@@ -20,3 +20,4 @@ aux/*.png
 temp
 __pycache__
 extra/assets/*.ttf
+extra/assets/*.woff2

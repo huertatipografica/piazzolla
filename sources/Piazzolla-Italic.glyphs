@@ -100,14 +100,6 @@ value = 1;
 {
 name = "Use Extension Kerning";
 value = 1;
-},
-{
-name = org.statmake.stylespacePath;
-value = Piazzolla.stylespace;
-},
-{
-name = org.statmake.additionalLocations;
-value = "{\"Italic\":1}";
 }
 );
 date = "2018-06-26 18:10:32 +0000";
@@ -244939,7 +244931,7 @@ instanceInterpolations = {
 "FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.2809;
 };
 isItalic = 1;
-linkStyle = "Text Regular";
+linkStyle = Text;
 name = "Text Italic";
 },
 {
@@ -244993,7 +244985,7 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Text Regular";
+linkStyle = Text;
 name = "Text Bold Italic";
 weightClass = Bold;
 },
@@ -247658,5 +247650,5 @@ HV = 105;
 };
 };
 versionMajor = 1;
-versionMinor = 100;
+versionMinor = 200;
 }

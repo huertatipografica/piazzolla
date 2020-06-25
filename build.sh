@@ -37,9 +37,9 @@ rm -rf fonts
 for f in "${files[@]}"; do
     echo
     echo "Generate variable font for $f"
-    fontmake -m temp/building/$f/$f.designspace -o variable --output-dir fonts/Piazzolla/variable --verbose WARNING
+    fontmake -m temp/building/$f/$f.designspace -o variable --output-dir fonts/Piazzolla/variable/ttf --verbose WARNING
     echo "Building STAT table for $f"
-    statmake --designspace temp/building/$f/$f.designspace fonts/Piazzolla/variable/"$f"-VF.ttf
+    statmake --designspace temp/building/$f/$f.designspace fonts/Piazzolla/variable/ttf/"$f"-VF.ttf
     if $static; then
         echo "Generate static fonts for $f"
         fontmake -m temp/building/$f/$f.designspace -i --output-dir fonts/Piazzolla/static --verbose WARNING
@@ -48,17 +48,17 @@ done
 
 echo
 echo Fixing fonts
-for VF in fonts/Piazzolla/variable/*.ttf; do
+for VF in fonts/Piazzolla/variable/ttf/*.ttf; do
     gftools fix-dsig -f $VF
     gftools fix-nonhinting $VF "$VF.fix"
     mv "$VF.fix" $VF
     ttx -f -x "MVAR" $VF
     BASE=$(basename -s .ttf $VF)
-    TTXFILE=fonts/Piazzolla/variable/$BASE.ttx
+    TTXFILE=fonts/Piazzolla/variable/ttf/$BASE.ttx
     rm $VF
     ttx $TTXFILE
-    rm fonts/Piazzolla/variable/$BASE.ttx
-    rm fonts/Piazzolla/variable/$BASE-backup-fonttools-prep-gasp.ttf
+    rm fonts/Piazzolla/variable/ttf/$BASE.ttx
+    rm fonts/Piazzolla/variable/ttf/$BASE-backup-fonttools-prep-gasp.ttf
 done
 
 if $static; then
@@ -97,7 +97,7 @@ if $static; then
     mv fonts/Piazzolla/static/*.otf fonts/Piazzolla/static/otf
     mv fonts/Piazzolla/static/*.ttf fonts/Piazzolla/static/ttf
 fi
-for f in fonts/Piazzolla/variable/*-VF*; do mv "$f" "${f//-VF/[opsz,wght]}"; done
+for f in fonts/Piazzolla/variable/ttf/*-VF*; do mv "$f" "${f//-VF/[opsz,wght]}"; done
 cp extra/Thanks.png fonts/Piazzolla
 cp LICENSE.txt fonts/Piazzolla
 
@@ -112,3 +112,34 @@ if $static; then
     for f in static/ttf/*; do echo && echo Freezing SC version for "$f" && pyftfeatfreeze -f 'smcp' -S -U SC "$f" "${f//Piazzolla/PiazzollaSC}" && rm "$f"; done
 fi
 cd ../..
+
+
+echo
+echo Generate woff2 files
+for ttf in fonts/Piazzolla/static/ttf/*.ttf
+do
+    mkdir -p fonts/Piazzolla/static/woff2
+    woff2_compress $ttf
+    mv ${ttf/.ttf/.woff2} fonts/Piazzolla/static/woff2
+done
+
+for ttf in fonts/Piazzolla/variable/ttf/*.ttf
+do
+    mkdir -p fonts/Piazzolla/variable/woff2
+    woff2_compress $ttf
+    mv ${ttf/.ttf/.woff2} fonts/Piazzolla/variable/woff2
+done
+
+for ttf in fonts/PiazzollaSC/static/ttf/*.ttf
+do
+    mkdir -p fonts/PiazzollaSC/static/woff2
+    woff2_compress $ttf
+    mv ${ttf/.ttf/.woff2} fonts/PiazzollaSC/static/woff2
+done
+
+for ttf in fonts/PiazzollaSC/variable/ttf/*.ttf
+do
+    mkdir -p fonts/PiazzollaSC/variable/woff2
+    woff2_compress $ttf
+    mv ${ttf/.ttf/.woff2} fonts/PiazzollaSC/variable/woff2
+done
