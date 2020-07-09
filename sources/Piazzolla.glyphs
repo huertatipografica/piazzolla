@@ -97,7 +97,7 @@ name = "Use Extension Kerning";
 value = 1;
 }
 );
-date = "2018-06-26 18:08:42 +0000";
+date = "2020-07-09 11:41:04 +0000";
 designer = "Juan Pablo del Peral";
 designerURL = "https://www.huertatipografica.com";
 familyName = Piazzolla;
@@ -245143,5 +245143,5 @@ HV = 105;
 };
 };
 versionMajor = 1;
-versionMinor = 200;
+versionMinor = 300;
 }

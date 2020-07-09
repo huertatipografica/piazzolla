@@ -1,5 +1,5 @@
 {
-.appVersion = "1340";
+.appVersion = "1342";
 DisplayStrings = (
 "0123456789",
 "0126879354\012/zero.osf/one.osf/two.osf/six.osf/eight.osf/seven.osf/nine.osf/three.osf/five.osf/four.osf \012/zero.tosf/one.tosf/two.tosf/six.tosf/eight.tosf/seven.tosf/nine.tosf/three.tosf/five.tosf/four.tosf \012/zero.tf/one.tf/two.tf/six.tf/eight.tf/seven.tf/nine.tf/three.tf/five.tf/four.tf \012\012Rebuild/space and/space autospace:\012/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom \012\012sync/space space:\012/zero.lf/figurespace/one.lf/two.lf/three.lf/four.lf/five.lf/six.lf/seven.lf/eight.lf/nine.lf"
@@ -102,7 +102,7 @@ name = "Use Extension Kerning";
 value = 1;
 }
 );
-date = "2018-06-26 18:10:32 +0000";
+date = "2020-07-09 11:41:14 +0000";
 designer = "Juan Pablo del Peral";
 designerURL = "https://www.huertatipografica.com";
 familyName = Piazzolla;
@@ -247671,5 +247671,5 @@ HV = 105;
 };
 };
 versionMajor = 1;
-versionMinor = 200;
+versionMinor = 300;
 }
