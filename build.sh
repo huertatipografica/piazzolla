@@ -27,7 +27,7 @@ for f in "${files[@]}"; do
     echo "Setup DesignSpace from Glyphs for $f"
     if [ -e temp/building/$f ]; then rm -rf temp/building/$f; fi
     mkdir -p temp/building/$f
-    glyphs2ufo sources/$f.glyphs -m temp/building/$f
+    glyphs2ufo -m temp/building/$f sources/$f.glyphs
     echo "Process DesignSpace for $f"
     python tools/processDesignSpace.py $f
 done
@@ -49,6 +49,7 @@ done
 echo
 echo Fixing fonts
 for VF in fonts/Piazzolla/variable/ttf/*.ttf; do
+    python tools/fixNameTable.py $VF
     gftools fix-dsig -f $VF
     gftools fix-nonhinting $VF "$VF.fix"
     mv "$VF.fix" $VF
@@ -63,6 +64,7 @@ done
 
 if $static; then
     for ttf in fonts/Piazzolla/static/*.ttf; do
+        python tools/fixNameTable.py $ttf
         gftools fix-dsig -f $ttf
         gftools fix-nonhinting $ttf "$ttf.fix"
         mv "$ttf.fix" $ttf
@@ -76,6 +78,7 @@ if $static; then
     done
 
     for otf in fonts/Piazzolla/static/*.otf; do
+        python tools/fixNameTable.py $VF
         gftools fix-dsig -f $otf
         gftools fix-nonhinting $otf "$otf.fix"
         mv "$otf.fix" $otf
@@ -99,7 +102,7 @@ if $static; then
 fi
 for f in fonts/Piazzolla/variable/ttf/*-VF*; do mv "$f" "${f//-VF/[opsz,wght]}"; done
 cp extra/Thanks.png fonts/Piazzolla
-cp LICENSE.txt fonts/Piazzolla
+cp OFL.txt fonts/Piazzolla
 
 echo
 echo Freezing Small Caps

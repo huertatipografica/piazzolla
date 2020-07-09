@@ -1,5 +1,5 @@
 {
-.appVersion = "1340";
+.appVersion = "1342";
 DisplayStrings = (
 "0126879354\012/zero.osf/one.osf/two.osf/six.osf/eight.osf/seven.osf/nine.osf/three.osf/five.osf/four.osf \012/zero.tosf/one.tosf/two.tosf/six.tosf/eight.tosf/seven.tosf/nine.tosf/three.tosf/five.tosf/four.tosf \012/zero.tf/one.tf/two.tf/six.tf/eight.tf/seven.tf/nine.tf/three.tf/five.tf/four.tf/figurespace \012\012Rebuild/space and/space autospace:\012/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom \012\012sync/space space:\012/zero.lf/figurespace/one.lf/two.lf/three.lf/four.lf/five.lf/six.lf/seven.lf/eight.lf/nine.lf"
 );
@@ -97,7 +97,7 @@ name = "Use Extension Kerning";
 value = 1;
 }
 );
-date = "2018-06-26 18:08:42 +0000";
+date = "2020-07-09 11:41:04 +0000";
 designer = "Juan Pablo del Peral";
 designerURL = "https://www.huertatipografica.com";
 familyName = Piazzolla;
@@ -242128,6 +242128,10 @@ value = 1;
 {
 name = weightClass;
 value = 275;
+},
+{
+name = familyName;
+value = "Piazzolla Text";
 }
 );
 interpolationWeight = 45;
@@ -242136,7 +242140,7 @@ instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.91573;
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.08427;
 };
-name = "Text ExtraLight";
+name = ExtraLight;
 weightClass = UltraLight;
 },
 {
@@ -242144,6 +242148,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla Text";
 }
 );
 interpolationWeight = 62;
@@ -242152,7 +242160,7 @@ instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.82022;
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.17978;
 };
-name = "Text Light";
+name = Light;
 weightClass = Light;
 },
 {
@@ -242160,6 +242168,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla Text";
 }
 );
 interpolationWeight = 80;
@@ -242168,13 +242180,17 @@ instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.7191;
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.2809;
 };
-name = Text;
+name = Regular;
 },
 {
 customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla Text";
 }
 );
 interpolationWeight = 99;
@@ -242183,7 +242199,7 @@ instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.61236;
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.38764;
 };
-name = "Text Medium";
+name = Medium;
 weightClass = Medium;
 },
 {
@@ -242191,6 +242207,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla Text";
 }
 );
 interpolationWeight = 120;
@@ -242199,7 +242219,7 @@ instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.49438;
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.50562;
 };
-name = "Text SemiBold";
+name = SemiBold;
 weightClass = SemiBold;
 },
 {
@@ -242207,6 +242227,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla Text";
 }
 );
 interpolationWeight = 149;
@@ -242216,8 +242240,7 @@ instanceInterpolations = {
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.66854;
 };
 isBold = 1;
-linkStyle = Text;
-name = "Text Bold";
+name = Bold;
 weightClass = Bold;
 },
 {
@@ -242225,6 +242248,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla Text";
 }
 );
 interpolationWeight = 177;
@@ -242233,7 +242260,7 @@ instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.17416;
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.82584;
 };
-name = "Text ExtraBold";
+name = ExtraBold;
 weightClass = ExtraBold;
 }
 );
@@ -245116,5 +245143,5 @@ HV = 105;
 };
 };
 versionMajor = 1;
-versionMinor = 200;
+versionMinor = 300;
 }
