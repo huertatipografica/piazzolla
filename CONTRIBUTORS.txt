@@ -12,3 +12,4 @@
 Sol Matas <solmatas@gmail.com>
 Panagiotis Haratzopoulos <p.haratzo@gmail.com>
 Krassen Krestev <cactusoctopus@gmail.com>
+Yanone <post@yanone.de>
