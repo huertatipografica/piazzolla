@@ -102,7 +102,7 @@ if $static; then
 fi
 for f in fonts/Piazzolla/variable/ttf/*-VF*; do mv "$f" "${f//-VF/[opsz,wght]}"; done
 cp extra/Thanks.png fonts/Piazzolla
-cp LICENSE.txt fonts/Piazzolla
+cp OFL.txt fonts/Piazzolla
 
 echo
 echo Freezing Small Caps
