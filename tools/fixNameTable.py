@@ -2,7 +2,6 @@ import sys, re, unicodedata, os
 import fontTools.ttLib
 from fontbakery.parse import style_parse
 
-#file = "/Users/yanone/Projekte/Google/Onboarding/piazzolla/fonts/Piazzolla/variable/ttf/Piazzolla-Italic[opsz,wght].ttf"#sys.argv[1]
 file = sys.argv[1]
 ttFont = fontTools.ttLib.TTFont(file)
 
