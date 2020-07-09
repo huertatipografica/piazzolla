@@ -244886,6 +244886,10 @@ value = 1;
 {
 name = weightClass;
 value = 275;
+},
+{
+name = familyName;
+value = "Piazzolla Text";
 }
 );
 interpolationWeight = 45;
@@ -244895,8 +244899,7 @@ instanceInterpolations = {
 "FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.08427;
 };
 isItalic = 1;
-linkStyle = "Text ExtraLight";
-name = "Text ExtraLight Italic";
+name = "ExtraLight Italic";
 weightClass = UltraLight;
 },
 {
@@ -244904,6 +244907,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla Text";
 }
 );
 interpolationWeight = 62;
@@ -244913,8 +244920,7 @@ instanceInterpolations = {
 "FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.17978;
 };
 isItalic = 1;
-linkStyle = "Text Light";
-name = "Text Light Italic";
+name = "Light Italic";
 weightClass = Light;
 },
 {
@@ -244922,6 +244928,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla Text";
 }
 );
 interpolationWeight = 80;
@@ -244931,14 +244941,17 @@ instanceInterpolations = {
 "FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.2809;
 };
 isItalic = 1;
-linkStyle = Text;
-name = "Text Italic";
+name = Italic;
 },
 {
 customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla Text";
 }
 );
 interpolationWeight = 99;
@@ -244948,8 +244961,7 @@ instanceInterpolations = {
 "FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.38764;
 };
 isItalic = 1;
-linkStyle = "Text Medium";
-name = "Text Medium Italic";
+name = "Medium Italic";
 weightClass = Medium;
 },
 {
@@ -244957,6 +244969,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla Text";
 }
 );
 interpolationWeight = 120;
@@ -244966,8 +244982,7 @@ instanceInterpolations = {
 "FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.50562;
 };
 isItalic = 1;
-linkStyle = "Text SemiBold";
-name = "Text SemiBold Italic";
+name = "SemiBold Italic";
 weightClass = SemiBold;
 },
 {
@@ -244975,6 +244990,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla Text";
 }
 );
 interpolationWeight = 149;
@@ -244985,8 +245004,7 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = Text;
-name = "Text Bold Italic";
+name = "Bold Italic";
 weightClass = Bold;
 },
 {
@@ -244994,6 +245012,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla Text";
 }
 );
 interpolationWeight = 177;
@@ -245003,8 +245025,7 @@ instanceInterpolations = {
 "FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.82584;
 };
 isItalic = 1;
-linkStyle = "Text ExtraBold";
-name = "Text ExtraBold Italic";
+name = "ExtraBold Italic";
 weightClass = ExtraBold;
 }
 );

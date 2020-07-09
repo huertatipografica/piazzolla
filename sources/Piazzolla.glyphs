@@ -242128,6 +242128,10 @@ value = 1;
 {
 name = weightClass;
 value = 275;
+},
+{
+name = familyName;
+value = "Piazzolla Text";
 }
 );
 interpolationWeight = 45;
@@ -242136,7 +242140,7 @@ instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.91573;
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.08427;
 };
-name = "Text ExtraLight";
+name = ExtraLight;
 weightClass = UltraLight;
 },
 {
@@ -242144,6 +242148,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla Text";
 }
 );
 interpolationWeight = 62;
@@ -242152,7 +242160,7 @@ instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.82022;
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.17978;
 };
-name = "Text Light";
+name = Light;
 weightClass = Light;
 },
 {
@@ -242160,6 +242168,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla Text";
 }
 );
 interpolationWeight = 80;
@@ -242168,13 +242180,17 @@ instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.7191;
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.2809;
 };
-name = "Text Regular";
+name = Regular;
 },
 {
 customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla Text";
 }
 );
 interpolationWeight = 99;
@@ -242183,7 +242199,7 @@ instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.61236;
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.38764;
 };
-name = "Text Medium";
+name = Medium;
 weightClass = Medium;
 },
 {
@@ -242191,6 +242207,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla Text";
 }
 );
 interpolationWeight = 120;
@@ -242199,7 +242219,7 @@ instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.49438;
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.50562;
 };
-name = "Text SemiBold";
+name = SemiBold;
 weightClass = SemiBold;
 },
 {
@@ -242207,6 +242227,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla Text";
 }
 );
 interpolationWeight = 149;
@@ -242216,8 +242240,7 @@ instanceInterpolations = {
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.66854;
 };
 isBold = 1;
-linkStyle = Text;
-name = "Text Bold";
+name = Bold;
 weightClass = Bold;
 },
 {
@@ -242225,6 +242248,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla Text";
 }
 );
 interpolationWeight = 177;
@@ -242233,7 +242260,7 @@ instanceInterpolations = {
 "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.17416;
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.82584;
 };
-name = "Text ExtraBold";
+name = ExtraBold;
 weightClass = ExtraBold;
 }
 );
