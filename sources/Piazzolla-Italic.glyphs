@@ -4127,7 +4127,7 @@ alignmentZones = (
 );
 ascender = 725;
 capHeight = 644;
-custom = Thin;
+custom = "Thin Italic";
 customParameters = (
 {
 name = paramArea;
@@ -4240,7 +4240,7 @@ alignmentZones = (
 );
 ascender = 737;
 capHeight = 660;
-custom = Black;
+custom = "Black Italic";
 customParameters = (
 {
 name = paramArea;
