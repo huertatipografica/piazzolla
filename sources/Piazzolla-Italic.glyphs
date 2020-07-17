@@ -244717,6 +244717,10 @@ value = 1;
 {
 name = weightClass;
 value = 250;
+},
+{
+name = familyName;
+value = "Piazzolla 30pt";
 }
 );
 interpolationWeight = 30;
@@ -244738,6 +244742,10 @@ value = 1;
 {
 name = weightClass;
 value = 275;
+},
+{
+name = familyName;
+value = "Piazzolla 30pt";
 }
 );
 interpolationWeight = 45;
@@ -244756,6 +244764,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla 30pt";
 }
 );
 interpolationWeight = 62;
@@ -244774,6 +244786,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla 30pt";
 }
 );
 interpolationWeight = 80;
@@ -244791,6 +244807,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla 30pt";
 }
 );
 interpolationWeight = 99;
@@ -244809,6 +244829,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla 30pt";
 }
 );
 interpolationWeight = 120;
@@ -244827,6 +244851,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla 30pt";
 }
 );
 interpolationWeight = 149;
@@ -244846,6 +244874,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla 30pt";
 }
 );
 interpolationWeight = 177;
@@ -244864,6 +244896,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla 30pt";
 }
 );
 interpolationWeight = 208;
@@ -244884,11 +244920,36 @@ value = 1;
 },
 {
 name = weightClass;
+value = 250;
+},
+{
+name = familyName;
+value = "Piazzolla 14pt";
+}
+);
+interpolationWeight = 30;
+interpolationWidth = 14;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 1;
+};
+isItalic = 1;
+linkStyle = Thin;
+name = "Thin Italic";
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = weightClass;
 value = 275;
 },
 {
 name = familyName;
-value = "Piazzolla Text";
+value = "Piazzolla 14pt";
 }
 );
 interpolationWeight = 45;
@@ -244898,6 +244959,7 @@ instanceInterpolations = {
 "FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.08427;
 };
 isItalic = 1;
+linkStyle = ExtraLight;
 name = "ExtraLight Italic";
 weightClass = UltraLight;
 },
@@ -244909,7 +244971,7 @@ value = 1;
 },
 {
 name = familyName;
-value = "Piazzolla Text";
+value = "Piazzolla 14pt";
 }
 );
 interpolationWeight = 62;
@@ -244919,6 +244981,7 @@ instanceInterpolations = {
 "FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.17978;
 };
 isItalic = 1;
+linkStyle = Light;
 name = "Light Italic";
 weightClass = Light;
 },
@@ -244930,7 +244993,7 @@ value = 1;
 },
 {
 name = familyName;
-value = "Piazzolla Text";
+value = "Piazzolla 14pt";
 }
 );
 interpolationWeight = 80;
@@ -244940,6 +245003,7 @@ instanceInterpolations = {
 "FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.2809;
 };
 isItalic = 1;
+linkStyle = Regular;
 name = Italic;
 },
 {
@@ -244950,7 +245014,7 @@ value = 1;
 },
 {
 name = familyName;
-value = "Piazzolla Text";
+value = "Piazzolla 14pt";
 }
 );
 interpolationWeight = 99;
@@ -244960,6 +245024,7 @@ instanceInterpolations = {
 "FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.38764;
 };
 isItalic = 1;
+linkStyle = Medium;
 name = "Medium Italic";
 weightClass = Medium;
 },
@@ -244971,7 +245036,7 @@ value = 1;
 },
 {
 name = familyName;
-value = "Piazzolla Text";
+value = "Piazzolla 14pt";
 }
 );
 interpolationWeight = 120;
@@ -244981,6 +245046,7 @@ instanceInterpolations = {
 "FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.50562;
 };
 isItalic = 1;
+linkStyle = SemiBold;
 name = "SemiBold Italic";
 weightClass = SemiBold;
 },
@@ -244992,7 +245058,7 @@ value = 1;
 },
 {
 name = familyName;
-value = "Piazzolla Text";
+value = "Piazzolla 14pt";
 }
 );
 interpolationWeight = 149;
@@ -245003,6 +245069,7 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
+linkStyle = Regular;
 name = "Bold Italic";
 weightClass = Bold;
 },
@@ -245014,7 +245081,7 @@ value = 1;
 },
 {
 name = familyName;
-value = "Piazzolla Text";
+value = "Piazzolla 14pt";
 }
 );
 interpolationWeight = 177;
@@ -245024,8 +245091,234 @@ instanceInterpolations = {
 "FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.82584;
 };
 isItalic = 1;
+linkStyle = ExtraBold;
 name = "ExtraBold Italic";
 weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla 14pt";
+}
+);
+interpolationWeight = 208;
+interpolationWidth = 14;
+instanceInterpolations = {
+"FCE02CC8-2979-430D-9DE0-31930C0E296D" = 1;
+};
+isItalic = 1;
+linkStyle = Black;
+name = "Black Italic";
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = weightClass;
+value = 250;
+},
+{
+name = familyName;
+value = "Piazzolla 8pt";
+}
+);
+interpolationWeight = 30;
+interpolationWidth = 8;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 1;
+};
+isItalic = 1;
+linkStyle = Thin;
+name = "Thin Italic";
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = weightClass;
+value = 275;
+},
+{
+name = familyName;
+value = "Piazzolla 8pt";
+}
+);
+interpolationWeight = 45;
+interpolationWidth = 8;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.91573;
+"FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.08427;
+};
+isItalic = 1;
+linkStyle = ExtraLight;
+name = "ExtraLight Italic";
+weightClass = UltraLight;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla 8pt";
+}
+);
+interpolationWeight = 62;
+interpolationWidth = 8;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.82022;
+"FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.17978;
+};
+isItalic = 1;
+linkStyle = Light;
+name = "Light Italic";
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla 8pt";
+}
+);
+interpolationWeight = 80;
+interpolationWidth = 8;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.7191;
+"FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.2809;
+};
+isItalic = 1;
+linkStyle = Regular;
+name = Italic;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla 8pt";
+}
+);
+interpolationWeight = 99;
+interpolationWidth = 8;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.61236;
+"FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.38764;
+};
+isItalic = 1;
+linkStyle = Medium;
+name = "Medium Italic";
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla 8pt";
+}
+);
+interpolationWeight = 120;
+interpolationWidth = 8;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.49438;
+"FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.50562;
+};
+isItalic = 1;
+linkStyle = SemiBold;
+name = "SemiBold Italic";
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla 8pt";
+}
+);
+interpolationWeight = 149;
+interpolationWidth = 8;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.33146;
+"FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.66854;
+};
+isBold = 1;
+isItalic = 1;
+linkStyle = Regular;
+name = "Bold Italic";
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla 8pt";
+}
+);
+interpolationWeight = 177;
+interpolationWidth = 8;
+instanceInterpolations = {
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.17416;
+"FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.82584;
+};
+isItalic = 1;
+linkStyle = ExtraBold;
+name = "ExtraBold Italic";
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = familyName;
+value = "Piazzolla 8pt";
+}
+);
+interpolationWeight = 208;
+interpolationWidth = 8;
+instanceInterpolations = {
+"FCE02CC8-2979-430D-9DE0-31930C0E296D" = 1;
+};
+isItalic = 1;
+linkStyle = Black;
+name = "Black Italic";
+weightClass = Black;
 }
 );
 kerning = {
