@@ -41,8 +41,10 @@ def return_familyname(filename):
     name = return_filename_no_extension(filename).split("-")[0]
     parts = []
     i = 0
+    previous = None
     for s in name:
-        if unicodedata.category(s) == 'Lu':
+        if unicodedata.category(s) in ['Lu', 'Nd'] and not unicodedata.category(s) == previous:
+            previous = unicodedata.category(s)
             part = name[:i]
             if part:
                 parts.append(part)
