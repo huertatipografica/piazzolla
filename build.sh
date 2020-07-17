@@ -35,15 +35,17 @@ done
 echo Generating fonts
 rm -rf fonts
 for f in "${files[@]}"; do
-    echo
-    echo "Generate variable font for $f"
-    fontmake -m temp/building/$f/$f.designspace -o variable --output-dir fonts/Piazzolla/variable/ttf --verbose WARNING
-    echo "Building STAT table for $f"
-    statmake --designspace temp/building/$f/$f.designspace fonts/Piazzolla/variable/ttf/"$f"-VF.ttf
     if $static; then
         echo "Generate static fonts for $f"
         fontmake -m temp/building/$f/$f.designspace -i --output-dir fonts/Piazzolla/static --verbose WARNING
     fi
+    echo
+    echo "Generate variable font for $f"
+    python tools/addPtToNames.py $f
+    fontmake -m temp/building/$f/$f.designspace -o variable --output-dir fonts/Piazzolla/variable/ttf --verbose WARNING
+    echo "Building STAT table for $f"
+    statmake --designspace temp/building/$f/$f.designspace fonts/Piazzolla/variable/ttf/"$f"-VF.ttf
+
 done
 
 echo
@@ -116,32 +118,27 @@ if $static; then
 fi
 cd ../..
 
-
 echo
 echo Generate woff2 files
-for ttf in fonts/Piazzolla/static/ttf/*.ttf
-do
+for ttf in fonts/Piazzolla/static/ttf/*.ttf; do
     mkdir -p fonts/Piazzolla/static/woff2
     woff2_compress $ttf
     mv ${ttf/.ttf/.woff2} fonts/Piazzolla/static/woff2
 done
 
-for ttf in fonts/Piazzolla/variable/ttf/*.ttf
-do
+for ttf in fonts/Piazzolla/variable/ttf/*.ttf; do
     mkdir -p fonts/Piazzolla/variable/woff2
     woff2_compress $ttf
     mv ${ttf/.ttf/.woff2} fonts/Piazzolla/variable/woff2
 done
 
-for ttf in fonts/PiazzollaSC/static/ttf/*.ttf
-do
+for ttf in fonts/PiazzollaSC/static/ttf/*.ttf; do
     mkdir -p fonts/PiazzollaSC/static/woff2
     woff2_compress $ttf
     mv ${ttf/.ttf/.woff2} fonts/PiazzollaSC/static/woff2
 done
 
-for ttf in fonts/PiazzollaSC/variable/ttf/*.ttf
-do
+for ttf in fonts/PiazzollaSC/variable/ttf/*.ttf; do
     mkdir -p fonts/PiazzollaSC/variable/woff2
     woff2_compress $ttf
     mv ${ttf/.ttf/.woff2} fonts/PiazzollaSC/variable/woff2
