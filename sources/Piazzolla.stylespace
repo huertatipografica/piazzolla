@@ -13,7 +13,7 @@
                 <array>
                     <dict>
                         <key>name</key>
-                        <string>Micro</string>
+                        <string>8pt</string>
                         <key>value</key>
                         <integer>8</integer>
                         <key>range</key>
@@ -24,7 +24,7 @@
                     </dict>
                     <dict>
                         <key>name</key>
-                        <string>Text</string>
+                        <string>14pt</string>
                         <key>value</key>
                         <integer>14</integer>
                         <key>range</key>
@@ -35,17 +35,13 @@
                     </dict>
                     <dict>
                         <key>name</key>
-                        <string>Big</string>
+                        <string>30pt</string>
                         <key>value</key>
                         <integer>30</integer>
                         <key>range</key>
                         <array>
                             <integer>18</integer>
                             <integer>30</integer>
-                        </array>
-                        <key>flags</key>
-                        <array>
-                            <string>ElidableAxisValueName</string>
                         </array>
                     </dict>
                 </array>
