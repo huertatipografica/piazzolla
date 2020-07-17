@@ -244718,10 +244718,6 @@ value = 1;
 name = weightClass;
 value = 250;
 },
-{
-name = familyName;
-value = "Piazzolla 30pt";
-}
 );
 interpolationWeight = 30;
 interpolationWidth = 30;
@@ -244743,10 +244739,6 @@ value = 1;
 name = weightClass;
 value = 275;
 },
-{
-name = familyName;
-value = "Piazzolla 30pt";
-}
 );
 interpolationWeight = 45;
 interpolationWidth = 30;
@@ -244765,10 +244757,6 @@ customParameters = (
 name = "Update Features";
 value = 1;
 },
-{
-name = familyName;
-value = "Piazzolla 30pt";
-}
 );
 interpolationWeight = 62;
 interpolationWidth = 30;
@@ -244787,10 +244775,6 @@ customParameters = (
 name = "Update Features";
 value = 1;
 },
-{
-name = familyName;
-value = "Piazzolla 30pt";
-}
 );
 interpolationWeight = 80;
 interpolationWidth = 30;
@@ -244808,10 +244792,6 @@ customParameters = (
 name = "Update Features";
 value = 1;
 },
-{
-name = familyName;
-value = "Piazzolla 30pt";
-}
 );
 interpolationWeight = 99;
 interpolationWidth = 30;
@@ -244830,10 +244810,6 @@ customParameters = (
 name = "Update Features";
 value = 1;
 },
-{
-name = familyName;
-value = "Piazzolla 30pt";
-}
 );
 interpolationWeight = 120;
 interpolationWidth = 30;
@@ -244852,10 +244828,6 @@ customParameters = (
 name = "Update Features";
 value = 1;
 },
-{
-name = familyName;
-value = "Piazzolla 30pt";
-}
 );
 interpolationWeight = 149;
 interpolationWidth = 30;
@@ -244875,10 +244847,6 @@ customParameters = (
 name = "Update Features";
 value = 1;
 },
-{
-name = familyName;
-value = "Piazzolla 30pt";
-}
 );
 interpolationWeight = 177;
 interpolationWidth = 30;
@@ -244897,10 +244865,6 @@ customParameters = (
 name = "Update Features";
 value = 1;
 },
-{
-name = familyName;
-value = "Piazzolla 30pt";
-}
 );
 interpolationWeight = 208;
 interpolationWidth = 30;
