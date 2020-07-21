@@ -16,7 +16,6 @@ Piazzolla has a distinctive voice that conveys a personal style, especially in d
 
 - Glyphs (for editing sources)
 - Python 3 (for building fonts)
-- [google/woff2](https://github.com/google/woff2) (for generating webfonts)
 
 
 #### Setup

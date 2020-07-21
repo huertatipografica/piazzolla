@@ -9,5 +9,4 @@ Spacing and metrics work
 
     Clean and compress kerning
 
-
-fontools ttLib.woff2
+fonttools ttLib.woff2

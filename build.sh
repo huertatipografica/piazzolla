@@ -116,33 +116,29 @@ if $static; then
 fi
 cd ../..
 
-
 echo
 echo Generate woff2 files
-for ttf in fonts/Piazzolla/static/ttf/*.ttf
-do
-    mkdir -p fonts/Piazzolla/static/woff2
-    woff2_compress $ttf
-    mv ${ttf/.ttf/.woff2} fonts/Piazzolla/static/woff2
-done
+if $static; then
+    for ttf in fonts/Piazzolla/static/ttf/*.ttf; do
+        mkdir -p fonts/Piazzolla/static/woff2
+        fonttools ttLib.woff2 compress $ttf
+        mv ${ttf/.ttf/.woff2} fonts/Piazzolla/static/woff2
+    done
+    for ttf in fonts/PiazzollaSC/static/ttf/*.ttf; do
+        mkdir -p fonts/PiazzollaSC/static/woff2
+        fonttools ttLib.woff2 compress $ttf
+        mv ${ttf/.ttf/.woff2} fonts/PiazzollaSC/static/woff2
+    done
+fi
 
-for ttf in fonts/Piazzolla/variable/ttf/*.ttf
-do
+for ttf in fonts/Piazzolla/variable/ttf/*.ttf; do
     mkdir -p fonts/Piazzolla/variable/woff2
-    woff2_compress $ttf
+    fonttools ttLib.woff2 compress $ttf
     mv ${ttf/.ttf/.woff2} fonts/Piazzolla/variable/woff2
 done
 
-for ttf in fonts/PiazzollaSC/static/ttf/*.ttf
-do
-    mkdir -p fonts/PiazzollaSC/static/woff2
-    woff2_compress $ttf
-    mv ${ttf/.ttf/.woff2} fonts/PiazzollaSC/static/woff2
-done
-
-for ttf in fonts/PiazzollaSC/variable/ttf/*.ttf
-do
+for ttf in fonts/PiazzollaSC/variable/ttf/*.ttf; do
     mkdir -p fonts/PiazzollaSC/variable/woff2
-    woff2_compress $ttf
+    fonttools ttLib.woff2 compress $ttf
     mv ${ttf/.ttf/.woff2} fonts/PiazzollaSC/variable/woff2
 done
