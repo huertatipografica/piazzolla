@@ -1,5 +1,5 @@
 {
-.appVersion = "1342";
+.appVersion = "1343";
 DisplayStrings = (
 "0126879354\012/zero.osf/one.osf/two.osf/six.osf/eight.osf/seven.osf/nine.osf/three.osf/five.osf/four.osf \012/zero.tosf/one.tosf/two.tosf/six.tosf/eight.tosf/seven.tosf/nine.tosf/three.tosf/five.tosf/four.tosf \012/zero.tf/one.tf/two.tf/six.tf/eight.tf/seven.tf/nine.tf/three.tf/five.tf/four.tf/figurespace \012\012Rebuild/space and/space autospace:\012/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom \012\012sync/space space:\012/zero.lf/figurespace/one.lf/two.lf/three.lf/four.lf/five.lf/six.lf/seven.lf/eight.lf/nine.lf",
 "lorennm/space \012moronvovo"
@@ -241979,10 +241979,6 @@ value = 1;
 name = weightClass;
 value = 250;
 },
-{
-name = familyName;
-value = "Piazzolla 30pt";
-}
 );
 interpolationWeight = 30;
 interpolationWidth = 30;
@@ -242002,10 +241998,6 @@ value = 1;
 name = weightClass;
 value = 275;
 },
-{
-name = familyName;
-value = "Piazzolla 30pt";
-}
 );
 interpolationWeight = 45;
 interpolationWidth = 30;
@@ -242022,10 +242014,6 @@ customParameters = (
 name = "Update Features";
 value = 1;
 },
-{
-name = familyName;
-value = "Piazzolla 30pt";
-}
 );
 interpolationWeight = 62;
 interpolationWidth = 30;
@@ -242042,10 +242030,6 @@ customParameters = (
 name = "Update Features";
 value = 1;
 },
-{
-name = familyName;
-value = "Piazzolla 30pt";
-}
 );
 interpolationWeight = 80;
 interpolationWidth = 30;
@@ -242061,10 +242045,6 @@ customParameters = (
 name = "Update Features";
 value = 1;
 },
-{
-name = familyName;
-value = "Piazzolla 30pt";
-}
 );
 interpolationWeight = 99;
 interpolationWidth = 30;
@@ -242081,10 +242061,6 @@ customParameters = (
 name = "Update Features";
 value = 1;
 },
-{
-name = familyName;
-value = "Piazzolla 30pt";
-}
 );
 interpolationWeight = 120;
 interpolationWidth = 30;
@@ -242101,10 +242077,6 @@ customParameters = (
 name = "Update Features";
 value = 1;
 },
-{
-name = familyName;
-value = "Piazzolla 30pt";
-}
 );
 interpolationWeight = 149;
 interpolationWidth = 30;
@@ -242123,10 +242095,6 @@ customParameters = (
 name = "Update Features";
 value = 1;
 },
-{
-name = familyName;
-value = "Piazzolla 30pt";
-}
 );
 interpolationWeight = 177;
 interpolationWidth = 30;
@@ -242143,383 +242111,9 @@ customParameters = (
 name = "Update Features";
 value = 1;
 },
-{
-name = familyName;
-value = "Piazzolla 30pt";
-}
 );
 interpolationWeight = 208;
 interpolationWidth = 30;
-instanceInterpolations = {
-"BFC82823-8905-47CE-90FC-B44BF62F9018" = 1;
-};
-name = Black;
-weightClass = Black;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Piazzolla 14pt";
-},
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = weightClass;
-value = 250;
-}
-);
-interpolationWeight = 30;
-interpolationWidth = 14;
-instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 1;
-};
-name = Thin;
-},
-{
-customParameters = (
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = weightClass;
-value = 275;
-},
-{
-name = familyName;
-value = "Piazzolla 14pt";
-}
-);
-interpolationWeight = 45;
-interpolationWidth = 14;
-instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.91573;
-"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.08427;
-};
-name = ExtraLight;
-weightClass = UltraLight;
-},
-{
-customParameters = (
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = familyName;
-value = "Piazzolla 14pt";
-}
-);
-interpolationWeight = 62;
-interpolationWidth = 14;
-instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.82022;
-"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.17978;
-};
-name = Light;
-weightClass = Light;
-},
-{
-customParameters = (
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = familyName;
-value = "Piazzolla 14pt";
-}
-);
-interpolationWeight = 80;
-interpolationWidth = 14;
-instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.7191;
-"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.2809;
-};
-name = Regular;
-},
-{
-customParameters = (
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = familyName;
-value = "Piazzolla 14pt";
-}
-);
-interpolationWeight = 99;
-interpolationWidth = 14;
-instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.61236;
-"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.38764;
-};
-name = Medium;
-weightClass = Medium;
-},
-{
-customParameters = (
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = familyName;
-value = "Piazzolla 14pt";
-}
-);
-interpolationWeight = 120;
-interpolationWidth = 14;
-instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.49438;
-"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.50562;
-};
-name = SemiBold;
-weightClass = SemiBold;
-},
-{
-customParameters = (
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = familyName;
-value = "Piazzolla 14pt";
-}
-);
-interpolationWeight = 149;
-interpolationWidth = 14;
-instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.33146;
-"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.66854;
-};
-isBold = 1;
-name = Bold;
-weightClass = Bold;
-},
-{
-customParameters = (
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = familyName;
-value = "Piazzolla 14pt";
-}
-);
-interpolationWeight = 177;
-interpolationWidth = 14;
-instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.17416;
-"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.82584;
-};
-name = ExtraBold;
-weightClass = ExtraBold;
-},
-{
-customParameters = (
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = familyName;
-value = "Piazzolla 14pt";
-}
-);
-interpolationWeight = 208;
-interpolationWidth = 14;
-instanceInterpolations = {
-"BFC82823-8905-47CE-90FC-B44BF62F9018" = 1;
-};
-name = Black;
-weightClass = Black;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Piazzolla 8pt";
-},
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = weightClass;
-value = 250;
-}
-);
-interpolationWeight = 30;
-interpolationWidth = 8;
-instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 1;
-};
-name = Thin;
-},
-{
-customParameters = (
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = weightClass;
-value = 275;
-},
-{
-name = familyName;
-value = "Piazzolla 8pt";
-}
-);
-interpolationWeight = 45;
-interpolationWidth = 8;
-instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.91573;
-"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.08427;
-};
-name = ExtraLight;
-weightClass = UltraLight;
-},
-{
-customParameters = (
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = familyName;
-value = "Piazzolla 8pt";
-}
-);
-interpolationWeight = 62;
-interpolationWidth = 8;
-instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.82022;
-"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.17978;
-};
-name = Light;
-weightClass = Light;
-},
-{
-customParameters = (
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = familyName;
-value = "Piazzolla 8pt";
-}
-);
-interpolationWeight = 80;
-interpolationWidth = 8;
-instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.7191;
-"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.2809;
-};
-name = Regular;
-},
-{
-customParameters = (
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = familyName;
-value = "Piazzolla 8pt";
-}
-);
-interpolationWeight = 99;
-interpolationWidth = 8;
-instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.61236;
-"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.38764;
-};
-name = Medium;
-weightClass = Medium;
-},
-{
-customParameters = (
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = familyName;
-value = "Piazzolla 8pt";
-}
-);
-interpolationWeight = 120;
-interpolationWidth = 8;
-instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.49438;
-"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.50562;
-};
-name = SemiBold;
-weightClass = SemiBold;
-},
-{
-customParameters = (
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = familyName;
-value = "Piazzolla 8pt";
-}
-);
-interpolationWeight = 149;
-interpolationWidth = 8;
-instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.33146;
-"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.66854;
-};
-isBold = 1;
-name = Bold;
-weightClass = Bold;
-},
-{
-customParameters = (
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = familyName;
-value = "Piazzolla 8pt";
-}
-);
-interpolationWeight = 177;
-interpolationWidth = 8;
-instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.17416;
-"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.82584;
-};
-name = ExtraBold;
-weightClass = ExtraBold;
-},
-{
-customParameters = (
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = familyName;
-value = "Piazzolla 8pt";
-}
-);
-interpolationWeight = 208;
-interpolationWidth = 8;
 instanceInterpolations = {
 "BFC82823-8905-47CE-90FC-B44BF62F9018" = 1;
 };

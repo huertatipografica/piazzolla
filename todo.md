@@ -9,13 +9,5 @@ Spacing and metrics work
 
     Clean and compress kerning
 
-Setup files
 
-https://github.com/daltonmaag/statmake
-
-```
-opsz
-    8   Micro
-    14  Text
-    30  Big
-```
+fontools ttLib.woff2

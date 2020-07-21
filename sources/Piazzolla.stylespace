@@ -28,6 +28,10 @@
                         <string>30pt</string>
                         <key>value</key>
                         <integer>30</integer>
+                        <key>flags</key>
+                        <array>
+                            <string>ElidableAxisValueName</string>
+                        </array>
                     </dict>
                 </array>
             </dict>
