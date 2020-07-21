@@ -243621,6 +243621,7 @@ nodes = (
 width = 643;
 }
 );
+unicode = E700;
 },
 {
 color = 10;
@@ -244717,7 +244718,7 @@ value = 1;
 {
 name = weightClass;
 value = 250;
-},
+}
 );
 interpolationWeight = 30;
 interpolationWidth = 30;
@@ -244738,7 +244739,7 @@ value = 1;
 {
 name = weightClass;
 value = 275;
-},
+}
 );
 interpolationWeight = 45;
 interpolationWidth = 30;
@@ -244756,7 +244757,7 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
-},
+}
 );
 interpolationWeight = 62;
 interpolationWidth = 30;
@@ -244774,7 +244775,7 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
-},
+}
 );
 interpolationWeight = 80;
 interpolationWidth = 30;
@@ -244791,7 +244792,7 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
-},
+}
 );
 interpolationWeight = 99;
 interpolationWidth = 30;
@@ -244809,7 +244810,7 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
-},
+}
 );
 interpolationWeight = 120;
 interpolationWidth = 30;
@@ -244827,7 +244828,7 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
-},
+}
 );
 interpolationWeight = 149;
 interpolationWidth = 30;
@@ -244846,7 +244847,7 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
-},
+}
 );
 interpolationWeight = 177;
 interpolationWidth = 30;
@@ -244864,7 +244865,7 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
-},
+}
 );
 interpolationWeight = 208;
 interpolationWidth = 30;
