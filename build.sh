@@ -94,6 +94,11 @@ fi
 
 echo
 echo Order files
+
+for ttf in fonts/Piazzolla/variable/ttf/*.ttf; do
+    mv $ttf ${ttf/-VARsetup/''}
+done
+
 if $static; then
     mkdir -p fonts/Piazzolla/static/ttf
     mkdir -p fonts/Piazzolla/static/otf
@@ -109,7 +114,7 @@ echo Freezing Small Caps
 rm -rf fonts/PiazzollaSC
 cp -r fonts/Piazzolla fonts/PiazzollaSC
 cd fonts/PiazzollaSC
-for f in variable/*; do echo && echo Freezing SC version for "$f" && pyftfeatfreeze -f 'smcp' -S -U SC "$f" "${f//Piazzolla/PiazzollaSC}" && rm "$f"; done
+for f in variable/ttf/*; do echo && echo Freezing SC version for "$f" && pyftfeatfreeze -f 'smcp' -S -U SC "$f" "${f//Piazzolla/PiazzollaSC}" && rm "$f"; done
 if $static; then
     for f in static/otf/*; do echo && echo Freezing SC version for "$f" && pyftfeatfreeze -f 'smcp' -S -U SC "$f" "${f//Piazzolla/PiazzollaSC}" && rm "$f"; done
     for f in static/ttf/*; do echo && echo Freezing SC version for "$f" && pyftfeatfreeze -f 'smcp' -S -U SC "$f" "${f//Piazzolla/PiazzollaSC}" && rm "$f"; done
@@ -135,6 +140,7 @@ for ttf in fonts/Piazzolla/variable/ttf/*.ttf; do
     mkdir -p fonts/Piazzolla/variable/woff2
     fonttools ttLib.woff2 compress $ttf
     mv ${ttf/.ttf/.woff2} fonts/Piazzolla/variable/woff2
+    cp fonts/Piazzolla/variable/woff2/* extra/assets
 done
 
 for ttf in fonts/PiazzollaSC/variable/ttf/*.ttf; do

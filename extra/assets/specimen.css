@@ -3,8 +3,8 @@
     font-style: normal;
     font-weight: 100 900;
     font-display: swap;
-    src: url('Piazzolla[opsz\,wght].woff2') format('woff2'),
-         url('../../fonts/Piazzolla/variable/woff2/Piazzolla[opsz\,wght].woff2') format('woff2');
+    src: url("Piazzolla[opsz\,wght].woff2") format("woff2"),
+        url("../../fonts/Piazzolla/variable/woff2/Piazzolla[opsz\,wght].woff2") format("woff2");
 }
 
 @font-face {
@@ -12,26 +12,32 @@
     font-style: italic;
     font-weight: 100 900;
     font-display: swap;
-    src: url('Piazzolla-Italic[opsz\,wght].woff2') format('woff2'),
-         url('../../fonts/Piazzolla/variable/woff2/Piazzolla-Italic[opsz\,wght].woff2') format('woff2');
+    src: url("Piazzolla-Italic[opsz\,wght].woff2") format("woff2"),
+        url("../../fonts/Piazzolla/variable/woff2/Piazzolla-Italic[opsz\,wght].woff2") format("woff2");
 }
 
 * {
     margin: 0;
 }
+:focus {
+    outline: 0;
+}
 
+::placeholder {
+    color: #ccc;
+}
 body {
     font-family: "Piazzolla";
     line-height: 1.5;
     color: #363641;
-    background: #FAFAFA;
+    background: #fafafa;
 }
 
 #app {
     margin-left: 80px;
 }
 .title {
-    background: #222;
+    background: #363641;
     color: #fff;
     padding: 1em 1em 1.5em 1.5em;
 }
