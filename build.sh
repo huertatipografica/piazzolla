@@ -39,7 +39,7 @@ for f in "${files[@]}"; do
     echo "Generate variable font for $f"
     fontmake -m temp/building/$f/$f.designspace -o variable --output-dir fonts/Piazzolla/variable/ttf --verbose WARNING
     echo "Building STAT table for $f"
-    statmake --designspace temp/building/$f/$f.designspace fonts/Piazzolla/variable/ttf/"$f"-VF.ttf
+    python tools/buildStat.py fonts/Piazzolla/variable/ttf/"$f"-VF.ttf
     if $static; then
         echo "Generate static fonts for $f"
         fontmake -m temp/building/$f/$f.designspace -i --output-dir fonts/Piazzolla/static --verbose WARNING

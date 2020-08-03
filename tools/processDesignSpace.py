@@ -85,7 +85,7 @@ for ufo in set([m.path for m in doc.sources]):
                      adjustments['min']['percentage'])
         font.save()
 
-        if adjustments['min']['scaleFactor'] is not 1:
+        if adjustments['min']['scaleFactor'] != 1:
             factor = adjustments['min']['scaleFactor']
             print('Scaling %s by %s' % (font.path, factor))
             scaleFont(font.path, font.path, factor)
@@ -99,7 +99,7 @@ for ufo in set([m.path for m in doc.sources]):
                      adjustments['max']['percentage'])
         font.save()
 
-        if adjustments['max']['scaleFactor'] is not 1:
+        if adjustments['max']['scaleFactor'] != 1:
             factor = adjustments['max']['scaleFactor']
             print('Scaling %s by %s' % (font.path, factor))
             scaleFont(font.path, font.path, factor)
@@ -110,10 +110,6 @@ for ufo in set([m.path for m in doc.sources]):
     doc.addSource(source)
 
 # removeAreas(font)
-doc.lib['org.statmake.stylespacePath'] = '../../../sources/Piazzolla.stylespace'
-doc.lib['org.statmake.additionalLocations'] = {
-    "Italic": 1 if 'Italic' in file else 0
-}
 doc.write(path)
 doc.write(minPath)
 

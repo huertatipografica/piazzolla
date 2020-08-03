@@ -3,7 +3,6 @@ fontmake
 fonttools[lxml,unicode,ufo]
 fontParts
 glyphsLib
-statmake
 git+https://github.com/googlefonts/gftools
 git+https://github.com/twardoch/fonttools-opentype-feature-freezer
 brotli
