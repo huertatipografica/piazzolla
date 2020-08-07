@@ -2,7 +2,8 @@
 .appVersion = "1344";
 DisplayStrings = (
 "0126879354\012/zero.osf/one.osf/two.osf/six.osf/eight.osf/seven.osf/nine.osf/three.osf/five.osf/four.osf \012/zero.tosf/one.tosf/two.tosf/six.tosf/eight.tosf/seven.tosf/nine.tosf/three.tosf/five.tosf/four.tosf \012/zero.tf/one.tf/two.tf/six.tf/eight.tf/seven.tf/nine.tf/three.tf/five.tf/four.tf/figurespace \012\012Rebuild/space and/space autospace:\012/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom \012\012sync/space space:\012/zero.lf/figurespace/one.lf/two.lf/three.lf/four.lf/five.lf/six.lf/seven.lf/eight.lf/nine.lf",
-"tildecomb_dieresiscomb/tildecomb_dieresiscomb"
+"tildecomb_dieresiscomb/tildecomb_dieresiscomb",
+"/dieresiscomb_gravecomb/dieresiscomb_acutecomb/dieresiscomb_caroncomb/dieresiscomb_macroncomb/dotaccentcomb_macroncomb/acutecomb_dotaccentcomb/caroncomb_dotaccentcomb/tildecomb_dieresiscomb/tildecomb_gravecomb/tildecomb_acutecomb/tildecomb_macroncomb/macroncomb_dieresiscomb/macroncomb_gravecomb/macroncomb_acutecomb/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb"
 );
 classes = (
 {
@@ -23,6 +24,10 @@ name = AllLetters;
 {
 code = "t tbar tcaron tcedilla tcommaaccent t.t f germandbls longs f.f fi fl";
 name = .f.t;
+},
+{
+code = "h hbar hbrevebelow hdotbelow k kcommaaccent l lacute lcaron lcommaaccent ldot ldotbelow lj ";
+name = .f.l;
 },
 {
 code = "I V X L C D M i v x l c d m i.sc v.sc x.sc l.sc c.sc d.sc m.sc";

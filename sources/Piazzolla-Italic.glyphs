@@ -2,8 +2,7 @@
 .appVersion = "1344";
 DisplayStrings = (
 ec,
-"/One-roman/One-roman/One-roman/Five-roman/One-roman/Ten-roman/One-roman/Fifty-roman/One-roman/Hundred-roman/One-roman/Fivehundred-roman/One-roman/Thousand-roman/One-roman \012/Five-roman/One-roman/Five-roman/Five-roman/Five-roman/Ten-roman/Five-roman/Fifty-roman/Five-roman/Hundred-roman/Five-roman/Fivehundred-roman/Five-roman/Thousand-roman/Five-roman \012/Ten-roman/One-roman/Ten-roman/Five-roman/Ten-roman/Ten-roman/Ten-roman/Fifty-roman/Ten-roman/Hundred-roman/Ten-roman/Fivehundred-roman/Ten-roman/Thousand-roman/Ten-roman \012/Fifty-roman/One-roman/Fifty-roman/Five-roman/Fifty-roman/Ten-roman/Fifty-roman/Fifty-roman/Fifty-roman/Hundred-roman/Fifty-roman/Fivehundred-roman/Fifty-roman/Thousand-roman/Fifty-roman \012/Hundred-roman/One-roman/Hundred-roman/Five-roman/Hundred-roman/Ten-roman/Hundred-roman/Fifty-roman/Hundred-roman/Hundred-roman/Hundred-roman/Fivehundred-roman/Hundred-roman/Thousand-roman/Hundred-roman \012/Fivehundred-roman/One-roman/Fivehundred-roman/Five-roman/Fivehundred-roman/Ten-roman/Fivehundred-roman/Fifty-roman/Fivehundred-roman/Hundred-roman/Fivehundred-roman/Fivehundred-roman/Fivehundred-roman/Thousand-roman/Fivehundred-roman \012/Thousand-roman/One-roman/Thousand-roman/Five-roman/Thousand-roman/space/Ten-roman/space/Thousand-roman/Fifty-roman/Thousand-roman/Hundred-roman/Thousand-roman/Fivehundred-roman/Thousand-roman/Thousand-roman/Thousand-roman \012\012/one-roman/one-roman/one-roman/five-roman/one-roman/ten-roman/one-roman/fifty-roman/one-roman/hundred-roman/one-roman/fivehundred-roman/one-roman/onethousand-roman/one-roman \012/five-roman/one-roman/five-roman/five-roman/five-roman/ten-roman/five-roman/fifty-roman/five-roman/hundred-roman/five-roman/fivehundred-roman/five-roman/onethousand-roman/five-roman \012/ten-roman/one-roman/ten-roman/five-roman/ten-roman/ten-roman/ten-roman/fifty-roman/ten-roman/hundred-roman/ten-roman/fivehundred-roman/ten-roman/onethousand-roman/ten-roman \012/fifty-roman/one-roman/fifty-roman/five-roman/fifty-roman/ten-roman/fifty-roman/fifty-roman/fifty-roman/hundred-roman/fifty-roman/fivehundred-roman/fifty-roman/onethousand-roman/fifty-roman \012/hundred-roman/one-roman/hundred-roman/five-roman/hundred-roman/ten-roman/hundred-roman/fifty-roman/hundred-roman/hundred-roman/hundred-roman/fivehundred-roman/hundred-roman/onethousand-roman/hundred-roman \012/fivehundred-roman/one-roman/fivehundred-roman/five-roman/fivehundred-roman/ten-roman/fivehundred-roman/fifty-roman/fivehundred-roman/hundred-roman/fivehundred-roman/fivehundred-roman/fivehundred-roman/onethousand-roman/fivehundred-roman \012/onethousand-roman/one-roman/onethousand-roman/five-roman/onethousand-roman/ten-roman/onethousand-roman/fifty-roman/onethousand-roman/hundred-roman/onethousand-roman/fivehundred-roman/onethousand-roman/onethousand-roman/onethousand-roman",
-"/tildecomb_dieresiscomb"
+"/One-roman/One-roman/One-roman/Five-roman/One-roman/Ten-roman/One-roman/Fifty-roman/One-roman/Hundred-roman/One-roman/Fivehundred-roman/One-roman/Thousand-roman/One-roman \012/Five-roman/One-roman/Five-roman/Five-roman/Five-roman/Ten-roman/Five-roman/Fifty-roman/Five-roman/Hundred-roman/Five-roman/Fivehundred-roman/Five-roman/Thousand-roman/Five-roman \012/Ten-roman/One-roman/Ten-roman/Five-roman/Ten-roman/Ten-roman/Ten-roman/Fifty-roman/Ten-roman/Hundred-roman/Ten-roman/Fivehundred-roman/Ten-roman/Thousand-roman/Ten-roman \012/Fifty-roman/One-roman/Fifty-roman/Five-roman/Fifty-roman/Ten-roman/Fifty-roman/Fifty-roman/Fifty-roman/Hundred-roman/Fifty-roman/Fivehundred-roman/Fifty-roman/Thousand-roman/Fifty-roman \012/Hundred-roman/One-roman/Hundred-roman/Five-roman/Hundred-roman/Ten-roman/Hundred-roman/Fifty-roman/Hundred-roman/Hundred-roman/Hundred-roman/Fivehundred-roman/Hundred-roman/Thousand-roman/Hundred-roman \012/Fivehundred-roman/One-roman/Fivehundred-roman/Five-roman/Fivehundred-roman/Ten-roman/Fivehundred-roman/Fifty-roman/Fivehundred-roman/Hundred-roman/Fivehundred-roman/Fivehundred-roman/Fivehundred-roman/Thousand-roman/Fivehundred-roman \012/Thousand-roman/One-roman/Thousand-roman/Five-roman/Thousand-roman/space/Ten-roman/space/Thousand-roman/Fifty-roman/Thousand-roman/Hundred-roman/Thousand-roman/Fivehundred-roman/Thousand-roman/Thousand-roman/Thousand-roman \012\012/one-roman/one-roman/one-roman/five-roman/one-roman/ten-roman/one-roman/fifty-roman/one-roman/hundred-roman/one-roman/fivehundred-roman/one-roman/onethousand-roman/one-roman \012/five-roman/one-roman/five-roman/five-roman/five-roman/ten-roman/five-roman/fifty-roman/five-roman/hundred-roman/five-roman/fivehundred-roman/five-roman/onethousand-roman/five-roman \012/ten-roman/one-roman/ten-roman/five-roman/ten-roman/ten-roman/ten-roman/fifty-roman/ten-roman/hundred-roman/ten-roman/fivehundred-roman/ten-roman/onethousand-roman/ten-roman \012/fifty-roman/one-roman/fifty-roman/five-roman/fifty-roman/ten-roman/fifty-roman/fifty-roman/fifty-roman/hundred-roman/fifty-roman/fivehundred-roman/fifty-roman/onethousand-roman/fifty-roman \012/hundred-roman/one-roman/hundred-roman/five-roman/hundred-roman/ten-roman/hundred-roman/fifty-roman/hundred-roman/hundred-roman/hundred-roman/fivehundred-roman/hundred-roman/onethousand-roman/hundred-roman \012/fivehundred-roman/one-roman/fivehundred-roman/five-roman/fivehundred-roman/ten-roman/fivehundred-roman/fifty-roman/fivehundred-roman/hundred-roman/fivehundred-roman/fivehundred-roman/fivehundred-roman/onethousand-roman/fivehundred-roman \012/onethousand-roman/one-roman/onethousand-roman/five-roman/onethousand-roman/ten-roman/onethousand-roman/fifty-roman/onethousand-roman/hundred-roman/onethousand-roman/fivehundred-roman/onethousand-roman/onethousand-roman/onethousand-roman"
 );
 classes = (
 {
@@ -22,10 +21,6 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = AllLetters;
 },
 {
-code = "t tbar tcaron tcedilla tcommaaccent t.t f germandbls longs f.f fi fl t.rl-Weight_90_214 t.t.rl-Weight_90_214";
-name = .f.t;
-},
-{
 code = "I V X L C D M i v x l c d m i.sc v.sc x.sc l.sc c.sc d.sc m.sc";
 name = siglo1;
 },
@@ -36,6 +31,10 @@ name = siglo2;
 {
 code = "period comma colon semicolon ellipsis exclam exclamdown question questiondown periodcentered bullet asterisk exclamdouble numbersign onedotenleader slash backslash twodotenleader exclamdown.case questiondown.case periodcentered.case bullet.case slash.case backslash.case parenleft parenright braceleft braceright bracketleft bracketright parenleft.case parenright.case braceleft.case braceright.case bracketleft.case bracketright.case hyphen softhyphen endash emdash figuredash horizontalbar hyphentwo underscore hyphen.case endash.case emdash.case quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright quotereversed guillemetleft guillemetright guilsinglleft guilsinglright quotedbl quotesingle guillemetleft.case guillemetright.case guilsinglleft.case guilsinglright.case anoteleia questiongreek figurespace hairspace punctuationspace space nbspace thinspace zerowidthspace space.case";
 name = puntuacion;
+},
+{
+code = "t tbar tcaron tcedilla tcommaaccent t.t f germandbls longs f.f fi fl t.rl-Weight_90_214 t.t.rl-Weight_90_214";
+name = .f.t;
 },
 {
 code = "h hbar hbrevebelow hcircumflex hdotbelow i idotless iacute ibreve icaron icircumflex idblgrave idieresis idieresisacute idotaccent idotbelow igrave ihookabove iinvertedbreve ij imacron iogonek itilde j jdotless jacute jcircumflex k kcommaaccent kgreenlandic l lacute lcaron lcommaaccent ldot ldotbelow lj llinebelow m mdotbelow n nacute ncaron ncommaaccent ndotaccent ndotbelow eng nj nlinebelow ntilde p thorn r racute rcaron rcommaaccent rdblgrave rdotbelow rinvertedbreve rlinebelow u uacute ubreve ucaron ucircumflex udblgrave udieresis udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde uhungarumlaut uinvertedbreve umacron umacrondieresis uogonek uring utilde utildeacute v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis ydotaccent ydotbelow ygrave yhookabove ymacron ytilde iacute_j.loclNLD";
@@ -2883,15 +2882,16 @@ notes = "# Add at end:\012sub jdotless by j.sc;\012sub longs by s.sc;\012\012";
 },
 {
 code = "lookupflag IgnoreMarks;
-sub lambda lambda by lambda_lambda.liga;
-sub f i by fi;
-sub f l by fl;
 
 # f and t contextual ligatures
 sub f' @.f.t by f.f;
 sub f' @.f.i by f.i;
 sub t' @.f.t by t.t;
 sub t.rl-Weight_90_214' @.f.t by t.t.rl-Weight_90_214;
+
+# Backup
+sub f i by fi;
+sub f l by fl;
 
 # Spacing between caps
 sub @Uppercase space' @Uppercase by space.case;
@@ -2903,7 +2903,7 @@ sub longs j' by jdotless;
 
 ";
 name = liga;
-notes = "lookupflag IgnoreMarks;\012sub lambda lambda by lambda_lambda.liga;\012sub f i by fi;\012sub f l by fl;\012\012\012# f and t contextual ligatures\012sub f' @.f.t by f.f;\012sub t' @.f.t by t.t;\012sub t.rl-Weight_90_214' @.f.t by t.t.rl-Weight_90_214;\012\012\012# Spacing between caps\012sub @Uppercase space' @Uppercase by space.case;\012\012\012# longs\012sub longs i' by idotless;\012sub longs j' by jdotless;\012";
+notes = "lookupflag IgnoreMarks;\012\012# f and t contextual ligatures\012sub f' @.f.t by f.f;\012sub f' @.f.i by f.i;\012sub t' @.f.t by t.t;\012sub t.rl-Weight_90_214' @.f.t by t.t.rl-Weight_90_214;\012\012# Backup\012sub f i by fi;\012sub f l by fl;\012\012# Spacing between caps\012sub @Uppercase space' @Uppercase by space.case;\012\012# longs\012sub longs i' by idotless;\012sub longs j' by jdotless;\012\012\012";
 },
 {
 automatic = 1;
@@ -34085,7 +34085,7 @@ nodes = (
 );
 };
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
-rightMetricsKey = "=9";
+rightMetricsKey = "=0";
 paths = (
 {
 closed = 1;
@@ -34122,8 +34122,8 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"309 452 LINE",
-"314 478 LINE",
+"319 452 LINE",
+"324 478 LINE",
 "154 478 LINE SMOOTH",
 "116 478 OFFCURVE",
 "85 472 OFFCURVE",
@@ -34132,7 +34132,7 @@ nodes = (
 );
 }
 );
-width = 283;
+width = 276;
 },
 {
 anchors = (
@@ -34194,7 +34194,6 @@ nodes = (
 );
 };
 layerId = "FCE02CC8-2979-430D-9DE0-31930C0E296D";
-rightMetricsKey = "=-3";
 paths = (
 {
 closed = 1;
@@ -34231,8 +34230,8 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"326 384 LINE",
-"346 488 LINE",
+"334 384 LINE",
+"354 488 LINE",
 "100 488 LINE",
 "67 478 OFFCURVE",
 "38 463 OFFCURVE",
@@ -34241,11 +34240,12 @@ nodes = (
 );
 }
 );
-width = 324;
+width = 327;
 }
 );
 leftKerningGroup = f;
 rightKerningGroup = f;
+rightMetricsKey = "=0";
 },
 {
 color = 3;
@@ -34303,6 +34303,182 @@ width = 594;
 );
 leftKerningGroup = idotless;
 rightKerningGroup = j;
+},
+{
+color = 10;
+glyphname = f.l;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{91, 0}";
+},
+{
+name = top;
+position = "{236, 725}";
+}
+);
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"39 -208 OFFCURVE",
+"80 -155 OFFCURVE",
+"103 -12 CURVE SMOOTH",
+"181 475 LINE",
+"200 618 OFFCURVE",
+"205 642 OFFCURVE",
+"226 686 CURVE",
+"281 692 OFFCURVE",
+"340 694 OFFCURVE",
+"401 692 CURVE",
+"387 716 OFFCURVE",
+"352 732 OFFCURVE",
+"312 732 CURVE SMOOTH",
+"241 732 OFFCURVE",
+"184 684 OFFCURVE",
+"173 615 CURVE SMOOTH",
+"74 -10 LINE SMOOTH",
+"62 -84 OFFCURVE",
+"54 -117 OFFCURVE",
+"37 -162 CURVE",
+"-22 -165 OFFCURVE",
+"-75 -167 OFFCURVE",
+"-135 -167 CURVE",
+"-123 -190 OFFCURVE",
+"-84 -208 OFFCURVE",
+"-47 -208 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"339 452 LINE",
+"344 478 LINE",
+"154 478 LINE SMOOTH",
+"116 478 OFFCURVE",
+"85 472 OFFCURVE",
+"57 459 CURVE",
+"56 452 LINE"
+);
+}
+);
+};
+layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
+paths = (
+{
+closed = 1;
+nodes = (
+"339 452 LINE",
+"344 478 LINE",
+"154 478 LINE SMOOTH",
+"116 478 OFFCURVE",
+"85 472 OFFCURVE",
+"57 459 CURVE",
+"56 452 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"39 -208 OFFCURVE",
+"80 -155 OFFCURVE",
+"103 -12 CURVE SMOOTH",
+"181 475 LINE",
+"200 618 OFFCURVE",
+"205 642 OFFCURVE",
+"226 686 CURVE",
+"272 690 OFFCURVE",
+"319 693 OFFCURVE",
+"365 693 CURVE",
+"369 713 LINE",
+"354 724 OFFCURVE",
+"334 732 OFFCURVE",
+"312 732 CURVE SMOOTH",
+"241 732 OFFCURVE",
+"184 684 OFFCURVE",
+"173 615 CURVE SMOOTH",
+"74 -10 LINE SMOOTH",
+"62 -84 OFFCURVE",
+"54 -117 OFFCURVE",
+"37 -162 CURVE",
+"-22 -165 OFFCURVE",
+"-75 -167 OFFCURVE",
+"-135 -167 CURVE",
+"-123 -190 OFFCURVE",
+"-84 -208 OFFCURVE",
+"-47 -208 CURVE SMOOTH"
+);
+}
+);
+width = 278;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{107, 0}";
+},
+{
+name = top;
+position = "{254, 737}";
+}
+);
+layerId = "FCE02CC8-2979-430D-9DE0-31930C0E296D";
+paths = (
+{
+closed = 1;
+nodes = (
+"356 384 LINE",
+"376 488 LINE",
+"100 488 LINE",
+"67 478 OFFCURVE",
+"38 463 OFFCURVE",
+"9 443 CURVE",
+"-4 384 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"104 -197 OFFCURVE",
+"192 -46 OFFCURVE",
+"232 218 CURVE SMOOTH",
+"272 482 LINE",
+"266 528 OFFCURVE",
+"264 557 OFFCURVE",
+"265 580 CURVE",
+"309 583 OFFCURVE",
+"347 583 OFFCURVE",
+"393 580 CURVE",
+"419 710 LINE",
+"387 735 OFFCURVE",
+"350 746 OFFCURVE",
+"312 746 CURVE SMOOTH",
+"216 746 OFFCURVE",
+"119 674 OFFCURVE",
+"105 566 CURVE SMOOTH",
+"58 197 LINE SMOOTH",
+"49 126 OFFCURVE",
+"45 84 OFFCURVE",
+"39 -30 CURVE",
+"-14 -34 OFFCURVE",
+"-66 -34 OFFCURVE",
+"-124 -30 CURVE",
+"-156 -125 OFFCURVE",
+"-108 -197 OFFCURVE",
+"-22 -197 CURVE SMOOTH"
+);
+}
+);
+width = 312;
+}
+);
+leftKerningGroup = f;
+widthMetricsKey = "=f";
+rightKerningGroup = f;
 },
 {
 color = 10;
@@ -34895,11 +35071,11 @@ name = f.i;
 },
 {
 name = i;
-transform = "{1, 0, 0, 1, 283, 0}";
+transform = "{1, 0, 0, 1, 276, 0}";
 }
 );
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
-width = 534;
+width = 527;
 },
 {
 anchors = (
@@ -34914,11 +35090,11 @@ name = f.i;
 },
 {
 name = i;
-transform = "{1, 0, 0, 1, 324, 0}";
+transform = "{1, 0, 0, 1, 327, 0}";
 }
 );
 layerId = "FCE02CC8-2979-430D-9DE0-31930C0E296D";
-width = 631;
+width = 634;
 }
 );
 leftKerningGroup = f;
@@ -34943,11 +35119,11 @@ name = f.i;
 },
 {
 name = l;
-transform = "{1, 0, 0, 1, 283, 0}";
+transform = "{1, 0, 0, 1, 276, 0}";
 }
 );
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
-width = 527;
+width = 520;
 },
 {
 anchors = (
@@ -34962,11 +35138,11 @@ name = f.i;
 },
 {
 name = l;
-transform = "{1, 0, 0, 1, 324, 0}";
+transform = "{1, 0, 0, 1, 327, 0}";
 }
 );
 layerId = "FCE02CC8-2979-430D-9DE0-31930C0E296D";
-width = 614;
+width = 617;
 }
 );
 leftKerningGroup = f;
