@@ -79,6 +79,7 @@ if $static; then
 
     for otf in fonts/Piazzolla/static/*.otf; do
         python tools/fixNameTable.py $VF
+        gftools fix-weightclass $otf
         gftools fix-dsig -f $otf
         gftools fix-nonhinting $otf "$otf.fix"
         mv "$otf.fix" $otf
