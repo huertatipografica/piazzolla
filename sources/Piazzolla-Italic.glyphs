@@ -3,7 +3,7 @@
 DisplayStrings = (
 ec,
 "/One-roman/One-roman/One-roman/Five-roman/One-roman/Ten-roman/One-roman/Fifty-roman/One-roman/Hundred-roman/One-roman/Fivehundred-roman/One-roman/Thousand-roman/One-roman \012/Five-roman/One-roman/Five-roman/Five-roman/Five-roman/Ten-roman/Five-roman/Fifty-roman/Five-roman/Hundred-roman/Five-roman/Fivehundred-roman/Five-roman/Thousand-roman/Five-roman \012/Ten-roman/One-roman/Ten-roman/Five-roman/Ten-roman/Ten-roman/Ten-roman/Fifty-roman/Ten-roman/Hundred-roman/Ten-roman/Fivehundred-roman/Ten-roman/Thousand-roman/Ten-roman \012/Fifty-roman/One-roman/Fifty-roman/Five-roman/Fifty-roman/Ten-roman/Fifty-roman/Fifty-roman/Fifty-roman/Hundred-roman/Fifty-roman/Fivehundred-roman/Fifty-roman/Thousand-roman/Fifty-roman \012/Hundred-roman/One-roman/Hundred-roman/Five-roman/Hundred-roman/Ten-roman/Hundred-roman/Fifty-roman/Hundred-roman/Hundred-roman/Hundred-roman/Fivehundred-roman/Hundred-roman/Thousand-roman/Hundred-roman \012/Fivehundred-roman/One-roman/Fivehundred-roman/Five-roman/Fivehundred-roman/Ten-roman/Fivehundred-roman/Fifty-roman/Fivehundred-roman/Hundred-roman/Fivehundred-roman/Fivehundred-roman/Fivehundred-roman/Thousand-roman/Fivehundred-roman \012/Thousand-roman/One-roman/Thousand-roman/Five-roman/Thousand-roman/space/Ten-roman/space/Thousand-roman/Fifty-roman/Thousand-roman/Hundred-roman/Thousand-roman/Fivehundred-roman/Thousand-roman/Thousand-roman/Thousand-roman \012\012/one-roman/one-roman/one-roman/five-roman/one-roman/ten-roman/one-roman/fifty-roman/one-roman/hundred-roman/one-roman/fivehundred-roman/one-roman/onethousand-roman/one-roman \012/five-roman/one-roman/five-roman/five-roman/five-roman/ten-roman/five-roman/fifty-roman/five-roman/hundred-roman/five-roman/fivehundred-roman/five-roman/onethousand-roman/five-roman \012/ten-roman/one-roman/ten-roman/five-roman/ten-roman/ten-roman/ten-roman/fifty-roman/ten-roman/hundred-roman/ten-roman/fivehundred-roman/ten-roman/onethousand-roman/ten-roman \012/fifty-roman/one-roman/fifty-roman/five-roman/fifty-roman/ten-roman/fifty-roman/fifty-roman/fifty-roman/hundred-roman/fifty-roman/fivehundred-roman/fifty-roman/onethousand-roman/fifty-roman \012/hundred-roman/one-roman/hundred-roman/five-roman/hundred-roman/ten-roman/hundred-roman/fifty-roman/hundred-roman/hundred-roman/hundred-roman/fivehundred-roman/hundred-roman/onethousand-roman/hundred-roman \012/fivehundred-roman/one-roman/fivehundred-roman/five-roman/fivehundred-roman/ten-roman/fivehundred-roman/fifty-roman/fivehundred-roman/hundred-roman/fivehundred-roman/fivehundred-roman/fivehundred-roman/onethousand-roman/fivehundred-roman \012/onethousand-roman/one-roman/onethousand-roman/five-roman/onethousand-roman/ten-roman/onethousand-roman/fifty-roman/onethousand-roman/hundred-roman/onethousand-roman/fivehundred-roman/onethousand-roman/onethousand-roman/onethousand-roman",
-"/One-roman/Five-roman/Ten-roman/Fifty-roman C/Hundred-roman/Fivehundred-roman/Thousand-roman/one-roman/five-roman/ten-roman/fifty-roman/hundred-roman/fivehundred-roman/onethousand-roman"
+"/tildecomb_dieresiscomb"
 );
 classes = (
 {
@@ -236870,23 +236870,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"463 698 OFFCURVE",
-"512 727 OFFCURVE",
-"546 763 CURVE",
-"537 814 OFFCURVE",
-"507 864 OFFCURVE",
-"470 894 CURVE",
-"421 888 OFFCURVE",
-"370 857 OFFCURVE",
-"339 819 CURVE",
-"346 771 OFFCURVE",
-"375 723 OFFCURVE",
-"413 690 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
 "228 698 OFFCURVE",
 "277 727 OFFCURVE",
 "311 763 CURVE",
@@ -236899,6 +236882,23 @@ nodes = (
 "111 771 OFFCURVE",
 "141 723 OFFCURVE",
 "178 690 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"463 698 OFFCURVE",
+"512 727 OFFCURVE",
+"546 763 CURVE",
+"537 814 OFFCURVE",
+"507 864 OFFCURVE",
+"470 894 CURVE",
+"421 888 OFFCURVE",
+"370 857 OFFCURVE",
+"339 819 CURVE",
+"346 771 OFFCURVE",
+"375 723 OFFCURVE",
+"413 690 CURVE"
 );
 }
 );

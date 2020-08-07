@@ -2,7 +2,7 @@
 .appVersion = "1344";
 DisplayStrings = (
 "0126879354\012/zero.osf/one.osf/two.osf/six.osf/eight.osf/seven.osf/nine.osf/three.osf/five.osf/four.osf \012/zero.tosf/one.tosf/two.tosf/six.tosf/eight.tosf/seven.tosf/nine.tosf/three.tosf/five.tosf/four.tosf \012/zero.tf/one.tf/two.tf/six.tf/eight.tf/seven.tf/nine.tf/three.tf/five.tf/four.tf/figurespace \012\012Rebuild/space and/space autospace:\012/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom \012\012sync/space space:\012/zero.lf/figurespace/one.lf/two.lf/three.lf/four.lf/five.lf/six.lf/seven.lf/eight.lf/nine.lf",
-"/One-roman/Five-roman/Ten-roman/Fifty-roman/Hundred-roman/Fivehundred-roman/Thousand-roman/one-roman/five-roman/ten-roman/fifty-roman/hundred-roman/fivehundred-roman/onethousand-roman"
+"tildecomb_dieresiscomb/tildecomb_dieresiscomb"
 );
 classes = (
 {
@@ -232875,23 +232875,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"359 698 OFFCURVE",
-"408 727 OFFCURVE",
-"441 763 CURVE",
-"433 814 OFFCURVE",
-"403 864 OFFCURVE",
-"365 894 CURVE",
-"316 888 OFFCURVE",
-"266 857 OFFCURVE",
-"234 819 CURVE",
-"242 771 OFFCURVE",
-"270 723 OFFCURVE",
-"309 690 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
 "124 698 OFFCURVE",
 "173 727 OFFCURVE",
 "206 763 CURVE",
@@ -232904,6 +232887,23 @@ nodes = (
 "7 771 OFFCURVE",
 "36 723 OFFCURVE",
 "74 690 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"359 698 OFFCURVE",
+"408 727 OFFCURVE",
+"441 763 CURVE",
+"433 814 OFFCURVE",
+"403 864 OFFCURVE",
+"365 894 CURVE",
+"316 888 OFFCURVE",
+"266 857 OFFCURVE",
+"234 819 CURVE",
+"242 771 OFFCURVE",
+"270 723 OFFCURVE",
+"309 690 CURVE"
 );
 }
 );
