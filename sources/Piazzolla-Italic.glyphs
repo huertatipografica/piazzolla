@@ -2,22 +2,24 @@
 .appVersion = "1344";
 DisplayStrings = (
 ec,
-"/One-roman/One-roman/One-roman/Five-roman/One-roman/Ten-roman/One-roman/Fifty-roman/One-roman/Hundred-roman/One-roman/Fivehundred-roman/One-roman/Thousand-roman/One-roman \012/Five-roman/One-roman/Five-roman/Five-roman/Five-roman/Ten-roman/Five-roman/Fifty-roman/Five-roman/Hundred-roman/Five-roman/Fivehundred-roman/Five-roman/Thousand-roman/Five-roman \012/Ten-roman/One-roman/Ten-roman/Five-roman/Ten-roman/Ten-roman/Ten-roman/Fifty-roman/Ten-roman/Hundred-roman/Ten-roman/Fivehundred-roman/Ten-roman/Thousand-roman/Ten-roman \012/Fifty-roman/One-roman/Fifty-roman/Five-roman/Fifty-roman/Ten-roman/Fifty-roman/Fifty-roman/Fifty-roman/Hundred-roman/Fifty-roman/Fivehundred-roman/Fifty-roman/Thousand-roman/Fifty-roman \012/Hundred-roman/One-roman/Hundred-roman/Five-roman/Hundred-roman/Ten-roman/Hundred-roman/Fifty-roman/Hundred-roman/Hundred-roman/Hundred-roman/Fivehundred-roman/Hundred-roman/Thousand-roman/Hundred-roman \012/Fivehundred-roman/One-roman/Fivehundred-roman/Five-roman/Fivehundred-roman/Ten-roman/Fivehundred-roman/Fifty-roman/Fivehundred-roman/Hundred-roman/Fivehundred-roman/Fivehundred-roman/Fivehundred-roman/Thousand-roman/Fivehundred-roman \012/Thousand-roman/One-roman/Thousand-roman/Five-roman/Thousand-roman/space/Ten-roman/space/Thousand-roman/Fifty-roman/Thousand-roman/Hundred-roman/Thousand-roman/Fivehundred-roman/Thousand-roman/Thousand-roman/Thousand-roman \012\012/one-roman/one-roman/one-roman/five-roman/one-roman/ten-roman/one-roman/fifty-roman/one-roman/hundred-roman/one-roman/fivehundred-roman/one-roman/onethousand-roman/one-roman \012/five-roman/one-roman/five-roman/five-roman/five-roman/ten-roman/five-roman/fifty-roman/five-roman/hundred-roman/five-roman/fivehundred-roman/five-roman/onethousand-roman/five-roman \012/ten-roman/one-roman/ten-roman/five-roman/ten-roman/ten-roman/ten-roman/fifty-roman/ten-roman/hundred-roman/ten-roman/fivehundred-roman/ten-roman/onethousand-roman/ten-roman \012/fifty-roman/one-roman/fifty-roman/five-roman/fifty-roman/ten-roman/fifty-roman/fifty-roman/fifty-roman/hundred-roman/fifty-roman/fivehundred-roman/fifty-roman/onethousand-roman/fifty-roman \012/hundred-roman/one-roman/hundred-roman/five-roman/hundred-roman/ten-roman/hundred-roman/fifty-roman/hundred-roman/hundred-roman/hundred-roman/fivehundred-roman/hundred-roman/onethousand-roman/hundred-roman \012/fivehundred-roman/one-roman/fivehundred-roman/five-roman/fivehundred-roman/ten-roman/fivehundred-roman/fifty-roman/fivehundred-roman/hundred-roman/fivehundred-roman/fivehundred-roman/fivehundred-roman/onethousand-roman/fivehundred-roman \012/onethousand-roman/one-roman/onethousand-roman/five-roman/onethousand-roman/ten-roman/onethousand-roman/fifty-roman/onethousand-roman/hundred-roman/onethousand-roman/fivehundred-roman/onethousand-roman/onethousand-roman/onethousand-roman"
+"/One-roman/One-roman/One-roman/Five-roman/One-roman/Ten-roman/One-roman/Fifty-roman/One-roman/Hundred-roman/One-roman/Fivehundred-roman/One-roman/Thousand-roman/One-roman \012/Five-roman/One-roman/Five-roman/Five-roman/Five-roman/Ten-roman/Five-roman/Fifty-roman/Five-roman/Hundred-roman/Five-roman/Fivehundred-roman/Five-roman/Thousand-roman/Five-roman \012/Ten-roman/One-roman/Ten-roman/Five-roman/Ten-roman/Ten-roman/Ten-roman/Fifty-roman/Ten-roman/Hundred-roman/Ten-roman/Fivehundred-roman/Ten-roman/Thousand-roman/Ten-roman \012/Fifty-roman/One-roman/Fifty-roman/Five-roman/Fifty-roman/Ten-roman/Fifty-roman/Fifty-roman/Fifty-roman/Hundred-roman/Fifty-roman/Fivehundred-roman/Fifty-roman/Thousand-roman/Fifty-roman \012/Hundred-roman/One-roman/Hundred-roman/Five-roman/Hundred-roman/Ten-roman/Hundred-roman/Fifty-roman/Hundred-roman/Hundred-roman/Hundred-roman/Fivehundred-roman/Hundred-roman/Thousand-roman/Hundred-roman \012/Fivehundred-roman/One-roman/Fivehundred-roman/Five-roman/Fivehundred-roman/Ten-roman/Fivehundred-roman/Fifty-roman/Fivehundred-roman/Hundred-roman/Fivehundred-roman/Fivehundred-roman/Fivehundred-roman/Thousand-roman/Fivehundred-roman \012/Thousand-roman/One-roman/Thousand-roman/Five-roman/Thousand-roman/space/Ten-roman/space/Thousand-roman/Fifty-roman/Thousand-roman/Hundred-roman/Thousand-roman/Fivehundred-roman/Thousand-roman/Thousand-roman/Thousand-roman \012\012/one-roman/one-roman/one-roman/five-roman/one-roman/ten-roman/one-roman/fifty-roman/one-roman/hundred-roman/one-roman/fivehundred-roman/one-roman/onethousand-roman/one-roman \012/five-roman/one-roman/five-roman/five-roman/five-roman/ten-roman/five-roman/fifty-roman/five-roman/hundred-roman/five-roman/fivehundred-roman/five-roman/onethousand-roman/five-roman \012/ten-roman/one-roman/ten-roman/five-roman/ten-roman/ten-roman/ten-roman/fifty-roman/ten-roman/hundred-roman/ten-roman/fivehundred-roman/ten-roman/onethousand-roman/ten-roman \012/fifty-roman/one-roman/fifty-roman/five-roman/fifty-roman/ten-roman/fifty-roman/fifty-roman/fifty-roman/hundred-roman/fifty-roman/fivehundred-roman/fifty-roman/onethousand-roman/fifty-roman \012/hundred-roman/one-roman/hundred-roman/five-roman/hundred-roman/ten-roman/hundred-roman/fifty-roman/hundred-roman/hundred-roman/hundred-roman/fivehundred-roman/hundred-roman/onethousand-roman/hundred-roman \012/fivehundred-roman/one-roman/fivehundred-roman/five-roman/fivehundred-roman/ten-roman/fivehundred-roman/fifty-roman/fivehundred-roman/hundred-roman/fivehundred-roman/fivehundred-roman/fivehundred-roman/onethousand-roman/fivehundred-roman \012/onethousand-roman/one-roman/onethousand-roman/five-roman/onethousand-roman/ten-roman/onethousand-roman/fifty-roman/onethousand-roman/hundred-roman/onethousand-roman/fivehundred-roman/onethousand-roman/onethousand-roman/onethousand-roman",
+"/tonos",
+"/ypogegrammeni"
 );
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adotbelow Agrave Ahookabove Ainvertedbreve Amacron Aogonek Aring Aringacute Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent D DZcaron Eth Dcaron Dcroat Ddotbelow Dlinebelow Dzcaron E Eacute Ebreve Ecaron Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Emacronacute Emacrongrave Eogonek Etilde F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hbrevebelow Hcircumflex Hdotbelow I IJ Iacute Ibreve Icaron Icircumflex Idblgrave Idieresis Idieresisacute Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Ldotbelow Lj Llinebelow Lslash M Mdotbelow N NJ Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Eng Nj Nlinebelow Ntilde O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Omacronacute Omacrongrave Oogonek Oslash Oslashacute Otilde Otildeacute Otildedieresis Otildemacron OE P Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rdotbelow Rinvertedbreve Rlinebelow S Sacute Sacutedotaccent Saltillo Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls Schwa T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tlinebelow U Uacute Ubreve Ucaron Ucircumflex Udblgrave Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Umacrondieresis Uogonek Uring Utilde Utildeacute V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow Iacute_J.loclNLD B.curr C.curr G.curr K.curr N.curr P.curr R.curr S.curr T.curr W.curr Oslash.rl-Weight_118_208 Oslashacute.rl-Weight_118_208 A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Iishorttail-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Ghestroke-cy Ghemiddlehook-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kastroke-cy Kabashkir-cy Endescender-cy Enghe-cy Pemiddlehook-cy Pedescender-cy Haabkhasian-cy Esdescender-cy Tedescender-cy Ustrait-cy Ustraitstroke-cy Hadescender-cy Tetse-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Shhadescender-cy Cheabkhasian-cy Chedescenderabkhasian-cy Palochka-cy Zhebreve-cy Kahook-cy Eltail-cy Enhook-cy Entail-cy Chekhakassian-cy Emtail-cy Abreve-cy Adieresis-cy Aie-cy Iebreve-cy Schwa-cy Schwadieresis-cy Zhedieresis-cy Zedieresis-cy Dzeabkhasian-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Edieresis-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Gedescender-cy Yerudieresis-cy Gestrokehook-cy Hahook-cy Hastroke-cy Komide-cy Komidje-cy Komizje-cy Komidzje-cy Komilje-cy Kominje-cy Komisje-cy Komitje-cy Reversedze-cy Elhook-cy Qa-cy We-cy Semisoftsign-cy Ertick-cy EnLeftHook-cy Eldescender-cy De-cy.loclBGR El-cy.loclBGR Ef-cy.loclBGR Ghestroke-cy.loclBSH Zedescender-cy.loclBSH Esdescender-cy.loclBSH Esdescender-cy.loclCHU Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Iotadieresis Upsilondieresis KaiSymbol Alphapsili Alphadasia Alphapsilivaria Alphadasiavaria Alphapsilioxia Alphadasiaoxia Alphapsiliperispomeni Alphadasiaperispomeni Alphavaria Alphaoxia Alphavrachy Alphamacron Alphaprosgegrammeni Alphapsiliprosgegrammeni Alphadasiaprosgegrammeni Alphapsilivariaprosgegrammeni Alphadasiavariaprosgegrammeni Alphapsilioxiaprosgegrammeni Alphadasiaoxiaprosgegrammeni Alphapsiliperispomeniprosgegrammeni Alphadasiaperispomeniprosgegrammeni Epsilonpsili Epsilondasia Epsilonpsilivaria Epsilondasiavaria Epsilonpsilioxia Epsilondasiaoxia Epsilonvaria Epsilonoxia Etapsili Etadasia Etapsilivaria Etadasiavaria Etapsilioxia Etadasiaoxia Etapsiliperispomeni Etadasiaperispomeni Etavaria Etaoxia Etaprosgegrammeni Etapsiliprosgegrammeni Etadasiaprosgegrammeni Etapsilivariaprosgegrammeni Etadasiavariaprosgegrammeni Etapsilioxiaprosgegrammeni Etadasiaoxiaprosgegrammeni Etapsiliperispomeniprosgegrammeni Etadasiaperispomeniprosgegrammeni Iotapsili Iotadasia Iotapsilivaria Iotadasiavaria Iotapsilioxia Iotadasiaoxia Iotapsiliperispomeni Iotadasiaperispomeni Iotavaria Iotaoxia Iotavrachy Iotamacron Omicronpsili Omicrondasia Omicronpsilivaria Omicrondasiavaria Omicronpsilioxia Omicrondasiaoxia Omicronvaria Omicronoxia Rhodasia Upsilondasia Upsilondasiavaria Upsilondasiaoxia Upsilondasiaperispomeni Upsilonvaria Upsilonoxia Upsilonvrachy Upsilonmacron Omegapsili Omegadasia Omegapsilivaria Omegadasiavaria Omegapsilioxia Omegadasiaoxia Omegapsiliperispomeni Omegadasiaperispomeni Omegavaria Omegaoxia Omegaprosgegrammeni Omegapsiliprosgegrammeni Omegadasiaprosgegrammeni Omegapsilivariaprosgegrammeni Omegadasiavariaprosgegrammeni Omegapsilioxiaprosgegrammeni Omegadasiaoxiaprosgegrammeni Omegapsiliperispomeniprosgegrammeni Omegadasiaperispomeniprosgegrammeni Alphaprosgegrammeni.ss03 Alphapsiliprosgegrammeni.ss03 Alphadasiaprosgegrammeni.ss03 Alphapsilivariaprosgegrammeni.ss03 Alphadasiavariaprosgegrammeni.ss03 Alphapsilioxiaprosgegrammeni.ss03 Alphadasiaoxiaprosgegrammeni.ss03 Alphapsiliperispomeniprosgegrammeni.ss03 Alphadasiaperispomeniprosgegrammeni.ss03 Etaprosgegrammeni.ss03 Etapsiliprosgegrammeni.ss03 Etadasiaprosgegrammeni.ss03 Etapsilivariaprosgegrammeni.ss03 Etadasiavariaprosgegrammeni.ss03 Etapsilioxiaprosgegrammeni.ss03 Etadasiaoxiaprosgegrammeni.ss03 Etapsiliperispomeniprosgegrammeni.ss03 Etadasiaperispomeniprosgegrammeni.ss03 Omegaprosgegrammeni.ss03 Omegapsiliprosgegrammeni.ss03 Omegadasiaprosgegrammeni.ss03 Omegapsilivariaprosgegrammeni.ss03 Omegadasiavariaprosgegrammeni.ss03 Omegapsilioxiaprosgegrammeni.ss03 Omegadasiaoxiaprosgegrammeni.ss03 Omegapsiliperispomeniprosgegrammeni.ss03 Omegadasiaperispomeniprosgegrammeni.ss03";
+code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adotbelow Agrave Ahookabove Ainvertedbreve Amacron Aogonek Aring Aringacute Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent D DZcaron Eth Dcaron Dcroat Ddotbelow Dlinebelow Dzcaron E Eacute Ebreve Ecaron Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Emacronacute Emacrongrave Eogonek Etilde F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hbrevebelow Hcircumflex Hdotbelow I IJ Iacute Ibreve Icaron Icircumflex Idblgrave Idieresis Idieresisacute Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Ldotbelow Lj Llinebelow Lslash M Mdotbelow N NJ Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Eng Nj Nlinebelow Ntilde O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Omacronacute Omacrongrave Oogonek Oslash Oslashacute Otilde Otildeacute Otildedieresis Otildemacron OE P Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rdotbelow Rinvertedbreve Rlinebelow S Sacute Sacutedotaccent Saltillo Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls Schwa T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tlinebelow U Uacute Ubreve Ucaron Ucircumflex Udblgrave Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Umacrondieresis Uogonek Uring Utilde Utildeacute V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow Iacute_J.loclNLD B.curr C.curr G.curr K.curr N.curr R.curr S.curr T.curr W.curr Oslash.rl-Weight_118_208 Oslashacute.rl-Weight_118_208 A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Iishorttail-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Ghestroke-cy Ghemiddlehook-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kastroke-cy Kabashkir-cy Endescender-cy Enghe-cy Pemiddlehook-cy Pedescender-cy Haabkhasian-cy Esdescender-cy Tedescender-cy Ustrait-cy Ustraitstroke-cy Hadescender-cy Tetse-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Shhadescender-cy Cheabkhasian-cy Chedescenderabkhasian-cy Palochka-cy Zhebreve-cy Kahook-cy Eltail-cy Enhook-cy Entail-cy Chekhakassian-cy Emtail-cy Abreve-cy Adieresis-cy Aie-cy Iebreve-cy Schwa-cy Schwadieresis-cy Zhedieresis-cy Zedieresis-cy Dzeabkhasian-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Edieresis-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Gedescender-cy Yerudieresis-cy Gestrokehook-cy Hahook-cy Hastroke-cy Komide-cy Komidje-cy Komizje-cy Komidzje-cy Komilje-cy Kominje-cy Komisje-cy Komitje-cy Reversedze-cy Elhook-cy Qa-cy We-cy Semisoftsign-cy Ertick-cy EnLeftHook-cy Eldescender-cy De-cy.loclBGR El-cy.loclBGR Ef-cy.loclBGR Ghestroke-cy.loclBSH Zedescender-cy.loclBSH Esdescender-cy.loclBSH Esdescender-cy.loclCHU Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Iotadieresis Upsilondieresis KaiSymbol Alphapsili Alphadasia Alphapsilivaria Alphadasiavaria Alphapsilioxia Alphadasiaoxia Alphapsiliperispomeni Alphadasiaperispomeni Alphavaria Alphaoxia Alphavrachy Alphamacron Alphaprosgegrammeni Alphapsiliprosgegrammeni Alphadasiaprosgegrammeni Alphapsilivariaprosgegrammeni Alphadasiavariaprosgegrammeni Alphapsilioxiaprosgegrammeni Alphadasiaoxiaprosgegrammeni Alphapsiliperispomeniprosgegrammeni Alphadasiaperispomeniprosgegrammeni Epsilonpsili Epsilondasia Epsilonpsilivaria Epsilondasiavaria Epsilonpsilioxia Epsilondasiaoxia Epsilonvaria Epsilonoxia Etapsili Etadasia Etapsilivaria Etadasiavaria Etapsilioxia Etadasiaoxia Etapsiliperispomeni Etadasiaperispomeni Etavaria Etaoxia Etaprosgegrammeni Etapsiliprosgegrammeni Etadasiaprosgegrammeni Etapsilivariaprosgegrammeni Etadasiavariaprosgegrammeni Etapsilioxiaprosgegrammeni Etadasiaoxiaprosgegrammeni Etapsiliperispomeniprosgegrammeni Etadasiaperispomeniprosgegrammeni Iotapsili Iotadasia Iotapsilivaria Iotadasiavaria Iotapsilioxia Iotadasiaoxia Iotapsiliperispomeni Iotadasiaperispomeni Iotavaria Iotaoxia Iotavrachy Iotamacron Omicronpsili Omicrondasia Omicronpsilivaria Omicrondasiavaria Omicronpsilioxia Omicrondasiaoxia Omicronvaria Omicronoxia Rhodasia Upsilondasia Upsilondasiavaria Upsilondasiaoxia Upsilondasiaperispomeni Upsilonvaria Upsilonoxia Upsilonvrachy Upsilonmacron Omegapsili Omegadasia Omegapsilivaria Omegadasiavaria Omegapsilioxia Omegadasiaoxia Omegapsiliperispomeni Omegadasiaperispomeni Omegavaria Omegaoxia Omegaprosgegrammeni Omegapsiliprosgegrammeni Omegadasiaprosgegrammeni Omegapsilivariaprosgegrammeni Omegadasiavariaprosgegrammeni Omegapsilioxiaprosgegrammeni Omegadasiaoxiaprosgegrammeni Omegapsiliperispomeniprosgegrammeni Omegadasiaperispomeniprosgegrammeni Alphaprosgegrammeni.ss03 Alphapsiliprosgegrammeni.ss03 Alphadasiaprosgegrammeni.ss03 Alphapsilivariaprosgegrammeni.ss03 Alphadasiavariaprosgegrammeni.ss03 Alphapsilioxiaprosgegrammeni.ss03 Alphadasiaoxiaprosgegrammeni.ss03 Alphapsiliperispomeniprosgegrammeni.ss03 Alphadasiaperispomeniprosgegrammeni.ss03 Etaprosgegrammeni.ss03 Etapsiliprosgegrammeni.ss03 Etadasiaprosgegrammeni.ss03 Etapsilivariaprosgegrammeni.ss03 Etadasiavariaprosgegrammeni.ss03 Etapsilioxiaprosgegrammeni.ss03 Etadasiaoxiaprosgegrammeni.ss03 Etapsiliperispomeniprosgegrammeni.ss03 Etadasiaperispomeniprosgegrammeni.ss03 Omegaprosgegrammeni.ss03 Omegapsiliprosgegrammeni.ss03 Omegadasiaprosgegrammeni.ss03 Omegapsilivariaprosgegrammeni.ss03 Omegadasiavariaprosgegrammeni.ss03 Omegapsilioxiaprosgegrammeni.ss03 Omegadasiaoxiaprosgegrammeni.ss03 Omegapsiliperispomeniprosgegrammeni.ss03 Omegadasiaperispomeniprosgegrammeni.ss03";
 name = Uppercase;
 },
 {
 automatic = 1;
-code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adotbelow Agrave Ahookabove Ainvertedbreve Amacron Aogonek Aring Aringacute Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent D DZcaron Eth Dcaron Dcroat Ddotbelow Dlinebelow Dzcaron E Eacute Ebreve Ecaron Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Emacronacute Emacrongrave Eogonek Etilde F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hbrevebelow Hcircumflex Hdotbelow I IJ Iacute Ibreve Icaron Icircumflex Idblgrave Idieresis Idieresisacute Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Ldotbelow Lj Llinebelow Lslash M Mdotbelow N NJ Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Eng Nj Nlinebelow Ntilde O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Omacronacute Omacrongrave Oogonek Oslash Oslashacute Otilde Otildeacute Otildedieresis Otildemacron OE P Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rdotbelow Rinvertedbreve Rlinebelow S Sacute Sacutedotaccent Saltillo Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls Schwa T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tlinebelow U Uacute Ubreve Ucaron Ucircumflex Udblgrave Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Umacrondieresis Uogonek Uring Utilde Utildeacute V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow Iacute_J.loclNLD B.curr C.curr G.curr K.curr N.curr P.curr R.curr S.curr T.curr W.curr Oslash.rl-Weight_118_208 Oslashacute.rl-Weight_118_208 a aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acaron acircumflex acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adblgrave adieresis adotbelow agrave ahookabove ainvertedbreve amacron aogonek aring aringacute atilde ae aeacute b c cacute ccaron ccedilla ccedillaacute ccircumflex cdotaccent d eth dcaron dcroat ddotbelow dlinebelow dzcaron e eacute ebreve ecaron ecedillabreve ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edblgrave edieresis edotaccent edotbelow egrave ehookabove einvertedbreve emacron emacronacute emacrongrave eogonek etilde schwa f g gbreve gcaron gcircumflex gcommaaccent gdotaccent gmacron h hbar hbrevebelow hcircumflex hdotbelow i idotless iacute ibreve icaron icircumflex idblgrave idieresis idieresisacute idotaccent idotbelow igrave ihookabove iinvertedbreve ij imacron iogonek itilde j jdotless jacute jcircumflex k kcommaaccent kgreenlandic l lacute lcaron lcommaaccent ldot ldotbelow lj llinebelow lslash m mdotbelow n nacute ncaron ncommaaccent ndotaccent ndotbelow eng nj nlinebelow ntilde o oacute obreve ocaron ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odblgrave odieresis odieresismacron odotaccentmacron odotbelow ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde ohungarumlaut oinvertedbreve omacron omacronacute omacrongrave oogonek oslash oslashacute otilde otildeacute otildedieresis otildemacron oe p thorn q r racute rcaron rcommaaccent rdblgrave rdotbelow rinvertedbreve rlinebelow s sacute sacutedotaccent saltillo scaron scarondotaccent scedilla scircumflex scommaaccent sdotaccent sdotbelow sdotbelowdotaccent germandbls longs t tbar tcaron tcedilla tcommaaccent tdieresis tdotbelow tlinebelow u uacute ubreve ucaron ucircumflex udblgrave udieresis udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde uhungarumlaut uinvertedbreve umacron umacrondieresis uogonek uring utilde utildeacute v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis ydotaccent ydotbelow ygrave yhookabove ymacron ytilde z zacute zcaron zdotaccent zdotbelow f.f iacute_j.loclNLD oslash.rl-Weight_118_208 oslashacute.rl-Weight_118_208 t.rl-Weight_90_214 t.t.rl-Weight_90_214 t.t fi fl oslash.sc.rl-Weight_118_208 oslashacute.sc.rl-Weight_118_208 Dzcaron.sc Lj.sc Nj.sc a.sc aacute.sc abreve.sc abreveacute.sc abrevedotbelow.sc abrevegrave.sc abrevehookabove.sc abrevetilde.sc acaron.sc acircumflex.sc acircumflexacute.sc acircumflexdotbelow.sc acircumflexgrave.sc acircumflexhookabove.sc acircumflextilde.sc adblgrave.sc adieresis.sc adotbelow.sc agrave.sc ahookabove.sc ainvertedbreve.sc germandbls.alt.sc amacron.sc aogonek.sc aring.sc aringacute.sc atilde.sc ae.sc aeacute.sc b.sc c.sc cacute.sc ccaron.sc ccedilla.sc ccedillaacute.sc ccircumflex.sc cdotaccent.sc d.sc eth.sc dcaron.sc dcroat.sc ddotbelow.sc dlinebelow.sc dzcaron.sc e.sc eacute.sc ebreve.sc ecaron.sc ecedillabreve.sc ecircumflex.sc ecircumflexacute.sc ecircumflexdotbelow.sc ecircumflexgrave.sc ecircumflexhookabove.sc ecircumflextilde.sc edblgrave.sc edieresis.sc edotaccent.sc edotbelow.sc egrave.sc ehookabove.sc einvertedbreve.sc emacron.sc emacronacute.sc emacrongrave.sc eogonek.sc etilde.sc schwa.sc f.sc g.sc gbreve.sc gcaron.sc gcircumflex.sc gcommaaccent.sc gdotaccent.sc gmacron.sc h.sc hbar.sc hbrevebelow.sc hcircumflex.sc hdotbelow.sc i.sc idotless.sc iacute.sc iacute_j.loclNLD.sc ibreve.sc icaron.sc icircumflex.sc idblgrave.sc idieresis.sc idieresisacute.sc idotaccent.sc idotbelow.sc igrave.sc ihookabove.sc iinvertedbreve.sc ij.sc imacron.sc iogonek.sc itilde.sc j.sc jacute.sc jcircumflex.sc k.sc kcommaaccent.sc kgreenlandic.sc l.sc lacute.sc lcaron.sc lcommaaccent.sc ldot.sc ldotbelow.sc lj.sc llinebelow.sc lslash.sc m.sc mdotbelow.sc n.sc nacute.sc ncaron.sc ncommaaccent.sc ndotaccent.sc ndotbelow.sc eng.sc nj.sc nlinebelow.sc ntilde.sc o.sc oacute.sc obreve.sc ocaron.sc ocircumflex.sc ocircumflexacute.sc ocircumflexdotbelow.sc ocircumflexgrave.sc ocircumflexhookabove.sc ocircumflextilde.sc odblgrave.sc odieresis.sc odieresismacron.sc odotaccentmacron.sc odotbelow.sc ograve.sc ohookabove.sc ohorn.sc ohornacute.sc ohorndotbelow.sc ohorngrave.sc ohornhookabove.sc ohorntilde.sc ohungarumlaut.sc oinvertedbreve.sc omacron.sc omacronacute.sc omacrongrave.sc oogonek.sc oslash.sc oslashacute.sc otilde.sc otildeacute.sc otildedieresis.sc otildemacron.sc oe.sc p.sc thorn.sc q.sc r.sc racute.sc rcaron.sc rcommaaccent.sc rdblgrave.sc rdotbelow.sc rinvertedbreve.sc rlinebelow.sc s.sc sacute.sc sacutedotaccent.sc scaron.sc scarondotaccent.sc scedilla.sc scircumflex.sc scommaaccent.sc sdotaccent.sc sdotbelow.sc sdotbelowdotaccent.sc germandbls.sc t.sc tbar.sc tcaron.sc tcedilla.sc tcommaaccent.sc tdieresis.sc tdotbelow.sc tlinebelow.sc u.sc uacute.sc ubreve.sc ucaron.sc ucircumflex.sc udblgrave.sc udieresis.sc udieresisacute.sc udieresiscaron.sc udieresisgrave.sc udieresismacron.sc udotbelow.sc ugrave.sc uhookabove.sc uhorn.sc uhornacute.sc uhorndotbelow.sc uhorngrave.sc uhornhookabove.sc uhorntilde.sc uhungarumlaut.sc uinvertedbreve.sc umacron.sc umacrondieresis.sc uogonek.sc uring.sc utilde.sc utildeacute.sc v.sc w.sc wacute.sc wcircumflex.sc wdieresis.sc wgrave.sc x.sc y.sc yacute.sc ycircumflex.sc ydieresis.sc ydotaccent.sc ydotbelow.sc ygrave.sc yhookabove.sc ymacron.sc ytilde.sc z.sc zacute.sc zcaron.sc zdotaccent.sc zdotbelow.sc ordfeminine ordmasculine A.sups B.sups C.sups D.sups E.sups F.sups G.sups H.sups I.sups J.sups K.sups L.sups M.sups N.sups O.sups P.sups Q.sups R.sups S.sups T.sups U.sups V.sups W.sups X.sups Y.sups Z.sups a.sups b.sups c.sups d.sups e.sups f.sups g.sups h.sups i.sups j.sups k.sups l.sups m.sups n.sups o.sups p.sups q.sups r.sups s.sups t.sups u.sups v.sups w.sups x.sups y.sups z.sups A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Iishorttail-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Ghestroke-cy Ghemiddlehook-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kastroke-cy Kabashkir-cy Endescender-cy Enghe-cy Pemiddlehook-cy Pedescender-cy Haabkhasian-cy Esdescender-cy Tedescender-cy Ustrait-cy Ustraitstroke-cy Hadescender-cy Tetse-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Shhadescender-cy Cheabkhasian-cy Chedescenderabkhasian-cy Palochka-cy Zhebreve-cy Kahook-cy Eltail-cy Enhook-cy Entail-cy Chekhakassian-cy Emtail-cy Abreve-cy Adieresis-cy Aie-cy Iebreve-cy Schwa-cy Schwadieresis-cy Zhedieresis-cy Zedieresis-cy Dzeabkhasian-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Edieresis-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Gedescender-cy Yerudieresis-cy Gestrokehook-cy Hahook-cy Hastroke-cy Komide-cy Komidje-cy Komizje-cy Komidzje-cy Komilje-cy Kominje-cy Komisje-cy Komitje-cy Reversedze-cy Elhook-cy Qa-cy We-cy Semisoftsign-cy Ertick-cy EnLeftHook-cy Eldescender-cy De-cy.loclBGR El-cy.loclBGR Ef-cy.loclBGR Ghestroke-cy.loclBSH Zedescender-cy.loclBSH Esdescender-cy.loclBSH Esdescender-cy.loclCHU a-cy be-cy ve-cy ge-cy gje-cy gheupturn-cy de-cy ie-cy iegrave-cy io-cy zhe-cy ze-cy ii-cy iishort-cy iigrave-cy iishorttail-cy ka-cy kje-cy el-cy em-cy en-cy o-cy pe-cy er-cy es-cy te-cy u-cy ushort-cy ef-cy ha-cy che-cy tse-cy sha-cy shcha-cy dzhe-cy softsign-cy hardsign-cy yeru-cy lje-cy nje-cy dze-cy e-cy ereversed-cy i-cy yi-cy je-cy tshe-cy iu-cy ia-cy dje-cy yat-cy yusbig-cy fita-cy izhitsa-cy ghestroke-cy ghemiddlehook-cy zhedescender-cy zedescender-cy kadescender-cy kaverticalstroke-cy kastroke-cy kabashkir-cy endescender-cy enghe-cy pedescender-cy pemiddlehook-cy haabkhasian-cy esdescender-cy tedescender-cy ustrait-cy ustraitstroke-cy hadescender-cy tetse-cy chedescender-cy cheverticalstroke-cy shha-cy shhadescender-cy cheabkhasian-cy chedescenderabkhasian-cy palochka-cy zhebreve-cy kahook-cy eltail-cy enhook-cy entail-cy chekhakassian-cy emtail-cy abreve-cy adieresis-cy aie-cy iebreve-cy schwa-cy schwadieresis-cy zhedieresis-cy zedieresis-cy dzeabkhasian-cy imacron-cy idieresis-cy odieresis-cy obarred-cy obarreddieresis-cy edieresis-cy umacron-cy udieresis-cy uhungarumlaut-cy chedieresis-cy gedescender-cy yerudieresis-cy gestrokehook-cy hahook-cy hastroke-cy komide-cy komidje-cy komizje-cy komidzje-cy komilje-cy kominje-cy komisje-cy komitje-cy reversedze-cy elhook-cy qa-cy we-cy semisoftsign-cy ertick-cy enlefthook-cy eldescender-cy ve-cy.loclBGR de-cy.loclBGR zhe-cy.loclBGR ze-cy.loclBGR ka-cy.loclBGR el-cy.loclBGR pe-cy.loclBGR te-cy.loclBGR iu-cy.loclBGR ghestroke-cy.loclBSH zedescender-cy.loclBSH esdescender-cy.loclBSH esdescender-cy.loclCHU be-cy.loclSRB ge-cy.loclSRB de-cy.loclSRB pe-cy.loclSRB te-cy.loclSRB a-cy.sc be-cy.sc ve-cy.sc ge-cy.sc gje-cy.sc gheupturn-cy.sc de-cy.sc ie-cy.sc iegrave-cy.sc io-cy.sc zhe-cy.sc ze-cy.sc ii-cy.sc iishort-cy.sc iigrave-cy.sc iishorttail-cy.sc ka-cy.sc kje-cy.sc el-cy.sc em-cy.sc en-cy.sc o-cy.sc pe-cy.sc er-cy.sc es-cy.sc te-cy.sc u-cy.sc ushort-cy.sc ef-cy.sc ha-cy.sc che-cy.sc tse-cy.sc sha-cy.sc shcha-cy.sc dzhe-cy.sc softsign-cy.sc hardsign-cy.sc yeru-cy.sc lje-cy.sc nje-cy.sc dze-cy.sc e-cy.sc ereversed-cy.sc i-cy.sc yi-cy.sc je-cy.sc tshe-cy.sc iu-cy.sc ia-cy.sc dje-cy.sc yat-cy.sc yusbig-cy.sc fita-cy.sc izhitsa-cy.sc ghestroke-cy.sc ghemiddlehook-cy.sc zhedescender-cy.sc zedescender-cy.sc kadescender-cy.sc kaverticalstroke-cy.sc kastroke-cy.sc kabashkir-cy.sc endescender-cy.sc enghe-cy.sc pedescender-cy.sc pemiddlehook-cy.sc haabkhasian-cy.sc esdescender-cy.sc tedescender-cy.sc hadescender-cy.sc tetse-cy.sc chedescender-cy.sc cheverticalstroke-cy.sc shha-cy.sc shhadescender-cy.sc enlefthook-cy.sc eldescender-cy.sc cheabkhasian-cy.sc chedescenderabkhasian-cy.sc palochka-cy.sc zhebreve-cy.sc kahook-cy.sc eltail-cy.sc enhook-cy.sc entail-cy.sc chekhakassian-cy.sc emtail-cy.sc abreve-cy.sc adieresis-cy.sc aie-cy.sc iebreve-cy.sc schwa-cy.sc schwadieresis-cy.sc zhedieresis-cy.sc zedieresis-cy.sc dzeabkhasian-cy.sc imacron-cy.sc idieresis-cy.sc odieresis-cy.sc obarred-cy.sc obarreddieresis-cy.sc edieresis-cy.sc umacron-cy.sc udieresis-cy.sc uhungarumlaut-cy.sc chedieresis-cy.sc gedescender-cy.sc yerudieresis-cy.sc gestrokehook-cy.sc hahook-cy.sc hastroke-cy.sc komide-cy.sc komidje-cy.sc komizje-cy.sc komidzje-cy.sc komilje-cy.sc kominje-cy.sc komisje-cy.sc komitje-cy.sc reversedze-cy.sc elhook-cy.sc qa-cy.sc we-cy.sc semisoftsign-cy.sc ertick-cy.sc ve-cy.loclBGR.sc de-cy.loclBGR.sc iishort-cy.loclBGR.sc iigrave-cy.loclBGR.sc el-cy.loclBGR.sc en-cy.loclBGR.sc te-cy.loclBGR.sc ef-cy.loclBGR.sc ghestroke-cy.loclBSH.sc zedescender-cy.loclBSH.sc esdescender-cy.loclBSH.sc esdescender-cy.loclCHU.sc A-cy.sups Be-cy.sups Ve-cy.sups Ge-cy.sups De-cy.sups Ie-cy.sups Io-cy.sups Zhe-cy.sups Ze-cy.sups Ii-cy.sups Iishort-cy.sups Ka-cy.sups El-cy.sups Em-cy.sups En-cy.sups O-cy.sups Pe-cy.sups Er-cy.sups Es-cy.sups Te-cy.sups U-cy.sups Ef-cy.sups Ha-cy.sups Che-cy.sups Tse-cy.sups Sha-cy.sups Shcha-cy.sups Softsign-cy.sups Hardsign-cy.sups Yeru-cy.sups Ereversed-cy.sups Iu-cy.sups Ia-cy.sups a-cy.sups be-cy.sups ve-cy.sups ge-cy.sups de-cy.sups ie-cy.sups io-cy.sups zhe-cy.sups ze-cy.sups ii-cy.sups iishort-cy.sups ka-cy.sups el-cy.sups em-cy.sups en-cy.sups o-cy.sups pe-cy.sups er-cy.sups es-cy.sups te-cy.sups u-cy.sups ef-cy.sups ha-cy.sups che-cy.sups tse-cy.sups sha-cy.sups shcha-cy.sups softsign-cy.sups hardsign-cy.sups yeru-cy.sups ereversed-cy.sups iu-cy.sups ia-cy.sups Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Iotadieresis Upsilondieresis KaiSymbol Alphapsili Alphadasia Alphapsilivaria Alphadasiavaria Alphapsilioxia Alphadasiaoxia Alphapsiliperispomeni Alphadasiaperispomeni Alphavaria Alphaoxia Alphavrachy Alphamacron Alphaprosgegrammeni Alphapsiliprosgegrammeni Alphadasiaprosgegrammeni Alphapsilivariaprosgegrammeni Alphadasiavariaprosgegrammeni Alphapsilioxiaprosgegrammeni Alphadasiaoxiaprosgegrammeni Alphapsiliperispomeniprosgegrammeni Alphadasiaperispomeniprosgegrammeni Epsilonpsili Epsilondasia Epsilonpsilivaria Epsilondasiavaria Epsilonpsilioxia Epsilondasiaoxia Epsilonvaria Epsilonoxia Etapsili Etadasia Etapsilivaria Etadasiavaria Etapsilioxia Etadasiaoxia Etapsiliperispomeni Etadasiaperispomeni Etavaria Etaoxia Etaprosgegrammeni Etapsiliprosgegrammeni Etadasiaprosgegrammeni Etapsilivariaprosgegrammeni Etadasiavariaprosgegrammeni Etapsilioxiaprosgegrammeni Etadasiaoxiaprosgegrammeni Etapsiliperispomeniprosgegrammeni Etadasiaperispomeniprosgegrammeni Iotapsili Iotadasia Iotapsilivaria Iotadasiavaria Iotapsilioxia Iotadasiaoxia Iotapsiliperispomeni Iotadasiaperispomeni Iotavaria Iotaoxia Iotavrachy Iotamacron Omicronpsili Omicrondasia Omicronpsilivaria Omicrondasiavaria Omicronpsilioxia Omicrondasiaoxia Omicronvaria Omicronoxia Rhodasia Upsilondasia Upsilondasiavaria Upsilondasiaoxia Upsilondasiaperispomeni Upsilonvaria Upsilonoxia Upsilonvrachy Upsilonmacron Omegapsili Omegadasia Omegapsilivaria Omegadasiavaria Omegapsilioxia Omegadasiaoxia Omegapsiliperispomeni Omegadasiaperispomeni Omegavaria Omegaoxia Omegaprosgegrammeni Omegapsiliprosgegrammeni Omegadasiaprosgegrammeni Omegapsilivariaprosgegrammeni Omegadasiavariaprosgegrammeni Omegapsilioxiaprosgegrammeni Omegadasiaoxiaprosgegrammeni Omegapsiliperispomeniprosgegrammeni Omegadasiaperispomeniprosgegrammeni Alphaprosgegrammeni.ss03 Alphapsiliprosgegrammeni.ss03 Alphadasiaprosgegrammeni.ss03 Alphapsilivariaprosgegrammeni.ss03 Alphadasiavariaprosgegrammeni.ss03 Alphapsilioxiaprosgegrammeni.ss03 Alphadasiaoxiaprosgegrammeni.ss03 Alphapsiliperispomeniprosgegrammeni.ss03 Alphadasiaperispomeniprosgegrammeni.ss03 Etaprosgegrammeni.ss03 Etapsiliprosgegrammeni.ss03 Etadasiaprosgegrammeni.ss03 Etapsilivariaprosgegrammeni.ss03 Etadasiavariaprosgegrammeni.ss03 Etapsilioxiaprosgegrammeni.ss03 Etadasiaoxiaprosgegrammeni.ss03 Etapsiliperispomeniprosgegrammeni.ss03 Etadasiaperispomeniprosgegrammeni.ss03 Omegaprosgegrammeni.ss03 Omegapsiliprosgegrammeni.ss03 Omegadasiaprosgegrammeni.ss03 Omegapsilivariaprosgegrammeni.ss03 Omegadasiavariaprosgegrammeni.ss03 Omegapsilioxiaprosgegrammeni.ss03 Omegadasiaoxiaprosgegrammeni.ss03 Omegapsiliperispomeniprosgegrammeni.ss03 Omegadasiaperispomeniprosgegrammeni.ss03 alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigmafinal sigma tau upsilon phi chi psi omega iotatonos iotadieresis iotadieresistonos upsilontonos upsilondieresis upsilondieresistonos omicrontonos omegatonos alphatonos epsilontonos etatonos kaiSymbol alphapsili alphadasia alphapsilivaria alphadasiavaria alphapsilioxia alphadasiaoxia alphapsiliperispomeni alphadasiaperispomeni alphavaria alphaoxia alphaperispomeni alphavrachy alphamacron alphaypogegrammeni alphavariaypogegrammeni alphaoxiaypogegrammeni alphapsiliypogegrammeni alphadasiaypogegrammeni alphapsilivariaypogegrammeni alphadasiavariaypogegrammeni alphapsilioxiaypogegrammeni alphadasiaoxiaypogegrammeni alphapsiliperispomeniypogegrammeni alphadasiaperispomeniypogegrammeni alphaperispomeniypogegrammeni epsilonpsili epsilondasia epsilonpsilivaria epsilondasiavaria epsilonpsilioxia epsilondasiaoxia epsilonvaria epsilonoxia etapsili etadasia etapsilivaria etadasiavaria etapsilioxia etadasiaoxia etapsiliperispomeni etadasiaperispomeni etavaria etaoxia etaperispomeni etaypogegrammeni etavariaypogegrammeni etaoxiaypogegrammeni etapsiliypogegrammeni etadasiaypogegrammeni etapsilivariaypogegrammeni etadasiavariaypogegrammeni etapsilioxiaypogegrammeni etadasiaoxiaypogegrammeni etapsiliperispomeniypogegrammeni etadasiaperispomeniypogegrammeni etaperispomeniypogegrammeni iotapsili iotadasia iotapsilivaria iotadasiavaria iotapsilioxia iotadasiaoxia iotapsiliperispomeni iotadasiaperispomeni iotavaria iotaoxia iotaperispomeni iotavrachy iotamacron iotadialytikavaria iotadialytikaoxia iotadialytikaperispomeni omicronpsili omicrondasia omicronpsilivaria omicrondasiavaria omicronpsilioxia omicrondasiaoxia omicronvaria omicronoxia rhopsili rhodasia upsilonpsili upsilondasia upsilonpsilivaria upsilondasiavaria upsilonpsilioxia upsilondasiaoxia upsilonpsiliperispomeni upsilondasiaperispomeni upsilonvaria upsilonoxia upsilonperispomeni upsilonvrachy upsilonmacron upsilondialytikavaria upsilondialytikaoxia upsilondialytikaperispomeni omegapsili omegadasia omegapsilivaria omegadasiavaria omegapsilioxia omegadasiaoxia omegapsiliperispomeni omegadasiaperispomeni omegavaria omegaoxia omegaperispomeni omegaypogegrammeni omegavariaypogegrammeni omegaoxiaypogegrammeni omegapsiliypogegrammeni omegadasiaypogegrammeni omegapsilivariaypogegrammeni omegadasiavariaypogegrammeni omegapsilioxiaypogegrammeni omegadasiaoxiaypogegrammeni omegapsiliperispomeniypogegrammeni omegadasiaperispomeniypogegrammeni omegaperispomeniypogegrammeni prosgegrammeni lambda_lambda.liga alpha.sc beta.sc gamma.sc delta.sc epsilon.sc zeta.sc eta.sc theta.sc iota.sc kappa.sc lambda.sc mu.sc nu.sc xi.sc omicron.sc pi.sc rho.sc sigmafinal.sc sigma.sc tau.sc upsilon.sc phi.sc chi.sc psi.sc omega.sc iotatonos.sc iotadieresis.sc iotadieresistonos.sc upsilontonos.sc upsilondieresis.sc upsilondieresistonos.sc omicrontonos.sc omegatonos.sc alphatonos.sc epsilontonos.sc etatonos.sc prosgegrammeni.sc kaiSymbol.sc alphapsili.sc alphadasia.sc alphapsilivaria.sc alphadasiavaria.sc alphapsilioxia.sc alphadasiaoxia.sc alphapsiliperispomeni.sc alphadasiaperispomeni.sc alphavaria.sc alphaoxia.sc alphaperispomeni.sc alphavrachy.sc alphamacron.sc alphaypogegrammeni.sc alphavariaypogegrammeni.sc alphaoxiaypogegrammeni.sc alphapsiliypogegrammeni.sc alphadasiaypogegrammeni.sc alphapsilivariaypogegrammeni.sc alphadasiavariaypogegrammeni.sc alphapsilioxiaypogegrammeni.sc alphadasiaoxiaypogegrammeni.sc alphapsiliperispomeniypogegrammeni.sc alphadasiaperispomeniypogegrammeni.sc alphaperispomeniypogegrammeni.sc epsilonpsili.sc epsilondasia.sc epsilonpsilivaria.sc epsilondasiavaria.sc epsilonpsilioxia.sc epsilondasiaoxia.sc epsilonvaria.sc epsilonoxia.sc etapsili.sc etadasia.sc etapsilivaria.sc etadasiavaria.sc etapsilioxia.sc etadasiaoxia.sc etapsiliperispomeni.sc etadasiaperispomeni.sc etavaria.sc etaoxia.sc etaperispomeni.sc etaypogegrammeni.sc etavariaypogegrammeni.sc etaoxiaypogegrammeni.sc etapsiliypogegrammeni.sc etadasiaypogegrammeni.sc etapsilivariaypogegrammeni.sc etadasiavariaypogegrammeni.sc etapsilioxiaypogegrammeni.sc etadasiaoxiaypogegrammeni.sc etapsiliperispomeniypogegrammeni.sc etadasiaperispomeniypogegrammeni.sc etaperispomeniypogegrammeni.sc iotapsili.sc iotadasia.sc iotapsilivaria.sc iotadasiavaria.sc iotapsilioxia.sc iotadasiaoxia.sc iotapsiliperispomeni.sc iotadasiaperispomeni.sc iotavaria.sc iotaoxia.sc iotaperispomeni.sc iotavrachy.sc iotamacron.sc iotadialytikavaria.sc iotadialytikaoxia.sc iotadialytikaperispomeni.sc omicronpsili.sc omicrondasia.sc omicronpsilivaria.sc omicrondasiavaria.sc omicronpsilioxia.sc omicrondasiaoxia.sc omicronvaria.sc omicronoxia.sc rhopsili.sc rhodasia.sc upsilonpsili.sc upsilondasia.sc upsilonpsilivaria.sc upsilondasiavaria.sc upsilonpsilioxia.sc upsilondasiaoxia.sc upsilonpsiliperispomeni.sc upsilondasiaperispomeni.sc upsilonvaria.sc upsilonoxia.sc upsilonperispomeni.sc upsilonvrachy.sc upsilonmacron.sc upsilondialytikavaria.sc upsilondialytikaoxia.sc upsilondialytikaperispomeni.sc omegapsili.sc omegadasia.sc omegapsilivaria.sc omegadasiavaria.sc omegapsilioxia.sc omegadasiaoxia.sc omegapsiliperispomeni.sc omegadasiaperispomeni.sc omegavaria.sc omegaoxia.sc omegaperispomeni.sc omegaypogegrammeni.sc omegavariaypogegrammeni.sc omegaoxiaypogegrammeni.sc omegapsiliypogegrammeni.sc omegadasiaypogegrammeni.sc omegapsilivariaypogegrammeni.sc omegadasiavariaypogegrammeni.sc omegapsilioxiaypogegrammeni.sc omegadasiaoxiaypogegrammeni.sc omegapsiliperispomeniypogegrammeni.sc omegadasiaperispomeniypogegrammeni.sc omegaperispomeniypogegrammeni.sc Alphaprosgegrammeni.sc.ss04 Alphapsiliprosgegrammeni.sc.ss04 Alphadasiaprosgegrammeni.sc.ss04 Alphapsilivariaprosgegrammeni.sc.ss04 Alphadasiavariaprosgegrammeni.sc.ss04 Alphapsilioxiaprosgegrammeni.sc.ss04 Alphadasiaoxiaprosgegrammeni.sc.ss04 Alphapsiliperispomeniprosgegrammeni.sc.ss04 Alphadasiaperispomeniprosgegrammeni.sc.ss04 Etaprosgegrammeni.sc.ss04 Etapsiliprosgegrammeni.sc.ss04 Etadasiaprosgegrammeni.sc.ss04 Etapsilivariaprosgegrammeni.sc.ss04 Etadasiavariaprosgegrammeni.sc.ss04 Etapsilioxiaprosgegrammeni.sc.ss04 Etadasiaoxiaprosgegrammeni.sc.ss04 Etapsiliperispomeniprosgegrammeni.sc.ss04 Etadasiaperispomeniprosgegrammeni.sc.ss04 Omegaprosgegrammeni.sc.ss04 Omegapsiliprosgegrammeni.sc.ss04 Omegadasiaprosgegrammeni.sc.ss04 Omegapsilivariaprosgegrammeni.sc.ss04 Omegadasiavariaprosgegrammeni.sc.ss04 Omegapsilioxiaprosgegrammeni.sc.ss04 Omegadasiaoxiaprosgegrammeni.sc.ss04 Omegapsiliperispomeniprosgegrammeni.sc.ss04 Omegadasiaperispomeniprosgegrammeni.sc.ss04 alphaypogegrammeni.sc.ss04 alphavariaypogegrammeni.sc.ss04 alphaoxiaypogegrammeni.sc.ss04 alphapsiliypogegrammeni.sc.ss04 alphadasiaypogegrammeni.sc.ss04 alphapsilivariaypogegrammeni.sc.ss04 alphadasiavariaypogegrammeni.sc.ss04 alphapsilioxiaypogegrammeni.sc.ss04 alphadasiaoxiaypogegrammeni.sc.ss04 alphapsiliperispomeniypogegrammeni.sc.ss04 alphadasiaperispomeniypogegrammeni.sc.ss04 alphaperispomeniypogegrammeni.sc.ss04 etaypogegrammeni.sc.ss04 etavariaypogegrammeni.sc.ss04 etaoxiaypogegrammeni.sc.ss04 etapsiliypogegrammeni.sc.ss04 etadasiaypogegrammeni.sc.ss04 etapsilivariaypogegrammeni.sc.ss04 etadasiavariaypogegrammeni.sc.ss04 etapsilioxiaypogegrammeni.sc.ss04 etadasiaoxiaypogegrammeni.sc.ss04 etapsiliperispomeniypogegrammeni.sc.ss04 etadasiaperispomeniypogegrammeni.sc.ss04 etaperispomeniypogegrammeni.sc.ss04 omegaypogegrammeni.sc.ss04 omegavariaypogegrammeni.sc.ss04 omegaoxiaypogegrammeni.sc.ss04 omegapsiliypogegrammeni.sc.ss04 omegadasiaypogegrammeni.sc.ss04 omegapsilivariaypogegrammeni.sc.ss04 omegadasiavariaypogegrammeni.sc.ss04 omegapsilioxiaypogegrammeni.sc.ss04 omegadasiaoxiaypogegrammeni.sc.ss04 omegapsiliperispomeniypogegrammeni.sc.ss04 omegadasiaperispomeniypogegrammeni.sc.ss04 omegaperispomeniypogegrammeni.sc.ss04 ypogegrammeni Alpha.sups Beta.sups Gamma.sups Delta.sups Epsilon.sups Zeta.sups Eta.sups Theta.sups Iota.sups Kappa.sups Lambda.sups Mu.sups Nu.sups Xi.sups Omicron.sups Pi.sups Rho.sups Sigma.sups Tau.sups Upsilon.sups Phi.sups Chi.sups Psi.sups Omega.sups alpha.sups beta.sups gamma.sups delta.sups epsilon.sups zeta.sups eta.sups theta.sups iota.sups kappa.sups lambda.sups mu.sups nu.sups xi.sups omicron.sups pi.sups rho.sups sigmafinal.sups sigma.sups tau.sups upsilon.sups phi.sups chi.sups psi.sups omega.sups zero one two three four five six seven eight nine zero.lf one.lf two.lf three.lf four.lf five.lf six.lf seven.lf eight.lf nine.lf zero.osf one.osf two.osf three.osf four.osf five.osf six.osf seven.osf eight.osf nine.osf zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf zero.tosf one.tosf two.tosf three.tosf four.tosf five.tosf six.tosf seven.tosf eight.tosf nine.tosf zeroinferior oneinferior twoinferior threeinferior fourinferior fiveinferior sixinferior seveninferior eightinferior nineinferior zero.subs one.subs two.subs three.subs four.subs five.subs six.subs seven.subs eight.subs nine.subs zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior fraction onehalf onethird twothirds onequarter threequarters onefifth twofifths fourfifths onesixth fivesixths oneseventh oneeighth threeeighths fiveeighths seveneighths oneninth onetenth One-roman Five-roman Ten-roman Fifty-roman Hundred-roman Fivehundred-roman Thousand-roman one-roman five-roman ten-roman fifty-roman hundred-roman fivehundred-roman onethousand-roman period comma colon semicolon ellipsis exclam exclamdown question questiondown periodcentered bullet asterisk exclamdouble numbersign onedotenleader slash backslash twodotenleader exclamdown.case questiondown.case periodcentered.case bullet.case slash.case backslash.case parenleft parenright braceleft braceright bracketleft bracketright parenleft.case parenright.case braceleft.case braceright.case bracketleft.case bracketright.case hyphen softhyphen endash emdash figuredash horizontalbar hyphentwo underscore hyphen.case endash.case emdash.case quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright quotereversed guillemetleft guillemetright guilsinglleft guilsinglright quotedbl quotesingle guillemetleft.case guillemetright.case guilsinglleft.case guilsinglright.case anoteleia questiongreek figurespace hairspace punctuationspace space nbspace thinspace zerowidthspace space.case CR dram-arm bitcoin cedi cent colonsign currency dollar dong euro florin franc guarani hryvnia kip lira liraTurkish manat naira peseta peso ruble rupeeIndian sheqel sterling tenge tugrik won yen bulletoperator commercialMinusSign divisionslash plus minus multiply divide equal notequal greater less greaterequal lessequal plusminus approxequal asciitilde logicalnot asciicircum emptyset infinity integral Ohm increment product summation radical partialdiff micro percent perthousand ratio upArrow northEastArrow rightArrow southEastArrow downArrow southWestArrow leftArrow northWestArrow leftRightArrow upDownArrow blackDiamond whiteDiamond lozenge blackSquare whiteSquare mediumBlackSquare upBlackTriangle rightBlackTriangle downBlackTriangle leftBlackTriangle upWhiteTriangle rightWhiteTriangle downWhiteTriangle leftWhiteTriangle mediumBlackCircle accountof addressedtothesubject at ampersand paragraph section copyright registered published trademark careof degree minute second bar brokenbar dagger literSign daggerdbl estimated numero blackLargeCircle blackLargeSquare servicemark ampersand.sc cedi.rl-Weight_118_208 cent.rl-Weight_118_208 colonsign.rl-Weight_118_208 dollar.rl-Weight_118_208 guarani.rl-Weight_118_208 numeral-greek lowernumeral-greek apostrophemod commaturnedmod doubleprimemod firsttonechinese fourthtonechinese primemod ringhalfleft ringhalfright secondtonechinese verticallinelowmod verticallinemod dieresiscomb dieresiscomb_gravecomb dieresiscomb_acutecomb dieresiscomb_caroncomb dieresiscomb_macroncomb dotaccentcomb dotaccentcomb_macroncomb gravecomb acutecomb acutecomb_dotaccentcomb hungarumlautcomb caroncomb.alt circumflexcomb caroncomb caroncomb_dotaccentcomb brevecomb ringcomb tildecomb tildecomb_dieresiscomb tildecomb_gravecomb tildecomb_acutecomb tildecomb_macroncomb macroncomb macroncomb_dieresiscomb macroncomb_gravecomb macroncomb_acutecomb hookabovecomb dblgravecomb breveinvertedcomb commaturnedabovecomb horncomb dotbelowcomb dieresisbelowcomb commaaccentcomb cedillacomb ogonekcomb brevebelowcomb macronbelowcomb strokeshortcomb strokelongcomb slashshortcomb slashlongcomb dieresis dotaccent grave acute hungarumlaut circumflex caron breve ring tilde macron cedilla ogonek macroncomb.long ypogegrammenicomb tonos tonos.case dieresistonos psili psili.case koronis koronis.case dasia dasia.case psilivaria dasiavaria dasiavaria.case psilioxia psilioxia.case dasiaoxia dasiaoxia.case psiliperispomeni psiliperispomeni.case dasiaperispomeni dasiaperispomeni.case dialytikavaria dialytikavaria.case dialytikaoxia dialytikaoxia.case dialytikaperispomeni dialytikaperispomeni.case varia varia.case oxia oxia.case perispomeni psilivaria.case ypogegrammenicomb.long brevecomb-cy descender-cy.alt descender-cy.alt.case brevecomb_acutecomb brevecomb_gravecomb brevecomb_hookabovecomb brevecomb_tildecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb foundryicon gdieresis gtilde Gdieresis Gtilde gdieresis.sc gtilde.sc Iitail-cy ustrait-cy.sc ustraitstroke-cy.sc iitail-cy iitail-cy.sc";
+code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adotbelow Agrave Ahookabove Ainvertedbreve Amacron Aogonek Aring Aringacute Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent D DZcaron Eth Dcaron Dcroat Ddotbelow Dlinebelow Dzcaron E Eacute Ebreve Ecaron Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Emacronacute Emacrongrave Eogonek Etilde F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hbrevebelow Hcircumflex Hdotbelow I IJ Iacute Ibreve Icaron Icircumflex Idblgrave Idieresis Idieresisacute Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Ldotbelow Lj Llinebelow Lslash M Mdotbelow N NJ Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Eng Nj Nlinebelow Ntilde O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Omacronacute Omacrongrave Oogonek Oslash Oslashacute Otilde Otildeacute Otildedieresis Otildemacron OE P Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rdotbelow Rinvertedbreve Rlinebelow S Sacute Sacutedotaccent Saltillo Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls Schwa T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tlinebelow U Uacute Ubreve Ucaron Ucircumflex Udblgrave Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Umacrondieresis Uogonek Uring Utilde Utildeacute V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow Iacute_J.loclNLD B.curr C.curr G.curr K.curr N.curr R.curr S.curr T.curr W.curr Oslash.rl-Weight_118_208 Oslashacute.rl-Weight_118_208 a aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acaron acircumflex acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adblgrave adieresis adotbelow agrave ahookabove ainvertedbreve amacron aogonek aring aringacute atilde ae aeacute b c cacute ccaron ccedilla ccedillaacute ccircumflex cdotaccent d eth dcaron dcroat ddotbelow dlinebelow dzcaron e eacute ebreve ecaron ecedillabreve ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edblgrave edieresis edotaccent edotbelow egrave ehookabove einvertedbreve emacron emacronacute emacrongrave eogonek etilde schwa f g gbreve gcaron gcircumflex gcommaaccent gdotaccent gmacron h hbar hbrevebelow hcircumflex hdotbelow i idotless iacute ibreve icaron icircumflex idblgrave idieresis idieresisacute idotaccent idotbelow igrave ihookabove iinvertedbreve ij imacron iogonek itilde j jdotless jacute jcircumflex k kcommaaccent kgreenlandic l lacute lcaron lcommaaccent ldot ldotbelow lj llinebelow lslash m mdotbelow n nacute ncaron ncommaaccent ndotaccent ndotbelow eng nj nlinebelow ntilde o oacute obreve ocaron ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odblgrave odieresis odieresismacron odotaccentmacron odotbelow ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde ohungarumlaut oinvertedbreve omacron omacronacute omacrongrave oogonek oslash oslashacute otilde otildeacute otildedieresis otildemacron oe p thorn q r racute rcaron rcommaaccent rdblgrave rdotbelow rinvertedbreve rlinebelow s sacute sacutedotaccent saltillo scaron scarondotaccent scedilla scircumflex scommaaccent sdotaccent sdotbelow sdotbelowdotaccent germandbls longs t tbar tcaron tcedilla tcommaaccent tdieresis tdotbelow tlinebelow u uacute ubreve ucaron ucircumflex udblgrave udieresis udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde uhungarumlaut uinvertedbreve umacron umacrondieresis uogonek uring utilde utildeacute v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis ydotaccent ydotbelow ygrave yhookabove ymacron ytilde z zacute zcaron zdotaccent zdotbelow f.f f.i iacute_j.loclNLD f.l oslash.rl-Weight_118_208 oslashacute.rl-Weight_118_208 t.rl-Weight_90_214 t.t.rl-Weight_90_214 t.t fi fl oslash.sc.rl-Weight_118_208 oslashacute.sc.rl-Weight_118_208 Dzcaron.sc Lj.sc Nj.sc a.sc aacute.sc abreve.sc abreveacute.sc abrevedotbelow.sc abrevegrave.sc abrevehookabove.sc abrevetilde.sc acaron.sc acircumflex.sc acircumflexacute.sc acircumflexdotbelow.sc acircumflexgrave.sc acircumflexhookabove.sc acircumflextilde.sc adblgrave.sc adieresis.sc adotbelow.sc agrave.sc ahookabove.sc ainvertedbreve.sc germandbls.alt.sc amacron.sc aogonek.sc aring.sc aringacute.sc atilde.sc ae.sc aeacute.sc b.sc c.sc cacute.sc ccaron.sc ccedilla.sc ccedillaacute.sc ccircumflex.sc cdotaccent.sc d.sc eth.sc dcaron.sc dcroat.sc ddotbelow.sc dlinebelow.sc dzcaron.sc e.sc eacute.sc ebreve.sc ecaron.sc ecedillabreve.sc ecircumflex.sc ecircumflexacute.sc ecircumflexdotbelow.sc ecircumflexgrave.sc ecircumflexhookabove.sc ecircumflextilde.sc edblgrave.sc edieresis.sc edotaccent.sc edotbelow.sc egrave.sc ehookabove.sc einvertedbreve.sc emacron.sc emacronacute.sc emacrongrave.sc eogonek.sc etilde.sc schwa.sc f.sc g.sc gbreve.sc gcaron.sc gcircumflex.sc gcommaaccent.sc gdotaccent.sc gmacron.sc h.sc hbar.sc hbrevebelow.sc hcircumflex.sc hdotbelow.sc i.sc idotless.sc iacute.sc iacute_j.loclNLD.sc ibreve.sc icaron.sc icircumflex.sc idblgrave.sc idieresis.sc idieresisacute.sc idotaccent.sc idotbelow.sc igrave.sc ihookabove.sc iinvertedbreve.sc ij.sc imacron.sc iogonek.sc itilde.sc j.sc jacute.sc jcircumflex.sc k.sc kcommaaccent.sc kgreenlandic.sc l.sc lacute.sc lcaron.sc lcommaaccent.sc ldot.sc ldotbelow.sc lj.sc llinebelow.sc lslash.sc m.sc mdotbelow.sc n.sc nacute.sc ncaron.sc ncommaaccent.sc ndotaccent.sc ndotbelow.sc eng.sc nj.sc nlinebelow.sc ntilde.sc o.sc oacute.sc obreve.sc ocaron.sc ocircumflex.sc ocircumflexacute.sc ocircumflexdotbelow.sc ocircumflexgrave.sc ocircumflexhookabove.sc ocircumflextilde.sc odblgrave.sc odieresis.sc odieresismacron.sc odotaccentmacron.sc odotbelow.sc ograve.sc ohookabove.sc ohorn.sc ohornacute.sc ohorndotbelow.sc ohorngrave.sc ohornhookabove.sc ohorntilde.sc ohungarumlaut.sc oinvertedbreve.sc omacron.sc omacronacute.sc omacrongrave.sc oogonek.sc oslash.sc oslashacute.sc otilde.sc otildeacute.sc otildedieresis.sc otildemacron.sc oe.sc p.sc thorn.sc q.sc r.sc racute.sc rcaron.sc rcommaaccent.sc rdblgrave.sc rdotbelow.sc rinvertedbreve.sc rlinebelow.sc s.sc sacute.sc sacutedotaccent.sc scaron.sc scarondotaccent.sc scedilla.sc scircumflex.sc scommaaccent.sc sdotaccent.sc sdotbelow.sc sdotbelowdotaccent.sc germandbls.sc t.sc tbar.sc tcaron.sc tcedilla.sc tcommaaccent.sc tdieresis.sc tdotbelow.sc tlinebelow.sc u.sc uacute.sc ubreve.sc ucaron.sc ucircumflex.sc udblgrave.sc udieresis.sc udieresisacute.sc udieresiscaron.sc udieresisgrave.sc udieresismacron.sc udotbelow.sc ugrave.sc uhookabove.sc uhorn.sc uhornacute.sc uhorndotbelow.sc uhorngrave.sc uhornhookabove.sc uhorntilde.sc uhungarumlaut.sc uinvertedbreve.sc umacron.sc umacrondieresis.sc uogonek.sc uring.sc utilde.sc utildeacute.sc v.sc w.sc wacute.sc wcircumflex.sc wdieresis.sc wgrave.sc x.sc y.sc yacute.sc ycircumflex.sc ydieresis.sc ydotaccent.sc ydotbelow.sc ygrave.sc yhookabove.sc ymacron.sc ytilde.sc z.sc zacute.sc zcaron.sc zdotaccent.sc zdotbelow.sc ordfeminine ordmasculine A.sups B.sups C.sups D.sups E.sups F.sups G.sups H.sups I.sups J.sups K.sups L.sups M.sups N.sups O.sups P.sups Q.sups R.sups S.sups T.sups U.sups V.sups W.sups X.sups Y.sups Z.sups a.sups b.sups c.sups d.sups e.sups f.sups g.sups h.sups i.sups j.sups k.sups l.sups m.sups n.sups o.sups p.sups q.sups r.sups s.sups t.sups u.sups v.sups w.sups x.sups y.sups z.sups A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Iishorttail-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Ghestroke-cy Ghemiddlehook-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kastroke-cy Kabashkir-cy Endescender-cy Enghe-cy Pemiddlehook-cy Pedescender-cy Haabkhasian-cy Esdescender-cy Tedescender-cy Ustrait-cy Ustraitstroke-cy Hadescender-cy Tetse-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Shhadescender-cy Cheabkhasian-cy Chedescenderabkhasian-cy Palochka-cy Zhebreve-cy Kahook-cy Eltail-cy Enhook-cy Entail-cy Chekhakassian-cy Emtail-cy Abreve-cy Adieresis-cy Aie-cy Iebreve-cy Schwa-cy Schwadieresis-cy Zhedieresis-cy Zedieresis-cy Dzeabkhasian-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Edieresis-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Gedescender-cy Yerudieresis-cy Gestrokehook-cy Hahook-cy Hastroke-cy Komide-cy Komidje-cy Komizje-cy Komidzje-cy Komilje-cy Kominje-cy Komisje-cy Komitje-cy Reversedze-cy Elhook-cy Qa-cy We-cy Semisoftsign-cy Ertick-cy EnLeftHook-cy Eldescender-cy De-cy.loclBGR El-cy.loclBGR Ef-cy.loclBGR Ghestroke-cy.loclBSH Zedescender-cy.loclBSH Esdescender-cy.loclBSH Esdescender-cy.loclCHU a-cy be-cy ve-cy ge-cy gje-cy gheupturn-cy de-cy ie-cy iegrave-cy io-cy zhe-cy ze-cy ii-cy iishort-cy iigrave-cy iishorttail-cy ka-cy kje-cy el-cy em-cy en-cy o-cy pe-cy er-cy es-cy te-cy u-cy ushort-cy ef-cy ha-cy che-cy tse-cy sha-cy shcha-cy dzhe-cy softsign-cy hardsign-cy yeru-cy lje-cy nje-cy dze-cy e-cy ereversed-cy i-cy yi-cy je-cy tshe-cy iu-cy ia-cy dje-cy yat-cy yusbig-cy fita-cy izhitsa-cy ghestroke-cy ghemiddlehook-cy zhedescender-cy zedescender-cy kadescender-cy kaverticalstroke-cy kastroke-cy kabashkir-cy endescender-cy enghe-cy pedescender-cy pemiddlehook-cy haabkhasian-cy esdescender-cy tedescender-cy ustrait-cy ustraitstroke-cy hadescender-cy tetse-cy chedescender-cy cheverticalstroke-cy shha-cy shhadescender-cy cheabkhasian-cy chedescenderabkhasian-cy palochka-cy zhebreve-cy kahook-cy eltail-cy enhook-cy entail-cy chekhakassian-cy emtail-cy abreve-cy adieresis-cy aie-cy iebreve-cy schwa-cy schwadieresis-cy zhedieresis-cy zedieresis-cy dzeabkhasian-cy imacron-cy idieresis-cy odieresis-cy obarred-cy obarreddieresis-cy edieresis-cy umacron-cy udieresis-cy uhungarumlaut-cy chedieresis-cy gedescender-cy yerudieresis-cy gestrokehook-cy hahook-cy hastroke-cy komide-cy komidje-cy komizje-cy komidzje-cy komilje-cy kominje-cy komisje-cy komitje-cy reversedze-cy elhook-cy qa-cy we-cy semisoftsign-cy ertick-cy enlefthook-cy eldescender-cy ve-cy.loclBGR de-cy.loclBGR zhe-cy.loclBGR ze-cy.loclBGR ka-cy.loclBGR el-cy.loclBGR pe-cy.loclBGR te-cy.loclBGR iu-cy.loclBGR ghestroke-cy.loclBSH zedescender-cy.loclBSH esdescender-cy.loclBSH esdescender-cy.loclCHU be-cy.loclSRB ge-cy.loclSRB de-cy.loclSRB pe-cy.loclSRB te-cy.loclSRB a-cy.sc be-cy.sc ve-cy.sc ge-cy.sc gje-cy.sc gheupturn-cy.sc de-cy.sc ie-cy.sc iegrave-cy.sc io-cy.sc zhe-cy.sc ze-cy.sc ii-cy.sc iishort-cy.sc iigrave-cy.sc iishorttail-cy.sc ka-cy.sc kje-cy.sc el-cy.sc em-cy.sc en-cy.sc o-cy.sc pe-cy.sc er-cy.sc es-cy.sc te-cy.sc u-cy.sc ushort-cy.sc ef-cy.sc ha-cy.sc che-cy.sc tse-cy.sc sha-cy.sc shcha-cy.sc dzhe-cy.sc softsign-cy.sc hardsign-cy.sc yeru-cy.sc lje-cy.sc nje-cy.sc dze-cy.sc e-cy.sc ereversed-cy.sc i-cy.sc yi-cy.sc je-cy.sc tshe-cy.sc iu-cy.sc ia-cy.sc dje-cy.sc yat-cy.sc yusbig-cy.sc fita-cy.sc izhitsa-cy.sc ghestroke-cy.sc ghemiddlehook-cy.sc zhedescender-cy.sc zedescender-cy.sc kadescender-cy.sc kaverticalstroke-cy.sc kastroke-cy.sc kabashkir-cy.sc endescender-cy.sc enghe-cy.sc pedescender-cy.sc pemiddlehook-cy.sc haabkhasian-cy.sc esdescender-cy.sc tedescender-cy.sc hadescender-cy.sc tetse-cy.sc chedescender-cy.sc cheverticalstroke-cy.sc shha-cy.sc shhadescender-cy.sc enlefthook-cy.sc eldescender-cy.sc cheabkhasian-cy.sc chedescenderabkhasian-cy.sc palochka-cy.sc zhebreve-cy.sc kahook-cy.sc eltail-cy.sc enhook-cy.sc entail-cy.sc chekhakassian-cy.sc emtail-cy.sc abreve-cy.sc adieresis-cy.sc aie-cy.sc iebreve-cy.sc schwa-cy.sc schwadieresis-cy.sc zhedieresis-cy.sc zedieresis-cy.sc dzeabkhasian-cy.sc imacron-cy.sc idieresis-cy.sc odieresis-cy.sc obarred-cy.sc obarreddieresis-cy.sc edieresis-cy.sc umacron-cy.sc udieresis-cy.sc uhungarumlaut-cy.sc chedieresis-cy.sc gedescender-cy.sc yerudieresis-cy.sc gestrokehook-cy.sc hahook-cy.sc hastroke-cy.sc komide-cy.sc komidje-cy.sc komizje-cy.sc komidzje-cy.sc komilje-cy.sc kominje-cy.sc komisje-cy.sc komitje-cy.sc reversedze-cy.sc elhook-cy.sc qa-cy.sc we-cy.sc semisoftsign-cy.sc ertick-cy.sc ve-cy.loclBGR.sc de-cy.loclBGR.sc iishort-cy.loclBGR.sc iigrave-cy.loclBGR.sc el-cy.loclBGR.sc en-cy.loclBGR.sc te-cy.loclBGR.sc ef-cy.loclBGR.sc ghestroke-cy.loclBSH.sc zedescender-cy.loclBSH.sc esdescender-cy.loclBSH.sc esdescender-cy.loclCHU.sc A-cy.sups Be-cy.sups Ve-cy.sups Ge-cy.sups De-cy.sups Ie-cy.sups Io-cy.sups Zhe-cy.sups Ze-cy.sups Ii-cy.sups Iishort-cy.sups Ka-cy.sups El-cy.sups Em-cy.sups En-cy.sups O-cy.sups Pe-cy.sups Er-cy.sups Es-cy.sups Te-cy.sups U-cy.sups Ef-cy.sups Ha-cy.sups Che-cy.sups Tse-cy.sups Sha-cy.sups Shcha-cy.sups Softsign-cy.sups Hardsign-cy.sups Yeru-cy.sups Ereversed-cy.sups Iu-cy.sups Ia-cy.sups a-cy.sups be-cy.sups ve-cy.sups ge-cy.sups de-cy.sups ie-cy.sups io-cy.sups zhe-cy.sups ze-cy.sups ii-cy.sups iishort-cy.sups ka-cy.sups el-cy.sups em-cy.sups en-cy.sups o-cy.sups pe-cy.sups er-cy.sups es-cy.sups te-cy.sups u-cy.sups ef-cy.sups ha-cy.sups che-cy.sups tse-cy.sups sha-cy.sups shcha-cy.sups softsign-cy.sups hardsign-cy.sups yeru-cy.sups ereversed-cy.sups iu-cy.sups ia-cy.sups Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Iotadieresis Upsilondieresis KaiSymbol Alphapsili Alphadasia Alphapsilivaria Alphadasiavaria Alphapsilioxia Alphadasiaoxia Alphapsiliperispomeni Alphadasiaperispomeni Alphavaria Alphaoxia Alphavrachy Alphamacron Alphaprosgegrammeni Alphapsiliprosgegrammeni Alphadasiaprosgegrammeni Alphapsilivariaprosgegrammeni Alphadasiavariaprosgegrammeni Alphapsilioxiaprosgegrammeni Alphadasiaoxiaprosgegrammeni Alphapsiliperispomeniprosgegrammeni Alphadasiaperispomeniprosgegrammeni Epsilonpsili Epsilondasia Epsilonpsilivaria Epsilondasiavaria Epsilonpsilioxia Epsilondasiaoxia Epsilonvaria Epsilonoxia Etapsili Etadasia Etapsilivaria Etadasiavaria Etapsilioxia Etadasiaoxia Etapsiliperispomeni Etadasiaperispomeni Etavaria Etaoxia Etaprosgegrammeni Etapsiliprosgegrammeni Etadasiaprosgegrammeni Etapsilivariaprosgegrammeni Etadasiavariaprosgegrammeni Etapsilioxiaprosgegrammeni Etadasiaoxiaprosgegrammeni Etapsiliperispomeniprosgegrammeni Etadasiaperispomeniprosgegrammeni Iotapsili Iotadasia Iotapsilivaria Iotadasiavaria Iotapsilioxia Iotadasiaoxia Iotapsiliperispomeni Iotadasiaperispomeni Iotavaria Iotaoxia Iotavrachy Iotamacron Omicronpsili Omicrondasia Omicronpsilivaria Omicrondasiavaria Omicronpsilioxia Omicrondasiaoxia Omicronvaria Omicronoxia Rhodasia Upsilondasia Upsilondasiavaria Upsilondasiaoxia Upsilondasiaperispomeni Upsilonvaria Upsilonoxia Upsilonvrachy Upsilonmacron Omegapsili Omegadasia Omegapsilivaria Omegadasiavaria Omegapsilioxia Omegadasiaoxia Omegapsiliperispomeni Omegadasiaperispomeni Omegavaria Omegaoxia Omegaprosgegrammeni Omegapsiliprosgegrammeni Omegadasiaprosgegrammeni Omegapsilivariaprosgegrammeni Omegadasiavariaprosgegrammeni Omegapsilioxiaprosgegrammeni Omegadasiaoxiaprosgegrammeni Omegapsiliperispomeniprosgegrammeni Omegadasiaperispomeniprosgegrammeni Alphaprosgegrammeni.ss03 Alphapsiliprosgegrammeni.ss03 Alphadasiaprosgegrammeni.ss03 Alphapsilivariaprosgegrammeni.ss03 Alphadasiavariaprosgegrammeni.ss03 Alphapsilioxiaprosgegrammeni.ss03 Alphadasiaoxiaprosgegrammeni.ss03 Alphapsiliperispomeniprosgegrammeni.ss03 Alphadasiaperispomeniprosgegrammeni.ss03 Etaprosgegrammeni.ss03 Etapsiliprosgegrammeni.ss03 Etadasiaprosgegrammeni.ss03 Etapsilivariaprosgegrammeni.ss03 Etadasiavariaprosgegrammeni.ss03 Etapsilioxiaprosgegrammeni.ss03 Etadasiaoxiaprosgegrammeni.ss03 Etapsiliperispomeniprosgegrammeni.ss03 Etadasiaperispomeniprosgegrammeni.ss03 Omegaprosgegrammeni.ss03 Omegapsiliprosgegrammeni.ss03 Omegadasiaprosgegrammeni.ss03 Omegapsilivariaprosgegrammeni.ss03 Omegadasiavariaprosgegrammeni.ss03 Omegapsilioxiaprosgegrammeni.ss03 Omegadasiaoxiaprosgegrammeni.ss03 Omegapsiliperispomeniprosgegrammeni.ss03 Omegadasiaperispomeniprosgegrammeni.ss03 alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigmafinal sigma tau upsilon phi chi psi omega iotatonos iotadieresis iotadieresistonos upsilontonos upsilondieresis upsilondieresistonos omicrontonos omegatonos alphatonos epsilontonos etatonos kaiSymbol alphapsili alphadasia alphapsilivaria alphadasiavaria alphapsilioxia alphadasiaoxia alphapsiliperispomeni alphadasiaperispomeni alphavaria alphaoxia alphaperispomeni alphavrachy alphamacron alphaypogegrammeni alphavariaypogegrammeni alphaoxiaypogegrammeni alphapsiliypogegrammeni alphadasiaypogegrammeni alphapsilivariaypogegrammeni alphadasiavariaypogegrammeni alphapsilioxiaypogegrammeni alphadasiaoxiaypogegrammeni alphapsiliperispomeniypogegrammeni alphadasiaperispomeniypogegrammeni alphaperispomeniypogegrammeni epsilonpsili epsilondasia epsilonpsilivaria epsilondasiavaria epsilonpsilioxia epsilondasiaoxia epsilonvaria epsilonoxia etapsili etadasia etapsilivaria etadasiavaria etapsilioxia etadasiaoxia etapsiliperispomeni etadasiaperispomeni etavaria etaoxia etaperispomeni etaypogegrammeni etavariaypogegrammeni etaoxiaypogegrammeni etapsiliypogegrammeni etadasiaypogegrammeni etapsilivariaypogegrammeni etadasiavariaypogegrammeni etapsilioxiaypogegrammeni etadasiaoxiaypogegrammeni etapsiliperispomeniypogegrammeni etadasiaperispomeniypogegrammeni etaperispomeniypogegrammeni iotapsili iotadasia iotapsilivaria iotadasiavaria iotapsilioxia iotadasiaoxia iotapsiliperispomeni iotadasiaperispomeni iotavaria iotaoxia iotaperispomeni iotavrachy iotamacron iotadialytikavaria iotadialytikaoxia iotadialytikaperispomeni omicronpsili omicrondasia omicronpsilivaria omicrondasiavaria omicronpsilioxia omicrondasiaoxia omicronvaria omicronoxia rhopsili rhodasia upsilonpsili upsilondasia upsilonpsilivaria upsilondasiavaria upsilonpsilioxia upsilondasiaoxia upsilonpsiliperispomeni upsilondasiaperispomeni upsilonvaria upsilonoxia upsilonperispomeni upsilonvrachy upsilonmacron upsilondialytikavaria upsilondialytikaoxia upsilondialytikaperispomeni omegapsili omegadasia omegapsilivaria omegadasiavaria omegapsilioxia omegadasiaoxia omegapsiliperispomeni omegadasiaperispomeni omegavaria omegaoxia omegaperispomeni omegaypogegrammeni omegavariaypogegrammeni omegaoxiaypogegrammeni omegapsiliypogegrammeni omegadasiaypogegrammeni omegapsilivariaypogegrammeni omegadasiavariaypogegrammeni omegapsilioxiaypogegrammeni omegadasiaoxiaypogegrammeni omegapsiliperispomeniypogegrammeni omegadasiaperispomeniypogegrammeni omegaperispomeniypogegrammeni prosgegrammeni lambda_lambda.liga alpha.sc beta.sc gamma.sc delta.sc epsilon.sc zeta.sc eta.sc theta.sc iota.sc kappa.sc lambda.sc mu.sc nu.sc xi.sc omicron.sc pi.sc rho.sc sigmafinal.sc sigma.sc tau.sc upsilon.sc phi.sc chi.sc psi.sc omega.sc iotatonos.sc iotadieresis.sc iotadieresistonos.sc upsilontonos.sc upsilondieresis.sc upsilondieresistonos.sc omicrontonos.sc omegatonos.sc alphatonos.sc epsilontonos.sc etatonos.sc prosgegrammeni.sc kaiSymbol.sc alphapsili.sc alphadasia.sc alphapsilivaria.sc alphadasiavaria.sc alphapsilioxia.sc alphadasiaoxia.sc alphapsiliperispomeni.sc alphadasiaperispomeni.sc alphavaria.sc alphaoxia.sc alphaperispomeni.sc alphavrachy.sc alphamacron.sc alphaypogegrammeni.sc alphavariaypogegrammeni.sc alphaoxiaypogegrammeni.sc alphapsiliypogegrammeni.sc alphadasiaypogegrammeni.sc alphapsilivariaypogegrammeni.sc alphadasiavariaypogegrammeni.sc alphapsilioxiaypogegrammeni.sc alphadasiaoxiaypogegrammeni.sc alphapsiliperispomeniypogegrammeni.sc alphadasiaperispomeniypogegrammeni.sc alphaperispomeniypogegrammeni.sc epsilonpsili.sc epsilondasia.sc epsilonpsilivaria.sc epsilondasiavaria.sc epsilonpsilioxia.sc epsilondasiaoxia.sc epsilonvaria.sc epsilonoxia.sc etapsili.sc etadasia.sc etapsilivaria.sc etadasiavaria.sc etapsilioxia.sc etadasiaoxia.sc etapsiliperispomeni.sc etadasiaperispomeni.sc etavaria.sc etaoxia.sc etaperispomeni.sc etaypogegrammeni.sc etavariaypogegrammeni.sc etaoxiaypogegrammeni.sc etapsiliypogegrammeni.sc etadasiaypogegrammeni.sc etapsilivariaypogegrammeni.sc etadasiavariaypogegrammeni.sc etapsilioxiaypogegrammeni.sc etadasiaoxiaypogegrammeni.sc etapsiliperispomeniypogegrammeni.sc etadasiaperispomeniypogegrammeni.sc etaperispomeniypogegrammeni.sc iotapsili.sc iotadasia.sc iotapsilivaria.sc iotadasiavaria.sc iotapsilioxia.sc iotadasiaoxia.sc iotapsiliperispomeni.sc iotadasiaperispomeni.sc iotavaria.sc iotaoxia.sc iotaperispomeni.sc iotavrachy.sc iotamacron.sc iotadialytikavaria.sc iotadialytikaoxia.sc iotadialytikaperispomeni.sc omicronpsili.sc omicrondasia.sc omicronpsilivaria.sc omicrondasiavaria.sc omicronpsilioxia.sc omicrondasiaoxia.sc omicronvaria.sc omicronoxia.sc rhopsili.sc rhodasia.sc upsilonpsili.sc upsilondasia.sc upsilonpsilivaria.sc upsilondasiavaria.sc upsilonpsilioxia.sc upsilondasiaoxia.sc upsilonpsiliperispomeni.sc upsilondasiaperispomeni.sc upsilonvaria.sc upsilonoxia.sc upsilonperispomeni.sc upsilonvrachy.sc upsilonmacron.sc upsilondialytikavaria.sc upsilondialytikaoxia.sc upsilondialytikaperispomeni.sc omegapsili.sc omegadasia.sc omegapsilivaria.sc omegadasiavaria.sc omegapsilioxia.sc omegadasiaoxia.sc omegapsiliperispomeni.sc omegadasiaperispomeni.sc omegavaria.sc omegaoxia.sc omegaperispomeni.sc omegaypogegrammeni.sc omegavariaypogegrammeni.sc omegaoxiaypogegrammeni.sc omegapsiliypogegrammeni.sc omegadasiaypogegrammeni.sc omegapsilivariaypogegrammeni.sc omegadasiavariaypogegrammeni.sc omegapsilioxiaypogegrammeni.sc omegadasiaoxiaypogegrammeni.sc omegapsiliperispomeniypogegrammeni.sc omegadasiaperispomeniypogegrammeni.sc omegaperispomeniypogegrammeni.sc Alphaprosgegrammeni.sc.ss04 Alphapsiliprosgegrammeni.sc.ss04 Alphadasiaprosgegrammeni.sc.ss04 Alphapsilivariaprosgegrammeni.sc.ss04 Alphadasiavariaprosgegrammeni.sc.ss04 Alphapsilioxiaprosgegrammeni.sc.ss04 Alphadasiaoxiaprosgegrammeni.sc.ss04 Alphapsiliperispomeniprosgegrammeni.sc.ss04 Alphadasiaperispomeniprosgegrammeni.sc.ss04 Etaprosgegrammeni.sc.ss04 Etapsiliprosgegrammeni.sc.ss04 Etadasiaprosgegrammeni.sc.ss04 Etapsilivariaprosgegrammeni.sc.ss04 Etadasiavariaprosgegrammeni.sc.ss04 Etapsilioxiaprosgegrammeni.sc.ss04 Etadasiaoxiaprosgegrammeni.sc.ss04 Etapsiliperispomeniprosgegrammeni.sc.ss04 Etadasiaperispomeniprosgegrammeni.sc.ss04 Omegaprosgegrammeni.sc.ss04 Omegapsiliprosgegrammeni.sc.ss04 Omegadasiaprosgegrammeni.sc.ss04 Omegapsilivariaprosgegrammeni.sc.ss04 Omegadasiavariaprosgegrammeni.sc.ss04 Omegapsilioxiaprosgegrammeni.sc.ss04 Omegadasiaoxiaprosgegrammeni.sc.ss04 Omegapsiliperispomeniprosgegrammeni.sc.ss04 Omegadasiaperispomeniprosgegrammeni.sc.ss04 alphaypogegrammeni.sc.ss04 alphavariaypogegrammeni.sc.ss04 alphaoxiaypogegrammeni.sc.ss04 alphapsiliypogegrammeni.sc.ss04 alphadasiaypogegrammeni.sc.ss04 alphapsilivariaypogegrammeni.sc.ss04 alphadasiavariaypogegrammeni.sc.ss04 alphapsilioxiaypogegrammeni.sc.ss04 alphadasiaoxiaypogegrammeni.sc.ss04 alphapsiliperispomeniypogegrammeni.sc.ss04 alphadasiaperispomeniypogegrammeni.sc.ss04 alphaperispomeniypogegrammeni.sc.ss04 etaypogegrammeni.sc.ss04 etavariaypogegrammeni.sc.ss04 etaoxiaypogegrammeni.sc.ss04 etapsiliypogegrammeni.sc.ss04 etadasiaypogegrammeni.sc.ss04 etapsilivariaypogegrammeni.sc.ss04 etadasiavariaypogegrammeni.sc.ss04 etapsilioxiaypogegrammeni.sc.ss04 etadasiaoxiaypogegrammeni.sc.ss04 etapsiliperispomeniypogegrammeni.sc.ss04 etadasiaperispomeniypogegrammeni.sc.ss04 etaperispomeniypogegrammeni.sc.ss04 omegaypogegrammeni.sc.ss04 omegavariaypogegrammeni.sc.ss04 omegaoxiaypogegrammeni.sc.ss04 omegapsiliypogegrammeni.sc.ss04 omegadasiaypogegrammeni.sc.ss04 omegapsilivariaypogegrammeni.sc.ss04 omegadasiavariaypogegrammeni.sc.ss04 omegapsilioxiaypogegrammeni.sc.ss04 omegadasiaoxiaypogegrammeni.sc.ss04 omegapsiliperispomeniypogegrammeni.sc.ss04 omegadasiaperispomeniypogegrammeni.sc.ss04 omegaperispomeniypogegrammeni.sc.ss04 ypogegrammeni Alpha.sups Beta.sups Gamma.sups Delta.sups Epsilon.sups Zeta.sups Eta.sups Theta.sups Iota.sups Kappa.sups Lambda.sups Mu.sups Nu.sups Xi.sups Omicron.sups Pi.sups Rho.sups Sigma.sups Tau.sups Upsilon.sups Phi.sups Chi.sups Psi.sups Omega.sups alpha.sups beta.sups gamma.sups delta.sups epsilon.sups zeta.sups eta.sups theta.sups iota.sups kappa.sups lambda.sups mu.sups nu.sups xi.sups omicron.sups pi.sups rho.sups sigmafinal.sups sigma.sups tau.sups upsilon.sups phi.sups chi.sups psi.sups omega.sups zero one two three four five six seven eight nine zero.lf one.lf two.lf three.lf four.lf five.lf six.lf seven.lf eight.lf nine.lf zero.osf one.osf two.osf three.osf four.osf five.osf six.osf seven.osf eight.osf nine.osf zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf zero.tosf one.tosf two.tosf three.tosf four.tosf five.tosf six.tosf seven.tosf eight.tosf nine.tosf zeroinferior oneinferior twoinferior threeinferior fourinferior fiveinferior sixinferior seveninferior eightinferior nineinferior zero.subs one.subs two.subs three.subs four.subs five.subs six.subs seven.subs eight.subs nine.subs zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior fraction onehalf onethird twothirds onequarter threequarters onefifth twofifths fourfifths onesixth fivesixths oneseventh oneeighth threeeighths fiveeighths seveneighths oneninth onetenth One-roman Five-roman Ten-roman Fifty-roman Hundred-roman Fivehundred-roman Thousand-roman one-roman five-roman ten-roman fifty-roman hundred-roman fivehundred-roman onethousand-roman period comma colon semicolon ellipsis exclam exclamdown question questiondown periodcentered bullet asterisk exclamdouble numbersign onedotenleader slash backslash twodotenleader exclamdown.case questiondown.case periodcentered.case bullet.case slash.case backslash.case parenleft parenright braceleft braceright bracketleft bracketright parenleft.case parenright.case braceleft.case braceright.case bracketleft.case bracketright.case hyphen softhyphen endash emdash figuredash horizontalbar hyphentwo underscore hyphen.case endash.case emdash.case quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright quotereversed guillemetleft guillemetright guilsinglleft guilsinglright quotedbl quotesingle guillemetleft.case guillemetright.case guilsinglleft.case guilsinglright.case anoteleia questiongreek figurespace hairspace punctuationspace space nbspace thinspace zerowidthspace space.case CR dram-arm bitcoin cedi cent colonsign currency dollar dong euro florin franc guarani hryvnia kip lira liraTurkish manat naira peseta peso ruble rupeeIndian sheqel sterling tenge tugrik won yen bulletoperator commercialMinusSign divisionslash plus minus multiply divide equal notequal greater less greaterequal lessequal plusminus approxequal asciitilde logicalnot asciicircum emptyset infinity integral Ohm increment product summation radical partialdiff micro percent perthousand ratio upArrow northEastArrow rightArrow southEastArrow downArrow southWestArrow leftArrow northWestArrow leftRightArrow upDownArrow blackDiamond whiteDiamond lozenge blackSquare whiteSquare mediumBlackSquare upBlackTriangle rightBlackTriangle downBlackTriangle leftBlackTriangle upWhiteTriangle rightWhiteTriangle downWhiteTriangle leftWhiteTriangle mediumBlackCircle accountof addressedtothesubject at ampersand paragraph section copyright registered published trademark careof degree minute second bar brokenbar dagger literSign daggerdbl estimated numero blackLargeCircle blackLargeSquare servicemark ampersand.sc cedi.rl-Weight_118_208 cent.rl-Weight_118_208 colonsign.rl-Weight_118_208 dollar.rl-Weight_118_208 guarani.rl-Weight_118_208 numeral-greek lowernumeral-greek apostrophemod commaturnedmod doubleprimemod firsttonechinese fourthtonechinese primemod ringhalfleft ringhalfright secondtonechinese verticallinelowmod verticallinemod dieresiscomb dieresiscomb_gravecomb dieresiscomb_acutecomb dieresiscomb_caroncomb dieresiscomb_macroncomb dotaccentcomb dotaccentcomb_macroncomb gravecomb acutecomb acutecomb_dotaccentcomb hungarumlautcomb caroncomb.alt circumflexcomb caroncomb caroncomb_dotaccentcomb brevecomb ringcomb tildecomb tildecomb_dieresiscomb tildecomb_gravecomb tildecomb_acutecomb tildecomb_macroncomb macroncomb macroncomb_dieresiscomb macroncomb_gravecomb macroncomb_acutecomb hookabovecomb dblgravecomb breveinvertedcomb commaturnedabovecomb horncomb dotbelowcomb dieresisbelowcomb commaaccentcomb cedillacomb ogonekcomb brevebelowcomb macronbelowcomb strokeshortcomb strokelongcomb slashshortcomb slashlongcomb dieresis dotaccent grave acute hungarumlaut circumflex caron breve ring tilde macron cedilla ogonek macroncomb.long ypogegrammenicomb tonos tonos.case dieresistonos psili psili.case koronis koronis.case dasia dasia.case psilivaria dasiavaria dasiavaria.case psilioxia psilioxia.case dasiaoxia dasiaoxia.case psiliperispomeni psiliperispomeni.case dasiaperispomeni dasiaperispomeni.case dialytikavaria dialytikavaria.case dialytikaoxia dialytikaoxia.case dialytikaperispomeni dialytikaperispomeni.case varia varia.case oxia oxia.case perispomeni psilivaria.case ypogegrammenicomb.long brevecomb-cy descender-cy.alt descender-cy.alt.case brevecomb_acutecomb brevecomb_gravecomb brevecomb_hookabovecomb brevecomb_tildecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb foundryicon gdieresis gtilde Gdieresis Gtilde gdieresis.sc gtilde.sc Iitail-cy iitail-cy.sc";
 name = All;
 },
 {
 automatic = 1;
-code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adotbelow Agrave Ahookabove Ainvertedbreve Amacron Aogonek Aring Aringacute Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent D DZcaron Eth Dcaron Dcroat Ddotbelow Dlinebelow Dzcaron E Eacute Ebreve Ecaron Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Emacronacute Emacrongrave Eogonek Etilde F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hbrevebelow Hcircumflex Hdotbelow I IJ Iacute Ibreve Icaron Icircumflex Idblgrave Idieresis Idieresisacute Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Ldotbelow Lj Llinebelow Lslash M Mdotbelow N NJ Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Eng Nj Nlinebelow Ntilde O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Omacronacute Omacrongrave Oogonek Oslash Oslashacute Otilde Otildeacute Otildedieresis Otildemacron OE P Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rdotbelow Rinvertedbreve Rlinebelow S Sacute Sacutedotaccent Saltillo Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls Schwa T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tlinebelow U Uacute Ubreve Ucaron Ucircumflex Udblgrave Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Umacrondieresis Uogonek Uring Utilde Utildeacute V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow Iacute_J.loclNLD B.curr C.curr G.curr K.curr N.curr P.curr R.curr S.curr T.curr W.curr Oslash.rl-Weight_118_208 Oslashacute.rl-Weight_118_208 a aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acaron acircumflex acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adblgrave adieresis adotbelow agrave ahookabove ainvertedbreve amacron aogonek aring aringacute atilde ae aeacute b c cacute ccaron ccedilla ccedillaacute ccircumflex cdotaccent d eth dcaron dcroat ddotbelow dlinebelow dzcaron e eacute ebreve ecaron ecedillabreve ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edblgrave edieresis edotaccent edotbelow egrave ehookabove einvertedbreve emacron emacronacute emacrongrave eogonek etilde schwa f g gbreve gcaron gcircumflex gcommaaccent gdotaccent gmacron h hbar hbrevebelow hcircumflex hdotbelow i idotless iacute ibreve icaron icircumflex idblgrave idieresis idieresisacute idotaccent idotbelow igrave ihookabove iinvertedbreve ij imacron iogonek itilde j jdotless jacute jcircumflex k kcommaaccent kgreenlandic l lacute lcaron lcommaaccent ldot ldotbelow lj llinebelow lslash m mdotbelow n nacute ncaron ncommaaccent ndotaccent ndotbelow eng nj nlinebelow ntilde o oacute obreve ocaron ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odblgrave odieresis odieresismacron odotaccentmacron odotbelow ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde ohungarumlaut oinvertedbreve omacron omacronacute omacrongrave oogonek oslash oslashacute otilde otildeacute otildedieresis otildemacron oe p thorn q r racute rcaron rcommaaccent rdblgrave rdotbelow rinvertedbreve rlinebelow s sacute sacutedotaccent saltillo scaron scarondotaccent scedilla scircumflex scommaaccent sdotaccent sdotbelow sdotbelowdotaccent germandbls longs t tbar tcaron tcedilla tcommaaccent tdieresis tdotbelow tlinebelow u uacute ubreve ucaron ucircumflex udblgrave udieresis udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde uhungarumlaut uinvertedbreve umacron umacrondieresis uogonek uring utilde utildeacute v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis ydotaccent ydotbelow ygrave yhookabove ymacron ytilde z zacute zcaron zdotaccent zdotbelow f.f iacute_j.loclNLD oslash.rl-Weight_118_208 oslashacute.rl-Weight_118_208 t.rl-Weight_90_214 t.t.rl-Weight_90_214 t.t fi fl oslash.sc.rl-Weight_118_208 oslashacute.sc.rl-Weight_118_208 Dzcaron.sc Lj.sc Nj.sc a.sc aacute.sc abreve.sc abreveacute.sc abrevedotbelow.sc abrevegrave.sc abrevehookabove.sc abrevetilde.sc acaron.sc acircumflex.sc acircumflexacute.sc acircumflexdotbelow.sc acircumflexgrave.sc acircumflexhookabove.sc acircumflextilde.sc adblgrave.sc adieresis.sc adotbelow.sc agrave.sc ahookabove.sc ainvertedbreve.sc germandbls.alt.sc amacron.sc aogonek.sc aring.sc aringacute.sc atilde.sc ae.sc aeacute.sc b.sc c.sc cacute.sc ccaron.sc ccedilla.sc ccedillaacute.sc ccircumflex.sc cdotaccent.sc d.sc eth.sc dcaron.sc dcroat.sc ddotbelow.sc dlinebelow.sc dzcaron.sc e.sc eacute.sc ebreve.sc ecaron.sc ecedillabreve.sc ecircumflex.sc ecircumflexacute.sc ecircumflexdotbelow.sc ecircumflexgrave.sc ecircumflexhookabove.sc ecircumflextilde.sc edblgrave.sc edieresis.sc edotaccent.sc edotbelow.sc egrave.sc ehookabove.sc einvertedbreve.sc emacron.sc emacronacute.sc emacrongrave.sc eogonek.sc etilde.sc schwa.sc f.sc g.sc gbreve.sc gcaron.sc gcircumflex.sc gcommaaccent.sc gdotaccent.sc gmacron.sc h.sc hbar.sc hbrevebelow.sc hcircumflex.sc hdotbelow.sc i.sc idotless.sc iacute.sc iacute_j.loclNLD.sc ibreve.sc icaron.sc icircumflex.sc idblgrave.sc idieresis.sc idieresisacute.sc idotaccent.sc idotbelow.sc igrave.sc ihookabove.sc iinvertedbreve.sc ij.sc imacron.sc iogonek.sc itilde.sc j.sc jacute.sc jcircumflex.sc k.sc kcommaaccent.sc kgreenlandic.sc l.sc lacute.sc lcaron.sc lcommaaccent.sc ldot.sc ldotbelow.sc lj.sc llinebelow.sc lslash.sc m.sc mdotbelow.sc n.sc nacute.sc ncaron.sc ncommaaccent.sc ndotaccent.sc ndotbelow.sc eng.sc nj.sc nlinebelow.sc ntilde.sc o.sc oacute.sc obreve.sc ocaron.sc ocircumflex.sc ocircumflexacute.sc ocircumflexdotbelow.sc ocircumflexgrave.sc ocircumflexhookabove.sc ocircumflextilde.sc odblgrave.sc odieresis.sc odieresismacron.sc odotaccentmacron.sc odotbelow.sc ograve.sc ohookabove.sc ohorn.sc ohornacute.sc ohorndotbelow.sc ohorngrave.sc ohornhookabove.sc ohorntilde.sc ohungarumlaut.sc oinvertedbreve.sc omacron.sc omacronacute.sc omacrongrave.sc oogonek.sc oslash.sc oslashacute.sc otilde.sc otildeacute.sc otildedieresis.sc otildemacron.sc oe.sc p.sc thorn.sc q.sc r.sc racute.sc rcaron.sc rcommaaccent.sc rdblgrave.sc rdotbelow.sc rinvertedbreve.sc rlinebelow.sc s.sc sacute.sc sacutedotaccent.sc scaron.sc scarondotaccent.sc scedilla.sc scircumflex.sc scommaaccent.sc sdotaccent.sc sdotbelow.sc sdotbelowdotaccent.sc germandbls.sc t.sc tbar.sc tcaron.sc tcedilla.sc tcommaaccent.sc tdieresis.sc tdotbelow.sc tlinebelow.sc u.sc uacute.sc ubreve.sc ucaron.sc ucircumflex.sc udblgrave.sc udieresis.sc udieresisacute.sc udieresiscaron.sc udieresisgrave.sc udieresismacron.sc udotbelow.sc ugrave.sc uhookabove.sc uhorn.sc uhornacute.sc uhorndotbelow.sc uhorngrave.sc uhornhookabove.sc uhorntilde.sc uhungarumlaut.sc uinvertedbreve.sc umacron.sc umacrondieresis.sc uogonek.sc uring.sc utilde.sc utildeacute.sc v.sc w.sc wacute.sc wcircumflex.sc wdieresis.sc wgrave.sc x.sc y.sc yacute.sc ycircumflex.sc ydieresis.sc ydotaccent.sc ydotbelow.sc ygrave.sc yhookabove.sc ymacron.sc ytilde.sc z.sc zacute.sc zcaron.sc zdotaccent.sc zdotbelow.sc ordfeminine ordmasculine A.sups B.sups C.sups D.sups E.sups F.sups G.sups H.sups I.sups J.sups K.sups L.sups M.sups N.sups O.sups P.sups Q.sups R.sups S.sups T.sups U.sups V.sups W.sups X.sups Y.sups Z.sups a.sups b.sups c.sups d.sups e.sups f.sups g.sups h.sups i.sups j.sups k.sups l.sups m.sups n.sups o.sups p.sups q.sups r.sups s.sups t.sups u.sups v.sups w.sups x.sups y.sups z.sups A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Iishorttail-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Ghestroke-cy Ghemiddlehook-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kastroke-cy Kabashkir-cy Endescender-cy Enghe-cy Pemiddlehook-cy Pedescender-cy Haabkhasian-cy Esdescender-cy Tedescender-cy Ustrait-cy Ustraitstroke-cy Hadescender-cy Tetse-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Shhadescender-cy Cheabkhasian-cy Chedescenderabkhasian-cy Palochka-cy Zhebreve-cy Kahook-cy Eltail-cy Enhook-cy Entail-cy Chekhakassian-cy Emtail-cy Abreve-cy Adieresis-cy Aie-cy Iebreve-cy Schwa-cy Schwadieresis-cy Zhedieresis-cy Zedieresis-cy Dzeabkhasian-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Edieresis-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Gedescender-cy Yerudieresis-cy Gestrokehook-cy Hahook-cy Hastroke-cy Komide-cy Komidje-cy Komizje-cy Komidzje-cy Komilje-cy Kominje-cy Komisje-cy Komitje-cy Reversedze-cy Elhook-cy Qa-cy We-cy Semisoftsign-cy Ertick-cy EnLeftHook-cy Eldescender-cy De-cy.loclBGR El-cy.loclBGR Ef-cy.loclBGR Ghestroke-cy.loclBSH Zedescender-cy.loclBSH Esdescender-cy.loclBSH Esdescender-cy.loclCHU a-cy be-cy ve-cy ge-cy gje-cy gheupturn-cy de-cy ie-cy iegrave-cy io-cy zhe-cy ze-cy ii-cy iishort-cy iigrave-cy iishorttail-cy ka-cy kje-cy el-cy em-cy en-cy o-cy pe-cy er-cy es-cy te-cy u-cy ushort-cy ef-cy ha-cy che-cy tse-cy sha-cy shcha-cy dzhe-cy softsign-cy hardsign-cy yeru-cy lje-cy nje-cy dze-cy e-cy ereversed-cy i-cy yi-cy je-cy tshe-cy iu-cy ia-cy dje-cy yat-cy yusbig-cy fita-cy izhitsa-cy ghestroke-cy ghemiddlehook-cy zhedescender-cy zedescender-cy kadescender-cy kaverticalstroke-cy kastroke-cy kabashkir-cy endescender-cy enghe-cy pedescender-cy pemiddlehook-cy haabkhasian-cy esdescender-cy tedescender-cy ustrait-cy ustraitstroke-cy hadescender-cy tetse-cy chedescender-cy cheverticalstroke-cy shha-cy shhadescender-cy cheabkhasian-cy chedescenderabkhasian-cy palochka-cy zhebreve-cy kahook-cy eltail-cy enhook-cy entail-cy chekhakassian-cy emtail-cy abreve-cy adieresis-cy aie-cy iebreve-cy schwa-cy schwadieresis-cy zhedieresis-cy zedieresis-cy dzeabkhasian-cy imacron-cy idieresis-cy odieresis-cy obarred-cy obarreddieresis-cy edieresis-cy umacron-cy udieresis-cy uhungarumlaut-cy chedieresis-cy gedescender-cy yerudieresis-cy gestrokehook-cy hahook-cy hastroke-cy komide-cy komidje-cy komizje-cy komidzje-cy komilje-cy kominje-cy komisje-cy komitje-cy reversedze-cy elhook-cy qa-cy we-cy semisoftsign-cy ertick-cy enlefthook-cy eldescender-cy ve-cy.loclBGR de-cy.loclBGR zhe-cy.loclBGR ze-cy.loclBGR ka-cy.loclBGR el-cy.loclBGR pe-cy.loclBGR te-cy.loclBGR iu-cy.loclBGR ghestroke-cy.loclBSH zedescender-cy.loclBSH esdescender-cy.loclBSH esdescender-cy.loclCHU be-cy.loclSRB ge-cy.loclSRB de-cy.loclSRB pe-cy.loclSRB te-cy.loclSRB a-cy.sc be-cy.sc ve-cy.sc ge-cy.sc gje-cy.sc gheupturn-cy.sc de-cy.sc ie-cy.sc iegrave-cy.sc io-cy.sc zhe-cy.sc ze-cy.sc ii-cy.sc iishort-cy.sc iigrave-cy.sc iishorttail-cy.sc ka-cy.sc kje-cy.sc el-cy.sc em-cy.sc en-cy.sc o-cy.sc pe-cy.sc er-cy.sc es-cy.sc te-cy.sc u-cy.sc ushort-cy.sc ef-cy.sc ha-cy.sc che-cy.sc tse-cy.sc sha-cy.sc shcha-cy.sc dzhe-cy.sc softsign-cy.sc hardsign-cy.sc yeru-cy.sc lje-cy.sc nje-cy.sc dze-cy.sc e-cy.sc ereversed-cy.sc i-cy.sc yi-cy.sc je-cy.sc tshe-cy.sc iu-cy.sc ia-cy.sc dje-cy.sc yat-cy.sc yusbig-cy.sc fita-cy.sc izhitsa-cy.sc ghestroke-cy.sc ghemiddlehook-cy.sc zhedescender-cy.sc zedescender-cy.sc kadescender-cy.sc kaverticalstroke-cy.sc kastroke-cy.sc kabashkir-cy.sc endescender-cy.sc enghe-cy.sc pedescender-cy.sc pemiddlehook-cy.sc haabkhasian-cy.sc esdescender-cy.sc tedescender-cy.sc hadescender-cy.sc tetse-cy.sc chedescender-cy.sc cheverticalstroke-cy.sc shha-cy.sc shhadescender-cy.sc enlefthook-cy.sc eldescender-cy.sc cheabkhasian-cy.sc chedescenderabkhasian-cy.sc palochka-cy.sc zhebreve-cy.sc kahook-cy.sc eltail-cy.sc enhook-cy.sc entail-cy.sc chekhakassian-cy.sc emtail-cy.sc abreve-cy.sc adieresis-cy.sc aie-cy.sc iebreve-cy.sc schwa-cy.sc schwadieresis-cy.sc zhedieresis-cy.sc zedieresis-cy.sc dzeabkhasian-cy.sc imacron-cy.sc idieresis-cy.sc odieresis-cy.sc obarred-cy.sc obarreddieresis-cy.sc edieresis-cy.sc umacron-cy.sc udieresis-cy.sc uhungarumlaut-cy.sc chedieresis-cy.sc gedescender-cy.sc yerudieresis-cy.sc gestrokehook-cy.sc hahook-cy.sc hastroke-cy.sc komide-cy.sc komidje-cy.sc komizje-cy.sc komidzje-cy.sc komilje-cy.sc kominje-cy.sc komisje-cy.sc komitje-cy.sc reversedze-cy.sc elhook-cy.sc qa-cy.sc we-cy.sc semisoftsign-cy.sc ertick-cy.sc ve-cy.loclBGR.sc de-cy.loclBGR.sc iishort-cy.loclBGR.sc iigrave-cy.loclBGR.sc el-cy.loclBGR.sc en-cy.loclBGR.sc te-cy.loclBGR.sc ef-cy.loclBGR.sc ghestroke-cy.loclBSH.sc zedescender-cy.loclBSH.sc esdescender-cy.loclBSH.sc esdescender-cy.loclCHU.sc A-cy.sups Be-cy.sups Ve-cy.sups Ge-cy.sups De-cy.sups Ie-cy.sups Io-cy.sups Zhe-cy.sups Ze-cy.sups Ii-cy.sups Iishort-cy.sups Ka-cy.sups El-cy.sups Em-cy.sups En-cy.sups O-cy.sups Pe-cy.sups Er-cy.sups Es-cy.sups Te-cy.sups U-cy.sups Ef-cy.sups Ha-cy.sups Che-cy.sups Tse-cy.sups Sha-cy.sups Shcha-cy.sups Softsign-cy.sups Hardsign-cy.sups Yeru-cy.sups Ereversed-cy.sups Iu-cy.sups Ia-cy.sups a-cy.sups be-cy.sups ve-cy.sups ge-cy.sups de-cy.sups ie-cy.sups io-cy.sups zhe-cy.sups ze-cy.sups ii-cy.sups iishort-cy.sups ka-cy.sups el-cy.sups em-cy.sups en-cy.sups o-cy.sups pe-cy.sups er-cy.sups es-cy.sups te-cy.sups u-cy.sups ef-cy.sups ha-cy.sups che-cy.sups tse-cy.sups sha-cy.sups shcha-cy.sups softsign-cy.sups hardsign-cy.sups yeru-cy.sups ereversed-cy.sups iu-cy.sups ia-cy.sups Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Iotadieresis Upsilondieresis KaiSymbol Alphapsili Alphadasia Alphapsilivaria Alphadasiavaria Alphapsilioxia Alphadasiaoxia Alphapsiliperispomeni Alphadasiaperispomeni Alphavaria Alphaoxia Alphavrachy Alphamacron Alphaprosgegrammeni Alphapsiliprosgegrammeni Alphadasiaprosgegrammeni Alphapsilivariaprosgegrammeni Alphadasiavariaprosgegrammeni Alphapsilioxiaprosgegrammeni Alphadasiaoxiaprosgegrammeni Alphapsiliperispomeniprosgegrammeni Alphadasiaperispomeniprosgegrammeni Epsilonpsili Epsilondasia Epsilonpsilivaria Epsilondasiavaria Epsilonpsilioxia Epsilondasiaoxia Epsilonvaria Epsilonoxia Etapsili Etadasia Etapsilivaria Etadasiavaria Etapsilioxia Etadasiaoxia Etapsiliperispomeni Etadasiaperispomeni Etavaria Etaoxia Etaprosgegrammeni Etapsiliprosgegrammeni Etadasiaprosgegrammeni Etapsilivariaprosgegrammeni Etadasiavariaprosgegrammeni Etapsilioxiaprosgegrammeni Etadasiaoxiaprosgegrammeni Etapsiliperispomeniprosgegrammeni Etadasiaperispomeniprosgegrammeni Iotapsili Iotadasia Iotapsilivaria Iotadasiavaria Iotapsilioxia Iotadasiaoxia Iotapsiliperispomeni Iotadasiaperispomeni Iotavaria Iotaoxia Iotavrachy Iotamacron Omicronpsili Omicrondasia Omicronpsilivaria Omicrondasiavaria Omicronpsilioxia Omicrondasiaoxia Omicronvaria Omicronoxia Rhodasia Upsilondasia Upsilondasiavaria Upsilondasiaoxia Upsilondasiaperispomeni Upsilonvaria Upsilonoxia Upsilonvrachy Upsilonmacron Omegapsili Omegadasia Omegapsilivaria Omegadasiavaria Omegapsilioxia Omegadasiaoxia Omegapsiliperispomeni Omegadasiaperispomeni Omegavaria Omegaoxia Omegaprosgegrammeni Omegapsiliprosgegrammeni Omegadasiaprosgegrammeni Omegapsilivariaprosgegrammeni Omegadasiavariaprosgegrammeni Omegapsilioxiaprosgegrammeni Omegadasiaoxiaprosgegrammeni Omegapsiliperispomeniprosgegrammeni Omegadasiaperispomeniprosgegrammeni Alphaprosgegrammeni.ss03 Alphapsiliprosgegrammeni.ss03 Alphadasiaprosgegrammeni.ss03 Alphapsilivariaprosgegrammeni.ss03 Alphadasiavariaprosgegrammeni.ss03 Alphapsilioxiaprosgegrammeni.ss03 Alphadasiaoxiaprosgegrammeni.ss03 Alphapsiliperispomeniprosgegrammeni.ss03 Alphadasiaperispomeniprosgegrammeni.ss03 Etaprosgegrammeni.ss03 Etapsiliprosgegrammeni.ss03 Etadasiaprosgegrammeni.ss03 Etapsilivariaprosgegrammeni.ss03 Etadasiavariaprosgegrammeni.ss03 Etapsilioxiaprosgegrammeni.ss03 Etadasiaoxiaprosgegrammeni.ss03 Etapsiliperispomeniprosgegrammeni.ss03 Etadasiaperispomeniprosgegrammeni.ss03 Omegaprosgegrammeni.ss03 Omegapsiliprosgegrammeni.ss03 Omegadasiaprosgegrammeni.ss03 Omegapsilivariaprosgegrammeni.ss03 Omegadasiavariaprosgegrammeni.ss03 Omegapsilioxiaprosgegrammeni.ss03 Omegadasiaoxiaprosgegrammeni.ss03 Omegapsiliperispomeniprosgegrammeni.ss03 Omegadasiaperispomeniprosgegrammeni.ss03 alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigmafinal sigma tau upsilon phi chi psi omega iotatonos iotadieresis iotadieresistonos upsilontonos upsilondieresis upsilondieresistonos omicrontonos omegatonos alphatonos epsilontonos etatonos kaiSymbol alphapsili alphadasia alphapsilivaria alphadasiavaria alphapsilioxia alphadasiaoxia alphapsiliperispomeni alphadasiaperispomeni alphavaria alphaoxia alphaperispomeni alphavrachy alphamacron alphaypogegrammeni alphavariaypogegrammeni alphaoxiaypogegrammeni alphapsiliypogegrammeni alphadasiaypogegrammeni alphapsilivariaypogegrammeni alphadasiavariaypogegrammeni alphapsilioxiaypogegrammeni alphadasiaoxiaypogegrammeni alphapsiliperispomeniypogegrammeni alphadasiaperispomeniypogegrammeni alphaperispomeniypogegrammeni epsilonpsili epsilondasia epsilonpsilivaria epsilondasiavaria epsilonpsilioxia epsilondasiaoxia epsilonvaria epsilonoxia etapsili etadasia etapsilivaria etadasiavaria etapsilioxia etadasiaoxia etapsiliperispomeni etadasiaperispomeni etavaria etaoxia etaperispomeni etaypogegrammeni etavariaypogegrammeni etaoxiaypogegrammeni etapsiliypogegrammeni etadasiaypogegrammeni etapsilivariaypogegrammeni etadasiavariaypogegrammeni etapsilioxiaypogegrammeni etadasiaoxiaypogegrammeni etapsiliperispomeniypogegrammeni etadasiaperispomeniypogegrammeni etaperispomeniypogegrammeni iotapsili iotadasia iotapsilivaria iotadasiavaria iotapsilioxia iotadasiaoxia iotapsiliperispomeni iotadasiaperispomeni iotavaria iotaoxia iotaperispomeni iotavrachy iotamacron iotadialytikavaria iotadialytikaoxia iotadialytikaperispomeni omicronpsili omicrondasia omicronpsilivaria omicrondasiavaria omicronpsilioxia omicrondasiaoxia omicronvaria omicronoxia rhopsili rhodasia upsilonpsili upsilondasia upsilonpsilivaria upsilondasiavaria upsilonpsilioxia upsilondasiaoxia upsilonpsiliperispomeni upsilondasiaperispomeni upsilonvaria upsilonoxia upsilonperispomeni upsilonvrachy upsilonmacron upsilondialytikavaria upsilondialytikaoxia upsilondialytikaperispomeni omegapsili omegadasia omegapsilivaria omegadasiavaria omegapsilioxia omegadasiaoxia omegapsiliperispomeni omegadasiaperispomeni omegavaria omegaoxia omegaperispomeni omegaypogegrammeni omegavariaypogegrammeni omegaoxiaypogegrammeni omegapsiliypogegrammeni omegadasiaypogegrammeni omegapsilivariaypogegrammeni omegadasiavariaypogegrammeni omegapsilioxiaypogegrammeni omegadasiaoxiaypogegrammeni omegapsiliperispomeniypogegrammeni omegadasiaperispomeniypogegrammeni omegaperispomeniypogegrammeni prosgegrammeni lambda_lambda.liga alpha.sc beta.sc gamma.sc delta.sc epsilon.sc zeta.sc eta.sc theta.sc iota.sc kappa.sc lambda.sc mu.sc nu.sc xi.sc omicron.sc pi.sc rho.sc sigmafinal.sc sigma.sc tau.sc upsilon.sc phi.sc chi.sc psi.sc omega.sc iotatonos.sc iotadieresis.sc iotadieresistonos.sc upsilontonos.sc upsilondieresis.sc upsilondieresistonos.sc omicrontonos.sc omegatonos.sc alphatonos.sc epsilontonos.sc etatonos.sc prosgegrammeni.sc kaiSymbol.sc alphapsili.sc alphadasia.sc alphapsilivaria.sc alphadasiavaria.sc alphapsilioxia.sc alphadasiaoxia.sc alphapsiliperispomeni.sc alphadasiaperispomeni.sc alphavaria.sc alphaoxia.sc alphaperispomeni.sc alphavrachy.sc alphamacron.sc alphaypogegrammeni.sc alphavariaypogegrammeni.sc alphaoxiaypogegrammeni.sc alphapsiliypogegrammeni.sc alphadasiaypogegrammeni.sc alphapsilivariaypogegrammeni.sc alphadasiavariaypogegrammeni.sc alphapsilioxiaypogegrammeni.sc alphadasiaoxiaypogegrammeni.sc alphapsiliperispomeniypogegrammeni.sc alphadasiaperispomeniypogegrammeni.sc alphaperispomeniypogegrammeni.sc epsilonpsili.sc epsilondasia.sc epsilonpsilivaria.sc epsilondasiavaria.sc epsilonpsilioxia.sc epsilondasiaoxia.sc epsilonvaria.sc epsilonoxia.sc etapsili.sc etadasia.sc etapsilivaria.sc etadasiavaria.sc etapsilioxia.sc etadasiaoxia.sc etapsiliperispomeni.sc etadasiaperispomeni.sc etavaria.sc etaoxia.sc etaperispomeni.sc etaypogegrammeni.sc etavariaypogegrammeni.sc etaoxiaypogegrammeni.sc etapsiliypogegrammeni.sc etadasiaypogegrammeni.sc etapsilivariaypogegrammeni.sc etadasiavariaypogegrammeni.sc etapsilioxiaypogegrammeni.sc etadasiaoxiaypogegrammeni.sc etapsiliperispomeniypogegrammeni.sc etadasiaperispomeniypogegrammeni.sc etaperispomeniypogegrammeni.sc iotapsili.sc iotadasia.sc iotapsilivaria.sc iotadasiavaria.sc iotapsilioxia.sc iotadasiaoxia.sc iotapsiliperispomeni.sc iotadasiaperispomeni.sc iotavaria.sc iotaoxia.sc iotaperispomeni.sc iotavrachy.sc iotamacron.sc iotadialytikavaria.sc iotadialytikaoxia.sc iotadialytikaperispomeni.sc omicronpsili.sc omicrondasia.sc omicronpsilivaria.sc omicrondasiavaria.sc omicronpsilioxia.sc omicrondasiaoxia.sc omicronvaria.sc omicronoxia.sc rhopsili.sc rhodasia.sc upsilonpsili.sc upsilondasia.sc upsilonpsilivaria.sc upsilondasiavaria.sc upsilonpsilioxia.sc upsilondasiaoxia.sc upsilonpsiliperispomeni.sc upsilondasiaperispomeni.sc upsilonvaria.sc upsilonoxia.sc upsilonperispomeni.sc upsilonvrachy.sc upsilonmacron.sc upsilondialytikavaria.sc upsilondialytikaoxia.sc upsilondialytikaperispomeni.sc omegapsili.sc omegadasia.sc omegapsilivaria.sc omegadasiavaria.sc omegapsilioxia.sc omegadasiaoxia.sc omegapsiliperispomeni.sc omegadasiaperispomeni.sc omegavaria.sc omegaoxia.sc omegaperispomeni.sc omegaypogegrammeni.sc omegavariaypogegrammeni.sc omegaoxiaypogegrammeni.sc omegapsiliypogegrammeni.sc omegadasiaypogegrammeni.sc omegapsilivariaypogegrammeni.sc omegadasiavariaypogegrammeni.sc omegapsilioxiaypogegrammeni.sc omegadasiaoxiaypogegrammeni.sc omegapsiliperispomeniypogegrammeni.sc omegadasiaperispomeniypogegrammeni.sc omegaperispomeniypogegrammeni.sc Alphaprosgegrammeni.sc.ss04 Alphapsiliprosgegrammeni.sc.ss04 Alphadasiaprosgegrammeni.sc.ss04 Alphapsilivariaprosgegrammeni.sc.ss04 Alphadasiavariaprosgegrammeni.sc.ss04 Alphapsilioxiaprosgegrammeni.sc.ss04 Alphadasiaoxiaprosgegrammeni.sc.ss04 Alphapsiliperispomeniprosgegrammeni.sc.ss04 Alphadasiaperispomeniprosgegrammeni.sc.ss04 Etaprosgegrammeni.sc.ss04 Etapsiliprosgegrammeni.sc.ss04 Etadasiaprosgegrammeni.sc.ss04 Etapsilivariaprosgegrammeni.sc.ss04 Etadasiavariaprosgegrammeni.sc.ss04 Etapsilioxiaprosgegrammeni.sc.ss04 Etadasiaoxiaprosgegrammeni.sc.ss04 Etapsiliperispomeniprosgegrammeni.sc.ss04 Etadasiaperispomeniprosgegrammeni.sc.ss04 Omegaprosgegrammeni.sc.ss04 Omegapsiliprosgegrammeni.sc.ss04 Omegadasiaprosgegrammeni.sc.ss04 Omegapsilivariaprosgegrammeni.sc.ss04 Omegadasiavariaprosgegrammeni.sc.ss04 Omegapsilioxiaprosgegrammeni.sc.ss04 Omegadasiaoxiaprosgegrammeni.sc.ss04 Omegapsiliperispomeniprosgegrammeni.sc.ss04 Omegadasiaperispomeniprosgegrammeni.sc.ss04 alphaypogegrammeni.sc.ss04 alphavariaypogegrammeni.sc.ss04 alphaoxiaypogegrammeni.sc.ss04 alphapsiliypogegrammeni.sc.ss04 alphadasiaypogegrammeni.sc.ss04 alphapsilivariaypogegrammeni.sc.ss04 alphadasiavariaypogegrammeni.sc.ss04 alphapsilioxiaypogegrammeni.sc.ss04 alphadasiaoxiaypogegrammeni.sc.ss04 alphapsiliperispomeniypogegrammeni.sc.ss04 alphadasiaperispomeniypogegrammeni.sc.ss04 alphaperispomeniypogegrammeni.sc.ss04 etaypogegrammeni.sc.ss04 etavariaypogegrammeni.sc.ss04 etaoxiaypogegrammeni.sc.ss04 etapsiliypogegrammeni.sc.ss04 etadasiaypogegrammeni.sc.ss04 etapsilivariaypogegrammeni.sc.ss04 etadasiavariaypogegrammeni.sc.ss04 etapsilioxiaypogegrammeni.sc.ss04 etadasiaoxiaypogegrammeni.sc.ss04 etapsiliperispomeniypogegrammeni.sc.ss04 etadasiaperispomeniypogegrammeni.sc.ss04 etaperispomeniypogegrammeni.sc.ss04 omegaypogegrammeni.sc.ss04 omegavariaypogegrammeni.sc.ss04 omegaoxiaypogegrammeni.sc.ss04 omegapsiliypogegrammeni.sc.ss04 omegadasiaypogegrammeni.sc.ss04 omegapsilivariaypogegrammeni.sc.ss04 omegadasiavariaypogegrammeni.sc.ss04 omegapsilioxiaypogegrammeni.sc.ss04 omegadasiaoxiaypogegrammeni.sc.ss04 omegapsiliperispomeniypogegrammeni.sc.ss04 omegadasiaperispomeniypogegrammeni.sc.ss04 omegaperispomeniypogegrammeni.sc.ss04 ypogegrammeni Alpha.sups Beta.sups Gamma.sups Delta.sups Epsilon.sups Zeta.sups Eta.sups Theta.sups Iota.sups Kappa.sups Lambda.sups Mu.sups Nu.sups Xi.sups Omicron.sups Pi.sups Rho.sups Sigma.sups Tau.sups Upsilon.sups Phi.sups Chi.sups Psi.sups Omega.sups alpha.sups beta.sups gamma.sups delta.sups epsilon.sups zeta.sups eta.sups theta.sups iota.sups kappa.sups lambda.sups mu.sups nu.sups xi.sups omicron.sups pi.sups rho.sups sigmafinal.sups sigma.sups tau.sups upsilon.sups phi.sups chi.sups psi.sups omega.sups";
+code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adotbelow Agrave Ahookabove Ainvertedbreve Amacron Aogonek Aring Aringacute Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent D DZcaron Eth Dcaron Dcroat Ddotbelow Dlinebelow Dzcaron E Eacute Ebreve Ecaron Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Emacronacute Emacrongrave Eogonek Etilde F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hbrevebelow Hcircumflex Hdotbelow I IJ Iacute Ibreve Icaron Icircumflex Idblgrave Idieresis Idieresisacute Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Ldotbelow Lj Llinebelow Lslash M Mdotbelow N NJ Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Eng Nj Nlinebelow Ntilde O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Omacronacute Omacrongrave Oogonek Oslash Oslashacute Otilde Otildeacute Otildedieresis Otildemacron OE P Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rdotbelow Rinvertedbreve Rlinebelow S Sacute Sacutedotaccent Saltillo Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls Schwa T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tlinebelow U Uacute Ubreve Ucaron Ucircumflex Udblgrave Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Umacrondieresis Uogonek Uring Utilde Utildeacute V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow Iacute_J.loclNLD B.curr C.curr G.curr K.curr N.curr R.curr S.curr T.curr W.curr Oslash.rl-Weight_118_208 Oslashacute.rl-Weight_118_208 a aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acaron acircumflex acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adblgrave adieresis adotbelow agrave ahookabove ainvertedbreve amacron aogonek aring aringacute atilde ae aeacute b c cacute ccaron ccedilla ccedillaacute ccircumflex cdotaccent d eth dcaron dcroat ddotbelow dlinebelow dzcaron e eacute ebreve ecaron ecedillabreve ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edblgrave edieresis edotaccent edotbelow egrave ehookabove einvertedbreve emacron emacronacute emacrongrave eogonek etilde schwa f g gbreve gcaron gcircumflex gcommaaccent gdotaccent gmacron h hbar hbrevebelow hcircumflex hdotbelow i idotless iacute ibreve icaron icircumflex idblgrave idieresis idieresisacute idotaccent idotbelow igrave ihookabove iinvertedbreve ij imacron iogonek itilde j jdotless jacute jcircumflex k kcommaaccent kgreenlandic l lacute lcaron lcommaaccent ldot ldotbelow lj llinebelow lslash m mdotbelow n nacute ncaron ncommaaccent ndotaccent ndotbelow eng nj nlinebelow ntilde o oacute obreve ocaron ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odblgrave odieresis odieresismacron odotaccentmacron odotbelow ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde ohungarumlaut oinvertedbreve omacron omacronacute omacrongrave oogonek oslash oslashacute otilde otildeacute otildedieresis otildemacron oe p thorn q r racute rcaron rcommaaccent rdblgrave rdotbelow rinvertedbreve rlinebelow s sacute sacutedotaccent saltillo scaron scarondotaccent scedilla scircumflex scommaaccent sdotaccent sdotbelow sdotbelowdotaccent germandbls longs t tbar tcaron tcedilla tcommaaccent tdieresis tdotbelow tlinebelow u uacute ubreve ucaron ucircumflex udblgrave udieresis udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde uhungarumlaut uinvertedbreve umacron umacrondieresis uogonek uring utilde utildeacute v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis ydotaccent ydotbelow ygrave yhookabove ymacron ytilde z zacute zcaron zdotaccent zdotbelow f.f f.i iacute_j.loclNLD f.l oslash.rl-Weight_118_208 oslashacute.rl-Weight_118_208 t.rl-Weight_90_214 t.t.rl-Weight_90_214 t.t fi fl oslash.sc.rl-Weight_118_208 oslashacute.sc.rl-Weight_118_208 Dzcaron.sc Lj.sc Nj.sc a.sc aacute.sc abreve.sc abreveacute.sc abrevedotbelow.sc abrevegrave.sc abrevehookabove.sc abrevetilde.sc acaron.sc acircumflex.sc acircumflexacute.sc acircumflexdotbelow.sc acircumflexgrave.sc acircumflexhookabove.sc acircumflextilde.sc adblgrave.sc adieresis.sc adotbelow.sc agrave.sc ahookabove.sc ainvertedbreve.sc germandbls.alt.sc amacron.sc aogonek.sc aring.sc aringacute.sc atilde.sc ae.sc aeacute.sc b.sc c.sc cacute.sc ccaron.sc ccedilla.sc ccedillaacute.sc ccircumflex.sc cdotaccent.sc d.sc eth.sc dcaron.sc dcroat.sc ddotbelow.sc dlinebelow.sc dzcaron.sc e.sc eacute.sc ebreve.sc ecaron.sc ecedillabreve.sc ecircumflex.sc ecircumflexacute.sc ecircumflexdotbelow.sc ecircumflexgrave.sc ecircumflexhookabove.sc ecircumflextilde.sc edblgrave.sc edieresis.sc edotaccent.sc edotbelow.sc egrave.sc ehookabove.sc einvertedbreve.sc emacron.sc emacronacute.sc emacrongrave.sc eogonek.sc etilde.sc schwa.sc f.sc g.sc gbreve.sc gcaron.sc gcircumflex.sc gcommaaccent.sc gdotaccent.sc gmacron.sc h.sc hbar.sc hbrevebelow.sc hcircumflex.sc hdotbelow.sc i.sc idotless.sc iacute.sc iacute_j.loclNLD.sc ibreve.sc icaron.sc icircumflex.sc idblgrave.sc idieresis.sc idieresisacute.sc idotaccent.sc idotbelow.sc igrave.sc ihookabove.sc iinvertedbreve.sc ij.sc imacron.sc iogonek.sc itilde.sc j.sc jacute.sc jcircumflex.sc k.sc kcommaaccent.sc kgreenlandic.sc l.sc lacute.sc lcaron.sc lcommaaccent.sc ldot.sc ldotbelow.sc lj.sc llinebelow.sc lslash.sc m.sc mdotbelow.sc n.sc nacute.sc ncaron.sc ncommaaccent.sc ndotaccent.sc ndotbelow.sc eng.sc nj.sc nlinebelow.sc ntilde.sc o.sc oacute.sc obreve.sc ocaron.sc ocircumflex.sc ocircumflexacute.sc ocircumflexdotbelow.sc ocircumflexgrave.sc ocircumflexhookabove.sc ocircumflextilde.sc odblgrave.sc odieresis.sc odieresismacron.sc odotaccentmacron.sc odotbelow.sc ograve.sc ohookabove.sc ohorn.sc ohornacute.sc ohorndotbelow.sc ohorngrave.sc ohornhookabove.sc ohorntilde.sc ohungarumlaut.sc oinvertedbreve.sc omacron.sc omacronacute.sc omacrongrave.sc oogonek.sc oslash.sc oslashacute.sc otilde.sc otildeacute.sc otildedieresis.sc otildemacron.sc oe.sc p.sc thorn.sc q.sc r.sc racute.sc rcaron.sc rcommaaccent.sc rdblgrave.sc rdotbelow.sc rinvertedbreve.sc rlinebelow.sc s.sc sacute.sc sacutedotaccent.sc scaron.sc scarondotaccent.sc scedilla.sc scircumflex.sc scommaaccent.sc sdotaccent.sc sdotbelow.sc sdotbelowdotaccent.sc germandbls.sc t.sc tbar.sc tcaron.sc tcedilla.sc tcommaaccent.sc tdieresis.sc tdotbelow.sc tlinebelow.sc u.sc uacute.sc ubreve.sc ucaron.sc ucircumflex.sc udblgrave.sc udieresis.sc udieresisacute.sc udieresiscaron.sc udieresisgrave.sc udieresismacron.sc udotbelow.sc ugrave.sc uhookabove.sc uhorn.sc uhornacute.sc uhorndotbelow.sc uhorngrave.sc uhornhookabove.sc uhorntilde.sc uhungarumlaut.sc uinvertedbreve.sc umacron.sc umacrondieresis.sc uogonek.sc uring.sc utilde.sc utildeacute.sc v.sc w.sc wacute.sc wcircumflex.sc wdieresis.sc wgrave.sc x.sc y.sc yacute.sc ycircumflex.sc ydieresis.sc ydotaccent.sc ydotbelow.sc ygrave.sc yhookabove.sc ymacron.sc ytilde.sc z.sc zacute.sc zcaron.sc zdotaccent.sc zdotbelow.sc ordfeminine ordmasculine A.sups B.sups C.sups D.sups E.sups F.sups G.sups H.sups I.sups J.sups K.sups L.sups M.sups N.sups O.sups P.sups Q.sups R.sups S.sups T.sups U.sups V.sups W.sups X.sups Y.sups Z.sups a.sups b.sups c.sups d.sups e.sups f.sups g.sups h.sups i.sups j.sups k.sups l.sups m.sups n.sups o.sups p.sups q.sups r.sups s.sups t.sups u.sups v.sups w.sups x.sups y.sups z.sups A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Iishorttail-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Ghestroke-cy Ghemiddlehook-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kastroke-cy Kabashkir-cy Endescender-cy Enghe-cy Pemiddlehook-cy Pedescender-cy Haabkhasian-cy Esdescender-cy Tedescender-cy Ustrait-cy Ustraitstroke-cy Hadescender-cy Tetse-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Shhadescender-cy Cheabkhasian-cy Chedescenderabkhasian-cy Palochka-cy Zhebreve-cy Kahook-cy Eltail-cy Enhook-cy Entail-cy Chekhakassian-cy Emtail-cy Abreve-cy Adieresis-cy Aie-cy Iebreve-cy Schwa-cy Schwadieresis-cy Zhedieresis-cy Zedieresis-cy Dzeabkhasian-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Edieresis-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Gedescender-cy Yerudieresis-cy Gestrokehook-cy Hahook-cy Hastroke-cy Komide-cy Komidje-cy Komizje-cy Komidzje-cy Komilje-cy Kominje-cy Komisje-cy Komitje-cy Reversedze-cy Elhook-cy Qa-cy We-cy Semisoftsign-cy Ertick-cy EnLeftHook-cy Eldescender-cy De-cy.loclBGR El-cy.loclBGR Ef-cy.loclBGR Ghestroke-cy.loclBSH Zedescender-cy.loclBSH Esdescender-cy.loclBSH Esdescender-cy.loclCHU a-cy be-cy ve-cy ge-cy gje-cy gheupturn-cy de-cy ie-cy iegrave-cy io-cy zhe-cy ze-cy ii-cy iishort-cy iigrave-cy iishorttail-cy ka-cy kje-cy el-cy em-cy en-cy o-cy pe-cy er-cy es-cy te-cy u-cy ushort-cy ef-cy ha-cy che-cy tse-cy sha-cy shcha-cy dzhe-cy softsign-cy hardsign-cy yeru-cy lje-cy nje-cy dze-cy e-cy ereversed-cy i-cy yi-cy je-cy tshe-cy iu-cy ia-cy dje-cy yat-cy yusbig-cy fita-cy izhitsa-cy ghestroke-cy ghemiddlehook-cy zhedescender-cy zedescender-cy kadescender-cy kaverticalstroke-cy kastroke-cy kabashkir-cy endescender-cy enghe-cy pedescender-cy pemiddlehook-cy haabkhasian-cy esdescender-cy tedescender-cy ustrait-cy ustraitstroke-cy hadescender-cy tetse-cy chedescender-cy cheverticalstroke-cy shha-cy shhadescender-cy cheabkhasian-cy chedescenderabkhasian-cy palochka-cy zhebreve-cy kahook-cy eltail-cy enhook-cy entail-cy chekhakassian-cy emtail-cy abreve-cy adieresis-cy aie-cy iebreve-cy schwa-cy schwadieresis-cy zhedieresis-cy zedieresis-cy dzeabkhasian-cy imacron-cy idieresis-cy odieresis-cy obarred-cy obarreddieresis-cy edieresis-cy umacron-cy udieresis-cy uhungarumlaut-cy chedieresis-cy gedescender-cy yerudieresis-cy gestrokehook-cy hahook-cy hastroke-cy komide-cy komidje-cy komizje-cy komidzje-cy komilje-cy kominje-cy komisje-cy komitje-cy reversedze-cy elhook-cy qa-cy we-cy semisoftsign-cy ertick-cy enlefthook-cy eldescender-cy ve-cy.loclBGR de-cy.loclBGR zhe-cy.loclBGR ze-cy.loclBGR ka-cy.loclBGR el-cy.loclBGR pe-cy.loclBGR te-cy.loclBGR iu-cy.loclBGR ghestroke-cy.loclBSH zedescender-cy.loclBSH esdescender-cy.loclBSH esdescender-cy.loclCHU be-cy.loclSRB ge-cy.loclSRB de-cy.loclSRB pe-cy.loclSRB te-cy.loclSRB a-cy.sc be-cy.sc ve-cy.sc ge-cy.sc gje-cy.sc gheupturn-cy.sc de-cy.sc ie-cy.sc iegrave-cy.sc io-cy.sc zhe-cy.sc ze-cy.sc ii-cy.sc iishort-cy.sc iigrave-cy.sc iishorttail-cy.sc ka-cy.sc kje-cy.sc el-cy.sc em-cy.sc en-cy.sc o-cy.sc pe-cy.sc er-cy.sc es-cy.sc te-cy.sc u-cy.sc ushort-cy.sc ef-cy.sc ha-cy.sc che-cy.sc tse-cy.sc sha-cy.sc shcha-cy.sc dzhe-cy.sc softsign-cy.sc hardsign-cy.sc yeru-cy.sc lje-cy.sc nje-cy.sc dze-cy.sc e-cy.sc ereversed-cy.sc i-cy.sc yi-cy.sc je-cy.sc tshe-cy.sc iu-cy.sc ia-cy.sc dje-cy.sc yat-cy.sc yusbig-cy.sc fita-cy.sc izhitsa-cy.sc ghestroke-cy.sc ghemiddlehook-cy.sc zhedescender-cy.sc zedescender-cy.sc kadescender-cy.sc kaverticalstroke-cy.sc kastroke-cy.sc kabashkir-cy.sc endescender-cy.sc enghe-cy.sc pedescender-cy.sc pemiddlehook-cy.sc haabkhasian-cy.sc esdescender-cy.sc tedescender-cy.sc hadescender-cy.sc tetse-cy.sc chedescender-cy.sc cheverticalstroke-cy.sc shha-cy.sc shhadescender-cy.sc enlefthook-cy.sc eldescender-cy.sc cheabkhasian-cy.sc chedescenderabkhasian-cy.sc palochka-cy.sc zhebreve-cy.sc kahook-cy.sc eltail-cy.sc enhook-cy.sc entail-cy.sc chekhakassian-cy.sc emtail-cy.sc abreve-cy.sc adieresis-cy.sc aie-cy.sc iebreve-cy.sc schwa-cy.sc schwadieresis-cy.sc zhedieresis-cy.sc zedieresis-cy.sc dzeabkhasian-cy.sc imacron-cy.sc idieresis-cy.sc odieresis-cy.sc obarred-cy.sc obarreddieresis-cy.sc edieresis-cy.sc umacron-cy.sc udieresis-cy.sc uhungarumlaut-cy.sc chedieresis-cy.sc gedescender-cy.sc yerudieresis-cy.sc gestrokehook-cy.sc hahook-cy.sc hastroke-cy.sc komide-cy.sc komidje-cy.sc komizje-cy.sc komidzje-cy.sc komilje-cy.sc kominje-cy.sc komisje-cy.sc komitje-cy.sc reversedze-cy.sc elhook-cy.sc qa-cy.sc we-cy.sc semisoftsign-cy.sc ertick-cy.sc ve-cy.loclBGR.sc de-cy.loclBGR.sc iishort-cy.loclBGR.sc iigrave-cy.loclBGR.sc el-cy.loclBGR.sc en-cy.loclBGR.sc te-cy.loclBGR.sc ef-cy.loclBGR.sc ghestroke-cy.loclBSH.sc zedescender-cy.loclBSH.sc esdescender-cy.loclBSH.sc esdescender-cy.loclCHU.sc A-cy.sups Be-cy.sups Ve-cy.sups Ge-cy.sups De-cy.sups Ie-cy.sups Io-cy.sups Zhe-cy.sups Ze-cy.sups Ii-cy.sups Iishort-cy.sups Ka-cy.sups El-cy.sups Em-cy.sups En-cy.sups O-cy.sups Pe-cy.sups Er-cy.sups Es-cy.sups Te-cy.sups U-cy.sups Ef-cy.sups Ha-cy.sups Che-cy.sups Tse-cy.sups Sha-cy.sups Shcha-cy.sups Softsign-cy.sups Hardsign-cy.sups Yeru-cy.sups Ereversed-cy.sups Iu-cy.sups Ia-cy.sups a-cy.sups be-cy.sups ve-cy.sups ge-cy.sups de-cy.sups ie-cy.sups io-cy.sups zhe-cy.sups ze-cy.sups ii-cy.sups iishort-cy.sups ka-cy.sups el-cy.sups em-cy.sups en-cy.sups o-cy.sups pe-cy.sups er-cy.sups es-cy.sups te-cy.sups u-cy.sups ef-cy.sups ha-cy.sups che-cy.sups tse-cy.sups sha-cy.sups shcha-cy.sups softsign-cy.sups hardsign-cy.sups yeru-cy.sups ereversed-cy.sups iu-cy.sups ia-cy.sups Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Iotadieresis Upsilondieresis KaiSymbol Alphapsili Alphadasia Alphapsilivaria Alphadasiavaria Alphapsilioxia Alphadasiaoxia Alphapsiliperispomeni Alphadasiaperispomeni Alphavaria Alphaoxia Alphavrachy Alphamacron Alphaprosgegrammeni Alphapsiliprosgegrammeni Alphadasiaprosgegrammeni Alphapsilivariaprosgegrammeni Alphadasiavariaprosgegrammeni Alphapsilioxiaprosgegrammeni Alphadasiaoxiaprosgegrammeni Alphapsiliperispomeniprosgegrammeni Alphadasiaperispomeniprosgegrammeni Epsilonpsili Epsilondasia Epsilonpsilivaria Epsilondasiavaria Epsilonpsilioxia Epsilondasiaoxia Epsilonvaria Epsilonoxia Etapsili Etadasia Etapsilivaria Etadasiavaria Etapsilioxia Etadasiaoxia Etapsiliperispomeni Etadasiaperispomeni Etavaria Etaoxia Etaprosgegrammeni Etapsiliprosgegrammeni Etadasiaprosgegrammeni Etapsilivariaprosgegrammeni Etadasiavariaprosgegrammeni Etapsilioxiaprosgegrammeni Etadasiaoxiaprosgegrammeni Etapsiliperispomeniprosgegrammeni Etadasiaperispomeniprosgegrammeni Iotapsili Iotadasia Iotapsilivaria Iotadasiavaria Iotapsilioxia Iotadasiaoxia Iotapsiliperispomeni Iotadasiaperispomeni Iotavaria Iotaoxia Iotavrachy Iotamacron Omicronpsili Omicrondasia Omicronpsilivaria Omicrondasiavaria Omicronpsilioxia Omicrondasiaoxia Omicronvaria Omicronoxia Rhodasia Upsilondasia Upsilondasiavaria Upsilondasiaoxia Upsilondasiaperispomeni Upsilonvaria Upsilonoxia Upsilonvrachy Upsilonmacron Omegapsili Omegadasia Omegapsilivaria Omegadasiavaria Omegapsilioxia Omegadasiaoxia Omegapsiliperispomeni Omegadasiaperispomeni Omegavaria Omegaoxia Omegaprosgegrammeni Omegapsiliprosgegrammeni Omegadasiaprosgegrammeni Omegapsilivariaprosgegrammeni Omegadasiavariaprosgegrammeni Omegapsilioxiaprosgegrammeni Omegadasiaoxiaprosgegrammeni Omegapsiliperispomeniprosgegrammeni Omegadasiaperispomeniprosgegrammeni Alphaprosgegrammeni.ss03 Alphapsiliprosgegrammeni.ss03 Alphadasiaprosgegrammeni.ss03 Alphapsilivariaprosgegrammeni.ss03 Alphadasiavariaprosgegrammeni.ss03 Alphapsilioxiaprosgegrammeni.ss03 Alphadasiaoxiaprosgegrammeni.ss03 Alphapsiliperispomeniprosgegrammeni.ss03 Alphadasiaperispomeniprosgegrammeni.ss03 Etaprosgegrammeni.ss03 Etapsiliprosgegrammeni.ss03 Etadasiaprosgegrammeni.ss03 Etapsilivariaprosgegrammeni.ss03 Etadasiavariaprosgegrammeni.ss03 Etapsilioxiaprosgegrammeni.ss03 Etadasiaoxiaprosgegrammeni.ss03 Etapsiliperispomeniprosgegrammeni.ss03 Etadasiaperispomeniprosgegrammeni.ss03 Omegaprosgegrammeni.ss03 Omegapsiliprosgegrammeni.ss03 Omegadasiaprosgegrammeni.ss03 Omegapsilivariaprosgegrammeni.ss03 Omegadasiavariaprosgegrammeni.ss03 Omegapsilioxiaprosgegrammeni.ss03 Omegadasiaoxiaprosgegrammeni.ss03 Omegapsiliperispomeniprosgegrammeni.ss03 Omegadasiaperispomeniprosgegrammeni.ss03 alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigmafinal sigma tau upsilon phi chi psi omega iotatonos iotadieresis iotadieresistonos upsilontonos upsilondieresis upsilondieresistonos omicrontonos omegatonos alphatonos epsilontonos etatonos kaiSymbol alphapsili alphadasia alphapsilivaria alphadasiavaria alphapsilioxia alphadasiaoxia alphapsiliperispomeni alphadasiaperispomeni alphavaria alphaoxia alphaperispomeni alphavrachy alphamacron alphaypogegrammeni alphavariaypogegrammeni alphaoxiaypogegrammeni alphapsiliypogegrammeni alphadasiaypogegrammeni alphapsilivariaypogegrammeni alphadasiavariaypogegrammeni alphapsilioxiaypogegrammeni alphadasiaoxiaypogegrammeni alphapsiliperispomeniypogegrammeni alphadasiaperispomeniypogegrammeni alphaperispomeniypogegrammeni epsilonpsili epsilondasia epsilonpsilivaria epsilondasiavaria epsilonpsilioxia epsilondasiaoxia epsilonvaria epsilonoxia etapsili etadasia etapsilivaria etadasiavaria etapsilioxia etadasiaoxia etapsiliperispomeni etadasiaperispomeni etavaria etaoxia etaperispomeni etaypogegrammeni etavariaypogegrammeni etaoxiaypogegrammeni etapsiliypogegrammeni etadasiaypogegrammeni etapsilivariaypogegrammeni etadasiavariaypogegrammeni etapsilioxiaypogegrammeni etadasiaoxiaypogegrammeni etapsiliperispomeniypogegrammeni etadasiaperispomeniypogegrammeni etaperispomeniypogegrammeni iotapsili iotadasia iotapsilivaria iotadasiavaria iotapsilioxia iotadasiaoxia iotapsiliperispomeni iotadasiaperispomeni iotavaria iotaoxia iotaperispomeni iotavrachy iotamacron iotadialytikavaria iotadialytikaoxia iotadialytikaperispomeni omicronpsili omicrondasia omicronpsilivaria omicrondasiavaria omicronpsilioxia omicrondasiaoxia omicronvaria omicronoxia rhopsili rhodasia upsilonpsili upsilondasia upsilonpsilivaria upsilondasiavaria upsilonpsilioxia upsilondasiaoxia upsilonpsiliperispomeni upsilondasiaperispomeni upsilonvaria upsilonoxia upsilonperispomeni upsilonvrachy upsilonmacron upsilondialytikavaria upsilondialytikaoxia upsilondialytikaperispomeni omegapsili omegadasia omegapsilivaria omegadasiavaria omegapsilioxia omegadasiaoxia omegapsiliperispomeni omegadasiaperispomeni omegavaria omegaoxia omegaperispomeni omegaypogegrammeni omegavariaypogegrammeni omegaoxiaypogegrammeni omegapsiliypogegrammeni omegadasiaypogegrammeni omegapsilivariaypogegrammeni omegadasiavariaypogegrammeni omegapsilioxiaypogegrammeni omegadasiaoxiaypogegrammeni omegapsiliperispomeniypogegrammeni omegadasiaperispomeniypogegrammeni omegaperispomeniypogegrammeni prosgegrammeni lambda_lambda.liga alpha.sc beta.sc gamma.sc delta.sc epsilon.sc zeta.sc eta.sc theta.sc iota.sc kappa.sc lambda.sc mu.sc nu.sc xi.sc omicron.sc pi.sc rho.sc sigmafinal.sc sigma.sc tau.sc upsilon.sc phi.sc chi.sc psi.sc omega.sc iotatonos.sc iotadieresis.sc iotadieresistonos.sc upsilontonos.sc upsilondieresis.sc upsilondieresistonos.sc omicrontonos.sc omegatonos.sc alphatonos.sc epsilontonos.sc etatonos.sc prosgegrammeni.sc kaiSymbol.sc alphapsili.sc alphadasia.sc alphapsilivaria.sc alphadasiavaria.sc alphapsilioxia.sc alphadasiaoxia.sc alphapsiliperispomeni.sc alphadasiaperispomeni.sc alphavaria.sc alphaoxia.sc alphaperispomeni.sc alphavrachy.sc alphamacron.sc alphaypogegrammeni.sc alphavariaypogegrammeni.sc alphaoxiaypogegrammeni.sc alphapsiliypogegrammeni.sc alphadasiaypogegrammeni.sc alphapsilivariaypogegrammeni.sc alphadasiavariaypogegrammeni.sc alphapsilioxiaypogegrammeni.sc alphadasiaoxiaypogegrammeni.sc alphapsiliperispomeniypogegrammeni.sc alphadasiaperispomeniypogegrammeni.sc alphaperispomeniypogegrammeni.sc epsilonpsili.sc epsilondasia.sc epsilonpsilivaria.sc epsilondasiavaria.sc epsilonpsilioxia.sc epsilondasiaoxia.sc epsilonvaria.sc epsilonoxia.sc etapsili.sc etadasia.sc etapsilivaria.sc etadasiavaria.sc etapsilioxia.sc etadasiaoxia.sc etapsiliperispomeni.sc etadasiaperispomeni.sc etavaria.sc etaoxia.sc etaperispomeni.sc etaypogegrammeni.sc etavariaypogegrammeni.sc etaoxiaypogegrammeni.sc etapsiliypogegrammeni.sc etadasiaypogegrammeni.sc etapsilivariaypogegrammeni.sc etadasiavariaypogegrammeni.sc etapsilioxiaypogegrammeni.sc etadasiaoxiaypogegrammeni.sc etapsiliperispomeniypogegrammeni.sc etadasiaperispomeniypogegrammeni.sc etaperispomeniypogegrammeni.sc iotapsili.sc iotadasia.sc iotapsilivaria.sc iotadasiavaria.sc iotapsilioxia.sc iotadasiaoxia.sc iotapsiliperispomeni.sc iotadasiaperispomeni.sc iotavaria.sc iotaoxia.sc iotaperispomeni.sc iotavrachy.sc iotamacron.sc iotadialytikavaria.sc iotadialytikaoxia.sc iotadialytikaperispomeni.sc omicronpsili.sc omicrondasia.sc omicronpsilivaria.sc omicrondasiavaria.sc omicronpsilioxia.sc omicrondasiaoxia.sc omicronvaria.sc omicronoxia.sc rhopsili.sc rhodasia.sc upsilonpsili.sc upsilondasia.sc upsilonpsilivaria.sc upsilondasiavaria.sc upsilonpsilioxia.sc upsilondasiaoxia.sc upsilonpsiliperispomeni.sc upsilondasiaperispomeni.sc upsilonvaria.sc upsilonoxia.sc upsilonperispomeni.sc upsilonvrachy.sc upsilonmacron.sc upsilondialytikavaria.sc upsilondialytikaoxia.sc upsilondialytikaperispomeni.sc omegapsili.sc omegadasia.sc omegapsilivaria.sc omegadasiavaria.sc omegapsilioxia.sc omegadasiaoxia.sc omegapsiliperispomeni.sc omegadasiaperispomeni.sc omegavaria.sc omegaoxia.sc omegaperispomeni.sc omegaypogegrammeni.sc omegavariaypogegrammeni.sc omegaoxiaypogegrammeni.sc omegapsiliypogegrammeni.sc omegadasiaypogegrammeni.sc omegapsilivariaypogegrammeni.sc omegadasiavariaypogegrammeni.sc omegapsilioxiaypogegrammeni.sc omegadasiaoxiaypogegrammeni.sc omegapsiliperispomeniypogegrammeni.sc omegadasiaperispomeniypogegrammeni.sc omegaperispomeniypogegrammeni.sc Alphaprosgegrammeni.sc.ss04 Alphapsiliprosgegrammeni.sc.ss04 Alphadasiaprosgegrammeni.sc.ss04 Alphapsilivariaprosgegrammeni.sc.ss04 Alphadasiavariaprosgegrammeni.sc.ss04 Alphapsilioxiaprosgegrammeni.sc.ss04 Alphadasiaoxiaprosgegrammeni.sc.ss04 Alphapsiliperispomeniprosgegrammeni.sc.ss04 Alphadasiaperispomeniprosgegrammeni.sc.ss04 Etaprosgegrammeni.sc.ss04 Etapsiliprosgegrammeni.sc.ss04 Etadasiaprosgegrammeni.sc.ss04 Etapsilivariaprosgegrammeni.sc.ss04 Etadasiavariaprosgegrammeni.sc.ss04 Etapsilioxiaprosgegrammeni.sc.ss04 Etadasiaoxiaprosgegrammeni.sc.ss04 Etapsiliperispomeniprosgegrammeni.sc.ss04 Etadasiaperispomeniprosgegrammeni.sc.ss04 Omegaprosgegrammeni.sc.ss04 Omegapsiliprosgegrammeni.sc.ss04 Omegadasiaprosgegrammeni.sc.ss04 Omegapsilivariaprosgegrammeni.sc.ss04 Omegadasiavariaprosgegrammeni.sc.ss04 Omegapsilioxiaprosgegrammeni.sc.ss04 Omegadasiaoxiaprosgegrammeni.sc.ss04 Omegapsiliperispomeniprosgegrammeni.sc.ss04 Omegadasiaperispomeniprosgegrammeni.sc.ss04 alphaypogegrammeni.sc.ss04 alphavariaypogegrammeni.sc.ss04 alphaoxiaypogegrammeni.sc.ss04 alphapsiliypogegrammeni.sc.ss04 alphadasiaypogegrammeni.sc.ss04 alphapsilivariaypogegrammeni.sc.ss04 alphadasiavariaypogegrammeni.sc.ss04 alphapsilioxiaypogegrammeni.sc.ss04 alphadasiaoxiaypogegrammeni.sc.ss04 alphapsiliperispomeniypogegrammeni.sc.ss04 alphadasiaperispomeniypogegrammeni.sc.ss04 alphaperispomeniypogegrammeni.sc.ss04 etaypogegrammeni.sc.ss04 etavariaypogegrammeni.sc.ss04 etaoxiaypogegrammeni.sc.ss04 etapsiliypogegrammeni.sc.ss04 etadasiaypogegrammeni.sc.ss04 etapsilivariaypogegrammeni.sc.ss04 etadasiavariaypogegrammeni.sc.ss04 etapsilioxiaypogegrammeni.sc.ss04 etadasiaoxiaypogegrammeni.sc.ss04 etapsiliperispomeniypogegrammeni.sc.ss04 etadasiaperispomeniypogegrammeni.sc.ss04 etaperispomeniypogegrammeni.sc.ss04 omegaypogegrammeni.sc.ss04 omegavariaypogegrammeni.sc.ss04 omegaoxiaypogegrammeni.sc.ss04 omegapsiliypogegrammeni.sc.ss04 omegadasiaypogegrammeni.sc.ss04 omegapsilivariaypogegrammeni.sc.ss04 omegadasiavariaypogegrammeni.sc.ss04 omegapsilioxiaypogegrammeni.sc.ss04 omegadasiaoxiaypogegrammeni.sc.ss04 omegapsiliperispomeniypogegrammeni.sc.ss04 omegadasiaperispomeniypogegrammeni.sc.ss04 omegaperispomeniypogegrammeni.sc.ss04 ypogegrammeni Alpha.sups Beta.sups Gamma.sups Delta.sups Epsilon.sups Zeta.sups Eta.sups Theta.sups Iota.sups Kappa.sups Lambda.sups Mu.sups Nu.sups Xi.sups Omicron.sups Pi.sups Rho.sups Sigma.sups Tau.sups Upsilon.sups Phi.sups Chi.sups Psi.sups Omega.sups alpha.sups beta.sups gamma.sups delta.sups epsilon.sups zeta.sups eta.sups theta.sups iota.sups kappa.sups lambda.sups mu.sups nu.sups xi.sups omicron.sups pi.sups rho.sups sigmafinal.sups sigma.sups tau.sups upsilon.sups phi.sups chi.sups psi.sups omega.sups";
 name = AllLetters;
 },
 {
@@ -1798,11 +1800,11 @@ sub nine by nine.osf;
 name = onum;
 },
 {
-code = "# BEGIN Prepare cap marks for smallcaps
+code = "
 lookup capMarksToSC {
 	sub @MarkscombCase by @Markscomb;
 } capMarksToSC;
-# END Prepare cap marks for smallcaps
+
 
 sub A by a.sc;
 sub Aacute by aacute.sc;
@@ -2312,9 +2314,6 @@ sub Omegadasiaperispomeniprosgegrammeni by omegadasiaperispomeniypogegrammeni.sc
 sub ampersand by ampersand.sc;
 sub gdieresis by gdieresis.sc;
 sub gtilde by gtilde.sc;
-sub ustrait-cy by ustrait-cy.sc;
-sub ustraitstroke-cy by ustraitstroke-cy.sc;
-sub iitail-cy by iitail-cy.sc;
 ";
 name = c2sc;
 notes = "# Add at beginning:\012lookup capMarksToSC {\012	sub @MarkscombCase by @Markscomb;\012} capMarksToSC;\012\012";
@@ -2632,8 +2631,6 @@ sub pemiddlehook-cy by pemiddlehook-cy.sc;
 sub haabkhasian-cy by haabkhasian-cy.sc;
 sub esdescender-cy by esdescender-cy.sc;
 sub tedescender-cy by tedescender-cy.sc;
-sub ustrait-cy by ustrait-cy.sc;
-sub ustraitstroke-cy by ustraitstroke-cy.sc;
 sub hadescender-cy by hadescender-cy.sc;
 sub tetse-cy by tetse-cy.sc;
 sub chedescender-cy by chedescender-cy.sc;
@@ -2870,12 +2867,10 @@ sub prosgegrammeni by prosgegrammeni.sc;
 sub ampersand by ampersand.sc;
 sub gdieresis by gdieresis.sc;
 sub gtilde by gtilde.sc;
-sub iitail-cy by iitail-cy.sc;
 
-# BEGIN Alternate small-cap mappings
+# Add at end:
 sub jdotless by j.sc;
 sub longs by s.sc;
-# END Alternate small-cap mappings
 ";
 name = smcp;
 notes = "# Add at end:\012sub jdotless by j.sc;\012sub longs by s.sc;\012\012";
@@ -19253,130 +19248,6 @@ rightKerningGroup = H.curr;
 userData = {
 RMXScaler = {
 source = N;
-};
-};
-},
-{
-color = 0;
-glyphname = P.curr;
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{141, 0}";
-},
-{
-name = top;
-position = "{376, 592}";
-}
-);
-layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
-paths = (
-{
-closed = 1;
-nodes = (
-"298 0 LINE",
-"300 12 LINE",
-"163 29 LINE",
-"270 564 LINE",
-"420 564 LINE SMOOTH",
-"505 564 OFFCURVE",
-"554 527 OFFCURVE",
-"554 458 CURVE SMOOTH",
-"554 378 OFFCURVE",
-"513 320 OFFCURVE",
-"419 275 CURVE",
-"195 275 LINE",
-"190 246 LINE",
-"345 246 LINE SMOOTH",
-"483 246 OFFCURVE",
-"588 339 OFFCURVE",
-"588 459 CURVE SMOOTH",
-"588 542 OFFCURVE",
-"526 592 OFFCURVE",
-"429 592 CURVE SMOOTH",
-"125 592 LINE",
-"122 581 LINE",
-"240 565 LINE",
-"125 28 LINE",
-"70 26 OFFCURVE",
-"32 20 OFFCURVE",
-"8 10 CURVE",
-"6 0 LINE"
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 91.9;
-width = 97;
-};
-};
-width = 602;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{286, 0}";
-},
-{
-name = top;
-position = "{406, 609}";
-}
-);
-layerId = "FCE02CC8-2979-430D-9DE0-31930C0E296D";
-paths = (
-{
-closed = 1;
-nodes = (
-"368 0 LINE",
-"384 79 LINE",
-"274 99 LINE",
-"354 485 LINE",
-"409 485 LINE SMOOTH",
-"450 485 OFFCURVE",
-"471 468 OFFCURVE",
-"471 433 CURVE SMOOTH",
-"471 400 OFFCURVE",
-"452 351 OFFCURVE",
-"426 322 CURVE",
-"209 322 LINE",
-"186 199 LINE",
-"378 199 LINE SMOOTH",
-"560 199 OFFCURVE",
-"696 300 OFFCURVE",
-"696 435 CURVE SMOOTH",
-"696 540 OFFCURVE",
-"616 609 OFFCURVE",
-"494 609 CURVE SMOOTH",
-"82 609 LINE",
-"68 530 LINE",
-"150 501 LINE",
-"57 104 LINE",
-"25 94 OFFCURVE",
-"-2 82 OFFCURVE",
-"-25 71 CURVE",
-"-38 0 LINE"
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 91.8;
-weight = -5;
-width = 97;
-};
-};
-width = 649;
-}
-);
-leftKerningGroup = H.curr;
-rightKerningGroup = P.curr;
-userData = {
-RMXScaler = {
-source = P;
 };
 };
 },
@@ -182404,7 +182275,6 @@ name = iota;
 },
 {
 name = tonos;
-transform = "{1, 0, 0, 1, 21, 0}";
 }
 );
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
@@ -182509,7 +182379,7 @@ name = upsilon;
 },
 {
 name = tonos;
-transform = "{1, 0, 0, 1, 134, 0}";
+transform = "{1, 0, 0, 1, 113, 0}";
 }
 );
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
@@ -182614,7 +182484,7 @@ name = omicron;
 },
 {
 name = tonos;
-transform = "{1, 0, 0, 1, 143, 0}";
+transform = "{1, 0, 0, 1, 122, 0}";
 }
 );
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
@@ -182649,7 +182519,7 @@ name = omega;
 },
 {
 name = tonos;
-transform = "{1, 0, 0, 1, 207, 0}";
+transform = "{1, 0, 0, 1, 186, 0}";
 }
 );
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
@@ -182684,7 +182554,7 @@ name = alpha;
 },
 {
 name = tonos;
-transform = "{1, 0, 0, 1, 141, 0}";
+transform = "{1, 0, 0, 1, 120, 0}";
 }
 );
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
@@ -182721,7 +182591,7 @@ name = epsilon;
 },
 {
 name = tonos;
-transform = "{1, 0, 0, 1, 109, 0}";
+transform = "{1, 0, 0, 1, 88, 0}";
 }
 );
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
@@ -182756,7 +182626,7 @@ name = eta;
 },
 {
 name = tonos;
-transform = "{1, 0, 0, 1, 205, 0}";
+transform = "{1, 0, 0, 1, 184, 0}";
 }
 );
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
@@ -190376,7 +190246,7 @@ name = iota.sc;
 },
 {
 name = tonos;
-transform = "{1, 0, 0, 1, 100, 38}";
+transform = "{1, 0, 0, 1, 79, 38}";
 }
 );
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
@@ -190490,7 +190360,7 @@ name = upsilon.sc;
 },
 {
 name = tonos;
-transform = "{1, 0, 0, 1, 189, 38}";
+transform = "{1, 0, 0, 1, 168, 38}";
 }
 );
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
@@ -190613,7 +190483,7 @@ name = omicron.sc;
 {
 anchor = top;
 name = tonos;
-transform = "{1, 0, 0, 1, 227, 38}";
+transform = "{1, 0, 0, 1, 206, 38}";
 }
 );
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
@@ -190682,7 +190552,7 @@ name = alpha.sc;
 },
 {
 name = tonos;
-transform = "{1, 0, 0, 1, 227, 38}";
+transform = "{1, 0, 0, 1, 206, 38}";
 }
 );
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
@@ -190717,7 +190587,7 @@ name = epsilon.sc;
 {
 anchor = top;
 name = tonos;
-transform = "{1, 0, 0, 1, 238, 38}";
+transform = "{1, 0, 0, 1, 217, 38}";
 }
 );
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
@@ -190752,7 +190622,7 @@ name = eta.sc;
 },
 {
 name = tonos;
-transform = "{1, 0, 0, 1, 279, 38}";
+transform = "{1, 0, 0, 1, 258, 38}";
 }
 );
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
@@ -191597,7 +191467,7 @@ name = alphaypogegrammeni.sc;
 },
 {
 name = tonos;
-transform = "{1, 0, 0, 1, 227, 38}";
+transform = "{1, 0, 0, 1, 206, 38}";
 }
 );
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
@@ -192693,7 +192563,7 @@ name = etaypogegrammeni.sc;
 },
 {
 name = tonos;
-transform = "{1, 0, 0, 1, 279, 38}";
+transform = "{1, 0, 0, 1, 258, 38}";
 }
 );
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
@@ -196742,7 +196612,7 @@ name = alphaypogegrammeni.sc.ss04;
 },
 {
 name = tonos;
-transform = "{1, 0, 0, 1, 681, -64}";
+transform = "{1, 0, 0, 1, 660, -64}";
 }
 );
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
@@ -197174,7 +197044,7 @@ name = etaypogegrammeni.sc.ss04;
 },
 {
 name = tonos;
-transform = "{1, 0, 0, 1, 784, -64}";
+transform = "{1, 0, 0, 1, 763, -64}";
 }
 );
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
@@ -197606,7 +197476,7 @@ name = omegaypogegrammeni.sc.ss04;
 },
 {
 name = tonos;
-transform = "{1, 0, 0, 1, 758, -64}";
+transform = "{1, 0, 0, 1, 737, -64}";
 }
 );
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
@@ -239801,7 +239671,7 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{134, 478}";
+position = "{155, 478}";
 }
 );
 guideLines = (
@@ -244285,482 +244155,6 @@ nodes = (
 width = 806;
 }
 );
-},
-{
-export = 0;
-glyphname = spacingGlyph;
-layers = (
-{
-layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
-paths = (
-{
-closed = 1;
-nodes = (
-"0 706 LINE",
-"0 -193 LINE",
-"489 -193 LINE",
-"489 706 LINE"
-);
-}
-);
-width = 489;
-},
-{
-layerId = "FCE02CC8-2979-430D-9DE0-31930C0E296D";
-paths = (
-{
-closed = 1;
-nodes = (
-"0 695 LINE",
-"0 -188 LINE",
-"480 -188 LINE",
-"480 695 LINE"
-);
-}
-);
-width = 480;
-}
-);
-},
-{
-glyphname = "ustrait-cy.sc";
-layers = (
-{
-components = (
-{
-name = y.sc;
-}
-);
-layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
-width = 589;
-},
-{
-components = (
-{
-name = y.sc;
-}
-);
-layerId = "FCE02CC8-2979-430D-9DE0-31930C0E296D";
-width = 566;
-}
-);
-},
-{
-glyphname = "ustraitstroke-cy.sc";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{238, 0}";
-},
-{
-name = center;
-position = "{268, 143}";
-},
-{
-name = top;
-position = "{350, 516}";
-},
-{
-name = topleft;
-position = "{77, 516}";
-}
-);
-layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
-paths = (
-{
-closed = 1;
-nodes = (
-"284 187 LINE",
-"536 503 LINE",
-"537 508 LINE",
-"504 508 LINE",
-"278 220 LINE",
-"290 220 LINE",
-"182 508 LINE",
-"151 508 LINE",
-"150 499 LINE",
-"271 187 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"367 0 LINE",
-"369 12 LINE",
-"261 26 LINE",
-"299 218 LINE",
-"266 218 LINE",
-"223 26 LINE",
-"186 24 OFFCURVE",
-"150 20 OFFCURVE",
-"110 10 CURVE",
-"109 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"219 488 OFFCURVE",
-"269 496 OFFCURVE",
-"314 508 CURVE",
-"314 516 LINE",
-"80 516 LINE",
-"78 504 LINE",
-"167 486 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"539 488 OFFCURVE",
-"580 495 OFFCURVE",
-"619 508 CURVE",
-"619 516 LINE",
-"387 516 LINE",
-"385 504 LINE",
-"498 486 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"134 131 LINE",
-"397 131 LINE",
-"402 155 LINE",
-"139 155 LINE"
-);
-}
-);
-userData = {
-RMXScaler = {
-adjustSpace = 20;
-height = 80;
-width = 85;
-};
-};
-width = 589;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{227, 0}";
-},
-{
-name = center;
-position = "{264, 149}";
-},
-{
-name = top;
-position = "{345, 544}";
-},
-{
-name = topleft;
-position = "{82, 544}";
-}
-);
-layerId = "FCE02CC8-2979-430D-9DE0-31930C0E296D";
-paths = (
-{
-closed = 1;
-nodes = (
-"325 113 LINE",
-"634 472 LINE",
-"640 536 LINE",
-"514 536 LINE",
-"313 281 LINE",
-"377 281 LINE",
-"284 536 LINE",
-"54 536 LINE",
-"42 482 LINE",
-"204 113 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"425 0 LINE",
-"439 78 LINE",
-"365 97 LINE",
-"400 268 LINE",
-"189 268 LINE",
-"146 103 LINE",
-"120 96 OFFCURVE",
-"89 84 OFFCURVE",
-"64 74 CURVE",
-"49 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"227 416 OFFCURVE",
-"293 435 OFFCURVE",
-"360 469 CURVE",
-"368 544 LINE",
-"25 544 LINE",
-"11 467 LINE",
-"163 404 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"547 415 OFFCURVE",
-"597 433 OFFCURVE",
-"650 468 CURVE",
-"660 544 LINE",
-"408 544 LINE",
-"394 467 LINE",
-"498 403 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"68 99 LINE",
-"439 99 LINE",
-"459 198 LINE",
-"88 198 LINE"
-);
-}
-);
-userData = {
-RMXScaler = {
-adjustSpace = 3;
-height = 82;
-weight = -8;
-width = 84;
-};
-};
-width = 574;
-}
-);
-leftKerningGroup = y.sc;
-rightKerningGroup = y.sc;
-userData = {
-RMXScaler = {
-source = "Ustraitstroke-cy";
-};
-};
-},
-{
-glyphname = "iitail-cy";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{212, 0}";
-},
-{
-name = ogonek;
-position = "{446, 10}";
-},
-{
-name = top;
-position = "{308, 478}";
-},
-{
-name = topright;
-position = "{548, 478}";
-}
-);
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"176 462 OFFCURVE",
-"159 483 OFFCURVE",
-"135 483 CURVE SMOOTH",
-"108 483 OFFCURVE",
-"81 457 OFFCURVE",
-"66 418 CURVE",
-"95 433 OFFCURVE",
-"132 441 OFFCURVE",
-"168 441 CURVE",
-"160 456 LINE",
-"72 105 LINE SMOOTH",
-"55 37 OFFCURVE",
-"122 -19 OFFCURVE",
-"194 3 CURVE",
-"268 54 OFFCURVE",
-"337 154 OFFCURVE",
-"412 319 CURVE",
-"400 336 LINE",
-"324 165 OFFCURVE",
-"235 45 OFFCURVE",
-"161 13 CURVE",
-"177 12 LINE",
-"152 23 OFFCURVE",
-"118 48 OFFCURVE",
-"90 77 CURVE",
-"92 55 LINE",
-"181 426 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"340 16 OFFCURVE",
-"358 -5 OFFCURVE",
-"384 -5 CURVE SMOOTH",
-"412 -5 OFFCURVE",
-"441 21 OFFCURVE",
-"455 60 CURVE",
-"422 44 OFFCURVE",
-"388 36 OFFCURVE",
-"353 36 CURVE",
-"361 21 LINE",
-"455 478 LINE",
-"426 478 LINE",
-"379 253 LINE",
-"382 252 LINE",
-"335 51 LINE"
-);
-}
-);
-};
-layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
-paths = (
-{
-closed = 1;
-nodes = (
-"176 462 OFFCURVE",
-"159 483 OFFCURVE",
-"135 483 CURVE SMOOTH",
-"108 483 OFFCURVE",
-"81 457 OFFCURVE",
-"66 418 CURVE",
-"95 433 OFFCURVE",
-"132 441 OFFCURVE",
-"168 441 CURVE",
-"160 456 LINE",
-"72 105 LINE SMOOTH",
-"55 37 OFFCURVE",
-"122 -19 OFFCURVE",
-"194 3 CURVE",
-"268 54 OFFCURVE",
-"337 154 OFFCURVE",
-"412 319 CURVE",
-"400 336 LINE",
-"324 165 OFFCURVE",
-"235 45 OFFCURVE",
-"161 13 CURVE",
-"177 12 LINE",
-"152 23 OFFCURVE",
-"118 48 OFFCURVE",
-"90 77 CURVE",
-"92 55 LINE",
-"181 426 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"455 478 LINE",
-"426 478 LINE",
-"379 253 LINE",
-"382 252 LINE",
-"335 51 LINE",
-"337 4 OFFCURVE",
-"373 -16 OFFCURVE",
-"411 7 CURVE",
-"405 14 LINE",
-"346 -195 LINE",
-"361 -195 LINE",
-"455 60 LINE",
-"419 41 OFFCURVE",
-"386 33 OFFCURVE",
-"353 33 CURVE",
-"360 22 LINE"
-);
-}
-);
-width = 519;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{235, 0}";
-},
-{
-name = ogonek;
-position = "{531, 10}";
-},
-{
-name = top;
-position = "{335, 495}";
-},
-{
-name = topright;
-position = "{600, 495}";
-}
-);
-layerId = "FCE02CC8-2979-430D-9DE0-31930C0E296D";
-paths = (
-{
-closed = 1;
-nodes = (
-"262 481 OFFCURVE",
-"219 502 OFFCURVE",
-"175 502 CURVE SMOOTH",
-"107 502 OFFCURVE",
-"36 451 OFFCURVE",
-"22 364 CURVE",
-"82 362 OFFCURVE",
-"140 365 OFFCURVE",
-"213 375 CURVE",
-"112 456 LINE",
-"21 143 LINE SMOOTH",
-"-9 39 OFFCURVE",
-"55 -20 OFFCURVE",
-"175 -4 CURVE",
-"239 45 OFFCURVE",
-"333 210 OFFCURVE",
-"392 372 CURVE",
-"379 444 LINE",
-"336 315 OFFCURVE",
-"288 222 OFFCURVE",
-"215 130 CURVE",
-"246 141 LINE",
-"224 145 OFFCURVE",
-"208 154 OFFCURVE",
-"195 169 CURVE",
-"211 146 LINE",
-"288 435 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"565 495 LINE",
-"386 495 LINE",
-"316 222 LINE",
-"336 215 LINE",
-"281 58 LINE",
-"301 -4 OFFCURVE",
-"367 -24 OFFCURVE",
-"426 7 CURVE",
-"378 85 LINE",
-"327 -188 LINE",
-"424 -188 LINE",
-"560 129 LINE",
-"518 132 OFFCURVE",
-"475 130 OFFCURVE",
-"431 125 CURVE",
-"465 36 LINE"
-);
-}
-);
-width = 577;
-}
-);
-rightMetricsKey = "=u";
 },
 {
 glyphname = "iitail-cy.sc";
