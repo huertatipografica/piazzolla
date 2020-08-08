@@ -22,10 +22,6 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevehookabove Abrevetilde A
 name = AllLetters;
 },
 {
-code = "t tbar tcaron tcedilla tcommaaccent t.t f germandbls longs f.f fi fl";
-name = .f.t;
-},
-{
 code = "I V X L C D M i v x l c d m i.sc v.sc x.sc l.sc c.sc d.sc m.sc";
 name = siglo1;
 },
@@ -36,6 +32,10 @@ name = siglo2;
 {
 code = "period comma colon semicolon ellipsis exclam exclamdown question questiondown periodcentered bullet asterisk exclamdouble numbersign onedotenleader slash backslash twodotenleader exclamdown.case questiondown.case periodcentered.case bullet.case slash.case backslash.case parenleft parenright braceleft braceright bracketleft bracketright parenleft.case parenright.case braceleft.case braceright.case bracketleft.case bracketright.case hyphen softhyphen endash emdash figuredash horizontalbar hyphentwo underscore hyphen.case endash.case emdash.case quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright quotereversed guillemetleft guillemetright guilsinglleft guilsinglright quotedbl quotesingle guillemetleft.case guillemetright.case guilsinglleft.case guilsinglright.case anoteleia questiongreek figurespace hairspace punctuationspace space nbspace thinspace zerowidthspace space.case";
 name = puntuacion;
+},
+{
+code = "t tbar tcaron tcedilla tcommaaccent t.t f germandbls longs f.f fi fl";
+name = .f.t;
 }
 );
 copyright = "Copyright 2018 The Piazzolla Project Authors (https://github.com/huertatipografica/piazzolla)";
@@ -241999,10 +241999,6 @@ kerning = {
 "@MMK_R_s" = -10;
 "@MMK_R_x" = -20;
 "@MMK_R_ze-cy" = -10;
-};
-"@MMK_L_P.curr" = {
-"@MMK_R_T.curr" = -10;
-"@MMK_R_V.curr" = -39;
 };
 "@MMK_L_P.sups" = {
 "@MMK_R_A.sups" = -35;
