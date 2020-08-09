@@ -7,7 +7,8 @@ Piazzolla has a distinctive voice that conveys a personal style, especially in d
 
 ## Download
 
-- All the fonts can be downloaded from [the releases section](https://github.com/juandelperal/piazzolla/releases)
+- Download the latest version of [Piazzolla](https://github.com/huertatipografica/piazzolla/releases/latest/download/Piazzolla.zip) and [Piazzolla SC](https://github.com/huertatipografica/piazzolla/releases/latest/download/PiazzollaSC.zip)
+- For older versions and the changelog, you can refer to the [releases section](https://github.com/juandelperal/piazzolla/releases)
 
 
 ## Contributing
