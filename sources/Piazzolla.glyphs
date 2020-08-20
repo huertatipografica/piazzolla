@@ -1,5 +1,5 @@
 {
-.appVersion = "1344";
+.appVersion = "1346";
 DisplayStrings = (
 "0126879354\012/zero.osf/one.osf/two.osf/six.osf/eight.osf/seven.osf/nine.osf/three.osf/five.osf/four.osf \012/zero.tosf/one.tosf/two.tosf/six.tosf/eight.tosf/seven.tosf/nine.tosf/three.tosf/five.tosf/four.tosf \012/zero.tf/one.tf/two.tf/six.tf/eight.tf/seven.tf/nine.tf/three.tf/five.tf/four.tf/figurespace \012\012Rebuild/space and/space autospace:\012/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom \012\012sync/space space:\012/zero.lf/figurespace/one.lf/two.lf/three.lf/four.lf/five.lf/six.lf/seven.lf/eight.lf/nine.lf",
 "tildecomb_dieresiscomb/tildecomb_dieresiscomb",
@@ -244409,5 +244409,5 @@ HV = 105;
 };
 };
 versionMajor = 1;
-versionMinor = 340;
+versionMinor = 350;
 }
