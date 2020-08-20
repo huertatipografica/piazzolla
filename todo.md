@@ -9,4 +9,13 @@ Spacing and metrics work
 
     Clean and compress kerning
 
-fonttools ttLib.woff2
+
+```bash
+for VF in /Library/Application\ Support/Adobe/Fonts/Piazzolla*.ttf; do
+#for VF in ~/Library/Fonts/fontTest/Piazzolla*.ttf; do
+    rm -f ${VF/.ttf/.ttx}
+    python tools/buildStat.py $VF
+    python tools/fixNameTable.py $VF
+    # ttx $VF
+done
+```
