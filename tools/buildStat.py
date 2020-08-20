@@ -44,5 +44,22 @@ axes = [
     ),
 ]
 
-buildStatTable(ttFont, axes, None, 'Italic' if isItalic else 'Upright')
+# locations = [
+#     dict(name='Thin', location=dict(wght=100, opsz=30)),
+#     dict(name='ExtraLight', location=dict(wght=200, opsz=30)),
+#     dict(name='Light', location=dict(wght=300, opsz=30)),
+#     dict(name='Regular', location=dict(wght=400, opsz=30)),
+#     dict(name='Medium', location=dict(wght=500, opsz=30)),
+#     dict(name='SemiBold', location=dict(wght=600, opsz=30)),
+#     dict(name='Bold', location=dict(wght=700, opsz=30)),
+#     dict(name='ExtraBold', location=dict(wght=800, opsz=30)),
+#     dict(name='Black', location=dict(wght=900, opsz=30)),
+# ]
+
+# Temp
+locations = None
+
+buildStatTable(ttFont, axes, locations, 'Italic' if isItalic else 'Upright')
+
+# del ttFont["STAT"]
 ttFont.save(file)
