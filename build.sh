@@ -38,8 +38,6 @@ for f in "${files[@]}"; do
     echo
     echo "Generate variable font for $f"
     fontmake -m temp/building/$f/$f.designspace -o variable --output-dir fonts/Piazzolla/variable/ttf --verbose WARNING
-    echo "Building STAT table for $f"
-    python tools/buildStat.py fonts/Piazzolla/variable/ttf/"$f"-VF.ttf
     if $static; then
         echo "Generate static fonts for $f"
         fontmake -m temp/building/$f/$f.designspace -i --output-dir fonts/Piazzolla/static --verbose WARNING
@@ -49,7 +47,6 @@ done
 echo
 echo Fixing fonts
 for VF in fonts/Piazzolla/variable/ttf/*.ttf; do
-    python tools/fixNameTable.py $VF
     gftools fix-dsig -f $VF
     gftools fix-nonhinting $VF "$VF.fix"
     mv "$VF.fix" $VF
@@ -60,6 +57,8 @@ for VF in fonts/Piazzolla/variable/ttf/*.ttf; do
     ttx $TTXFILE
     rm fonts/Piazzolla/variable/ttf/$BASE.ttx
     rm fonts/Piazzolla/variable/ttf/$BASE-backup-fonttools-prep-gasp.ttf
+    python tools/buildStat.py fonts/Piazzolla/variable/ttf/"$f"-VF.ttf
+    python tools/fixNameTable.py $VF
 done
 
 if $static; then
