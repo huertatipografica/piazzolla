@@ -1,6 +1,7 @@
 import re
 from fontParts.world import OpenFont
-
+from fontTools.misc.testTools import getXML
+from fontTools.ttLib import TTFont
 
 def parseRule(name):
     source = name.split('.rl-')[0]
@@ -42,7 +43,7 @@ def tweakSpacing(font, offset, percentage=0):
 def removeAreas(font):
     # Delete ht _areas glyph
     for glyph in font:
-        if glyph.name is '_areas':
+        if glyph.name == '_areas':
             del font["_areas"]
 
 
@@ -72,3 +73,11 @@ def scaleFont(source, destination, factor):
     # Round everything and save
     font.info.round()
     font.save(destination)
+
+
+def dumpTable(font:TTFont, table:str):
+    if hasattr(font[table], 'table'):
+        fontTable = font[table].table
+    else:
+        fontTable = font[table]
+    return "\n".join(getXML(fontTable.toXML, font))

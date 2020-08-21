@@ -2,7 +2,7 @@ import sys
 from fontTools.ttLib import TTFont
 from fontTools.otlLib.builder import buildStatTable
 from os.path import basename
-from fontTools.misc.testTools import getXML, parseXML
+from tools import dumpTable
 
 file = sys.argv[1]
 ttFont = TTFont(file)
@@ -15,9 +15,9 @@ axes = [
         name="Optical size",
         ordering=0,  # optional
         values=[
-            dict(value=8, name='8pt'),
-            dict(value=14, name='14pt'),
-            dict(value=30, name='30pt', flags=0x2),
+            dict(nominalValue=8, name='8pt'),
+            dict(nominalValue=14, name='14pt'),
+            dict(nominalValue=30, name='30pt', flags=0x2),
         ],
     ),
     dict(
@@ -25,23 +25,24 @@ axes = [
         name="Weight",
         ordering=1,  # optional
         values=[
-            dict(value=100, name='Thin'),
-            dict(value=200, name='ExtraLight'),
-            dict(value=300, name='Light', linkedValue=600),
-            dict(value=400, name='Regular', linkedValue=700, flags=0x2),
-            dict(value=500, name='Medium', linkedValue=800),
-            dict(value=600, name='SemiBold'),
-            dict(value=700, name='Bold'),
-            dict(value=800, name='ExtraBold'),
-            dict(value=900, name='Black'),
+            dict(nominalValue=100, name='Thin'),
+            dict(nominalValue=200, name='ExtraLight'),
+            dict(nominalValue=300, name='Light', linkedValue=600),
+            dict(nominalValue=400, name='Regular', linkedValue=700, flags=0x2),
+            dict(nominalValue=500, name='Medium', linkedValue=800),
+            dict(nominalValue=600, name='SemiBold'),
+            dict(nominalValue=700, name='Bold'),
+            dict(nominalValue=800, name='ExtraBold'),
+            dict(nominalValue=900, name='Black'),
         ],
     ),
     dict(
         tag="ital",
         name="Italic",
         ordering=2,  # optional
-        values=[dict(value=1, name='Italic')] if isItalic else [
-            dict(value=0, name='Upright', linkedValue=1, flags=0x2)]
+        values=[dict(nominalValue=1, name='Italic')] # Italic
+        if isItalic else
+        [dict(nominalValue=0, name='Upright', linkedValue=1, flags=0x2)] # Upright
     ),
 ]
 
@@ -76,21 +77,20 @@ else:
 # buildStatTable(ttFont, axes)
 # buildStatTable(ttFont, axes, locations, 'Italic' if isItalic else 'Upright')
 buildStatTable(ttFont, axes, None, 'Italic' if isItalic else 'Upright')
+statTable = ttFont['STAT'].table
 
-table = ttFont['STAT'].table
+# statTable.Version = 0x00010001
+# statTable.Version = 0x00010002
 
-# table.Version = 0x00010001
-# table.Version = 0x00010002
-
-xml = "\n".join(getXML(table.toXML, ttFont))
 
 
 print()
 print()
 print(basename(file).upper())
 print('Added STAT Table version %s.' %
-      (table.Version))
-print(xml)
+      (statTable.Version))
+print(dumpTable(ttFont, 'STAT'))
+print(dumpTable(ttFont, 'fvar'))
 
 
 ttFont.save(file)
