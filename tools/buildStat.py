@@ -2,39 +2,11 @@ import sys
 from fontTools.ttLib import TTFont
 from fontTools.otlLib.builder import buildStatTable
 from os.path import basename
+from fontTools.misc.testTools import getXML, parseXML
 
 file = sys.argv[1]
 ttFont = TTFont(file)
 isItalic = "Italic" in file
-
-
-# Roman / Italic
-if isItalic:
-    italValues = [dict(value=1, name='Italic')]
-    locations = [
-        dict(name='Thin Italic', location=dict(wght=100, opsz=30, ital=1)),
-        dict(name='ExtraLight Italic', location=dict(wght=200, opsz=30, ital=1)),
-        dict(name='Light Italic', location=dict(wght=300, opsz=30, ital=1)),
-        dict(name='Italic', location=dict(wght=400, opsz=30, ital=1)),
-        dict(name='Medium Italic', location=dict(wght=500, opsz=30, ital=1)),
-        dict(name='SemiBold Italic', location=dict(wght=600, opsz=30, ital=1)),
-        dict(name='Bold Italic', location=dict(wght=700, opsz=30, ital=1)),
-        dict(name='ExtraBold Italic', location=dict(wght=800, opsz=30, ital=1)),
-        dict(name='Black Italic', location=dict(wght=900, opsz=30, ital=1)),
-    ]
-else:
-    italValues = [dict(value=0, name='Upright', linkedValue=1, flags=0x2)]
-    locations = [
-        dict(name='Thin', location=dict(wght=100, opsz=30, ital=0)),
-        dict(name='ExtraLight', location=dict(wght=200, opsz=30, ital=0)),
-        dict(name='Light', location=dict(wght=300, opsz=30, ital=0)),
-        dict(name='Regular', location=dict(wght=400, opsz=30, ital=0)),
-        dict(name='Medium', location=dict(wght=500, opsz=30, ital=0)),
-        dict(name='SemiBold', location=dict(wght=600, opsz=30, ital=0)),
-        dict(name='Bold', location=dict(wght=700, opsz=30, ital=0)),
-        dict(name='ExtraBold', location=dict(wght=800, opsz=30, ital=0)),
-        dict(name='Black', location=dict(wght=900, opsz=30, ital=0)),
-    ]
 
 # Axes
 axes = [
@@ -68,13 +40,57 @@ axes = [
         tag="ital",
         name="Italic",
         ordering=2,  # optional
-        values=italValues
+        values=[dict(value=1, name='Italic')] if isItalic else [
+            dict(value=0, name='Upright', linkedValue=1, flags=0x2)]
     ),
 ]
 
 
-buildStatTable(ttFont, axes, locations)
+# Roman / Italic
+if isItalic:
+    locations = [
+        dict(name='Thin Italic', location=dict(wght=100, opsz=30, ital=1)),
+        dict(name='ExtraLight Italic', location=dict(wght=200, opsz=30, ital=1)),
+        dict(name='Light Italic', location=dict(wght=300, opsz=30, ital=1)),
+        dict(name='Italic', location=dict(wght=400, opsz=30, ital=1)),
+        dict(name='Medium Italic', location=dict(wght=500, opsz=30, ital=1)),
+        dict(name='SemiBold Italic', location=dict(wght=600, opsz=30, ital=1)),
+        dict(name='Bold Italic', location=dict(wght=700, opsz=30, ital=1)),
+        dict(name='ExtraBold Italic', location=dict(wght=800, opsz=30, ital=1)),
+        dict(name='Black Italic', location=dict(wght=900, opsz=30, ital=1)),
+    ]
+else:
+    locations = [
+        dict(name='Thin', location=dict(wght=100, opsz=30, ital=0)),
+        dict(name='ExtraLight', location=dict(wght=200, opsz=30, ital=0)),
+        dict(name='Light', location=dict(wght=300, opsz=30, ital=0)),
+        dict(name='Regular', location=dict(wght=400, opsz=30, ital=0)),
+        dict(name='Medium', location=dict(wght=500, opsz=30, ital=0)),
+        dict(name='SemiBold', location=dict(wght=600, opsz=30, ital=0)),
+        dict(name='Bold', location=dict(wght=700, opsz=30, ital=0)),
+        dict(name='ExtraBold', location=dict(wght=800, opsz=30, ital=0)),
+        dict(name='Black', location=dict(wght=900, opsz=30, ital=0)),
+    ]
+
+
+# buildStatTable(ttFont, axes)
+# buildStatTable(ttFont, axes, locations, 'Italic' if isItalic else 'Upright')
+buildStatTable(ttFont, axes, None, 'Italic' if isItalic else 'Upright')
+
+table = ttFont['STAT'].table
+
+# table.Version = 0x00010001
+# table.Version = 0x00010002
+
+xml = "\n".join(getXML(table.toXML, ttFont))
+
+
 print()
-print('Added STAT Table version %s for %s' % (ttFont['STAT'].table.Version, basename(file)))
+print()
+print(basename(file).upper())
+print('Added STAT Table version %s.' %
+      (table.Version))
+print(xml)
+
 
 ttFont.save(file)
