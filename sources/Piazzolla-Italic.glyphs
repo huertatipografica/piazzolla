@@ -4,7 +4,8 @@ DisplayStrings = (
 ec,
 "/One-roman/One-roman/One-roman/Five-roman/One-roman/Ten-roman/One-roman/Fifty-roman/One-roman/Hundred-roman/One-roman/Fivehundred-roman/One-roman/Thousand-roman/One-roman \012/Five-roman/One-roman/Five-roman/Five-roman/Five-roman/Ten-roman/Five-roman/Fifty-roman/Five-roman/Hundred-roman/Five-roman/Fivehundred-roman/Five-roman/Thousand-roman/Five-roman \012/Ten-roman/One-roman/Ten-roman/Five-roman/Ten-roman/Ten-roman/Ten-roman/Fifty-roman/Ten-roman/Hundred-roman/Ten-roman/Fivehundred-roman/Ten-roman/Thousand-roman/Ten-roman \012/Fifty-roman/One-roman/Fifty-roman/Five-roman/Fifty-roman/Ten-roman/Fifty-roman/Fifty-roman/Fifty-roman/Hundred-roman/Fifty-roman/Fivehundred-roman/Fifty-roman/Thousand-roman/Fifty-roman \012/Hundred-roman/One-roman/Hundred-roman/Five-roman/Hundred-roman/Ten-roman/Hundred-roman/Fifty-roman/Hundred-roman/Hundred-roman/Hundred-roman/Fivehundred-roman/Hundred-roman/Thousand-roman/Hundred-roman \012/Fivehundred-roman/One-roman/Fivehundred-roman/Five-roman/Fivehundred-roman/Ten-roman/Fivehundred-roman/Fifty-roman/Fivehundred-roman/Hundred-roman/Fivehundred-roman/Fivehundred-roman/Fivehundred-roman/Thousand-roman/Fivehundred-roman \012/Thousand-roman/One-roman/Thousand-roman/Five-roman/Thousand-roman/space/Ten-roman/space/Thousand-roman/Fifty-roman/Thousand-roman/Hundred-roman/Thousand-roman/Fivehundred-roman/Thousand-roman/Thousand-roman/Thousand-roman \012\012/one-roman/one-roman/one-roman/five-roman/one-roman/ten-roman/one-roman/fifty-roman/one-roman/hundred-roman/one-roman/fivehundred-roman/one-roman/onethousand-roman/one-roman \012/five-roman/one-roman/five-roman/five-roman/five-roman/ten-roman/five-roman/fifty-roman/five-roman/hundred-roman/five-roman/fivehundred-roman/five-roman/onethousand-roman/five-roman \012/ten-roman/one-roman/ten-roman/five-roman/ten-roman/ten-roman/ten-roman/fifty-roman/ten-roman/hundred-roman/ten-roman/fivehundred-roman/ten-roman/onethousand-roman/ten-roman \012/fifty-roman/one-roman/fifty-roman/five-roman/fifty-roman/ten-roman/fifty-roman/fifty-roman/fifty-roman/hundred-roman/fifty-roman/fivehundred-roman/fifty-roman/onethousand-roman/fifty-roman \012/hundred-roman/one-roman/hundred-roman/five-roman/hundred-roman/ten-roman/hundred-roman/fifty-roman/hundred-roman/hundred-roman/hundred-roman/fivehundred-roman/hundred-roman/onethousand-roman/hundred-roman \012/fivehundred-roman/one-roman/fivehundred-roman/five-roman/fivehundred-roman/ten-roman/fivehundred-roman/fifty-roman/fivehundred-roman/hundred-roman/fivehundred-roman/fivehundred-roman/fivehundred-roman/onethousand-roman/fivehundred-roman \012/onethousand-roman/one-roman/onethousand-roman/five-roman/onethousand-roman/ten-roman/onethousand-roman/fifty-roman/onethousand-roman/hundred-roman/onethousand-roman/fivehundred-roman/onethousand-roman/onethousand-roman/onethousand-roman",
 "/tonos",
-"/ypogegrammeni"
+"/ypogegrammeni",
+"/Abreveacute/space"
 );
 classes = (
 {
@@ -219599,6 +219600,24 @@ color = 10;
 glyphname = space;
 layers = (
 {
+background = {
+paths = (
+{
+closed = 0;
+nodes = (
+"0 30 LINE",
+"20 41 LINE",
+"40 55 LINE",
+"60 71 LINE",
+"80 90 LINE",
+"100 113 LINE",
+"120 141 LINE",
+"140 173 LINE",
+"160 208 LINE"
+);
+}
+);
+};
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
 width = 153;
 },
@@ -244343,11 +244362,11 @@ name = "Update Features";
 value = 1;
 }
 );
-interpolationWeight = 45;
+interpolationWeight = 41;
 interpolationWidth = 30;
 instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.91573;
-"FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.08427;
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.9382;
+"FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.0618;
 };
 isItalic = 1;
 linkStyle = ExtraLight;
@@ -244361,11 +244380,11 @@ name = "Update Features";
 value = 1;
 }
 );
-interpolationWeight = 62;
+interpolationWeight = 55;
 interpolationWidth = 30;
 instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.82022;
-"FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.17978;
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.85955;
+"FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.14045;
 };
 isItalic = 1;
 linkStyle = Light;
@@ -244379,11 +244398,11 @@ name = "Update Features";
 value = 1;
 }
 );
-interpolationWeight = 80;
+interpolationWeight = 71;
 interpolationWidth = 30;
 instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.7191;
-"FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.2809;
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.76966;
+"FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.23034;
 };
 isItalic = 1;
 linkStyle = Regular;
@@ -244396,11 +244415,11 @@ name = "Update Features";
 value = 1;
 }
 );
-interpolationWeight = 99;
+interpolationWeight = 90;
 interpolationWidth = 30;
 instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.61236;
-"FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.38764;
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.66292;
+"FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.33708;
 };
 isItalic = 1;
 linkStyle = Medium;
@@ -244414,11 +244433,11 @@ name = "Update Features";
 value = 1;
 }
 );
-interpolationWeight = 120;
+interpolationWeight = 113;
 interpolationWidth = 30;
 instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.49438;
-"FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.50562;
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.53371;
+"FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.46629;
 };
 isItalic = 1;
 linkStyle = SemiBold;
@@ -244432,11 +244451,11 @@ name = "Update Features";
 value = 1;
 }
 );
-interpolationWeight = 149;
+interpolationWeight = 141;
 interpolationWidth = 30;
 instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.33146;
-"FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.66854;
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.3764;
+"FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.6236;
 };
 isBold = 1;
 isItalic = 1;
@@ -244451,11 +244470,11 @@ name = "Update Features";
 value = 1;
 }
 );
-interpolationWeight = 177;
+interpolationWeight = 173;
 interpolationWidth = 30;
 instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.17416;
-"FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.82584;
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.19663;
+"FCE02CC8-2979-430D-9DE0-31930C0E296D" = 0.80337;
 };
 isItalic = 1;
 linkStyle = ExtraBold;

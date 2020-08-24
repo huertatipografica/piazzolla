@@ -9,7 +9,7 @@ from fontParts.world import OpenFont
 familyName = 'Piazzolla'
 wght = {
     "min": 30,
-    "regular": 80,
+    "regular": 71,
     "max": 208,
 }
 opsz = {
@@ -57,8 +57,8 @@ print()
 print("Mapping weight axis")
 for axis in doc.axes:
     if axis.tag == 'wght':
-        axis.map = [(100, 30), (200, 45), (300, 62), (400, 80),
-                    (500, 99), (600, 120), (700, 149), (800, 177), (900, 208)]
+        axis.map = [(100, 30), (200, 41), (300, 55), (400, 71),
+                    (500, 90), (600, 113), (700, 141), (800, 173), (900, 208)]
         axis.default = 100
         axis.minimum = 100
         axis.maximum = 900

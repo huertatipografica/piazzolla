@@ -3,7 +3,7 @@
 DisplayStrings = (
 "0126879354\012/zero.osf/one.osf/two.osf/six.osf/eight.osf/seven.osf/nine.osf/three.osf/five.osf/four.osf \012/zero.tosf/one.tosf/two.tosf/six.tosf/eight.tosf/seven.tosf/nine.tosf/three.tosf/five.tosf/four.tosf \012/zero.tf/one.tf/two.tf/six.tf/eight.tf/seven.tf/nine.tf/three.tf/five.tf/four.tf/figurespace \012\012Rebuild/space and/space autospace:\012/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom \012\012sync/space space:\012/zero.lf/figurespace/one.lf/two.lf/three.lf/four.lf/five.lf/six.lf/seven.lf/eight.lf/nine.lf",
 "tildecomb_dieresiscomb/tildecomb_dieresiscomb",
-"/dieresiscomb_gravecomb/dieresiscomb_acutecomb/dieresiscomb_caroncomb/dieresiscomb_macroncomb/dotaccentcomb_macroncomb/acutecomb_dotaccentcomb/caroncomb_dotaccentcomb/tildecomb_dieresiscomb/tildecomb_gravecomb/tildecomb_acutecomb/tildecomb_macroncomb/macroncomb_dieresiscomb/macroncomb_gravecomb/macroncomb_acutecomb/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb"
+"a/space"
 );
 classes = (
 {
@@ -216343,6 +216343,24 @@ unicode = 2008;
 glyphname = space;
 layers = (
 {
+background = {
+paths = (
+{
+closed = 0;
+nodes = (
+"0 30 LINE",
+"20 41 LINE",
+"40 55 LINE",
+"60 71 LINE",
+"80 90 LINE",
+"100 113 LINE",
+"120 141 LINE",
+"140 173 LINE",
+"160 208 LINE"
+);
+}
+);
+};
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
 width = 165;
 },
@@ -241412,11 +241430,11 @@ name = "Update Features";
 value = 1;
 }
 );
-interpolationWeight = 45;
+interpolationWeight = 41;
 interpolationWidth = 30;
 instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.91573;
-"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.08427;
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.9382;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.0618;
 };
 name = ExtraLight;
 weightClass = UltraLight;
@@ -241428,11 +241446,11 @@ name = "Update Features";
 value = 1;
 }
 );
-interpolationWeight = 62;
+interpolationWeight = 55;
 interpolationWidth = 30;
 instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.82022;
-"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.17978;
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.85955;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.14045;
 };
 name = Light;
 weightClass = Light;
@@ -241444,11 +241462,11 @@ name = "Update Features";
 value = 1;
 }
 );
-interpolationWeight = 80;
+interpolationWeight = 71;
 interpolationWidth = 30;
 instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.7191;
-"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.2809;
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.76966;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.23034;
 };
 name = Regular;
 },
@@ -241459,11 +241477,11 @@ name = "Update Features";
 value = 1;
 }
 );
-interpolationWeight = 99;
+interpolationWeight = 90;
 interpolationWidth = 30;
 instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.61236;
-"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.38764;
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.66292;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.33708;
 };
 name = Medium;
 weightClass = Medium;
@@ -241475,11 +241493,11 @@ name = "Update Features";
 value = 1;
 }
 );
-interpolationWeight = 120;
+interpolationWeight = 113;
 interpolationWidth = 30;
 instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.49438;
-"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.50562;
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.53371;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.46629;
 };
 name = SemiBold;
 weightClass = SemiBold;
@@ -241491,11 +241509,11 @@ name = "Update Features";
 value = 1;
 }
 );
-interpolationWeight = 149;
+interpolationWeight = 141;
 interpolationWidth = 30;
 instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.33146;
-"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.66854;
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.3764;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.6236;
 };
 isBold = 1;
 linkStyle = Regular;
@@ -241509,11 +241527,11 @@ name = "Update Features";
 value = 1;
 }
 );
-interpolationWeight = 177;
+interpolationWeight = 173;
 interpolationWidth = 30;
 instanceInterpolations = {
-"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.17416;
-"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.82584;
+"0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F" = 0.19663;
+"BFC82823-8905-47CE-90FC-B44BF62F9018" = 0.80337;
 };
 name = ExtraBold;
 weightClass = ExtraBold;
