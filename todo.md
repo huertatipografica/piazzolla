@@ -17,3 +17,19 @@ for VF in /Library/Application\ Support/Adobe/Fonts/Piazzolla*.ttf; do
     python tools/buildStat.py $VF
 done
 ```
+
+```python
+for layer in Font.selectedLayers:
+	x = 0
+	newPath = GSPath()
+	for i in Font.instances:
+		newNode = GSNode()
+		newNode.type = GSLINE
+		newNode.position = ( x, i.weightValue )
+
+		newPath.addNode_(newNode)
+		x += 20
+		print(i.weightValue)
+
+	layer.paths.append( newPath )
+```
