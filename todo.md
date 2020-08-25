@@ -1,4 +1,4 @@
-Spacing and metrics work
+Spacing and metrics flow
     Updating SCs
         Rebuild using
         Change metric groups, taking them from upper
@@ -7,13 +7,13 @@ Spacing and metrics work
     After change lower or uppercase
         Rebuild .sups
 
-    Clean and compress kerning
+https://docs.microsoft.com/en-us/typography/opentype/spec/stat#example-5-a-family-comprised-of-a-non-italic-variable-font-plus-an-italic-variable-font
 
 
 ```bash
 for VF in /Library/Application\ Support/Adobe/Fonts/Piazzolla*.ttf; do
 #for VF in ~/Library/Fonts/fontTest/Piazzolla*.ttf; do
-    rm -f ${VF/.ttf/.ttx}
+    # rm -f ${VF/.ttf/.ttx}
     python tools/buildStat.py $VF
 done
 ```

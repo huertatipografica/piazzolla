@@ -13,37 +13,43 @@ axes = [
     dict(
         tag="opsz",
         name="Optical size",
-        ordering=0,  # optional
+        ordering=0,
         values=[
-            dict(nominalValue=8, rangeMinValue=8, rangeMaxValue=8, name='8pt'),
-            dict(nominalValue=14, rangeMinValue=14, rangeMaxValue=14, name='14pt'),
-            dict(nominalValue=30, rangeMinValue=30, rangeMaxValue=30, name='30pt', flags=0x2),
+            dict(value=8, name='8pt'),
+            dict(value=14, name='14pt'),
+            dict(value=30, name='30pt', flags=0x2),
         ],
     ),
     dict(
         tag="wght",
         name="Weight",
-        ordering=1,  # optional
+        ordering=1,
         values=[
+            # Ranges. Format 2
             dict(nominalValue=100, rangeMinValue=100, rangeMaxValue=150, name="Thin"),
-            dict(nominalValue=200, rangeMinValue=150, rangeMaxValue=250, name="ExtraLight", linkedValue=500),
-            dict(nominalValue=300, rangeMinValue=250, rangeMaxValue=350, name="Light", linkedValue=600),
-            dict(nominalValue=400, rangeMinValue=350, rangeMaxValue=450, name="Regular", linkedValue=700, flags=0x2),
-            dict(nominalValue=500, rangeMinValue=450, rangeMaxValue=550, name="Medium", linkedValue=800),
+            dict(nominalValue=200, rangeMinValue=150, rangeMaxValue=250, name="ExtraLight"),
+            dict(nominalValue=300, rangeMinValue=250, rangeMaxValue=350, name="Light"),
+            dict(nominalValue=400, rangeMinValue=350, rangeMaxValue=450, name="Regular", flags=0x2),
+            dict(nominalValue=500, rangeMinValue=450, rangeMaxValue=550, name="Medium"),
             dict(nominalValue=600, rangeMinValue=550, rangeMaxValue=650, name="SemiBold"),
             dict(nominalValue=700, rangeMinValue=650, rangeMaxValue=750, name="Bold"),
             dict(nominalValue=800, rangeMinValue=750, rangeMaxValue=850, name="ExtraBold"),
             dict(nominalValue=900, rangeMinValue=850, rangeMaxValue=900, name="Black"),
+            # linking. Format 3
+            dict(value=200, name="ExtraLight", linkedValue=500),
+            dict(value=300, name="Light", linkedValue=600),
+            dict(value=400, name="Regular", linkedValue=700, flags=0x2),
+            dict(value=500, name="Medium", linkedValue=800),
         ],
     ),
     dict(
         tag="ital",
         name="Italic",
-        ordering=2,  # optional
+        ordering=2,
         values=[
-            dict(nominalValue=1, rangeMinValue=0.1, rangeMaxValue=1, name="Italic")
+            dict(value=1, name="Italic")
             if isItalic else
-            dict(nominalValue=0, rangeMinValue=0, rangeMaxValue=0, name="Roman", linkedValue=1, flags=0x2),
+            dict(value=0, name="Roman", linkedValue=1, flags=0x2),
         ]
     ),
 ]
@@ -61,7 +67,6 @@ def updateFvar(ttFont):
         instance.postscriptNameID = _addName(nametable, ps_name, 256)
 
 
-# buildStatTable(ttFont, axes)
 buildStatTable(ttFont, axes)
 updateFvar(ttFont)
 statTable = ttFont['STAT'].table
