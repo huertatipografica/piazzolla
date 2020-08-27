@@ -59,11 +59,16 @@ def updateFvar(ttFont):
     nametable = ttFont['name']
     family_name = nametable.getName(16, 3, 1, 1033) or nametable.getName(1, 3, 1, 1033)
     family_name = family_name.toUnicode().replace(" ", "")
-    nametable.setName(family_name, 25, 3, 1, 1033)
+    font_style = "Italic" if "Italic" in nametable.getName(2, 3, 1, 1033).toUnicode() else "Roman"
+    ps_family_name = f"{family_name.replace(' ', '')}{font_style}"
+    nametable.setName(ps_family_name, 25, 3, 1, 1033)
 
     for instance in fvar.instances:
         instance_style = nametable.getName(instance.subfamilyNameID, 3, 1, 1033).toUnicode()
-        ps_name = f"{family_name}-{instance_style.replace(' ', '')}"
+        instance_style = instance_style.replace("Italic", "").strip().replace(" ", "")
+        if instance_style == "":
+            instance_style = "Regular"
+        ps_name = f"{ps_family_name}-{instance_style}"
         instance.postscriptNameID = _addName(nametable, ps_name, 256)
 
 

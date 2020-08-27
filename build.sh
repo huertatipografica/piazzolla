@@ -47,6 +47,7 @@ done
 echo
 echo Fixing fonts
 for VF in fonts/Piazzolla/variable/ttf/*.ttf; do
+    python tools/fixNameTable.py $VF
     python tools/buildStat.py $VF
     gftools fix-dsig -f $VF
     gftools fix-nonhinting $VF "$VF.fix"
@@ -62,6 +63,7 @@ done
 
 if $static; then
     for ttf in fonts/Piazzolla/static/*.ttf; do
+        python tools/fixNameTable.py $ttf
         gftools fix-dsig -f $ttf
         gftools fix-nonhinting $ttf "$ttf.fix"
         mv "$ttf.fix" $ttf
@@ -75,6 +77,7 @@ if $static; then
     done
 
     for otf in fonts/Piazzolla/static/*.otf; do
+        python tools/fixNameTable.py $VF
         gftools fix-weightclass $otf
         gftools fix-dsig -f $otf
         gftools fix-nonhinting $otf "$otf.fix"
