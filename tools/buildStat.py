@@ -69,12 +69,14 @@ def updateFvar(ttFont):
 
 buildStatTable(ttFont, axes)
 updateFvar(ttFont)
+
 statTable = ttFont['STAT'].table
 
 ## Testing STAT version change
 # statTable.Version = 0x00010001
 # statTable.Version = 0x00010002
 
+ttFont.save(file)
 
 print()
 print()
@@ -83,9 +85,9 @@ print('Added STAT Table version %s.' %
       (statTable.Version))
 
 # Debug
-print(dumpTable(ttFont, 'STAT'))
+print(dumpTable(file, 'STAT'))
 # print(dumpTable(ttFont, 'fvar'))
 # print(dumpTable(ttFont, 'name'))
 
 
-ttFont.save(file)
+

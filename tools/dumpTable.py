@@ -5,7 +5,6 @@
 __author__ = 'juan@huertatipografica.com (Juan del Peral)'
 
 import sys
-from fontTools.ttLib import TTFont
 from tools import dumpTable
 
 if __name__ == "__main__":
@@ -16,6 +15,4 @@ if __name__ == "__main__":
             "Example:\n"
             "python dumpTable.py yourFont.ttf STAT\n"
         )
-    file = sys.argv[1]
-    ttFont = TTFont(file)
-    print(dumpTable(ttFont, sys.argv[2]))
+    print(dumpTable(sys.argv[1], sys.argv[2]))

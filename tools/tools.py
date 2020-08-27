@@ -75,6 +75,7 @@ def scaleFont(source, destination, factor):
     font.save(destination)
 
 
-def dumpTable(font:TTFont, table:str):
+def dumpTable(path:str, table:str):
+    font = TTFont(path)
     fontTable = font[table]
     return "\n".join(getXML(fontTable.toXML, font))
