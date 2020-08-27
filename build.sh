@@ -47,7 +47,6 @@ done
 echo
 echo Fixing fonts
 for VF in fonts/Piazzolla/variable/ttf/*.ttf; do
-    python tools/fixNameTable.py $VF
     python tools/buildStat.py $VF
     gftools fix-dsig -f $VF
     gftools fix-nonhinting $VF "$VF.fix"

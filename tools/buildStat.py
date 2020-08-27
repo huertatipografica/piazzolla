@@ -54,13 +54,13 @@ axes = [
     ),
 ]
 
-
 def updateFvar(ttFont):
     fvar = ttFont['fvar']
     nametable = ttFont['name']
     family_name = nametable.getName(16, 3, 1, 1033) or nametable.getName(1, 3, 1, 1033)
     family_name = family_name.toUnicode().replace(" ", "")
     nametable.setName(family_name, 25, 3, 1, 1033)
+
     for instance in fvar.instances:
         instance_style = nametable.getName(instance.subfamilyNameID, 3, 1, 1033).toUnicode()
         ps_name = f"{family_name}-{instance_style.replace(' ', '')}"
@@ -86,8 +86,8 @@ print('Added STAT Table version %s.' %
 
 # Debug
 print(dumpTable(file, 'STAT'))
-# print(dumpTable(ttFont, 'fvar'))
-# print(dumpTable(ttFont, 'name'))
+# print(dumpTable(file, 'fvar'))
+# print(dumpTable(file, 'name'))
 
 
 
