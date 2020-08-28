@@ -46,7 +46,6 @@ minPath = "temp/building/%s/%s-OpszMin.designspace" % (file, file)
 
 doc = DesignSpaceDocument()
 doc.read(path)
-doc.rulesProcessingLast = True
 
 mainMasters = set([m.filename for m in doc.sources])
 if len(mainMasters) != 2:
