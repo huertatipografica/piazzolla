@@ -108,9 +108,11 @@ fi
 echo
 echo Order files
 
-for ttf in fonts/Piazzolla/variable/ttf/*.ttf; do
-    mv -f $ttf ${ttf/-VARsetup/''}
-done
+if inArray "--test" $@; then
+    for ttf in fonts/Piazzolla/variable/ttf/*.ttf; do
+        mv $ttf ${ttf/-VARsetup/''}
+    done
+fi
 
 if $static; then
     mkdir -p fonts/Piazzolla/static/ttf
