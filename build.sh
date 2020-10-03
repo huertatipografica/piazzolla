@@ -8,7 +8,9 @@ cd $DIR
 echo $(pwd)
 
 # Activate environment
-. venv/bin/activate
+if [ -d "venv" ]; then
+    . venv/bin/activate
+fi
 
 echo
 echo Usage:
