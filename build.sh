@@ -109,7 +109,7 @@ echo
 echo Order files
 
 for ttf in fonts/Piazzolla/variable/ttf/*.ttf; do
-    mv $ttf ${ttf/-VARsetup/''}
+    mv -f $ttf ${ttf/-VARsetup/''}
 done
 
 if $static; then
