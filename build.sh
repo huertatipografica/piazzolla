@@ -12,7 +12,7 @@ echo $(pwd)
 
 echo
 echo Usage:
-echo build.sh [--test] [--no-static]
+echo sh build.sh [--test] [--no-static]
 echo
 
 inArray() {

@@ -23,35 +23,30 @@ Piazzolla has a distinctive voice that conveys a personal style, especially in d
 
 To run any of the commands, you need to generate the virtual environment (venv) and install dependencies. It will generate a `venv` folder
 
-```bash
-python3 -m venv venv
-. venv/bin/activate
-pip install -r requirements.txt
-```
+    python3 -m venv venv
+    . venv/bin/activate
+    pip install -r requirements.txt
+
 
 
 #### Build ufos and generate fonts
 
 To build the fonts there are several steps and all the process is being handled by a custom script. All the magic happens by running in terminal:
 
-```bash
-./build.sh
-```
+    sh build.sh
 
 
 #### Running tests
 
 for Variable Fonts
-```bash
-fontbakery check-universal fonts/Piazzolla/variable/ttf/*
-```
+
+    fontbakery check-universal fonts/Piazzolla/variable/ttf/*
 
 for Static Fonts
-```bash
-fontbakery check-universal fonts/Piazzolla/static/ttf/*
-```
+
+    fontbakery check-universal fonts/Piazzolla/static/ttf/*
 
 for UFO sources (replace `UFO_PATH` for the ufo you want to check)
-```bash
-fontbakery check-ufo-sources UFO_PATH
-```
+
+    fontbakery check-ufo-sources UFO_PATH
+
