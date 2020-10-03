@@ -33,7 +33,7 @@ To run any of the commands, you need to generate the virtual environment (venv) 
 
 To build the fonts there are several steps and all the process is being handled by a custom script. All the magic happens by running in terminal:
 
-    sh build.sh
+    bash build.sh
 
 
 #### Running tests
