@@ -125,14 +125,17 @@ cp extra/Thanks.png fonts/Piazzolla
 cp OFL.txt fonts/Piazzolla
 
 echo
-echo Freezing Small Caps
+echo Freezing and subsetting Small Caps
 rm -rf fonts/PiazzollaSC
 cp -r fonts/Piazzolla fonts/PiazzollaSC
 cd fonts/PiazzollaSC
 for f in variable/ttf/*; do echo && echo Freezing SC version for "$f" && pyftfeatfreeze -f 'smcp' -S -U SC "$f" "${f//Piazzolla/PiazzollaSC}" && rm "$f"; done
+for f in variable/ttf/*; do pyftsubset --recalc-bounds --recalc-average-width --glyph-names --layout-features="*" --name-IDs="*" --unicodes="*" --output-file=$f.temp $f && mv $f.temp $f; done
 if $static; then
     for f in static/otf/*; do echo && echo Freezing SC version for "$f" && pyftfeatfreeze -f 'smcp' -S -U SC "$f" "${f//Piazzolla/PiazzollaSC}" && rm "$f"; done
     for f in static/ttf/*; do echo && echo Freezing SC version for "$f" && pyftfeatfreeze -f 'smcp' -S -U SC "$f" "${f//Piazzolla/PiazzollaSC}" && rm "$f"; done
+    for f in static/otf/*; do pyftsubset --recalc-bounds --recalc-average-width --glyph-names --layout-features="*" --name-IDs="*" --unicodes="*" --output-file=$f.temp $f && mv $f.temp $f; done
+    for f in static/ttf/*; do pyftsubset --recalc-bounds --recalc-average-width --glyph-names --layout-features="*" --name-IDs="*" --unicodes="*" --output-file=$f.temp $f && mv $f.temp $f; done
 fi
 cd ../..
 
