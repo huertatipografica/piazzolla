@@ -1,11 +1,17 @@
 {
-.appVersion = "1346";
+.appVersion = "1349";
 DisplayStrings = (
 "0126879354\012/zero.osf/one.osf/two.osf/six.osf/eight.osf/seven.osf/nine.osf/three.osf/five.osf/four.osf \012/zero.tosf/one.tosf/two.tosf/six.tosf/eight.tosf/seven.tosf/nine.tosf/three.tosf/five.tosf/four.tosf \012/zero.tf/one.tf/two.tf/six.tf/eight.tf/seven.tf/nine.tf/three.tf/five.tf/four.tf/figurespace \012\012Rebuild/space and/space autospace:\012/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom \012\012sync/space space:\012/zero.lf/figurespace/one.lf/two.lf/three.lf/four.lf/five.lf/six.lf/seven.lf/eight.lf/nine.lf",
 ags,
 "/el-cy x/el-cy.loclBGR",
 "/El-cy.loclBGR/el-cy.loclBGR.sc n/el-cy.loclBGR/space",
-"x/product x/summation/oneinferior"
+"x/product x/summation/oneinferior",
+"/Be-cy/Gheupturn-cy/De-cy/Zhe-cy/Ze-cy/Ii-cy/Ka-cy/El-cy/U-cy/Che-cy/Tse-cy/Sha-cy/Shcha-cy/Dzhe-cy/Softsign-cy/Hardsign-cy/Yeru-cy/Lje-cy/Nje-cy/E-cy/Ereversed-cy/Tshe-cy/Iu-cy/Ia-cy/Yat-cy/Yusbig-cy/Fita-cy/Izhitsa-cy/Ghestroke-cy/Zhedescender-cy/Kadescender-cy/Kaverticalstroke-cy/Kabashkir-cy/Endescender-cy/Enghe-cy/Pedescender-cy/Haabkhasian-cy/Tedescender-cy/Hadescender-cy/Tetse-cy/Chedescender-cy/Cheverticalstroke-cy/Shha-cy/Shhadescender-cy/Cheabkhasian-cy/Eltail-cy/Enhook-cy/Entail-cy/Chekhakassian-cy/Emtail-cy/Dzeabkhasian-cy/Gedescender-cy/Komide-cy/Komidje-cy/Komizje-cy/Komidzje-cy/Komilje-cy/Kominje-cy/Komisje-cy/Komitje-cy/Reversedze-cy/Ertick-cy/Eldescender-cy/De-cy.loclBGR \012/Kahook-cy/Pemiddlehook-cy/EnLeftHook-cy/Gestrokehook-cy/Hahook-cy/Dje-cy/Ghemiddlehook-cy/Elhook-cy",
+"/Dje-cy/dje-cy.sc/dje-cy/space",
+"ií/ibreve/icaron î/idblgrave ï/idieresisacute/idotaccent ì/ihookabove/iinvertedbreve/imacron/iogonek/itilde/iacute_j.loclNLD/yi-cy",
+"/idblgrave fïf/yi-cy f/idieresisacute f/itilde f/icaron f/ibreve f/iinvertedbreve fîf/imacron fifíf/idotaccent fìf/ihookabove f/iogonek f/iacute_j.loclNLD f",
+"f/idblgrave fïf/yi-cy f/idieresisacute f/itilde f/icaron f/ibreve fl/iinvertedbreve fîf/imacron fifíf/idotaccent fìf/ihookabove f/iogonek f/iacute_j.loclNLD f",
+"f/idblgrave fïf/yi-cy f/idieresisacute f/itilde f/icaron f/ibreve f/iinvertedbreve fîf/imacron fifíf/idotaccent fìf/ihookabove f/iogonek f/iacute_j.loclNLD f"
 );
 classes = (
 {
@@ -30794,8 +30800,8 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 316;
 }
 );
-leftKerningGroup = n;
-rightKerningGroup = i;
+leftKerningGroup = h;
+rightKerningGroup = u;
 unicode = 0069;
 },
 {
@@ -30914,8 +30920,8 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 316;
 }
 );
-leftKerningGroup = n;
-rightKerningGroup = i;
+leftKerningGroup = h;
+rightKerningGroup = u;
 unicode = 00ED;
 },
 {
@@ -30949,8 +30955,8 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 316;
 }
 );
-leftKerningGroup = n;
-rightKerningGroup = i;
+leftKerningGroup = idblgrave;
+rightKerningGroup = u;
 unicode = 012D;
 },
 {
@@ -30984,8 +30990,8 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 316;
 }
 );
-leftKerningGroup = n;
-rightKerningGroup = i;
+leftKerningGroup = idblgrave;
+rightKerningGroup = u;
 unicode = 01D0;
 },
 {
@@ -31019,8 +31025,8 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 316;
 }
 );
-leftKerningGroup = n;
-rightKerningGroup = i;
+leftKerningGroup = h;
+rightKerningGroup = u;
 unicode = 00EE;
 },
 {
@@ -31053,8 +31059,8 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 316;
 }
 );
-leftKerningGroup = idotless;
-rightKerningGroup = idotless;
+leftKerningGroup = idblgrave;
+rightKerningGroup = u;
 unicode = 0209;
 },
 {
@@ -31088,8 +31094,8 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 316;
 }
 );
-leftKerningGroup = n;
-rightKerningGroup = i;
+leftKerningGroup = idblgrave;
+rightKerningGroup = u;
 unicode = 00EF;
 },
 {
@@ -31122,8 +31128,8 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 316;
 }
 );
-leftKerningGroup = idotless;
-rightKerningGroup = idotless;
+leftKerningGroup = idblgrave;
+rightKerningGroup = u;
 unicode = 1E2F;
 },
 {
@@ -31157,8 +31163,8 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 316;
 }
 );
-leftKerningGroup = n;
-rightKerningGroup = i;
+leftKerningGroup = h;
+rightKerningGroup = u;
 },
 {
 color = 10;
@@ -31226,8 +31232,8 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 316;
 }
 );
-leftKerningGroup = n;
-rightKerningGroup = i;
+leftKerningGroup = h;
+rightKerningGroup = u;
 unicode = 00EC;
 },
 {
@@ -31261,8 +31267,8 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 316;
 }
 );
-leftKerningGroup = n;
-rightKerningGroup = i;
+leftKerningGroup = h;
+rightKerningGroup = u;
 unicode = 1EC9;
 },
 {
@@ -31295,8 +31301,8 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 316;
 }
 );
-leftKerningGroup = idotless;
-rightKerningGroup = idotless;
+leftKerningGroup = h;
+rightKerningGroup = u;
 unicode = 020B;
 },
 {
@@ -31365,8 +31371,8 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 316;
 }
 );
-leftKerningGroup = n;
-rightKerningGroup = i;
+leftKerningGroup = h;
+rightKerningGroup = u;
 unicode = 012B;
 },
 {
@@ -31408,8 +31414,8 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 316;
 }
 );
-leftKerningGroup = n;
-rightKerningGroup = i;
+leftKerningGroup = h;
+rightKerningGroup = u;
 unicode = 012F;
 },
 {
@@ -31443,8 +31449,8 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 316;
 }
 );
-leftKerningGroup = n;
-rightKerningGroup = i;
+leftKerningGroup = idblgrave;
+rightKerningGroup = u;
 unicode = 0129;
 },
 {
@@ -37396,7 +37402,7 @@ nodes = (
 width = 716;
 }
 );
-leftKerningGroup = h;
+leftKerningGroup = f;
 rightKerningGroup = germandbls;
 unicode = 00DF;
 },
@@ -41205,8 +41211,8 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 617;
 }
 );
-leftKerningGroup = idotless;
-rightKerningGroup = j;
+leftKerningGroup = h;
+rightKerningGroup = u;
 },
 {
 color = 10;
@@ -41555,11 +41561,11 @@ name = f;
 },
 {
 name = i;
-transform = "{1, 0, 0, 1, 370, 0}";
+transform = "{1, 0, 0, 1, 390, 0}";
 }
 );
 layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
-width = 686;
+width = 706;
 }
 );
 leftKerningGroup = f;
@@ -41604,11 +41610,11 @@ name = f;
 },
 {
 name = l;
-transform = "{1, 0, 0, 1, 370, 0}";
+transform = "{1, 0, 0, 1, 390, 0}";
 }
 );
 layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
-width = 677;
+width = 697;
 }
 );
 leftKerningGroup = f;
@@ -42830,8 +42836,8 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 1134;
 }
 );
-leftKerningGroup = H;
-rightKerningGroup = Germandbls;
+leftKerningGroup = S;
+rightKerningGroup = S;
 },
 {
 color = 10;
@@ -90780,60 +90786,6 @@ color = 8;
 glyphname = "Ghemiddlehook-cy";
 layers = (
 {
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"330 0 LINE",
-"330 12 LINE",
-"203 29 LINE",
-"203 614 LINE",
-"473 614 LINE",
-"504 421 LINE",
-"512 421 LINE",
-"512 644 LINE",
-"48 644 LINE",
-"48 633 LINE",
-"173 615 LINE",
-"165 29 LINE",
-"128 27 OFFCURVE",
-"89 21 OFFCURVE",
-"48 10 CURVE",
-"48 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"459 -89 OFFCURVE",
-"569 43 OFFCURVE",
-"569 167 CURVE SMOOTH",
-"569 311 OFFCURVE",
-"491 380 OFFCURVE",
-"346 380 CURVE SMOOTH",
-"302 380 OFFCURVE",
-"247 373 OFFCURVE",
-"190 358 CURVE",
-"190 332 LINE",
-"235 345 OFFCURVE",
-"287 351 OFFCURVE",
-"336 351 CURVE SMOOTH",
-"396 351 OFFCURVE",
-"450 344 OFFCURVE",
-"486 330 CURVE",
-"473 341 LINE",
-"515 293 OFFCURVE",
-"535 239 OFFCURVE",
-"535 173 CURVE SMOOTH",
-"535 56 OFFCURVE",
-"436 -69 OFFCURVE",
-"293 -163 CURVE",
-"302 -178 LINE"
-);
-}
-);
-};
 layerId = "0E5388DE-A0E6-4EB4-BC9B-CE5870C9023F";
 paths = (
 {
@@ -116204,7 +116156,7 @@ layerId = "BFC82823-8905-47CE-90FC-B44BF62F9018";
 width = 316;
 }
 );
-leftKerningGroup = n;
+leftKerningGroup = idblgrave;
 rightKerningGroup = u;
 unicode = 0457;
 },
@@ -242649,6 +242601,7 @@ kerning = {
 "@MMK_R_t.sups" = -7;
 };
 "@MMK_L_f" = {
+"@MMK_R_idblgrave" = 20;
 "@MMK_R_lambda" = 40;
 "@MMK_R_o" = -20;
 "@MMK_R_period" = -70;
@@ -243999,7 +243952,10 @@ guillemetleft = -38;
 "@MMK_L_f" = {
 "@MMK_R_asterisk" = 38;
 "@MMK_R_braceright" = 67;
+"@MMK_R_h" = 20;
 "@MMK_R_hyphen" = -10;
+"@MMK_R_idblgrave" = 70;
+"@MMK_R_l" = 30;
 "@MMK_R_lambda" = 29;
 "@MMK_R_period" = -19;
 parenright = 58;
@@ -244518,5 +244474,5 @@ HV = 105;
 };
 };
 versionMajor = 2;
-versionMinor = 2;
+versionMinor = 3;
 }
