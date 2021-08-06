@@ -1,8 +1,8 @@
-fontbakery
-fontmake
-fonttools[lxml,unicode,ufo]
+fontmake>=2.4.0
+fontbakery==0.8.0
+fonttools[lxml,unicode,ufo]>=4.26.1
 fontParts
 glyphsLib
-git+https://github.com/googlefonts/gftools
-git+https://github.com/twardoch/fonttools-opentype-feature-freezer
+gftools
+opentype-feature-freezer
 brotli

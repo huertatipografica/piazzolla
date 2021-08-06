@@ -25,6 +25,7 @@ To run any of the commands, you need to generate the virtual environment (venv) 
 
     python3 -m venv venv
     . venv/bin/activate
+    pip install --upgrade pip
     pip install -r requirements.txt
 
 
