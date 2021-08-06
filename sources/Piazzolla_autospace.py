@@ -38,7 +38,7 @@ greek,Letter,Lowercase,1.04,x,*,
 *,Symbol,Currency,1.5,*,*,
 *,Symbol,Math,1.4,*,*,
 # *,Symbol,Math,1.7,*,per,#percent
-*,Symbol,Other,1,*,*,
+*,Symbol,Other,1.65,*,*,
 *,Symbol,*,1.25,*,*,
 *,Symbol,*,1.5,*,.sc,
 *,Mark,*,1,*,*,
