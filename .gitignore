@@ -2,8 +2,6 @@
 .indd
 .vscode
 *.idlk
-*.otf
-*.ttf
 *.ufo
 *.zip
 *.designspace
@@ -14,7 +12,6 @@ Icon?
 refs
 Thumbs.db
 venv/
-fonts
 dist/*.png
 aux/*.png
 temp
