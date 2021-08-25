@@ -50,10 +50,10 @@ rm -rf fonts
 for f in "${files[@]}"; do
     echo
     echo "Generate variable font for $f"
-    fontmake -m temp/building/$f/$f.designspace -o variable --output-dir fonts/Piazzolla/variable/ttf --verbose WARNING
+    fontmake -m temp/building/$f/$f.designspace -o variable --output-dir fonts/Piazzolla/variable/ttf --verbose WARNING --flatten-components
     if $static; then
         echo "Generate static fonts for $f"
-        fontmake -m temp/building/$f/$f.designspace -i --output-dir fonts/Piazzolla/static --verbose WARNING
+        fontmake -m temp/building/$f/$f.designspace -i --output-dir fonts/Piazzolla/static --verbose WARNING --flatten-components
     fi
 done
 
