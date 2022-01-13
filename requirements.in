@@ -1,0 +1,8 @@
+fontmake>=2.4.0
+fontbakery==0.8.0
+fonttools[unicode,ufo]>=4.26.1
+fontParts
+glyphsLib
+gftools
+opentype-feature-freezer
+brotli
